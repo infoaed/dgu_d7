@@ -7,7 +7,7 @@ Data.gov.uk Drupal 7 project
 INSTALLATION
 ============
 
-To use this drupal distribution, you will need to have a LAMP stack and a working drush installation.  Please see
+To use this drupal distribution, you will need to have a LAMP stack and a working drush installation  .  Please see
 https://drupal.org/requirements for detailed requirements. You can get drush and it's installation instructions from
 here: https://github.com/drush-ops/drush
 
