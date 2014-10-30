@@ -4,3 +4,5 @@ www/*
 /themes/contrib/
 /tests/build/
 /tests/.gradle/
+/themes/custom/dguk/templates/panels-pane--entity-field--node
+/themes/custom/dguk/templates/panels/panels-pane--entity-field--node
