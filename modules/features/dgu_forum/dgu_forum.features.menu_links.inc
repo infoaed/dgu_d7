@@ -15,7 +15,7 @@ function dgu_forum_menu_default_menu_links() {
     'menu_name' => 'menu-forum-tabs',
     'link_path' => 'forum',
     'router_path' => 'forum',
-    'link_title' => 'Latest forum topics',
+    'link_title' => 'Uusimad foorumi teemad',
     'options' => array(
       'attributes' => array(
         'title' => '',

@@ -15,7 +15,7 @@ function dgu_blog_menu_default_menu_links() {
     'menu_name' => 'menu-blog-tabs',
     'link_path' => 'blog',
     'router_path' => 'blog',
-    'link_title' => 'Latest Blogs',
+    'link_title' => 'Uusimad blogid',
     'options' => array(
       'attributes' => array(
         'title' => '',
@@ -33,7 +33,7 @@ function dgu_blog_menu_default_menu_links() {
     'menu_name' => 'menu-blog-tabs',
     'link_path' => 'blog/popular',
     'router_path' => 'blog',
-    'link_title' => 'Most popular Blogs',
+    'link_title' => 'Populaarseimad blogid',
     'options' => array(
       'attributes' => array(
         'title' => '',

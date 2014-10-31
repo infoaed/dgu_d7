@@ -266,9 +266,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Add your app (for authenticated users)',
+      'admin_title' => 'Lisa oma rakendus (autenditud kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/app">Add your app &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -307,9 +307,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Add your app (for anonymous users)',
+      'admin_title' => 'Lisa oma rakendus (anonüümsetele kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Login to add your app &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -564,9 +564,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Add your app (for authenticated users)',
+      'admin_title' => 'Lisa oma rakendus (autenditud kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/app">Add your app &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -604,9 +604,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Add your app (for anonymous users)',
+      'admin_title' => 'Lisa oma rakendus (anonüümsetele kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Login to add your app &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,

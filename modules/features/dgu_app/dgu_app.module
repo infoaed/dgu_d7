@@ -18,7 +18,7 @@ function dgu_app_menu_breadcrumb_alter(&$active_trail, $item) {
       array('title' => 'Apps', 'href' => 'apps', 'localized_options' => array()),
       array('title' => 'Apps', 'href' => 'apps', 'localized_options' => array()),
     );
-    drupal_set_title('Latest apps');
+    drupal_set_title('Uusimad rakendused');
   }
   elseif ($item['path'] == 'apps/top') {
     $active_trail = array(

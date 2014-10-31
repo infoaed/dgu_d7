@@ -36,13 +36,13 @@ function dgu_forum_menu_breadcrumb_alter(&$active_trail, $item) {
     switch ($item['path']) {
       case 'forum':
         $active_trail[] = array('title' => 'Forum', 'href' => 'forum', 'localized_options' => array());
-        drupal_set_title('Latest forum topics');
+        drupal_set_title('Uusimad foorumi teemad');
         break;
       case 'forum/categories':
-        drupal_set_title('Categories');
+        drupal_set_title('Kategooriad');
         break;
       case 'forum/popular':
-        drupal_set_title('Most popular topics');
+        drupal_set_title('Populaarseimad foorumi teemad');
         break;
     }
   }

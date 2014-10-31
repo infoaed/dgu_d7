@@ -380,7 +380,7 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Create new forum topic (for authenticated users)',
+      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
       'title' => '',
       'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Create new forum topic &raquo;</a></p>
 ',
@@ -500,9 +500,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Create new forum topic (for authenticated users)',
+      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Create new forum topic »</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Loo uus foorumi teema »</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -813,9 +813,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Create new forum topic (for authenticated users)',
+      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Create new forum topic &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Loo uus foorumi teema &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -1031,9 +1031,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Create new forum topic (for authenticated users)',
+      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Create new forum topic &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Loo uus foorumi teema &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,

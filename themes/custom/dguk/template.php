@@ -53,7 +53,7 @@ function dguk_preprocess_node(&$variables) {
   if ($variables['node']->type == 'resource'){
     $variables['submitted'] = 'Submitted on ' . format_date($variables['created']);
   }
-  
+
   $variables['updated'] = $variables['created'] != $variables['changed'] ? '| Updated on ' . format_date($variables['changed']) : FALSE;
 
   // We render user picture only on forum and blog nodes.
@@ -257,36 +257,16 @@ function dguk_get_data_menu() {
 
   $menu = array(
     'menu-datasets' => array(
-      'title' => 'Datasets',
+      'title' => 'Andmehulgad',
       'href' => 'data/search',
     ),
-    'menu-map-search' => array(
-      'title' => 'Map Search',
-      'href' => 'data/map-based-search',
-    ),
-    'menu-data-requests' => array(
-      'title' => 'Data Requests',
-      'href' => 'data-request',
-    ),
     'menu-publishers' => array(
-      'title' => 'Publishers',
+      'title' => 'Teabevaldajad',
       'href' => 'publisher',
     ),
-    'menu-organogram' => array(
-      'title' => 'Public Roles & Salaries',
-      'href' => 'organogram/cabinet-office',
-    ),
-    'menu-openspending-report' => array(
-      'title' => 'Spend Reports',
-      'href' => 'data/openspending-report/index',
-    ),
     'menu-site-usage' => array(
-      'title' => 'Site Analytics',
+      'title' => 'Portaali kasutus',
       'href' => 'data/site-usage',
-    ),
-    'menu-reports' => array(
-      'title' => 'Reports',
-      'href' => 'data/report',
     ),
   );
 

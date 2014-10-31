@@ -41,14 +41,14 @@
         <nav id="dgu-nav">
           <?php //print dguk_get_main_menu($main_menu);?>
           <div class="text-links">
-            <a href="/" title="" class="trigger-subnav nav-home <?php if($active == 1) print 'active'; ?>">Home</a>
-            <a href="/data" class="trigger-subnav nav-data <?php if($active == 2) print 'active'; ?>">Data</a>
-            <a href="/apps" class="trigger-subnav nav-apps <?php if($active == 3) print 'active'; ?>">Apps</a>
-            <a href="/interact" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>">Interact</a>
+            <a href="/" title="" class="trigger-subnav nav-home <?php if($active == 1) print 'active'; ?>">AVALEHT</a>
+            <a href="/data" class="trigger-subnav nav-data <?php if($active == 2) print 'active'; ?>">ANDMED</a>
+            <a href="/apps" class="trigger-subnav nav-apps <?php if($active == 3) print 'active'; ?>">RAKENDUSED</a>
+            <a href="/interact" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>">LISAINFO</a>
           </div>
           <div class="nav-search" style="width: 200px;">
             <form class="input-group input-group-sm" action="/data/search">
-              <input type="text" class="form-control" name="q" placeholder="Search for data...">
+              <input type="text" class="form-control" name="q" placeholder="Otsi andmehulki...">
               <span class="input-group-btn">
                 <button type="submit" class="btn btn-primary"><i class="icon-search"></i></button>
               </span>
@@ -62,10 +62,10 @@
             <span class="dropdown">
               <a class="nav-publisher btn btn-info dropdown-button" data-toggle="dropdown" href="#"><i class="icon-lock"></i></a>
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
-                <li role="presentation" class="dropdown-header">Tools</li>
-                <li><a href="/dataset/new">Add a Dataset</a></li>
-                <li><a href="/harvest">Dataset Harvesting</a></li>
-                <li role="presentation" class="dropdown-header">My publishers</li>
+                <li role="presentation" class="dropdown-header">Tööriistad</li>
+                <li><a href="/dataset/new">Lisa andmehulk</a></li>
+                <li><a href="/harvest">Andmekorje</a></li>
+                <li role="presentation" class="dropdown-header">Minu teabevaldajad</li>
                 <?php if (!empty($user->field_publishers)) foreach ($user->field_publishers[LANGUAGE_NONE] as $publisher_ref): ?>
 
                   <?php $publisher = entity_load_single('ckan_publisher', $publisher_ref['target_id']); ?>
