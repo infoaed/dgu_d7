@@ -13,7 +13,7 @@ function dgu_glossary_filter_default_formats() {
   // Exported format: Plain text.
   $formats['plain_text'] = array(
     'format' => 'plain_text',
-    'name' => 'Plain text',
+    'name' => 'Vabatekst',
     'cache' => '0',
     'status' => '1',
     'weight' => '-7',

@@ -13,7 +13,7 @@ function dgu_site_feature_filter_default_formats() {
   // Exported format: Filtered HTML.
   $formats['filtered_html'] = array(
     'format' => 'filtered_html',
-    'name' => 'Filtered HTML',
+    'name' => 'Filtreeritud HTML',
     'cache' => '1',
     'status' => '1',
     'weight' => '-10',
@@ -55,7 +55,7 @@ function dgu_site_feature_filter_default_formats() {
   // Exported format: Full HTML.
   $formats['full_html'] = array(
     'format' => 'full_html',
-    'name' => 'Full HTML',
+    'name' => 'Täielik HTML',
     'cache' => '1',
     'status' => '1',
     'weight' => '-9',

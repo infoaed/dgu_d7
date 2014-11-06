@@ -15,7 +15,7 @@ function dgu_app_field_default_field_instances() {
     'bundle' => 'app',
     'default_value' => NULL,
     'deleted' => '0',
-    'description' => 'Please provide a helpful summary of your apps for when your app is published data.gov.uk.',
+    'description' => 'Palun lisage informatiivne kokkuvõte oma rakendusest, mida antud portaalis kuvatakse.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -118,7 +118,7 @@ function dgu_app_field_default_field_instances() {
     'bundle' => 'app',
     'default_value' => NULL,
     'deleted' => '0',
-    'description' => 'This information will not relayed to other users of the site.',
+    'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -167,7 +167,7 @@ function dgu_app_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_app_charge',
-    'label' => 'App charge',
+    'label' => 'Rakenduse kasutustasu',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -186,7 +186,7 @@ function dgu_app_field_default_field_instances() {
     'bundle' => 'app',
     'default_value' => NULL,
     'deleted' => '0',
-    'description' => 'Enter the URL of this app.',
+    'description' => 'Sisesta selle rakenduse URL.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -235,7 +235,7 @@ function dgu_app_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_app_link',
-    'label' => 'App Link',
+    'label' => 'Link rakendusele',
     'required' => 1,
     'settings' => array(
       'attributes' => array(
@@ -298,7 +298,7 @@ function dgu_app_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_app_thumbnail',
-    'label' => 'App thumbnail',
+    'label' => 'Rakenduse pisipilt',
     'required' => 1,
     'settings' => array(
       'alt_field' => 0,
@@ -372,7 +372,7 @@ function dgu_app_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_category',
-    'label' => 'Category',
+    'label' => 'Kategooria',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -429,7 +429,7 @@ function dgu_app_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_comment',
-    'label' => 'Comments',
+    'label' => 'Kommentaarid',
     'required' => 0,
     'settings' => array(
       'access' => -1,
@@ -511,7 +511,7 @@ function dgu_app_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_developed_by',
-    'label' => 'Developed by',
+    'label' => 'Autor',
     'required' => 1,
     'settings' => array(
       'text_processing' => 0,
@@ -625,8 +625,7 @@ function dgu_app_field_default_field_instances() {
   $field_instances['node-app-field_screen_shots'] = array(
     'bundle' => 'app',
     'deleted' => '0',
-    'description' => 'Please supply additional images of your application so that users can see what it does.
-All images will be shown on your app page which click through to the full sized image',
+    'description' => 'Lisage täiendavaid pilte, mis illustreerivad rakenduse võimalusi. Neid kuvatakse antud portaalis rakenduse lehel, ja on klikatavad suuremaks.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -679,7 +678,7 @@ All images will be shown on your app page which click through to the full sized 
     ),
     'entity_type' => 'node',
     'field_name' => 'field_screen_shots',
-    'label' => 'Screen shots',
+    'label' => 'Ekraanitõmmised',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
@@ -709,7 +708,7 @@ All images will be shown on your app page which click through to the full sized 
     'bundle' => 'app',
     'default_value' => NULL,
     'deleted' => '0',
-    'description' => 'Please specify if the application you are submitting has been commission by public sector department, private sector or 3rd sector (voluntary/non-profit)',
+  	'description' => 'Palun määrake, kas antud rakenduse tellijaks on avalik sektor, erasektor või on ta loodud vabatahtlikult / kasumit taotlemata.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -738,7 +737,7 @@ All images will be shown on your app page which click through to the full sized 
     ),
     'entity_type' => 'node',
     'field_name' => 'field_sector',
-    'label' => 'Sector',
+    'label' => 'Sektor',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -786,7 +785,7 @@ All images will be shown on your app page which click through to the full sized 
     ),
     'entity_type' => 'node',
     'field_name' => 'field_submitter_email',
-    'label' => 'Submitter e-mail',
+    'label' => 'Registreerija e-mail',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -836,7 +835,7 @@ All images will be shown on your app page which click through to the full sized 
     ),
     'entity_type' => 'node',
     'field_name' => 'field_submitter_name',
-    'label' => 'Submitter Name',
+    'label' => 'Registreerija nimi',
     'required' => 1,
     'settings' => array(
       'text_processing' => 0,
@@ -858,7 +857,7 @@ All images will be shown on your app page which click through to the full sized 
     'bundle' => 'app',
     'default_value' => NULL,
     'deleted' => '0',
-    'description' => 'A comma-separated list of terms describing this content. Example: funny, bungee jumping, "Company, Inc.".',
+    'description' => 'Koma-eraldatud loetelu sõnadest, mis kirjeldavad antud rakendust. Näited: meelelahutus, haridus, "kino ja teater".',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -897,7 +896,7 @@ All images will be shown on your app page which click through to the full sized 
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tags',
-    'label' => 'Tags',
+    'label' => 'Võtmesõnad',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,

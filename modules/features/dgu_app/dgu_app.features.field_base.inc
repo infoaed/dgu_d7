@@ -27,9 +27,9 @@ function dgu_app_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'none' => 'Free',
-        'partial' => 'Partially Free',
-        'charged' => 'Paid for',
+        'none' => 'Tasuta',
+        'partial' => 'Osaliselt tasuta',
+        'charged' => 'Tasuline',
       ),
       'allowed_values_function' => '',
     ),
