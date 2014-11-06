@@ -15,21 +15,21 @@ function dgu_app_menu_breadcrumb_alter(&$active_trail, $item) {
   if ($item['path'] == 'apps') {
     $active_trail = array(
       current($active_trail),
-      array('title' => 'Apps', 'href' => 'apps', 'localized_options' => array()),
-      array('title' => 'Apps', 'href' => 'apps', 'localized_options' => array()),
+      array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array()),
+      array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array()),
     );
     drupal_set_title('Uusimad rakendused');
   }
   elseif ($item['path'] == 'apps/top') {
     $active_trail = array(
       current($active_trail),
-      array('title' => 'Apps', 'href' => 'apps', 'localized_options' => array())
+      array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array())
     );
-    drupal_set_title('Top rated apps');
+    drupal_set_title('Enim hinnatud rakendused');
   }
   if (isset($item['map'][1]->type) && $item['map'][1]->type == 'app') {
     $active_trail[2] = $active_trail[1];
-    $active_trail[1] = array('title' => 'Apps', 'href' => 'apps', 'localized_options' => array());
+    $active_trail[1] = array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array());
   }
 }
 
@@ -44,7 +44,7 @@ function dgu_app_dgu_moderation_moderator_permission(&$node) {
  */
 function dgu_app_form_app_node_form_alter(&$form, &$form_state, $form_id) {
 
-  drupal_set_title(t('Submit an app'));
+  drupal_set_title(t('Lisa rakendus'));
   unset($form['actions']['preview']);
   $form['#attributes']['class'][] = "boxed";
 
@@ -77,9 +77,9 @@ function dgu_app_preprocess_node(&$variables) {
     if ($variables['view_mode'] == 'search_result'){
       $variables['directory'] = 'profile/dgu/themes/custom/dguk/templates/';
       $variables['classes_array'] = array("node", "node-app-searchresult");
-      $variables['submitted'] = 'Submitted on ' . $variables['date'];
+      $variables['submitted'] = 'Lisatud ' . $variables['date'];
       if ($variables['created'] != $variables['changed']) {
-        $variables['updated'] = 'Updated on ' . format_date($variables['changed']);
+        $variables['updated'] = 'Uuendatud ' . format_date($variables['changed']);
       }
 
     }
