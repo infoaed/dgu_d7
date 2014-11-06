@@ -94,7 +94,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Body',
+    'label' => 'Sisu',
     'required' => FALSE,
     'settings' => array(
       'display_summary' => TRUE,
@@ -166,7 +166,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_category',
-    'label' => 'Category',
+    'label' => 'Kategooria',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -275,7 +275,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_sector',
-    'label' => 'Sector',
+    'label' => 'Sektor',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -345,7 +345,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_uses_dataset',
-    'label' => 'Related datasets',
+    'label' => 'Seotud andmehulgad',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -407,7 +407,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'taxonomy_forums',
-    'label' => 'Forums',
+    'label' => 'Foorumid',
     'required' => TRUE,
     'settings' => array(
       'user_register_form' => FALSE,
