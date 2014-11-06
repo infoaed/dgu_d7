@@ -134,7 +134,7 @@ function dgu_search_menu_breadcrumb_alter(&$active_trail, $item){
   if ($is_search_page = arg(0) == 'search' && arg(1) == 'everything') {
     $env_id = variable_get('apachesolr_default_environment', 'solr');
     if (apachesolr_has_searched($env_id)) {
-      drupal_set_title("Search");
+      drupal_set_title("Otsi");
       $query = apachesolr_current_query($env_id);
       $fq = $query->getParam('fq');
       foreach ($fq as $string){
@@ -165,7 +165,7 @@ function dgu_search_menu_breadcrumb_alter(&$active_trail, $item){
             $active_trail[] = array('title' => t($title), 'href' => $href, 'localized_options' => array());
           }
 
-          drupal_set_title('Search');
+          drupal_set_title('Otsi');
           break;
         }
       }
