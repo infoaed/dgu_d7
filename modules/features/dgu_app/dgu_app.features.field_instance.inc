@@ -94,7 +94,7 @@ function dgu_app_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Description',
+    'label' => 'Kirjeldus',
     'required' => 0,
     'settings' => array(
       'display_summary' => 1,
@@ -981,7 +981,7 @@ All images will be shown on your app page which click through to the full sized 
     ),
     'entity_type' => 'node',
     'field_name' => 'field_uses_dataset',
-    'label' => 'Uses dataset',
+    'label' => 'Kasutab andmehulka',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
