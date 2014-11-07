@@ -659,9 +659,9 @@ function dgu_footer_default_page_manager_pages() {
   $page->api_version = 1;
   $page->name = 'roheline_raamat';
   $page->task = 'page';
-  $page->admin_title = 'Avaandmete roheline raamat';
+  $page->admin_title = 'Avaandmete_roheline_raamat';
   $page->admin_description = '';
-  $page->path = 'roheline-raamat';
+  $page->path = 'avaandmete-roheline-raamat';
   $page->access = array(
   		'type' => 'none',
   		'settings' => NULL,
