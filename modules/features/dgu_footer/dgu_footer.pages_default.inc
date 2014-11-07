@@ -661,7 +661,7 @@ function dgu_footer_default_page_manager_pages() {
   $page->task = 'page';
   $page->admin_title = 'Avaandmete roheline raamat';
   $page->admin_description = '';
-  $page->path = 'http://www.riso.ee/et/avaandmete-roheline-raamat';
+  $page->path = 'roheline-raamat';
   $page->access = array(
   		'type' => 'none',
   		'settings' => NULL,

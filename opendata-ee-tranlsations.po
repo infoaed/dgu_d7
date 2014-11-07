@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-11-05 17:57+0000\n"
-"PO-Revision-Date: 2014-11-05 17:57+0000\n"
+"POT-Creation-Date: 2014-11-06 18:17+0000\n"
+"PO-Revision-Date: 2014-11-06 18:17+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -58,10 +58,6 @@ msgid "Re-order rows by numerical weight instead of dragging."
 msgstr ""
 
 #: ; misc/tabledrag.js
-msgid "Show row weights"
-msgstr ""
-
-#: ; misc/tabledrag.js
 msgid "Hide row weights"
 msgstr ""
 
@@ -84,9 +80,6 @@ msgid "Show"
 msgstr ""
 
 msgid "Home"
-msgstr ""
-
-msgid "Title"
 msgstr ""
 
 msgid "Next"
@@ -149,9 +142,6 @@ msgstr ""
 msgid "List"
 msgstr ""
 
-msgid "Subject"
-msgstr ""
-
 msgid "disabled"
 msgstr ""
 
@@ -165,9 +155,6 @@ msgid "Remove"
 msgstr ""
 
 msgid "Description"
-msgstr ""
-
-msgid "Language"
 msgstr ""
 
 msgid "RSS feed"
@@ -245,6 +232,7 @@ msgstr ""
 msgid "Advanced options"
 msgstr ""
 
+#: ; misc/machine-name.js
 msgid "Edit"
 msgstr ""
 
@@ -317,9 +305,6 @@ msgstr ""
 msgid "Add category"
 msgstr ""
 
-msgid "Name"
-msgstr ""
-
 msgid "edit container"
 msgstr ""
 
@@ -368,17 +353,10 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: ; profiles/dgu/modules/contrib/quickedit/js/views/AppView.js; profiles/dgu/modules/contrib/quickedit/js/views/EntityToolbarView.js
-msgid "Save"
-msgstr ""
-
 msgid "Help"
 msgstr ""
 
 msgid "Default"
-msgstr ""
-
-msgid "Summary"
 msgstr ""
 
 msgid "Update"
@@ -451,9 +429,6 @@ msgid "Visible"
 msgstr ""
 
 msgid "Anchor"
-msgstr ""
-
-msgid "Display"
 msgstr ""
 
 msgid "Menu"
@@ -834,9 +809,6 @@ msgstr ""
 msgid "Scale"
 msgstr ""
 
-msgid "Plain text"
-msgstr ""
-
 msgid "Month"
 msgstr ""
 
@@ -993,9 +965,6 @@ msgstr ""
 msgid "pm"
 msgstr ""
 
-msgid "Forum"
-msgstr ""
-
 msgid "Background color"
 msgstr ""
 
@@ -1006,9 +975,6 @@ msgid "Color"
 msgstr ""
 
 msgid "Updated URL for feed %title to %url."
-msgstr ""
-
-msgid "Blog"
 msgstr ""
 
 msgid "Jump to the first comment of this posting."
@@ -1733,9 +1699,6 @@ msgstr ""
 msgid "Arabic"
 msgstr ""
 
-msgid "English"
-msgstr ""
-
 msgid "French"
 msgstr ""
 
@@ -1818,9 +1781,6 @@ msgid "View user profile."
 msgstr ""
 
 msgid "Message:"
-msgstr ""
-
-msgid "Language file"
 msgstr ""
 
 msgid "published"
@@ -2004,9 +1964,6 @@ msgid ""
 "line %line."
 msgstr ""
 
-msgid "Forums"
-msgstr ""
-
 msgid "revert"
 msgstr ""
 
@@ -2076,6 +2033,7 @@ msgstr ""
 msgid "%type settings"
 msgstr ""
 
+#: ; modules/node/content_types.js; modules/node/node.js
 msgid "Not published"
 msgstr ""
 
@@ -2278,9 +2236,6 @@ msgstr ""
 msgid "Default time zone"
 msgstr ""
 
-msgid "Add another item"
-msgstr ""
-
 msgid "Manage fields"
 msgstr ""
 
@@ -2454,9 +2409,6 @@ msgid "New forum topics"
 msgstr ""
 
 msgid "Page not found"
-msgstr ""
-
-msgid "Language neutral"
 msgstr ""
 
 msgid "More help"
@@ -3278,12 +3230,15 @@ msgstr ""
 msgid "Vertical Tabs"
 msgstr ""
 
+#: ; modules/book/book.js
 msgid "Not in book"
 msgstr ""
 
+#: ; modules/book/book.js
 msgid "New book"
 msgstr ""
 
+#: ; modules/menu/menu.js
 msgid "Not in menu"
 msgstr ""
 
@@ -3837,9 +3792,6 @@ msgstr ""
 msgid "Esperanto"
 msgstr ""
 
-msgid "Estonian"
-msgstr ""
-
 msgid "Basque"
 msgstr ""
 
@@ -4325,6 +4277,7 @@ msgid ""
 "been disabled."
 msgstr ""
 
+#: ; modules/block/block.js
 msgid ""
 "The changes to these blocks will not be saved until the <em>Save "
 "blocks</em> button is clicked."
@@ -4956,9 +4909,6 @@ msgstr ""
 msgid "(empty)"
 msgstr ""
 
-msgid "Text format"
-msgstr ""
-
 msgid "No new posts"
 msgstr ""
 
@@ -5106,6 +5056,7 @@ msgstr ""
 msgid "@number comments per page"
 msgstr ""
 
+#: ; modules/block/block.js
 msgid "Not restricted"
 msgstr ""
 
@@ -5415,7 +5366,7 @@ msgstr ""
 msgid "Class %class does not implement interface %interface"
 msgstr ""
 
-#: ; misc/vertical-tabs.js
+#: ; misc/vertical-tabs.js; modules/overlay/overlay-child.js
 msgid "(active tab)"
 msgstr ""
 
@@ -5607,6 +5558,7 @@ msgstr ""
 msgid "Customizable per user"
 msgstr ""
 
+#: ; modules/block/block.js
 msgid "Not customizable"
 msgstr ""
 
@@ -5666,9 +5618,11 @@ msgid ""
 "are boxes of content rendered into an area, or region, of a web page."
 msgstr ""
 
+#: ; modules/block/block.js
 msgid "Restricted to certain pages"
 msgstr ""
 
+#: ; modules/block/block.js
 msgid "The block cannot be placed in this region."
 msgstr ""
 
@@ -5876,12 +5830,6 @@ msgid ""
 msgstr ""
 
 msgid "<a href=\"@login\">Log in</a> to post comments"
-msgstr ""
-
-msgid "Flat list"
-msgstr ""
-
-msgid "Threaded list"
 msgstr ""
 
 msgid "Save comment"
@@ -6134,12 +6082,6 @@ msgstr ""
 msgid "Leave blank to use trimmed value of full text as the summary."
 msgstr ""
 
-msgid "Hide summary"
-msgstr ""
-
-msgid "Edit summary"
-msgstr ""
-
 msgid "Edit field settings."
 msgstr ""
 
@@ -6261,16 +6203,7 @@ msgstr ""
 msgid "Table of files"
 msgstr ""
 
-msgid "Add a new file"
-msgstr ""
-
 msgid "Include file in display"
-msgstr ""
-
-msgid "Files must be less than !size."
-msgstr ""
-
-msgid "Allowed file types: !extensions."
 msgstr ""
 
 msgid "Images must be exactly !size pixels."
@@ -6333,9 +6266,6 @@ msgid ""
 msgstr ""
 
 msgid "Use the !text_format text format"
-msgstr ""
-
-msgid "More information about text formats"
 msgstr ""
 
 msgid "Limit allowed HTML tags"
@@ -6860,9 +6790,6 @@ msgstr ""
 msgid "Administer menus and menu items"
 msgstr ""
 
-msgid "Provide a menu link"
-msgstr ""
-
 msgid ""
 "Menu links with smaller weights are displayed before links with larger "
 "weights."
@@ -7371,9 +7298,6 @@ msgstr ""
 msgid "Display with prefix and suffix."
 msgstr ""
 
-msgid "- Select a value -"
-msgstr ""
-
 msgid "Trim length"
 msgstr ""
 
@@ -7573,9 +7497,6 @@ msgstr ""
 msgid "Weight for new file"
 msgstr ""
 
-msgid "Choose a file"
-msgstr ""
-
 msgid "Weight for new effect"
 msgstr ""
 
@@ -7640,9 +7561,11 @@ msgstr ""
 msgid "The directory you specified is not writable by the web server."
 msgstr ""
 
+#: ; misc/autocomplete.js
 msgid "Autocomplete popup"
 msgstr ""
 
+#: ; misc/autocomplete.js
 msgid "Searching for matches..."
 msgstr ""
 
@@ -8538,10 +8461,6 @@ msgstr ""
 
 #: /admin/config/regional/language
 msgid "Management"
-msgstr ""
-
-#: /admin/config/regional/language
-msgid "Apps"
 msgstr ""
 
 #: /admin/config/regional/language
@@ -11204,10 +11123,6 @@ msgid "Content access"
 msgstr ""
 
 #: /admin/config/regional/language
-msgid "Access"
-msgstr ""
-
-#: /admin/config/regional/language
 msgid "Filter by access."
 msgstr ""
 
@@ -11303,10 +11218,6 @@ msgstr ""
 
 #: /admin/config/regional/language
 msgid "Provide a simple link to delete the URL redirect."
-msgstr ""
-
-#: /admin/config/regional/language
-msgid "Search"
 msgstr ""
 
 #: /admin/config/regional/language
@@ -11717,10 +11628,6 @@ msgstr ""
 
 #: /admin/config/regional/language
 msgid "The user or author name."
-msgstr ""
-
-#: /admin/config/regional/language
-msgid "Name (raw)"
 msgstr ""
 
 #: /admin/config/regional/language
@@ -12307,10 +12214,6 @@ msgstr ""
 
 #: /admin/config/regional/language
 msgid "Log out"
-msgstr ""
-
-#: /admin/config/regional/language
-msgid "Add content"
 msgstr ""
 
 #: /admin/config/regional/language
@@ -22011,14 +21914,6 @@ msgid "authenticated user"
 msgstr ""
 
 #: /index.php
-msgid "Disable rich-text"
-msgstr ""
-
-#: /index.php
-msgid "Enable rich-text"
-msgstr ""
-
-#: /index.php
 msgid "Note"
 msgstr ""
 
@@ -22050,12 +21945,6 @@ msgstr ""
 
 #: /index.php
 msgid ""
-"Please provide a helpful summary of your apps for when your app is "
-"published data.gov.uk."
-msgstr ""
-
-#: /index.php
-msgid ""
 "Please specify if the application you are submitting has been "
 "commission by public sector department, private sector or 3rd sector "
 "(voluntary/non-profit)"
@@ -22066,14 +21955,6 @@ msgid ""
 "Please supply a square thumbnail image for your application (at least "
 "370x370 pixels). This image will be used on the 'Latest apps' and 'Top "
 "rated apps' lists."
-msgstr ""
-
-#: /index.php
-msgid ""
-"Please supply additional images of your application so that users can "
-"see what it does.\n"
-"All images will be shown on your app page which click through to the "
-"full sized image"
 msgstr ""
 
 #: /index.php
@@ -23265,7 +23146,7 @@ msgstr ""
 msgid "Quick edit"
 msgstr ""
 
-#: profiles/dgu/modules/contrib/quickedit/js/util.js
+#: profiles/dgu/modules/contrib/quickedit/js/util.js; profiles/dgu/modules/contrib/media/js/media.popups.js
 msgid "OK"
 msgstr ""
 
@@ -23510,10 +23391,6 @@ msgstr ""
 
 #: /user
 msgid "Make it different from your username"
-msgstr ""
-
-#: /user
-msgid "Click on the image and drag to mark how the image will be cropped"
 msgstr ""
 
 #: /user
@@ -25733,17 +25610,4896 @@ msgid ""
 "!url."
 msgstr ""
 
+#: /services/xmlrpc
+msgid "Services endpoint"
+msgstr ""
+
+#: /services/xmlrpc
+msgid "An array representing a file."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "To return file contents or not."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "To return image styles or not."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Delete a node"
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The name of the variable to return."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The default value to use if this variable has never been set."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The name of the variable to set."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The value to set."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The name of the variable to delete."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Returns all nodes with provided taxonomy id."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The vocabulary ids to retrieve, separated by comma."
+msgstr ""
+
+#: /services/xmlrpc
+msgid ""
+"Whether the nodes are to be used with a pager (the case on most Drupal "
+"pages) or not (in an XML feed, for example)."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Maximum number of nodes to find."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The order clause for the query that retrieve the nodes."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Returns a full list of taxonomy terms."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The vocabulary id to retrieve."
+msgstr ""
+
+#: /services/xmlrpc
+msgid ""
+"The term ID under which to generate the tree. If 0, generate the tree "
+"for the entire vocabulary."
+msgstr ""
+
+#: /services/xmlrpc
+msgid ""
+"The number of levels of the tree to return. Leave NULL to return all "
+"levels."
+msgstr ""
+
+#: /services/xmlrpc
+msgid ""
+"Whether the tree of terms should contain full term entity objects. If "
+"1 (TRUE), a full entity load will occur on the term objects. Otherwise "
+"they are partial objects to save execution time and memory "
+"consumption. Defaults to 0 (FALSE)."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Returns the CSRF token."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "CRUD operations"
+msgstr ""
+
+#: /services/xmlrpc
+msgid "CRUD operation"
+msgstr ""
+
+#: /services/xmlrpc
+msgid "relationship"
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Targeted actions"
+msgstr ""
+
+#: /services/xmlrpc
+msgid "targeted action"
+msgstr ""
+
+#: /user
+msgid ""
+"Resizing will make images an exact set of dimensions. This may cause "
+"images to be stretched or shrunk disproportionately."
+msgstr ""
+
+#: /user
+msgid ""
+"Scaling will maintain the aspect-ratio of the original image. If only "
+"a single dimension is specified, the other dimension will be "
+"calculated."
+msgstr ""
+
+#: /user
+msgid ""
+"Scale and crop will maintain the aspect-ratio of the original image, "
+"then crop the larger dimension. This is most useful for creating "
+"perfectly square thumbnails without stretching the image."
+msgstr ""
+
+#: /user
+msgid ""
+"Cropping will remove portions of an image to make it the specified "
+"dimensions."
+msgstr ""
+
+#: /user
+msgid "Desaturate converts an image to grayscale."
+msgstr ""
+
+#: /user
+msgid ""
+"Rotating an image may cause the dimensions of an image to increase to "
+"fit the diagonal."
+msgstr ""
+
+#: /user
+msgid "View: !view"
+msgstr ""
+
+#: /apps
+msgid "Create a new custom entity."
+msgstr ""
+
+#: /apps
+msgid ""
+"<a class=\"rss-icon\" href=\"/apps/latest/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+
+#: /admin/config/regional/translate?render=overlay
+msgid "Close overlay"
+msgstr ""
+
+#: modules/overlay/overlay-child.js
+msgid "Loading"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "default"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"Style: @widget, Exposed: @expose, Stars display: @style, Text display: "
+"@text"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "No link"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Replies disabled"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Div"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"This fieldgroup renders the inner content in a simple div with the "
+"titel as legend."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Fieldset"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"This fieldgroup renders the inner content in a fieldset with the titel "
+"as legend."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Vertical tabs group"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "This fieldgroup renders child groups in its own vertical tabs wrapper."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Vertical tab"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"This fieldgroup renders the content in a fieldset, part of vertical "
+"tabs group."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"This fieldgroup renders child groups in its own horizontal tabs "
+"wrapper."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Horizontal tab item"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"This fieldgroup renders the content in a fieldset, part of horizontal "
+"tabs group."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "This fieldgroup renders groups on separate pages."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Multipage"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "This fieldgroup renders the content in a page."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Accordion group"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "This fieldgroup renders child groups as jQuery accordion."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Accordion item"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "This fieldgroup renders the content in a div, part of accordion group."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "<Hidden>"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Add new group"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Weight for new group"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Group name (a-z, 0-9, _)"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Fieldgroups"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"<p class=\"fieldgroup-help\">Fields can be dragged into groups with "
+"unlimited nesting. Each fieldgroup format comes with a configuration "
+"form, specific for that format type.<br />Note that some formats come "
+"in pair. These types have a html wrapper to nest its fieldgroup "
+"children. E.g. Place accordion items into the accordion, vertical tabs "
+"in vertical tab group and horizontal tabs in the horizontal tab group. "
+"There is one exception to this rule, you can use a vertical tab "
+"without a wrapper when the additional settings tabs are available. "
+"E.g. node forms.</p>"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Select source view mode or form"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Clone fieldgroups from selected view mode to the current display"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"Content items can be displayed using different view modes: Teaser, "
+"Full content, Print, RSS, etc. <em>Teaser</em> is a short format that "
+"is typically used in lists of multiple content items. <em>Full "
+"content</em> is typically used when the content is displayed on its "
+"own page."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"Here, you can define which fields are shown and hidden when %type "
+"content is displayed in each view mode, and define how the fields are "
+"displayed in each view mode."
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Dependent"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Dependees"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Invisible"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Filled with a value"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Emptied"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Checked"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Unchecked"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Expanded"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Collapsed"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Unchanged (no state)"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Filled"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Empty"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Touched"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Untouched"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Focused"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Unfocused"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "is !label"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "has value..."
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Add new dependency"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Dependee"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "The dependent field is"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "when the dependee"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Condition"
+msgstr ""
+
+#: /admin/structure/types/manage/app/dependencies?render=overlay
+msgid "Add dependency"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display/search_result?render=overlay
+msgid "with suffix"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields?render=overlay
+msgid "Edit instance settings."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid ""
+"The human-readable name of this content type. This text will be "
+"displayed as part of the list on the <em>Add new content</em> page. It "
+"is recommended that this name begin with a capital letter and contain "
+"only letters, numbers, and spaces. This name must be unique."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid ""
+"Describe this content type. The text will be displayed on the <em>Add "
+"new content</em> page."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid ""
+"This text will be displayed at the top of the page when creating or "
+"editing content of this type."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid ""
+"Users with the <em>Administer content</em> permission will be able to "
+"override these options."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Compare revisions"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Show <em>View changes</em> button on node edit form"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Enable the <em>Revisions</em> page for this content type"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Standard comparison preview"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid ""
+"Governs the <em>Current revision</em> view mode when doing standard "
+"comparisons."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "- Do not display -"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "The menus available to place links in for this content type."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Linked Data"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Site"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Suggest a new term and definition"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Thank you for your suggestion"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid ""
+"Choose the menu item to be the default parent for a new link in the "
+"content authoring form."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Enable moderation of revisions"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Revisions must be enabled in order to use moderation."
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid "Default moderation state"
+msgstr ""
+
+#: /admin/structure/types/manage/app?render=overlay
+msgid ""
+"Set the default moderation state for this content type. Users with "
+"additional moderation permissions will be able to set the moderation "
+"state when creating or editing nodes."
+msgstr ""
+
+#: modules/node/content_types.js
+msgid "Requires a title"
+msgstr ""
+
+#: modules/node/content_types.js
+msgid "Don't display post information"
+msgstr ""
+
+#: /users/admin
+msgid "User referencing Publihser from field_publishers"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid ""
+"A string is a minimal context that simply holds a string that can be "
+"used for some other purpose."
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Enter a value for this argument"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "A context that is just a string."
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Raw string"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "HTML-safe string"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Enter the string for this context."
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Facet API"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "No context"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Your search yielded no results"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Links"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Links with checkboxes"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Facet active"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Sort by whether the facet is active or not."
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Sort by the facet count."
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Display value"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Sort by the value displayed to the user."
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Indexed value"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Sort by the raw value stored in the index."
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Do not display facet"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Display text"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Rakendust"
+msgstr ""
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "%type: !message in %function (line %line of %file)."
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid "Error messages to display"
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid "Errors and warnings"
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid "All messages"
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid ""
+"It is recommended that sites running on production environments do not "
+"display any errors."
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid "More information"
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid "Syslog identity"
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid ""
+"A string that will be prepended to every message logged to Syslog. If "
+"you have multiple sites logging to the same Syslog log file, a unique "
+"identity per site makes it easy to tell the log entries apart."
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid "Syslog facility"
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid ""
+"Depending on the system configuration, Syslog and other logging tools "
+"use this code to identify or filter messages from within the entire "
+"system log."
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid "Syslog format"
+msgstr ""
+
+#: /admin/config/development/logging?render=overlay
+msgid ""
+"Specify the format of the syslog entry. Available variables are: "
+"<dl><dt><code>!base_url</code></dt><dd>Base URL of the "
+"site.</dd><dt><code>!timestamp</code></dt><dd>Unix timestamp of the "
+"log entry.</dd><dt><code>!type</code></dt><dd>The category to which "
+"this message belongs.</dd><dt><code>!ip</code></dt><dd>IP address of "
+"the user triggering the "
+"message.</dd><dt><code>!request_uri</code></dt><dd>The requested "
+"URI.</dd><dt><code>!referer</code></dt><dd>HTTP Referer if "
+"available.</dd><dt><code>!uid</code></dt><dd>User "
+"ID.</dd><dt><code>!link</code></dt><dd>A link to associate with the "
+"message.</dd><dt><code>!message</code></dt><dd>The message to store in "
+"the log.</dd></dl>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides permission-based access control for actions. Used by Views "
+"Bulk Operations."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Administration and debugging functionality for developers and site "
+"builders."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The administration menu module provides a dropdown menu arranged for "
+"one- or two-click access to most administrative tasks and other common "
+"destinations (to users with the proper permissions). Administration "
+"menu also displays the number of anonymous and authenticated users, "
+"and allows modules to add their own custom menu items. Integration "
+"with the menu varies from module to module; the contributed module <a "
+"href=\"@drupal\">Devel</a>, for instance, makes strong use of the "
+"administration menu module to provide quick access to development "
+"tools."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The administration menu <a href=\"@settings\">settings page</a> allows "
+"you to modify some elements of the menu's behavior and appearance. "
+"Since the appearance of the menu is dependent on your site theme, "
+"substantial customizations require modifications to your site's theme "
+"and CSS files. See the advanced module README.txt file for more "
+"information on theme and CSS customizations."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The menu items displayed in the administration menu depend upon the "
+"actual permissions of the viewer. First, the administration menu is "
+"only displayed to users in roles with the <em>Access administration "
+"menu</em> (admin_menu module) permission. Second, a user must be a "
+"member of a role with the <em>Access administration pages</em> (system "
+"module) permission to view administrative links. And, third, only "
+"currently permitted links are displayed; for example, if a user is not "
+"a member of a role with the permissions <em>Administer "
+"permissions</em> (user module) and <em>Administer users</em> (user "
+"module), the <em>User management</em> menu item is not displayed."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Configure permissions"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a dropdown menu to most administrative tasks and other common "
+"destinations (to users with the proper permissions)."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "A better Toolbar."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Advanced user management providing advanced filtering of users and "
+"providing mass actions of selected filtered users across multiple "
+"pages of the users list."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Integrates node access and other permissions with Apache Solr search"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Enables autocomplete on Apache Solr search boxes"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Framework for searching with Solr"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Integrates Apache Solr Search with Panels."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Search with Solr"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Defines a field type for an assignee in a workflow."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Adds automated timed logout"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Block module allows you to create boxes of content, which are "
+"rendered into an area, or region, of one or more pages of a website. "
+"The core Seven administration theme, for example, implements the "
+"regions \"Content\", \"Help\", \"Dashboard main\", and \"Dashboard "
+"sidebar\", and a block may appear in any one of these regions. The <a "
+"href=\"@blocks\">Blocks administration page</a> provides a "
+"drag-and-drop interface for assigning a block to a region, and for "
+"controlling the order of blocks within regions. For more information, "
+"see the online handbook entry for <a href=\"@block\">Block module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"When working with blocks, remember that all themes do <em>not</em> "
+"implement the same regions, or display regions in the same way. Blocks "
+"are positioned on a per-theme basis. Users with the <em>Administer "
+"blocks</em> permission can disable blocks. Disabled blocks are listed "
+"on the <a href=\"@blocks\">Blocks administration page</a>, but are not "
+"displayed in any region."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Blocks can be configured to be visible only on certain pages, only to "
+"users of certain roles, or only on pages displaying certain <a "
+"href=\"@content-type\">content types</a>. Administrators can also "
+"allow specific blocks to be enabled or disabled by users when they "
+"edit their <a href=\"@user\">My account</a> page. Some dynamic blocks, "
+"such as those generated by modules, will be displayed only on certain "
+"pages."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Users with the <em>Administer blocks</em> permission can <a "
+"href=\"@block-add\">add custom blocks</a>, which are then listed on "
+"the <a href=\"@blocks\">Blocks administration page</a>. Once created, "
+"custom blocks behave just like default and module-generated blocks."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Book module is used for creating structured, multi-page content, "
+"such as site resource guides, manuals, and wikis. It allows you to "
+"create content that has chapters, sections, subsections, or any "
+"similarly-tiered structure. For more information, see the online "
+"handbook entry for <a href=\"@book\">Book module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"You can assign separate permissions for <em>creating</em>, "
+"<em>editing</em>, and <em>deleting</em> book content, as well as "
+"<em>adding content to books</em>, and <em>creating new books</em>. "
+"Users with the <em>Administer book outlines</em> permission can add "
+"<em>any</em> type of content to a book by selecting the appropriate "
+"book outline while editing the content. They can also view a list of "
+"all books, and edit and rearrange section titles on the <a "
+"href=\"@admin-book\">Book administration page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Book pages have a default book-specific navigation block. This "
+"navigation block contains links that lead to the previous and next "
+"pages in the book, and to the level above the current page in the "
+"book's structure. This block can be enabled on the <a "
+"href='@admin-block'>Blocks administration page</a>. For book pages to "
+"show up in the book navigation, they must be added to a book outline."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Books can be created collaboratively, as they allow users with "
+"appropriate permissions to add pages into existing books, and add "
+"those pages to a custom table of contents menu."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Users with the <em>View printer-friendly books</em> permission can "
+"select the <em>printer-friendly version</em> link visible at the "
+"bottom of a book page's content to generate a printer-friendly display "
+"of the page and all of its subsections."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides Bootstrap-based tours to guide users through navigations of "
+"the site"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Performs bulk exporting of data objects known about by Chaos tools."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "A library of helpful tools by Merlin of Chaos."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Shows how to use the power of Chaos AJAX."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "@module (<span class=\"admin-missing\">missing</span>)"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Shows how an external module can provide ctools plugins (for Panels, "
+"etc.)."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides CKAN client for connecting to OKFN CKAN"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides CKAN Dataset entites and related functionality"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides CKAN Publisher entites and related functionality"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides CKAN Publisher reference field with tree select widget"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides consolidated management of third-party, Composer-compatible "
+"packages that are required by contributed modules."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Define dependencies between fields based on their states and values."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Contact module allows visitors to contact site administrators and "
+"other users. Users specify a subject, write their message, and can "
+"have a copy of their message sent to their own e-mail address. For "
+"more information, see the online handbook entry for <a "
+"href=\"@contact\">Contact module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Site users can be contacted with a user contact form that keeps their "
+"e-mail address private. Users may enable or disable their personal "
+"contact forms by editing their <em>My account</em> page. If enabled, a "
+"<em>Contact</em> tab leads to a personal contact form displayed on "
+"their user profile. Site administrators are still able to use the "
+"contact form, even if has been disabled. The <em>Contact</em> tab is "
+"not shown when you view your own profile."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The <a href=\"@contact\">Contact page</a> provides a simple form for "
+"users with the <em>Use the site-wide contact form</em> permission to "
+"send comments, feedback, or other requests. You can create categories "
+"for directing the contact form messages to a set of defined "
+"recipients. Common categories for a business site, for example, might "
+"include \"Website feedback\" (messages are forwarded to website "
+"administrators) and \"Product information\" (messages are forwarded to "
+"members of the sales department). E-mail addresses defined within a "
+"category are not displayed publicly."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"When the site-wide contact form is enabled, a link in the main "
+"<em>Navigation</em> menu is created, but the link is disabled by "
+"default. This menu link can be enabled on the <a href='@menu'>Menus "
+"administration page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"If you would like additional text to appear on the site-wide or "
+"personal contact page, use a block. You can create and edit blocks on "
+"the <a href=\"@blocks\">Blocks administration page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows content to be translated into different languages."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provide modules with a cache that lasts for a single page request."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Allow theme layer to provide multiple region layouts and integrate "
+"with context."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides a simple UI for settings up a site structure using Context."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Contextual links module displays links related to regions of pages "
+"on your site to users with <em>access contextual links</em> "
+"permission. For more information, see the online handbook entry for <a "
+"href=\"@contextual\">Contextual links module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Contextual links are supplied by modules, to give you quick access to "
+"tasks associated with regions of pages on your site. For instance, if "
+"you have a custom menu block displayed in a sidebar of your site, the "
+"Blocks and Menus modules will supply links to configure the block and "
+"edit the menu. The Contextual links module collects these links into a "
+"list for display by your theme, and also adds JavaScript code to the "
+"page to hide the links initially, and display them when your mouse "
+"hovers over the block."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides an interface for creating blocks containing information about "
+"the current search."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Create custom, exportable, reusable content panes for applications "
+"like Panels."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Create custom, exportable, reusable access rulesets for applications "
+"like Panels."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a dashboard page in the administrative interface for "
+"organizing administrative tasks and tracking information within your "
+"site."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Content types and functionality relating to Apps on DGU"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Contains the additions to blog content types and taxonomy required for "
+"blogs"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Content types and functionality relating to Consultation on DGU"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Contains the additions to dataset entity"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Content types and functionality relating to Data set requests on DGU"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Functionality relating to flags on DGU"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Forum setup for data.go.uk"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Glossary functionality for data.gov.uk"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Library Resources"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Notifications and messages configuration"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Organogram content type used in data.gov.uk"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Configuration of 'Reply' bundles"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "DGU search features."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Drupal web services configuration"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Contains DGU specific content types, vocabularies etc."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Contains DGU specific vocabularies."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "User account and login settings"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Diff module replaces the normal <em>Revisions</em> node tab. Diff "
+"enhances the listing of revisions with an option to view the "
+"differences between any two content revisions. Access to this feature "
+"is controlled with the <em>View revisions</em> permission. The feature "
+"can be disabled for an entire content type on the content type "
+"configuration page. Diff also provides an optional <em>View "
+"changes</em> button while editing a node."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Show differences between content revisions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Migration from one Drupal site to another, using migration mappings "
+"provided by CSV files"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Defines an email field type."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Filters out pesky empty paragraphs."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Enables modules to work with any entity type and to provide entities."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides a field that can reference other entities."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides some example code for implementing Entity Reference "
+"behaviors."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides token replacements for all properties that have no tokens and "
+"are known to the entity API."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Determine behavior and appearance for external links. Options include: "
+"Make external links open in a new window, add icons next to external "
+"links and email addresses, display pop-up warnings when users click "
+"external links."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "An abstracted facet API that can be used by various search backends."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides feature management for Drupal."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Field module allows custom data fields to be defined for "
+"<em>entity</em> types (entities include content items, comments, user "
+"accounts, and taxonomy terms). The Field module takes care of storing, "
+"loading, editing, and rendering field data. Most users will not "
+"interact with the Field module directly, but will instead use the <a "
+"href=\"@field-ui-help\">Field UI module</a> user interface. Module "
+"developers can use the Field API to make new entity types "
+"\"fieldable\" and thus allow fields to be attached to them. For more "
+"information, see the online handbook entry for <a "
+"href=\"@field\">Field module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Field module provides the infrastructure for fields and field "
+"attachment; the field types and input widgets themselves are provided "
+"by additional modules. Some of the modules are required; the optional "
+"modules can be enabled from the <a href=\"@modules\">Modules "
+"administration page</a>. Drupal core includes the following field type "
+"modules: Number (required), Text (required), List (required), Taxonomy "
+"(optional), Image (optional), and File (optional); the required "
+"Options module provides input widgets for other field modules. "
+"Additional fields and widgets may be provided by contributed modules, "
+"which you can find in the <a href=\"@contrib\">contributed module "
+"section of Drupal.org</a>. Currently enabled field and input widget "
+"modules:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Managing field data storage"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Developers of field modules can either use the default <a "
+"href=\"@sql-store\">Field SQL storage module</a> to store data for "
+"their fields, or a contributed or custom module developed using the <a "
+"href=\"@storage-api\">field storage API</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides missing alter hooks for field formatter settings and "
+"summaries"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Set field-level permissions to edit or view CCK fields in any node, "
+"edit field during node creation, and edit or view permissions for "
+"nodes owned by the current user."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Set field-level permissions to create, update or view fields."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides separated reply threads on fields"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Field SQL storage module stores field data in the database. It is "
+"the default field storage module; other field storage mechanisms may "
+"be available as contributed modules. See the <a "
+"href=\"@field-help\">Field module help page</a> for more information "
+"about fields."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Field UI module provides an administrative user interface (UI) for "
+"attaching and managing fields. Fields can be defined at the "
+"content-type level for content items and comments, at the vocabulary "
+"level for taxonomy terms, and at the site level for user accounts. "
+"Other modules may also enable fields to be defined for their data. "
+"Field types (text, image, number, etc.) are defined by modules, and "
+"collected and managed by the <a href=\"@field\">Field module</a>. For "
+"more information, see the online handbook entry for <a "
+"href=\"@field_ui\" target=\"_blank\">Field UI module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"A field has a <em>label</em> (the name displayed in the user "
+"interface) and a <em>machine name</em> (the name used internally). The "
+"label can be changed after you create the field, if needed, but the "
+"machine name cannot be changed after you have created the field."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Each field can store one type of data (text, number, file, etc.). When "
+"you define a field, you choose a particular <em>field type</em>, which "
+"corresponds to the type of data you want to store. The field type "
+"cannot be changed after you have created the field."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Each field type has one or more available <em>widgets</em> associated "
+"with it; each widget provides a mechanism for data input when you are "
+"editing (text box, select list, file upload, etc.). Each field type "
+"also has one or more display options, which determine how the field is "
+"displayed to site visitors. The widget and display options can be "
+"changed after you have created the field."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"You can store one value, a specific maximum number of values, or an "
+"unlimited number of values in each field. For example, an employee "
+"identification number field might store a single number, whereas a "
+"phone number field might store multiple phone numbers. This setting "
+"can be changed after you have created the field, but if you reduce the "
+"maximum number of values, you may lose information."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Once you have defined a field, you can reuse it. For example, if you "
+"define a custom image field for one content type, and you need to have "
+"an image field with the same parameters on another content type, you "
+"can add the same field to the second content type, in the <em>Add "
+"existing field</em> area of the user interface. You could also add "
+"this field to a taxonomy vocabulary, comments, user accounts, etc."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Some settings of a reused field are unique to each use of the field; "
+"others are shared across all places you use the field. For example, "
+"the label of a text field is unique to each use, while the setting for "
+"the number of values is shared."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"There are two main reasons for reusing fields. First, reusing fields "
+"can save you time over defining new fields. Second, reusing fields "
+"also allows you to display, filter, group, and sort content together "
+"by field across content types. For example, the contributed Views "
+"module allows you to create lists and tables of content. So if you use "
+"the same field on multiple content types, you can create a View "
+"containing all of those content types together displaying that field, "
+"sorted by that field, and/or filtered by that field."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Fields on content items are defined at the content-type level, on the "
+"<em>Manage fields</em> tab of the content type edit page (which you "
+"can reach from the <a href=\"@types\">Content types page</a>). When "
+"you define a field for a content type, each content item of that type "
+"will have that field added to it. Some fields, such as the Title and "
+"Body, are provided for you when you create a content type, or are "
+"provided on content types created by your installation profile."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Fields on taxonomy terms"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Fields on taxonomy terms are defined at the taxonomy vocabulary level, "
+"on the <em>Manage fields</em> tab of the vocabulary edit page (which "
+"you can reach from the <a href=\"@taxonomy\">Taxonomy page</a>). When "
+"you define a field for a vocabulary, each term in that vocabulary will "
+"have that field added to it. For example, you could define an image "
+"field for a vocabulary to store an icon with each term."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Fields on user accounts are defined on a site-wide basis on the <a "
+"href=\"@fields\">Manage fields tab</a> of the <a "
+"href=\"@accounts\">Account settings</a> page. When you define a field "
+"for user accounts, each user account will have that field added to it. "
+"For example, you could add a long text field to allow users to include "
+"a biography."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Fields on comments are defined at the content-type level, on the "
+"<em>Comment fields</em> tab of the content type edit page (which you "
+"can reach from the <a href=\"@types\">Content types page</a>). When "
+"you add a field for comments, each comment on a content item of that "
+"type will have that field added to it. For example, you could add a "
+"website field to the comments on forum posts, to allow forum "
+"commenters to add a link to their website."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allow the creation of fieldable panels pane entities."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Fieldgroup"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The File module defines a <em>File</em> field type for the Field "
+"module, which lets you manage and validate uploaded files attached to "
+"content on your site (see the <a href=\"@field-help\">Field module "
+"help page</a> for more information about fields). For more "
+"information, see the online handbook entry for <a href=\"@file\">File "
+"module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The File module allows users to attach files to content (e.g., PDF "
+"files, spreadsheets, etc.), when a <em>File</em> field is added to a "
+"given content type using the <a href=\"@fieldui-help\">Field UI "
+"module</a>. You can add validation options to your File field, such as "
+"specifying a maximum file size and allowed file extensions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Managing attachment display"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"When you attach a file to content, you can specify whether it is "
+"<em>listed</em> or not. Listed files are displayed automatically in a "
+"section at the bottom of your content; non-listed files are available "
+"for embedding in your content, but are not included in the list at the "
+"bottom."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"When you create a File field, you can specify a directory where the "
+"files will be stored, which can be within either the <em>public</em> "
+"or <em>private</em> files directory. Files in the public directory can "
+"be accessed directly through the web server; when public files are "
+"listed, direct links to the files are used, and anyone who knows a "
+"file's URL can download the file. Files in the private directory are "
+"not accessible directly through the web server; when private files are "
+"listed, the links are Drupal path requests. This adds to server load "
+"and download time, since Drupal must start up and resolve the path for "
+"each file download request, but allows for access restrictions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Extends Drupal file entities to be fieldable and viewable."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Filter module allows administrators to configure text formats. A "
+"text format defines the HTML tags, codes, and other input allowed in "
+"content and comments, and is a key feature in guarding against "
+"potentially damaging input from malicious users. For more information, "
+"see the online handbook entry for <a href=\"@filter\">Filter "
+"module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Configure text formats on the <a href=\"@formats\">Text formats "
+"page</a>. <strong>Improper text format configuration is a security "
+"risk</strong>. To ensure security, untrusted users should only have "
+"access to text formats that restrict them to either plain text or a "
+"safe set of HTML tags, since certain HTML tags can allow embedding "
+"malicious links or scripts in text. More trusted registered users may "
+"be granted permission to use less restrictive text formats in order to "
+"create rich content."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Each text format uses filters to manipulate text, and most formats "
+"apply several different filters to text in a specific order. Each "
+"filter is designed for a specific purpose, and generally either adds, "
+"removes, or transforms elements within user-entered text before it is "
+"displayed. A filter does not change the actual content, but instead, "
+"modifies it temporarily before it is displayed. One filter may remove "
+"unapproved HTML tags, while another automatically adds HTML to make "
+"URLs display as clickable links."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"One format is included by default: <em>Plain text</em> (which removes "
+"all HTML tags). Additional formats may be created by your installation "
+"profile when you install Drupal, and more can be created by an "
+"administrator on the <a href=\"@text-formats\">Text formats page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Users with access to more than one text format can use the <em>Text "
+"format</em> fieldset to choose between available text formats when "
+"creating or editing multi-line content. Administrators can define the "
+"text formats available to each user role, and control the order of "
+"formats listed in the <em>Text format</em> fieldset on the <a "
+"href=\"@text-formats\">Text formats page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Enables fivestar ratings on content, users, etc."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Create customized flags that users can set on entities."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Execute actions on Flag events."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides an example bookmark flag and supporting views."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Allows your site to be tracked by Google Analytics by adding a "
+"Javascript tracking code to every page."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Help module provides <a href=\"@help-page\">Help reference "
+"pages</a> and context-sensitive advice to guide you through the use "
+"and configuration of modules. It is a starting point for the online <a "
+"href=\"@handbook\">Drupal handbooks</a>. The handbooks contain more "
+"extensive and up-to-date information, are annotated with "
+"user-contributed comments, and serve as the definitive reference point "
+"for all Drupal documentation. For more information, see the online "
+"handbook entry for the <a href=\"@help\">Help module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Providing a help reference"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Help module displays explanations for using each module listed on "
+"the main <a href=\"@help\">Help reference page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Help module displays context-sensitive advice and explanations on "
+"various pages."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Image module allows you to manipulate images on your website. It "
+"exposes a setting for using the <em>Image toolkit</em>, allows you to "
+"configure <em>Image styles</em> that can be used for resizing or "
+"adjusting images on display, and provides an <em>Image</em> field for "
+"attaching images to content. For more information, see the online "
+"handbook entry for <a href=\"@image\">Image module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"With the Image module you can scale, crop, resize, rotate and "
+"desaturate images without affecting the original image using <a "
+"href=\"@image\">image styles</a>. When you change an image style, the "
+"module automatically refreshes all created images. Every image style "
+"must have a name, which will be used in the URL of the generated "
+"images. There are two common approaches to naming image styles (which "
+"you use will depend on how the image style is being applied):"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Based on where it will be used: eg. <em>profile-picture</em>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Describing its appearance: eg. <em>square-85x85</em>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"After you create an image style, you can add effects: crop, scale, "
+"resize, rotate, and desaturate (other contributed modules provide "
+"additional effects). For example, by combining effects as crop, scale, "
+"and desaturate, you can create square, grayscale thumbnails."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Attaching images to content as fields"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Image module also allows you to attach images to content as fields. To "
+"add an image field to a <a href='@content-type'>content type</a>, go "
+"to the content type's <em>manage fields</em> page, and add a new field "
+"of type <em>Image</em>. Attaching images to content this way allows "
+"image styles to be applied and maintained, and also allows you more "
+"flexibility when theming."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Add cropping ability to images using javascript"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Update jQuery and jQuery UI to a more recent version."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "administer > content > taxonomy"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "administer > site configuration > input formats"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"<p>The Lexicon module is used to create lists of terms and definitions "
+"to use on a website and optionally mark those terms in the content of "
+"the website.</p>\n"
+"      <p>The Lexicon module lists all lexicon terms on a lexicon page. "
+"Optionally it replaces lexicon terms (and their synonyms) in the body "
+"of content that is filtered by an input filter.</p>\n"
+"      <p>Lexicon terms are managed in vocabularies. To get started "
+"with the Lexicon module, create a new vocabulary on the "
+"!taxonomy_admin page. Add a few terms to the vocabulary. The term "
+"title is the lexicon entry and the description is its definition. You "
+"can use the related terms, synonyms, and image features by adding "
+"fields to the vocabulary using the Fields functionality of Drupal 7. "
+"For synonyms create a Field of type \"Text\". For related terms create "
+"a field of type \"Term reference\". For images create a field of type "
+"\"Image\". You can configure which field to use as the field for "
+"related terms, synonyms and images in the Lexicon configuration.</p>\n"
+"      <p>Next, you have to set up the Lexicon module by selecting the "
+"vocabularies that you want to use as Lexicons and set the behaviour of "
+"the module to your preferences. You have to enable the Lexicon filter "
+"on input formats if you want terms to be marked in the content. On the "
+"!input_formats page, select a text format to configure. Select the "
+"Lexicon filter checkbox and press \"Save configuration\".</p>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Maintain one or more lexicons on your site and optionally mark term "
+"from one or more lexicons in the content of the website."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows version-dependent and shared usage of external libraries."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Defines simple link field types."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Periodically checks for broken links in node types, blocks and fields "
+"and reports the results."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The List module defines various fields for storing a list of items, "
+"for use with the Field module. Usually these items are entered through "
+"a select list, checkboxes, or radio buttons. See the <a "
+"href=\"@field-help\">Field module help page</a> for more information "
+"about fields."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Locale module allows your Drupal site to be presented in languages "
+"other than the default English, and to be multilingual. The Locale "
+"module works by maintaining a database of translations, and examining "
+"text as it is about to be displayed. When a translation of the text is "
+"available in the language to be displayed, the translation is "
+"displayed rather than the original text. When a translation is "
+"unavailable, the original text is displayed, and then stored for "
+"review by a translator. For more information, see the online handbook "
+"entry for <a href=\"@locale\">Locale module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Translations of text in the Drupal interface may be provided by:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Translating within your site, using the Locale module's integrated <a "
+"href='@translate'>translation interface</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Importing files from a set of existing translations, known as a "
+"translation package. A translation package enables the display of a "
+"specific version of Drupal in a specific language, and contains files "
+"in the Gettext Portable Object (<em>.po</em>) format. Although not all "
+"languages are available for every version of Drupal, translation "
+"packages for many languages are available for download from the <a "
+"href=\"@translations\">Drupal translations page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"If an existing translation package does not meet your needs, the "
+"Gettext Portable Object (<em>.po</em>) files within a package may be "
+"modified, or new <em>.po</em> files may be created, using a desktop "
+"Gettext editor. The Locale module's <a href='@import'>import</a> "
+"feature allows the translated strings from a new or modified "
+"<em>.po</em> file to be added to your site. The Locale module's <a "
+"href='@export'>export</a> feature generates files from your site's "
+"translated strings, that can either be shared with others or edited "
+"offline by a Gettext translation editor."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Language negotiation allows your site to automatically change language "
+"based on the domain or path used for each request. Users may "
+"(optionally) select their preferred language on their <em>My "
+"account</em> page, and your site can be configured to honor a web "
+"browser's preferred language settings. Site content can be translated "
+"using the <a href='@content-help'>Content translation module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"<p>The Login Toboggan module improves the Drupal login system by "
+"offering the following features:\n"
+"      <ol>\n"
+"      <li>Allow users to login using either their username OR their "
+"e-mail address.</li>\n"
+"      <li>Allow users to login immediately.</li>\n"
+"      <li>Provide a login form on Access Denied pages for "
+"non-logged-in (anonymous) users.</li>\n"
+"      <li>The module provides two login block options: One uses "
+"JavaScript to display the form within the block immediately upon "
+"clicking 'log in'. The other brings the user to a separate page, but "
+"returns the user to their original page upon login.</li>\n"
+"      <li>Customize the registration form with two e-mail fields to "
+"ensure accuracy.</li>\n"
+"      <li>Optionally redirect the user to a specific page when using "
+"the 'Immediate login' feature.</li>\n"
+"      <li>Optionally redirect the user to a specific page upon "
+"validation of their e-mail address.</li>\n"
+"      <li>Optionally display a user message indicating a successful "
+"login.</li>\n"
+"      <li>Optionally combine both the login and registration form on "
+"one page.</li>\n"
+"      <li>Optionally display an 'Request new password' link on the "
+"user login form.</li>\n"
+"      <li>Optionally have unvalidated users purged from the system at "
+"a pre-defined interval (please read the CAVEATS section of INSTALL.txt "
+"for important information on configuring this feature!).</li>\n"
+"      </ol>\n"
+"      These features may be turned on or off in the Login Toboggan <a "
+"href=\"!url\">settings</a>.</p>\n"
+"      <p>Because this module completely reorients the Drupal login "
+"process you will probably want to edit the welcome e-mail on the <a "
+"href=\"!user_settings\">user settings</a> page. Note when the 'Set "
+"password' option is enabled, the [user:validate-url] token becomes a "
+"verification url that the user MUST visit in order to enable "
+"authenticated status). The following is an example welcome "
+"e-mail:</p>\n"
+"      "
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"\n"
+"[user:name],\n"
+"\n"
+"Thank you for registering.\n"
+"\n"
+"IMPORTANT:\n"
+"For full site access, you will need to click on this link or copy and "
+"paste it in your browser:\n"
+"\n"
+"[user:validate-url]\n"
+"\n"
+"This will verify your account and log you into the site. In the future "
+"you will be able to log in to [site:login-url] using the username and "
+"password that you created during registration.\n"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"<p>Note that if you have set the 'Visitors can create accounts but "
+"administrator approval is required' option for account approval, and "
+"are also using the 'Set password' feature of LoginToboggan, the user "
+"will immediately receive the permissions of the pre-authorized user "
+"role. LoginToboggan prevents the pre-authorized role from "
+"automatically inheriting the authorized role permissions. You may wish "
+"to create a pre-authorized role with the exact same permissions as the "
+"anonymous user if you wish the newly created user to only have "
+"anonymous permissions.</p><p>In order for a site administrator to "
+"unblock a user who is awaiting administrator approval, they must "
+"either click on the validation link they receive in their notification "
+"e-mail, or manually remove the user from the site's pre-authorized "
+"role -- afterwards the user will then receive 'authenticated user' "
+"permissions. In either case, the user will receive an account "
+"activated e-mail if it's enabled on the user settings page -- it's "
+"recommended that you edit the default text of the activation e-mail to "
+"match LoginToboggan's workflow as described. </p><p>If you are using "
+"the 'Visitors can create accounts and no administrator approval is "
+"required' option, removal of the pre-authorized role will happen "
+"automatically when the user validates their account via "
+"e-mail.</p><p>Also be aware that LoginToboggan only affects "
+"registrations initiated by users--any user account created by an "
+"administrator will not use any LoginToboggan functionality."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Improves Drupal's login system."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Integrates LoginToboggan with Content Access module, so that "
+"Non-validated users are handled correctly"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Integrates LoginToboggan with Rules module"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Integrates LoginToboggan with Variable module"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Media module is a File Browser to the Internet, media provides a "
+"framework for managing files and multimedia assets, regardless of "
+"whether they are hosted on your own site or a 3rd party site. It "
+"replaces the Drupal core upload field with a unified User Interface "
+"where editors and administrators can upload, manage, and reuse files "
+"and multimedia assets. Media module also provides rich integration "
+"with WYSIWYG module to let content creators access media assets in "
+"rich text editor. Javascript is required to use the Media module.  For "
+"more information check <a href=\"@media_faq\">Media Module page</a>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Media Repository"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Media module allows you to maintain a <a href=\"@mediarepo\">media "
+"asset repository</a> where in you can add, remove, reuse your media "
+"assets. You can add the media file using upload form or from a url and "
+"also do bulk operations on the media assets."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Attaching media assets to content types"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Media assets can be attached to content types as fields. To add a "
+"media field to a <a href=\"@content-type\">content type</a>, go to the "
+"content type's <em>manage fields</em> page, and add a new field of "
+"type <em>Multimedia Asset</em>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Using media assets in WYSIWYG"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Media module provides rich integration with WYSIWYG editors, using "
+"Media Browser plugin you can select media asset from library to add to "
+"the rich text editor moreover you can add media asset from the media "
+"browser itself using either upload method or add from url method. To "
+"configure media with WYSIWYG you need two steps of configuration:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enable WYSIWYG plugin on your desired <a "
+"href=\"@wysiwyg-profile\">WYSIWYG profile</a>. Please note that you "
+"will need to have <a href=\"@wysiwyg\">WYSIWYG</a> module enabled."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enable the <em>Convert Media tags to markup</em> filter on the <a "
+"href=\"@input-format\">Input format</a> you are using with the WYSIWYG "
+"profile."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides the core Media API"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a field type that stores media-specific data. <em>Deprecated "
+"by the core File field type.</em>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides an API for accessing media on various internet services"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enables files inside of the WYSIWYG editor to be displayed using a "
+"separate view mode."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Menu module provides an interface for managing menus. A menu is a "
+"hierarchical collection of links, which can be within or external to "
+"the site, generally used for navigation. Each menu is rendered in a "
+"block that can be enabled and positioned through the <a "
+"href=\"@blocks\">Blocks administration page</a>. You can view and "
+"manage menus on the <a href=\"@menus\">Menus administration page</a>. "
+"For more information, see the online handbook entry for the <a "
+"href=\"@menu\">Menu module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Users with the <em>Administer menus and menu items</em> permission can "
+"add, edit and delete custom menus on the <a href=\"@menu\">Menus "
+"administration page</a>. Custom menus can be special site menus, menus "
+"of external links, or any combination of internal and external links. "
+"You may create an unlimited number of additional menus, each of which "
+"will automatically have an associated block. By selecting <em>list "
+"links</em>, you can add, edit, or delete links for a given menu. The "
+"links listing page provides a drag-and-drop interface for controlling "
+"the order of links, and creating a hierarchy within the menu."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"After you have created a menu, you must enable and position the "
+"associated block on the <a href=\"@blocks\">Blocks administration "
+"page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "A general message logging utility."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Daily or weekly digest emails for the Message module"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Message example."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Message notify."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Message notify example"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Message integration with Organic groups example."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Subscribe API for the Message and Message notify modules."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Message subscribe UI"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Import content from external sources"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Migrate DGU to Drupal 7."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Example migration data."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Content type supporting example of Oracle migration"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Adds migrate module integration with contrib modules and other "
+"miscellaneous tweaks."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Examples for migrating Media"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Examples of migrating with the Pathauto module"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Examples of migrating into Profile2 entities"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "UI for managing migration processes"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Import baseball box scores."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Create mini panels that can be used as blocks by Drupal and panes by "
+"other panel modules."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Filter the modules list."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Automatically moderates user-submitted content and protects your site "
+"from spam and profanity."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Node module manages the creation, editing, deletion, settings, and "
+"display of the main site content. Content items managed by the Node "
+"module are typically displayed as pages on your site, and include a "
+"title, some meta-data (author, creation time, content type, etc.), and "
+"optional fields containing text or other data (fields are managed by "
+"the <a href=\"@field\">Field module</a>). For more information, see "
+"the online handbook entry for <a href=\"@node\">Node module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Creating content"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"When new content is created, the Node module records basic information "
+"about the content, including the author, date of creation, and the <a "
+"href=\"@content-type\">Content type</a>. It also manages the "
+"<em>publishing options</em>, which define whether or not the content "
+"is published, promoted to the front page of the site, and/or sticky at "
+"the top of content lists. Default settings can be configured for each "
+"<a href=\"@content-type\">type of content</a> on your site."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Creating custom content types"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Node module gives users with the <em>Administer content types</em> "
+"permission the ability to <a href=\"@content-new\">create new content "
+"types</a> in addition to the default ones already configured. Creating "
+"custom content types allows you the flexibility to add <a "
+"href=\"@field\">fields</a> and configure default settings that suit "
+"the differing needs of various site content."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Administering content"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The <a href=\"@content\">Content administration page</a> allows you to "
+"review and bulk manage your site content."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Creating revisions"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Node module also enables you to create multiple versions of any "
+"content, and revert to older versions using the <em>Revision "
+"information</em> settings."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "User permissions"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Node module makes a number of permissions available for each "
+"content type, which can be set by role on the <a "
+"href=\"@permissions\">permissions page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Number module defines various numeric field types for the Field "
+"module. Numbers can be in integer, decimal, or floating-point form, "
+"and they can be formatted when displayed. Number fields can be limited "
+"to a specific set of input values or to a range of values. See the <a "
+"href=\"@field-help\">Field module help page</a> for more information "
+"about fields."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides OAuth authentication for the services module"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows users to log into your site using OpenID."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Options module defines checkbox, selection, and other input "
+"widgets for the Field module. See the <a href=\"@field-help\">Field "
+"module help page</a> for more information about fields."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Overlay module makes the administration pages on your site display "
+"in a JavaScript overlay of the page you were viewing when you clicked "
+"the administrative link, instead of replacing the page in your browser "
+"window. Use the close link on the overlay to return to the page you "
+"were viewing when you clicked the link. For more information, see the "
+"online handbook entry for <a href=\"@overlay\">Overlay module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Displays the Drupal administration interface in an overlay."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides a UI and API to manage pages within the site."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Create nodes that are divided into areas with selectable content."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Core Panels display functions; provides no external UI, at least one "
+"other Panels module should be enabled."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provide a UI for managing some Panels directly on the frontend, "
+"instead of having to use the backend."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Path module allows you to specify an alias, or custom URL, for any "
+"existing internal system path. Aliases should not be confused with URL "
+"redirects, which allow you to forward a changed or inactive URL to a "
+"new URL. In addition to making URLs more readable, aliases also help "
+"search engines index content more effectively. Multiple aliases may be "
+"used for a single internal system path. To automate the aliasing of "
+"paths, you can install the contributed module <a "
+"href=\"@pathauto\">Pathauto</a>. For more information, see the online "
+"handbook entry for the <a href=\"@path\">Path module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Creating aliases"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Users with sufficient <a href=\"@permissions\">permissions</a> can "
+"create aliases under the <em>URL path settings</em> section when they "
+"create or edit content. Some examples of aliases are: "
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>member/jane-smith</em> aliased to internal path <em>user/123</em>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>about-us/team</em> aliased to internal path <em>node/456</em>"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Managing aliases"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Path module provides a way to search and view a <a "
+"href=\"@aliases\">list of all aliases</a> that are in use on your "
+"website. Aliases can be added, edited and deleted through this list."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows users to rename URLs."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a mechanism for modules to automatically generate aliases for "
+"the content they manage."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Maximum alias and component length"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The <strong>maximum alias length</strong> and <strong>maximum "
+"component length</strong> values default to 100 and have a limit of "
+"@max from Pathauto. This length is limited by the length of the "
+"\"alias\" column of the url_alias database table. The default database "
+"schema for this column is @max. If you set a length that is equal to "
+"that of the one set in the \"alias\" column it will cause problems in "
+"situations where the system needs to append additional words to the "
+"aliased URL. You should enter a value that is the length of the "
+"\"alias\" column minus the length of any strings that might get added "
+"to the end of the URL. The length of strings that might get added to "
+"the end of your URLs depends on which modules you have enabled and on "
+"your Pathauto settings. The recommended and default value is 100."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows embedded PHP code/snippets to be evaluated."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Allows your site to capture votes on different topics in the form of "
+"multiple choice questions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "In-place content editing."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The RDF module enriches your content with metadata to let other "
+"applications (e.g., search engines, aggregators, and so on) better "
+"understand its relationships and attributes. This semantically "
+"enriched, machine-readable output for Drupal sites uses the <a "
+"href=\"@rdfa\">RDFa specification</a> which allows RDF data to be "
+"embedded in HTML markup. Other modules can define mappings of their "
+"data to RDF terms, and the RDF module makes this RDF data available to "
+"the theme. The core Drupal modules define RDF mappings for their data "
+"model, and the core Drupal themes output this RDF metadata information "
+"along with the human-readable visual information. For more "
+"information, see the online handbook entry for <a href=\"@rdf\">RDF "
+"module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enriches your content with metadata to let other applications (e.g. "
+"search engines, aggregators) better understand its relationships and "
+"attributes."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows users to redirect from old URLs to new URLs."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Reply entity for posting comments on other entities."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides an REST server."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "React on events and conditionally evaluate actions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Schedule the execution of Rules components using actions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows translating rules."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Administrative interface for managing rules."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Rules actions and conditions based on url arguments."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Search module provides the ability to index and search for content "
+"by exact keywords, and for users by username or e-mail. For more "
+"information, see the online handbook entry for <a "
+"href=\"@search-module\">Search module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Searching content and users"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Users with <em>Use search</em> permission can use the search block and "
+"<a href=\"@search\">Search page</a>. Users with the <em>View published "
+"content</em> permission can search for content containing exact "
+"keywords. Users with the <em>View user profiles</em> permission can "
+"search for users containing the keyword anywhere in the user name, and "
+"users with the <em>Administer users</em> permission can search for "
+"users by email address. Additionally, users with <em>Use advanced "
+"search</em> permission can find content using more complex search "
+"methods and filtering by choosing the <em>Advanced search</em> option "
+"on the <a href=\"@search\">Search page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Indexing content with cron"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"To provide keyword searching, the search engine maintains an index of "
+"words found in the content and its fields, along with text added to "
+"your content by other modules (such as comments from the core Comment "
+"module, and taxonomy terms from the core Taxonomy module). To build "
+"and maintain this index, a correctly configured <a href=\"@cron\">cron "
+"maintenance task</a> is required. Users with <em>Administer "
+"search</em> permission can further configure the cron settings on the "
+"<a href=\"@searchsettings\">Search settings page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Content reindexing"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Content-related actions on your site (creating, editing, or deleting "
+"content and comments) automatically cause affected content items to be "
+"marked for indexing or reindexing at the next cron run. When content "
+"is marked for reindexing, the previous content remains in the index "
+"until cron runs, at which time it is replaced by the new content. "
+"Unlike content-related actions, actions related to the structure of "
+"your site do not cause affected content to be marked for reindexing. "
+"Examples of structure-related actions that affect content include "
+"deleting or editing taxonomy terms, enabling or disabling modules that "
+"add text to content (such as Taxonomy, Comment, and field-providing "
+"modules), and modifying the fields or display parameters of your "
+"content types. If you take one of these actions and you want to ensure "
+"that the search index is updated to reflect your changed site "
+"structure, you can mark all content for reindexing by clicking the "
+"\"Re-index site\" button on the <a href=\"@searchsettings\">Search "
+"settings page</a>. If you have a lot of content on your site, it may "
+"take several cron runs for the content to be reindexed."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Configuring search settings"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Indexing behavior can be adjusted using the <a "
+"href=\"@searchsettings\">Search settings page</a>. Users with "
+"<em>Administer search</em> permission can control settings such as the "
+"<em>Number of items to index per cron run</em>, <em>Indexing "
+"settings</em> (word length), <em>Active search modules</em>, and "
+"<em>Content ranking</em>, which lets you adjust the priority in which "
+"indexed content is returned in results."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Search block"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Search module includes a default <em>Search form</em> block, which "
+"can be enabled and configured on the <a href=\"@blocks\">Blocks "
+"administration page</a>. The block is available to users with the "
+"<em>Search content</em> permission."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Extending Search module"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"By default, the Search module only supports exact keyword matching in "
+"content searches. You can modify this behavior by installing a "
+"language-specific stemming module for your language (such as <a "
+"href=\"http://drupal.org/project/porterstemmer\">Porter Stemmer</a> "
+"for American English), which allows words such as walk, walking, and "
+"walked to be matched in the Search module. Another approach is to use "
+"a third-party search technology with stemming or partial word matching "
+"features built in, such as <a "
+"href=\"http://drupal.org/project/apachesolr\">Apache Solr</a> or <a "
+"href=\"http://drupal.org/project/sphinx\">Sphinx</a>. These and other "
+"<a href=\"@contrib-search\">search-related contributed modules</a> can "
+"be downloaded by visiting Drupal.org."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Enables site-wide keyword searching."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Visit the <a href=\"@handbook_url\">Services Handbook</a> for help and "
+"information."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provide an API for creating web services."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Build service endpoints with Views."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides an interface for storing session information."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows users to manage customizable lists of shortcut links."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"This module creates a new text field formatter. There are no global "
+"configuration options."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a more robust alternative to \"summary or trimmed\" textfield "
+"format"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Allow for site emails to be sent through an SMTP server of your "
+"choice."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Logs access statistics for your site."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The <strong>String Overrides</strong> module provides a quick and easy "
+"way of replacing text."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"To replace a string, enter <strong>the complete string</strong> that "
+"is passed through the <a href=\"@t\">t()</a> function. String "
+"Overrides cannot translate user-defined content, it can only replace "
+"strings wrapped in the t() function. To find the strings you can "
+"actually change, open up a module and look for t() function calls. "
+"Places where %, @, or ! are used means that the translation contains "
+"dynamic information (such as the node type or title in the above "
+"examples); these are not translated while the text around them is."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Remember, you must replace the entire string, not just a portion of "
+"it."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides a quick and easy way of replacing text."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Tools for importing and exporting string override settings."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enforces variable values defined by modules that need settings set to "
+"operate properly."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Create custom styles for applications such as Panels."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Syslog module logs events by sending messages to the logging "
+"facility of your web server's operating system. Syslog is an operating "
+"system administrative logging tool that provides valuable information "
+"for use in system management and security auditing. Most suited to "
+"medium and large sites, Syslog provides filtering tools that allow "
+"messages to be routed by type and severity. For more information, see "
+"the online handbook entry for <a href='@syslog'>Syslog module</a> and "
+"PHP's <a href='@php_openlog'>openlog</a> and <a "
+"href='@php_syslog'>syslog</a> functions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Logging for UNIX, Linux, and Mac OS X"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"On UNIX, Linux, and Mac OS X, the file <em>/etc/syslog.conf</em> "
+"defines the routing configuration. Messages can be flagged with the "
+"codes <code>LOG_LOCAL0</code> through <code>LOG_LOCAL7</code>. For "
+"information on Syslog facilities, severity levels, and how to set up "
+"<em>syslog.conf</em>, see the <em>syslog.conf</em> manual page on your "
+"command line."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Logging for Microsoft Windows"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"On Microsoft Windows, messages are always sent to the Event Log using "
+"the code <code>LOG_USER</code>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Logs and records system events to syslog."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The System module is integral to the site, and provides basic but "
+"extensible functionality for use by other modules and themes. Some "
+"integral elements of Drupal are contained in and managed by the System "
+"module, including caching, enabling and disabling modules and themes, "
+"preparing and displaying the administrative page, and configuring "
+"fundamental site settings. A number of key system maintenance "
+"operations are also part of the System module. For more information, "
+"see the online handbook entry for <a href=\"@system\">System "
+"module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Managing modules"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The System module allows users with the appropriate permissions to "
+"enable and disable modules on the <a href=\"@modules\">Modules "
+"administration page</a>. Drupal comes with a number of core modules, "
+"and each module provides a discrete set of features and may be enabled "
+"or disabled depending on the needs of the site. Many additional "
+"modules contributed by members of the Drupal community are available "
+"for download at the <a href=\"@drupal-modules\">Drupal.org module "
+"page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Managing themes"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The System module allows users with the appropriate permissions to "
+"enable and disable themes on the <a href=\"@themes\">Appearance "
+"administration page</a>. Themes determine the design and presentation "
+"of your site. Drupal comes packaged with several core themes, and "
+"additional contributed themes are available at the <a "
+"href=\"@drupal-themes\">Drupal.org theme page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Managing caching"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The System module allows users with the appropriate permissions to "
+"manage caching on the <a href='@cache-settings'>Performance settings "
+"page</a>. Drupal has a robust caching system that allows the efficient "
+"re-use of previously-constructed web pages and web page components. "
+"Pages requested by anonymous users are stored in a compressed format; "
+"depending on your site configuration and the amount of your web "
+"traffic tied to anonymous visitors, the caching system may "
+"significantly increase the speed of your site."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Performing system maintenance"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"In order for the site and its modules to continue to operate well, a "
+"set of routine administrative operations must run on a regular basis. "
+"The System module manages this task by making use of a system cron "
+"job. You can verify the status of cron tasks by visiting the <a "
+"href=\"@status\">Status report page</a>. For more information, see the "
+"online handbook entry for <a href=\"@handbook\">configuring cron "
+"jobs</a>. You can set up cron job by visiting <a href=\"@cron\">Cron "
+"configuration</a> page"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Configuring basic site settings"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The System module also handles basic configuration options for your "
+"site, including <a href=\"@date-time-settings\">Date and time "
+"settings</a>, <a href=\"@file-system\">File system settings</a>, <a "
+"href=\"@clean-url\">Clean URL support</a>, <a href=\"@site-info\">Site "
+"name and other information</a>, and a <a "
+"href=\"@maintenance-mode\">Maintenance mode</a> for taking your site "
+"temporarily offline."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Configuring actions"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Actions are individual tasks that the system can do, such as "
+"unpublishing a piece of content or banning a user. Modules, such as "
+"the <a href=\"@trigger-help\">Trigger module</a>, can fire these "
+"actions when certain system events happen; for example, when a new "
+"post is added or when a user logs in. Modules may also provide "
+"additional actions. Visit the <a href=\"@actions\">Actions page</a> to "
+"configure actions."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Handles general site configuration for administrators."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "TagClouds makes weighted tag clouds from your taxonomy terms."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Taxonomy module allows you to classify the content of your "
+"website. To classify content, you define <em>vocabularies</em> that "
+"contain related <em>terms</em>, and then assign the vocabularies to "
+"content types. For more information, see the online handbook entry for "
+"the <a href=\"@taxonomy\">Taxonomy module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Creating vocabularies"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Users with sufficient <a href=\"@perm\">permissions</a> can create "
+"<em>vocabularies</em> and <em>terms</em> through the <a "
+"href=\"@taxo\">Taxonomy page</a>. The page listing the terms provides "
+"a drag-and-drop interface for controlling the order of the terms and "
+"sub-terms within a vocabulary, in a hierarchical fashion. A "
+"<em>controlled vocabulary</em> classifying music by genre with terms "
+"and sub-terms could look as follows:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>vocabulary</em>: Music"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>term</em>: Jazz"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>sub-term</em>: Swing"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>sub-term</em>: Fusion"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>term</em>: Rock"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>sub-term</em>: Country rock"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "<em>sub-term</em>: Hard rock"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"You can assign a sub-term to multiple parent terms. For example, "
+"<em>fusion</em> can be assigned to both <em>rock</em> and "
+"<em>jazz</em>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Terms in a <em>free-tagging vocabulary</em> can be built gradually as "
+"you create or edit content. This is often done used for blogs or photo "
+"management applications."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Assigning vocabularies to content types"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Before you can use a new vocabulary to classify your content, a new "
+"Taxonomy term field must be added to a <a href=\"@ctedit\">content "
+"type</a> on its <em>manage fields</em> page. When adding a taxonomy "
+"field, you choose a <em>widget</em> to use to enter the taxonomy "
+"information on the content editing page: a select list, checkboxes, "
+"radio buttons, or an auto-complete field (to build a free-tagging "
+"vocabulary). After choosing the field type and widget, on the "
+"subsequent <em>field settings</em> page you can choose the desired "
+"vocabulary, whether one or multiple terms can be chosen from the "
+"vocabulary, and other settings. The same vocabulary can be added to "
+"multiple content types, by using the \"Add existing field\" section on "
+"the manage fields page."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Classifying content"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"After the vocabulary is assigned to the content type, you can start "
+"classifying content. The field with terms will appear on the content "
+"editing screen when you edit or <a href=\"@addnode\">add new "
+"content</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Viewing listings and RSS feeds by term"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Each taxonomy term automatically provides a page listing content that "
+"has its classification, and a corresponding RSS feed. For example, if "
+"the taxonomy term <em>country rock</em> has the ID 123 (you can see "
+"this by looking at the URL when hovering on the linked term, which you "
+"can click to navigate to the listing page), then you will find this "
+"list at the path <em>taxonomy/term/123</em>. The RSS feed will use the "
+"path <em>taxonomy/term/123/feed</em> (the RSS icon for this term's "
+"listing will automatically display in your browser's address bar when "
+"viewing the listing page)."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Extending Taxonomy module"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"There are <a href=\"@taxcontrib\">many contributed modules</a> that "
+"extend the behavior of the Taxonomy module for both display and "
+"organization of terms."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Enables the categorization of content."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides a framework for unit and functional testing."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Text module defines various text field types for the Field module. "
+"A text field may contain plain text only, or optionally, may use "
+"Drupal's <a href='@filter-help'>text filters</a> to securely manage "
+"HTML output. Text input fields may be either a single line (text "
+"field), multiple lines (text area), or for greater input control, a "
+"select box, checkbox, or radio buttons. If desired, the field can be "
+"validated, so that it is limited to a set of allowed values. See the "
+"<a href='@field-help'>Field module help page</a> for more information "
+"about fields."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a user interface for the Token API and some missing core "
+"tokens."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Toolbar module displays links to top-level administration menu "
+"items and links from other modules at the top of the screen. For more "
+"information, see the online handbook entry for <a "
+"href=\"@toolbar\">Toolbar module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Displaying administrative links"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Toolbar module displays a bar containing top-level administrative "
+"links across the top of the screen. Below that, the Toolbar module has "
+"a <em>drawer</em> section where it displays links provided by other "
+"modules, such as the core <a href=\"@shortcuts-help\">Shortcut "
+"module</a>. The drawer can be hidden/shown by using the show/hide "
+"shortcuts link at the end of the toolbar."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a toolbar that shows the top-level administration menu items "
+"and links from other modules."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Enables tracking of recent content for users."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enables actions to be fired on certain system events, such as when new "
+"content is created."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Update manager module periodically checks for new versions of your "
+"site's software (including contributed modules and themes), and alerts "
+"administrators to available updates. In order to provide update "
+"information, anonymous usage statistics are sent to Drupal.org. If "
+"desired, you may disable the Update manager module from the <a "
+"href='@modules'>Module administration page</a>. For more information, "
+"see the online handbook entry for <a href='@update'>Update manager "
+"module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Update manager also allows administrators to update and install "
+"modules and themes through the administration interface."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Checking for available updates"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"A report of <a href=\"@update-report\">available updates</a> will "
+"alert you when new releases are available for download. You may "
+"configure options for the frequency for checking updates (which are "
+"performed during <a href=\"@cron\">cron</a> runs) and e-mail "
+"notifications at the <a href=\"@update-settings\">Update manager "
+"settings</a>  page."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Performing updates through the user interface"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Update manager module allows administrators to perform updates "
+"directly through the administration interface. At the top of the <a "
+"href=\"@modules_page\">modules</a> and <a "
+"href=\"@themes_page\">themes</a> pages you will see a link to update "
+"to new releases. This will direct you to the <a "
+"href=\"@update-page\">update page</a> where you see a listing of all "
+"the missing updates and confirm which ones you want to upgrade. From "
+"there, you are prompted for your FTP/SSH password, which then "
+"transfers the files into your Drupal installation, overwriting your "
+"old files. More detailed instructions can be found in the <a "
+"href=\"@update\">online handbook</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Installing new modules and themes through the user interface"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"You can also install new modules and themes in the same fashion, "
+"through the <a href=\"@install\">install page</a>, or by clicking the "
+"<em>Install new module/theme</em> link at the top of the <a "
+"href=\"@modules_page\">modules</a> and <a "
+"href=\"@themes_page\">themes</a> pages. In this case, you are prompted "
+"to provide either the URL to the download, or to upload a packaged "
+"release file from your local computer."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Checks for available updates, and can securely install or update "
+"modules and themes via a web interface."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The User module allows users to register, log in, and log out. It also "
+"allows users with proper permissions to manage user roles (used to "
+"classify users) and permissions associated with those roles. For more "
+"information, see the online handbook entry for <a href=\"@user\">User "
+"module</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Creating and managing users"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The User module allows users with the appropriate <a "
+"href=\"@permissions\">permissions</a> to create user accounts through "
+"the <a href=\"@people\">People administration page</a>, where they can "
+"also assign users to one or more roles, and block or delete user "
+"accounts. If allowed, users without accounts (anonymous users) can "
+"create their own accounts on the <a href=\"@register\">Create new "
+"account</a> page."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "User roles and permissions"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"<em>Roles</em> are used to group and classify users; each user can be "
+"assigned one or more roles. By default there are two roles: "
+"<em>anonymous user</em> (users that are not logged in) and "
+"<em>authenticated user</em> (users that are registered and logged in). "
+"Depending on choices you made when you installed Drupal, the "
+"installation process may have defined more roles, and you can create "
+"additional custom roles on the <a href=\"@roles\">Roles page</a>. "
+"After creating roles, you can set permissions for each role on the <a "
+"href=\"@permissions_user\">Permissions page</a>. Granting a permission "
+"allows users who have been assigned a particular role to perform an "
+"action on the site, such as viewing a particular type of content, "
+"editing or creating content, administering settings for a particular "
+"module, or using a particular function of the site (such as search)."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The <a href=\"@accounts\">Account settings page</a> allows you to "
+"manage settings for the displayed name of the anonymous user role, "
+"personal contact forms, user registration, and account cancellation. "
+"On this page you can also manage settings for account personalization "
+"(including signatures and user pictures), and adapt the text for the "
+"e-mail messages that are sent automatically during the user "
+"registration process."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Manages the user registration and login system."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Create customized lists and queries from your database."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a way of selecting multiple rows and applying operations to "
+"them."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Allows Views content to be used in Panels, Dashboard and other modules "
+"which use the CTools Content API."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Plugin to export views data into various file formats"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Administrative interface to views. Without this module, you cannot "
+"create or edit your views."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Provides a configurable up/down voting widget for other modules to "
+"use."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows adding an up/down voting widget to comments."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Defines field type which contains a voting widget."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows adding an up/down voting widget to selected content types."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows adding an up/down voting widget to taxonomy terms on a node."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides a shared voting API for other modules."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Workbench editorial suite."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Media and File features for the Workbench editorial suite."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enables you to control node display with a moderation workflow. You "
+"can have a 'Live revision' for all visitors and pending revisions "
+"which need to be approved to become the new 'Live revision.'"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides content moderation services"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Allows to edit content with client-side editors."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Provides a XMLRPC server."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Other"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Search Toolkit"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Chaos tool suite"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "DGU Features"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Input filters"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Voting"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Flags"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Statistics"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Migration"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "DGU"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Migrate Examples"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Services - authentication"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Spark"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Services - servers"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Rules"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Multilingual - Internationalization"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Mail"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Filter list"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Unavailable"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Get an overview of <a href=\"@url\">all content</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Download additional <a href=\"@modules\">contributed modules</a> to "
+"extend Drupal's functionality."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Regularly review and install <a href=\"@updates\">available "
+"updates</a> to maintain a secure and current site. Always run the <a "
+"href=\"@update-php\">update script</a> each time a module is updated."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "!enabled of !total"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Requires: !module-list"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Required by: !module-list"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Translate content"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"The Content translation module allows content to be translated into "
+"different languages. Working with the <a href=\"@locale\">Locale "
+"module</a> (which manages enabled languages and provides translation "
+"for the site interface), the Content translation module is key to "
+"creating and maintaining translated site content. For more "
+"information, see the online handbook entry for <a "
+"href=\"@translation\">Content translation module</a>."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Configuring content types for translation"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"To configure a particular content type for translation, visit the <a "
+"href=\"@content-types\">Content types</a> page, and click the "
+"<em>edit</em> link for the content type. In the <em>Publishing "
+"options</em> section, select <em>Enabled, with translation</em> under "
+"<em>Multilingual support</em>."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Assigning a language to content"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Use the <em>Language</em> drop down to select the appropriate language "
+"when creating or editing content."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Translating content"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Users with the <em>translate content</em> permission can translate "
+"content, if the content type has been configured to allow "
+"translations. To translate content, select the <em>Translation</em> "
+"tab when viewing the content, select the language for which you wish "
+"to provide content, and then enter the content."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Maintaining translations"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"If editing content in one language requires that translated versions "
+"also be updated to reflect the change, use the <em>Flag translations "
+"as outdated</em> check box to mark the translations as outdated and in "
+"need of revision. Individual translations may also be marked for "
+"revision by selecting the <em>This translation needs to be "
+"updated</em> check box on the translation editing form."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Enabled, with translation"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid ""
+"Enable multilingual support for this content type. If enabled, a "
+"language selection field will be added to the editing form, allowing "
+"you to select from one of the <a href=\"!languages\">enabled "
+"languages</a>. You can also turn on translation for this content type, "
+"which lets you have content translated to any of the installed "
+"languages. If disabled, new posts are saved with the default language. "
+"Existing content will not be affected by changing this option."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Content translation"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Translation set node ID"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "The ID of the translation set the content belongs to."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Source translation"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "The source that this content was translated from."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Translations"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Versions of content in different languages."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid ""
+"Content that is either untranslated or is the original version of a "
+"translation set."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Node translation"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Child translation"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Content that is a translation of a source translation."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Translation status"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid ""
+"The translation status of the content - whether or not the translation "
+"needs to be updated."
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Outdated"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Translate link"
+msgstr ""
+
+#: /admin/structure/types/manage/app
+msgid "Provide a simple link to translate the node."
+msgstr ""
+
+#: /admin/structure/types
+msgid "translation"
+msgstr ""
+
+#: /admin/structure/types/manage/dataset-request
+msgid "Add @entity_type"
+msgstr ""
+
+#: /admin/structure/types/manage/dataset-request
+msgid "Import @entity_type"
+msgstr ""
+
+#: /apps
+msgid "KKK"
+msgstr ""
+
+#: /apps
+msgid "Kasutustingimused"
+msgstr ""
+
+#: /www.riso.ee/et/avaandmete-roheline-raamat
+msgid "Add URL redirect from this page to another location"
+msgstr ""
+
+#: /admin/structure/panels/layouts?render=overlay
+msgid "Enabled, title"
+msgstr ""
+
+#: /admin/structure/panels/layouts?render=overlay
+msgid "Up"
+msgstr ""
+
+#: /admin/structure/panels/layouts?render=overlay
+msgid "Down"
+msgstr ""
+
+#: /apps
+msgid "Mis on opendata.riik.ee?"
+msgstr ""
+
+#: /apps
+msgid "Avaandmete roheline raamat"
+msgstr ""
+
+#: /node/add/app
+msgid "Create @name"
+msgstr ""
+
+#: /node/add/app
+msgid "Revision information"
+msgstr ""
+
+#: /node/add/app
+msgid ""
+"Provide an explanation of the changes you are making. This will help "
+"other authors understand your motivations."
+msgstr ""
+
+#: /node/add/app
+msgid "Authoring information"
+msgstr ""
+
+#: /node/add/app
+msgid ""
+"Format: %time. The date format is YYYY-MM-DD and %timezone is the time "
+"zone offset from UTC. Leave blank to use the time of form submission."
+msgstr ""
+
+#: /node/add/app
+msgid "Form position"
+msgstr ""
+
+#: /node/add/app
+msgid "Lisa rakendus"
+msgstr ""
+
+#: /node/add/app
+msgid ""
+"Optionally specify an alternative URL by which this content can be "
+"accessed. For example, type \"about\" when writing an about page. Use "
+"a relative path and don't add a trailing slash or the URL alias won't "
+"work."
+msgstr ""
+
+#: /node/add/app
+msgid "Generate automatic URL alias"
+msgstr ""
+
+#: /node/add/app
+msgid "Uncheck this to create a custom alias below."
+msgstr ""
+
+#: /node/add/app
+msgid "Configure URL alias patterns."
+msgstr ""
+
+#: /node/add/app
+msgid "Current: @state"
+msgstr ""
+
+#: /node/add/app
+msgid "Set the moderation state for this content."
+msgstr ""
+
+#: /node/add/app
+msgid "Created by !user."
+msgstr ""
+
+#: /node/add/app
+msgid "Moderation notes"
+msgstr ""
+
+#: /node/add/app
+msgid "New content"
+msgstr ""
+
+#: /node/add/app
+msgid "Your draft will be placed in moderation."
+msgstr ""
+
+#: /node/add/app
+msgid "!label: <em>!message</em>"
+msgstr ""
+
+#: /node/add/app
+msgid "Bold"
+msgstr ""
+
+#: /node/add/app
+msgid "Italic"
+msgstr ""
+
+#: /node/add/app
+msgid "Underline"
+msgstr ""
+
+#: /node/add/app
+msgid "Strike-through"
+msgstr ""
+
+#: /node/add/app
+msgid "Align left"
+msgstr ""
+
+#: /node/add/app
+msgid "Align center"
+msgstr ""
+
+#: /node/add/app
+msgid "Align right"
+msgstr ""
+
+#: /node/add/app
+msgid "Justify"
+msgstr ""
+
+#: /node/add/app
+msgid "Left-to-right"
+msgstr ""
+
+#: /node/add/app
+msgid "Right-to-left"
+msgstr ""
+
+#: /node/add/app
+msgid "Bullet list"
+msgstr ""
+
+#: /node/add/app
+msgid "Numbered list"
+msgstr ""
+
+#: /node/add/app
+msgid "Outdent"
+msgstr ""
+
+#: /node/add/app
+msgid "Indent"
+msgstr ""
+
+#: /node/add/app
+msgid "Redo"
+msgstr ""
+
+#: /node/add/app
+msgid "Unlink"
+msgstr ""
+
+#: /node/add/app
+msgid "Forecolor"
+msgstr ""
+
+#: /node/add/app
+msgid "Backcolor"
+msgstr ""
+
+#: /node/add/app
+msgid "Superscript"
+msgstr ""
+
+#: /node/add/app
+msgid "Subscript"
+msgstr ""
+
+#: /node/add/app
+msgid "Blockquote"
+msgstr ""
+
+#: /node/add/app
+msgid "Source code"
+msgstr ""
+
+#: /node/add/app
+msgid "Horizontal rule"
+msgstr ""
+
+#: /node/add/app
+msgid "Cut"
+msgstr ""
+
+#: /node/add/app
+msgid "Copy"
+msgstr ""
+
+#: /node/add/app
+msgid "Paste"
+msgstr ""
+
+#: /node/add/app
+msgid "Paste Text"
+msgstr ""
+
+#: /node/add/app
+msgid "Paste from Word"
+msgstr ""
+
+#: /node/add/app
+msgid "Show blocks"
+msgstr ""
+
+#: /node/add/app
+msgid "Remove format"
+msgstr ""
+
+#: /node/add/app
+msgid "Character map"
+msgstr ""
+
+#: /node/add/app
+msgid "HTML block format"
+msgstr ""
+
+#: /node/add/app
+msgid "Font"
+msgstr ""
+
+#: /node/add/app
+msgid "Font size"
+msgstr ""
+
+#: /node/add/app
+msgid "Font style"
+msgstr ""
+
+#: /node/add/app
+msgid "Select all"
+msgstr ""
+
+#: /node/add/app
+msgid "Replace"
+msgstr ""
+
+#: /node/add/app
+msgid "Flash"
+msgstr ""
+
+#: /node/add/app
+msgid "Smiley"
+msgstr ""
+
+#: /node/add/app
+msgid "Div container"
+msgstr ""
+
+#: /node/add/app
+msgid "iFrame"
+msgstr ""
+
+#: /node/add/app
+msgid "Maximize"
+msgstr ""
+
+#: /node/add/app
+msgid "Check spelling"
+msgstr ""
+
+#: /node/add/app
+msgid "Check spelling as you type"
+msgstr ""
+
+#: /node/add/app
+msgid "Templates"
+msgstr ""
+
+#: /node/add/app
+msgid "Add media"
+msgstr ""
+
+#: /node/add/app
+msgid "Teaser break"
+msgstr ""
+
+#: /node/add/app
+msgid "Separate the teaser and body of this content"
+msgstr ""
+
+#: /node/add/app
+msgid ""
+"Empty paragraph killer - multiple returns will not break the site's "
+"style."
+msgstr ""
+
+#: /node/add/app
+msgid "Additionally, these HTML elements will not be scanned: %blocked."
+msgstr ""
+
+#: /node/add/app
+msgid ""
+"The Lexicon module will automatically mark terms that have been "
+"defined in the lexicon vocabulary with links to their descriptions. If "
+"there are certain phrases or sections of text that should be excluded "
+"from lexicon marking and linking, use the special markup, [no-lexicon] "
+"... [/no-lexicon]."
+msgstr ""
+
+#: /node/add/app
+msgid "Entity Reference Autocomplete"
+msgstr ""
+
+#: /node/add/app
+msgid "Autocomplete taxonomy"
+msgstr ""
+
+#: /node/add/app
+msgid "User autocomplete"
+msgstr ""
+
+#: modules/file/file.js
+msgid ""
+"The selected file %filename cannot be uploaded. Only files with the "
+"following extensions are allowed: %extensions."
+msgstr ""
+
+#: profiles/dgu/modules/contrib/pathauto/pathauto.js
+msgid "Automatic alias"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/pathauto/pathauto.js
+msgid "Alias: @alias"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/pathauto/pathauto.js
+msgid "No alias"
+msgstr ""
+
+#: modules/node/node.js
+msgid "New revision"
+msgstr ""
+
+#: modules/node/node.js
+msgid "No revision"
+msgstr ""
+
+#: modules/node/node.js
+msgid "By @name on @date"
+msgstr ""
+
+#: modules/node/node.js
+msgid "By @name"
+msgstr ""
+
+#: /node/add/app
+msgid "GD2 image manipulation toolkit"
+msgstr ""
+
+#: /node/add/app
+msgid "There are no entities matching \"%value\""
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid ""
+"These settings apply only to the %field field when used in the %type "
+"type."
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid ""
+"Instructions to present to the user below this field on the editing "
+"form.<br />Allowed HTML tags: @tags"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid "Summary input"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid ""
+"This allows authors to input an explicit summary, to be displayed "
+"instead of the automatically trimmed text when using the \"Summary or "
+"trimmed\" display type."
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid "This field supports tokens."
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid "Field visibility and permissions"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid "Public (author and administrators can edit, everyone can view)"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid "Private (only author and administrators can edit and view)"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid "Custom permissions"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/body?render=overlay
+msgid "Browse available tokens."
+msgstr ""
+
+#: profiles/dgu/modules/contrib/token/token.js
+msgid "Loading token browser..."
+msgstr ""
+
+#: profiles/dgu/modules/contrib/token/token.js
+msgid "Available tokens"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/token/token.js
+msgid "Insert this token into your form"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/token/token.js
+msgid "First click a text field to insert your tokens into."
+msgstr ""
+
+#: modules/user/user.permissions.js
+msgid "This permission is inherited from the authenticated user role."
+msgstr ""
+
+#: /index.php
+msgid "Kasutab andmehulka"
+msgstr ""
+
+#: /index.php
+msgid "Kirjeldus"
+msgstr ""
+
+#: /filter/tips
+msgid ""
+"Your typing habits may include hitting the return key twice when "
+"completing a paragraph. This site will accomodate your habit, and "
+"ensure the content is in keeping with the the stylistic formatting of "
+"the site's theme."
+msgstr ""
+
+#: /filter/tips
+msgid ""
+"This site allows HTML content. While learning all of HTML may feel "
+"intimidating, learning how to use a very small number of the most "
+"basic HTML \"tags\" is very easy. This table provides examples for "
+"each tag that is enabled on this site."
+msgstr ""
+
+#: /filter/tips
+msgid ""
+"For more information see W3C's <a href=\"@html-specifications\">HTML "
+"Specifications</a> or use your favorite search engine to find other "
+"sites that explain HTML."
+msgstr ""
+
+#: /filter/tips
+msgid "Most unusual characters can be directly entered without any problems."
+msgstr ""
+
+#: /filter/tips
+msgid ""
+"If you do encounter problems, try using HTML character entities. A "
+"common example looks like &amp;amp; for an ampersand &amp; character. "
+"For a full list of entities see HTML's <a "
+"href=\"@html-entities\">entities</a> page. Some of the available "
+"characters include:"
+msgstr ""
+
+#: /node/add/app
+msgid "Ekraanitõmmised"
+msgstr ""
+
+#: /apps
+msgid "Autor"
+msgstr ""
+
+#: /apps
+msgid "Kategooria"
+msgstr ""
+
+#: /apps
+msgid ""
+"Koma-eraldatud loetelu sõnadest, mis kirjeldavad antud rakendust. "
+"Näited: meelelahutus, haridus, \"kino ja teater\"."
+msgstr ""
+
+#: /apps
+msgid "Link rakendusele"
+msgstr ""
+
+#: /apps
+msgid ""
+"Lisage täiendavaid pilte, mis illustreerivad rakenduse võimalusi. "
+"Neid kuvatakse antud portaalis rakenduse lehel, ja on klikatavad "
+"suuremaks."
+msgstr ""
+
+#: /apps
+msgid ""
+"Palun lisage informatiivne kokkuvõte oma rakendusest, mida antud "
+"portaalis kuvatakse."
+msgstr ""
+
+#: /apps
+msgid ""
+"Palun määrake, kas antud rakenduse tellijaks on avalik sektor, "
+"erasektor või on ta loodud vabatahtlikult / kasumit taotlemata."
+msgstr ""
+
+#: /apps
+msgid "Rakenduse kasutustasu"
+msgstr ""
+
+#: /apps
+msgid "Rakenduse pisipilt"
+msgstr ""
+
+#: /apps
+msgid "Registreerija e-mail"
+msgstr ""
+
+#: /apps
+msgid "Registreerija nimi"
+msgstr ""
+
+#: /apps
+msgid "Sektor"
+msgstr ""
+
+#: /apps
+msgid "Sisesta selle rakenduse URL."
+msgstr ""
+
+#: /apps
+msgid "Võtmesõnad"
+msgstr ""
+
+#: /node/add/page
+msgid "Read more<span class=\"element-invisible\"> about @title</span>"
+msgstr ""
+
+#: /node/add/page
+msgid ""
+"The trimmed version of your post shows what your post looks like when "
+"promoted to the main page or when exported for syndication.<span "
+"class=\"no-js\"> You can insert the delimiter \"&lt;!--break--&gt;\" "
+"(without the quotes) to fine-tune where your post gets split.</span>"
+msgstr ""
+
+#: /node/add/page
+msgid "Preview trimmed version"
+msgstr ""
+
+#: /node/add/page
+msgid "Preview full version"
+msgstr ""
+
+#: /admin/structure/pages?render=overlay
+msgid "open"
+msgstr ""
+
+#: /admin/structure/pages?render=overlay
+msgid "<All>"
+msgstr ""
+
+#: /node/add/page
+msgid "Site-wide settings and other global information."
+msgstr ""
+
+#: /node/add/page
+msgid "@type %title has been created."
+msgstr ""
+
+#: /juhendid
+msgid "Node being viewed"
+msgstr ""
+
+#: /juhendid
+msgid "Entity: ID"
+msgstr ""
+
+#: /juhendid
+msgid "Creates an entity context from an entity ID argument."
+msgstr ""
+
+#: /juhendid
+msgid "@entity: ID"
+msgstr ""
+
+#: /juhendid
+msgid "Creates @entity context from an ID argument."
+msgstr ""
+
+#: /juhendid
+msgid "Entity: bundle"
+msgstr ""
+
+#: /juhendid
+msgid "Control access by entity bundle."
+msgstr ""
+
+#: /juhendid
+msgid "@entity: Bundle"
+msgstr ""
+
+#: /juhendid
+msgid "Control access by @entity entity bundle."
+msgstr ""
+
+#: /juhendid
+msgid "Ckan_dataset"
+msgstr ""
+
+#: /juhendid
+msgid "Ckan_publisher"
+msgstr ""
+
+#: /juhendid
+msgid "Fieldable_panels_pane"
+msgstr ""
+
+#: /juhendid
+msgid "Message_type_category"
+msgstr ""
+
+#: /juhendid
+msgid "Message_type"
+msgstr ""
+
+#: /juhendid
+msgid "Reply_bundle"
+msgstr ""
+
+#: /juhendid
+msgid "Taxonomy_term"
+msgstr ""
+
+#: /juhendid
+msgid "Taxonomy_vocabulary"
+msgstr ""
+
+#: /juhendid
+msgid "Wysiwyg_profile"
+msgstr ""
+
+#: /juhendid
+msgid "Rules_config"
+msgstr ""
+
+#: /juhendid
+msgid "Node: type"
+msgstr ""
+
+#: /juhendid
+msgid "Control access by node_type."
+msgstr ""
+
+#: /juhendid
+msgid "String: URL path"
+msgstr ""
+
+#: /juhendid
+msgid "Control access by the current path."
+msgstr ""
+
+#: /quickedit/metadata
+msgid "Entity @type @id, field @field"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/quickedit/js/editors/formEditor.js
+msgid "Loading…"
+msgstr ""
+
+#: /node/1/edit
+msgid "<em>Edit @type</em> @title"
+msgstr ""
+
+#: /node/1/edit
+msgid ""
+"The following are a list of URL redirects that point to this "
+"@entitytype."
+msgstr ""
+
+#: /node/1/edit
+msgid "No URL redirects available."
+msgstr ""
+
+#: /node/1/edit
+msgid "Add URL redirect to this @entitytype"
+msgstr ""
+
+#: /node/1/edit
+msgid "View changes"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/redirect/redirect.js
+msgid "No redirects"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/redirect/redirect.js
+msgid "1 redirect"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/redirect/redirect.js
+msgid "@count redirects"
+msgstr ""
+
+#: /node/1/edit
+msgid "@type %title has been updated."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "HTTP response code"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Change general settings for this variant."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Basic settings"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Argument settings"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Access control"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Remove this page from your system completely."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "A meaningless second page"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Back"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Update and return"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Finish"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid ""
+"The name of this page. This will appear in the administrative "
+"interface to easily identify it."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid ""
+"The machine readable name of this page. It must be unique, and it must "
+"contain only alphanumeric characters and underscores. Once created, "
+"you will not be able to change this value!"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid ""
+"A description of what this page is, does or is for, for administrative "
+"use."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid ""
+"The URL path to get to this page. You may create named placeholders "
+"for variable parts of the path by using %name for required elements "
+"and !name for optional elements. For example: \"node/%node/foo\", "
+"\"forum/%forum\" or \"dashboard/!input\". These named placeholders can "
+"be turned into contexts on the arguments form."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Make this your site home page."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Site Information"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid ""
+"To set this panel as your home page you must create a unique path name "
+"with no % placeholders in the path. The site home page is currently "
+"set to %homepage on the !siteinfo configuration form."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Use this page in an admin overlay."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid ""
+"Admin overlays are used in many places in Drupal 7 and administrative "
+"custom pages should probably utilize this feature."
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Visible menu item"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Variant type"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid "Optional features"
+msgstr ""
+
+#: /admin/structure/pages/add?render=overlay
+msgid ""
+"Check any optional features you need to be presented with forms for "
+"configuring them. If you do not check them here you will still be able "
+"to utilize these features once the new page is created. If you are not "
+"sure, leave these unchecked."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "Administrative title of this variant."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "Disable Drupal blocks/regions"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid ""
+"Check this to have the page disable all regions displayed in the "
+"theme. Note that some themes support this setting better than others. "
+"If in doubt, try with stock themes to see."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "Remove body CSS classes"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid ""
+"The CSS classes to remove from the body element of this page. "
+"Separated by a space. For example: no-sidebars one-sidebar "
+"sidebar-first sidebar-second two-sidebars."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "Add body CSS classes"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid ""
+"The CSS classes to add to the body element of this page. Separated by "
+"a space. For example: no-sidebars one-sidebar sidebar-first "
+"sidebar-second two-sidebars."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "Renderer"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "CSS ID"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "The CSS ID to apply to this page"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid "CSS code"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/settings?render=overlay
+msgid ""
+"Enter well-formed CSS code here; this code will be embedded into the "
+"page, and should only be used for minor adjustments; it is usually "
+"better to try to put CSS for the page into the theme if possible. This "
+"CSS will be filtered for safety so some CSS may not work."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Field form: @widget_label"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Field on the referenced entity."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Activity"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Field: @widget_label (@field_name)"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Formatter options for: @widget_label (@field_name)"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Formatter Styles"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "@entity (tokens)"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Content-type"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Current-user"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Menu-link"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Current-page"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Url"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Facetapi_results"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Facetapi_active"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Facetapi_facet"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "File-type"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rules_text"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rules_integer"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rules_uri"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rules_token"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rules_decimal"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rules_date"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rules_duration"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<ckan_dataset>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<ckan_publisher>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<fieldable_panels_pane>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<message_type_category>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<message_type>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<message>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<node>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<reply>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<reply_bundle>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<file>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<term>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<vocabulary>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<user>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<rules_config>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "List<date>"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Rendered @entity_type"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Change"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Style"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Simple cache"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid ""
+"Simple caching is a time-based cache. This is a hard limit, and once "
+"cached it will remain that way until the time limit expires."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "No caching"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Caching"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Title type"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "No title"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Manually set"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "From pane"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid ""
+"The title of this panel. If left blank, a default title may be used. "
+"Set to No Title if you want the title to actually be blank."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Loading..."
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Close Window"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay
+msgid "Close window"
+msgstr ""
+
+#: /admin/structure/pages/add/page-home/content?render=overlay&render=overlay
+msgid "Update and preview"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Get a summary of the information about this page."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Variants"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Variant operations"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Get a summary of the information about this variant."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Make an exact copy of this variant."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Export this variant into code to import into another page."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Remove this variant from the page completely."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Delete and save"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid ""
+"De-activate this variant. The data will remain but the variant will "
+"not be in use on your system."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Disable and save"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid ""
+"De-activate this page. The data will remain but the page will not be "
+"in use on your system."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Add variant"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Add a new variant to this page."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Create variant"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Import variant"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Add a new variant to this page from code exported from another page."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "Update and save"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid ""
+"You have unsaved changes to this page. You must select Save to write "
+"them to the database, or Cancel to discard these changes. Please note "
+"that if you have changed any form, you must submit that form before "
+"saving."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid "New"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay
+msgid ""
+"This page is newly created and has not yet been saved to the database. "
+"It will not be available until you save it."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-home/handlers/page_home_panel_context/content?render=overlay&render=overlay
+msgid "The page has been updated and saved."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "This is your site home page."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "This page is publicly accessible."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "No menu entry."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "Normal menu entry."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "Menu tab."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "Default menu tab."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "Local action"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "No menu entry"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "This panel will always be selected."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "page-summary-label"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "page-summary-data"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "page-summary-operation"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "Selection rule"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "Edit content"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-home
+msgid "Add a new variant"
+msgstr ""
+
+#: /panels/ajax/editor/select-content/panel_context%3Apage-home%3Apage_home_panel_context/middle
+msgid "Add content to !s"
+msgstr ""
+
+#: /panels/ajax/editor/select-content/panel_context%3Apage-home%3Apage_home_panel_context/middle
+msgid ""
+"Content options are divided by category. Please select a category from "
+"the left to proceed."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid "Configure new !subtype_title"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid "View mode"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid "Select a view mode for this pane."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid "Make title a link"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid "Check here to make the title link to another page."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid ""
+"The path for this link. This can be an internal Drupal path such as "
+"%add-node or an external URL such as %drupal. Enter %front to link to "
+"the front page."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid "Make this entity reusable"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid ""
+"The category this content will appear in the \"Add content\" modal. If "
+"left blank the category will be \"Miscellaneous\"."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid "The name this content will appear in the \"Add content\" modal."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid ""
+"A description of what this content is, does or is for, for "
+"administrative use."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/fieldable_panels_pane/tile_big
+msgid ""
+"Note: Editing any value on a reusable pane will change the value "
+"everywhere this pane is used."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom
+msgid ""
+"This title will be used administratively to identify this pane. If "
+"blank, the regular title will be used."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "Custom: @title"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "Disable this pane"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "Panel title"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "CSS properties"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "No rules"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "Add new rule"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "Visibility rules"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "No lock"
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-home%3Apage_home_panel_context/middle/custom/custom/form
+msgid "Locking"
+msgstr ""
+
+#: /blog
+msgid "Last comment"
+msgstr ""
+
+#: /blog
+msgid ""
+"<a class=\"rss-icon\" href=\"/blog/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+
+#: /node/add/forum
+msgid "Loo uus foorumiteema"
+msgstr ""
+
+#: /index.php
+msgid "Foorumid"
+msgstr ""
+
+#: ; misc/tabledrag.js
+msgid "Show row weights"
+msgstr "Näita ridade kaalusid"
+
+msgid "Title"
+msgstr "Pealkiri"
+
 msgid "Username"
 msgstr "Kasutajanimi"
+
+msgid "Subject"
+msgstr "Teema"
+
+msgid "Language"
+msgstr "Keel"
 
 msgid "Password"
 msgstr "Salasõna"
 
+msgid "Name"
+msgstr "Nimi"
+
+#: ; profiles/dgu/modules/contrib/quickedit/js/views/AppView.js; profiles/dgu/modules/contrib/quickedit/js/views/EntityToolbarView.js
+msgid "Save"
+msgstr "Salvesta"
+
+msgid "Summary"
+msgstr "Kokkuvõte"
+
+msgid "Display"
+msgstr "Kuva"
+
 msgid "E-mail address"
 msgstr "E-maili aadress"
 
+msgid "Plain text"
+msgstr "Vabatekst"
+
+msgid "Forum"
+msgstr "Foorum"
+
+msgid "Blog"
+msgstr "Blogi"
+
+msgid "English"
+msgstr "Inglise"
+
+msgid "Language file"
+msgstr "Keelefail"
+
+msgid "Forums"
+msgstr "Foorumid"
+
+msgid "Add another item"
+msgstr "Lisa veel üks rida"
+
+msgid "Language neutral"
+msgstr "Keeleneutraalne"
+
 msgid "Confirm password"
 msgstr "Kinnita salasõna"
+
+msgid "Estonian"
+msgstr "Eesti"
+
+msgid "Text format"
+msgstr "Tekstiformaat"
+
+msgid "Flat list"
+msgstr "Tavaline loetelu"
+
+msgid "Threaded list"
+msgstr "Vestluste põhine loetelu"
+
+#: ; modules/field/modules/text/text.js
+msgid "Hide summary"
+msgstr "Peida kokkuvõte"
+
+#: ; modules/field/modules/text/text.js
+msgid "Edit summary"
+msgstr "Muuda kokkuvõtet"
+
+msgid "Add a new file"
+msgstr "Lisa uus fail"
+
+msgid "Files must be less than !size."
+msgstr "Failid ei tohi olla suuremad kui !size. "
+
+msgid "Allowed file types: !extensions."
+msgstr "Lubatud faili tüübid: !extensions. "
+
+msgid "More information about text formats"
+msgstr "Rohkem infot tekstiformaatide kohta"
+
+msgid "Provide a menu link"
+msgstr "Tekita menüü link"
+
+msgid "- Select a value -"
+msgstr "- Vali väärtus - "
+
+msgid "Choose a file"
+msgstr "Vali fail"
+
+#: /admin/config/regional/language
+msgid "Apps"
+msgstr "Rakendused"
+
+#: /admin/config/regional/language
+msgid "Access"
+msgstr "Ligipääs"
+
+#: /admin/config/regional/language
+msgid "Search"
+msgstr "Otsi"
+
+#: /admin/config/regional/language
+msgid "Name (raw)"
+msgstr "Nimi"
+
+#: /admin/config/regional/language
+msgid "Add content"
+msgstr "Lisa sisu"
+
+#: /index.php
+msgid "Disable rich-text"
+msgstr "Ära võimalda rich-text"
+
+#: /index.php
+msgid "Enable rich-text"
+msgstr "Võimalda rich-text"
+
+#: /index.php
+msgid ""
+"Please provide a helpful summary of your apps for when your app is "
+"published data.gov.uk."
+msgstr ""
+"Palun lisage informatiivne kokkuvõte oma rakendusest, mida antud "
+"portaalis kuvatakse."
+
+#: /index.php
+msgid ""
+"Please supply additional images of your application so that users can "
+"see what it does.\n"
+"All images will be shown on your app page which click through to the "
+"full sized image"
+msgstr ""
+"Lisage täiendavaid pilte, mis illustreerivad rakenduse võimalusi. "
+"Neid kuvatakse antud portaalis rakenduse lehel, ja on klikatavad "
+"suuremaks."
 
 #: /user
 msgid "Log in"
@@ -25858,10 +30614,81 @@ msgid "Passwords match:"
 msgstr "Salasõnad klapivad:"
 
 #: /user
+msgid "Click on the image and drag to mark how the image will be cropped"
+msgstr "Kliki pildil ja märgista milline osa pildist võetakse"
+
+#: /user
 msgid "I have an account"
 msgstr "Mul juba on kasutajakonto"
 
 #: /user
 msgid "I want to create an account"
 msgstr "Tahan luua kasutajakonto"
+
+#: /apps
+msgid "Please enter some keywords."
+msgstr "Palun sisestage otsingusõnu."
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid ""
+"<ul>\n"
+"<li>Check if your spelling is correct, or try removing filters.</li>\n"
+"<li>Remove quotes around phrases to match each word individually: "
+"<em>\"blue drop\"</em> will match less than <em>blue drop</em>.</li>\n"
+"<li>You can require or exclude terms using + and -: <em>big +blue "
+"drop</em> will require a match on <em>blue</em> while <em>big blue "
+"-drop</em> will exclude results that contain <em>drop</em>.</li>\n"
+"</ul>"
+msgstr ""
+"<ul> <li>Veendu, et otsitus pole kirjavigu või eemalda "
+"otsingufiltreid.</li> <li>Eemalda jutumärgid otsitud fraasi ümbert: "
+"<em>\"avalik info\"</em> annab vähem vasteid kui <em>avalik "
+"info</em>.</li> <li>Otsingusõnu saab nõuda või välistada kasutades "
+"+/- märke: <em>+avalik info</em> nõuab vastet vähemalt sõnale "
+"<em>avalik</em>, samas kui <em>avalik -info</em> jätab tulemustest "
+"välja sõna <em>info</em> sisaldavad vasted.</li> </ul>"
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Rakendused"
+msgstr "Rakendused"
+
+#: /node/add/app
+msgid "Inherit"
+msgstr "Päritud"
+
+#: /node/add/app
+msgid "Disabled (Hidden)"
+msgstr "Maha keeratud (varjatud)"
+
+#: /node/add/app
+msgid "Read only (Closed)"
+msgstr "Ainult loetavad (Suletud)"
+
+#: /node/add/app
+msgid "Read and write (Open)"
+msgstr "Loetavad ja muudetavad (Avatud)"
+
+#: /node/add/app
+msgid "On the same page"
+msgstr "Samal lehel"
+
+#: /node/add/app
+msgid "On custom page"
+msgstr "Eraldi lehel"
+
+#: /node/add/app
+msgid "Allow replying on replies"
+msgstr "Luba vastustele vastata"
+
+#: /node/add/app
+msgid "Allow"
+msgstr "Luba"
+
+#: /node/add/app
+msgid "Deny"
+msgstr "Keela"
+
+#: /node/add/app
+msgid "The link title is limited to @maxlength characters maximum."
+msgstr "Lingi pealkirja maksimalane pikkus on @maxlength tähemärki."
 
