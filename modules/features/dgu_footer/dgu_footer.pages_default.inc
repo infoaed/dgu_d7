@@ -657,11 +657,11 @@ function dgu_footer_default_page_manager_pages() {
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
-  $page->name = 'roheline_raamat';
+  $page->name = 'greenbook';
   $page->task = 'page';
-  $page->admin_title = 'Avaandmete_roheline_raamat';
+  $page->admin_title = 'Avaandmete roheline raamat';
   $page->admin_description = '';
-  $page->path = 'avaandmete-roheline-raamat';
+  $page->path = 'roheline-raamat';
   $page->access = array(
   		'type' => 'none',
   		'settings' => NULL,
@@ -688,7 +688,7 @@ function dgu_footer_default_page_manager_pages() {
   $handler->api_version = 1;
   $handler->name = 'page_faq_panel_context';
   $handler->task = 'page';
-  $handler->subtask = 'roheline_raamat';
+  $handler->subtask = 'greenbook';
   $handler->handler = 'panel_context';
   $handler->weight = 0;
   $handler->conf = array(
@@ -697,7 +697,7 @@ function dgu_footer_default_page_manager_pages() {
   		'pipeline' => 'standard',
   		'body_classes_to_remove' => '',
   		'body_classes_to_add' => '',
-  		'css_id' => 'roheline_raamat',
+  		'css_id' => 'greenbook',
   		'css' => '',
   		'contexts' => array(),
   		'relationships' => array(),
@@ -724,13 +724,7 @@ function dgu_footer_default_page_manager_pages() {
   $pane->subtype = 'custom';
   $pane->shown = TRUE;
   $pane->access = array();
-  $pane->configuration = array(
-	  'admin_title' => '',
-	  'title' => '',
-	  'body' => '<p>Avaandmete roheline raamat on avaandmete valdkonna poliitika süstemaatiline käsitlus, mis avab selle valdkonna põhimõtted, koosvõime arhitektuuri, olulisemad poliitikavalikud ning tegevuskava. Täpsemalt on võimalik avaandmete rohelise raamatu kohta lugeda ja seda sirvida siit:<p><a href="http://www.riso.ee/et/avaandmete-roheline-raamat">http://www.riso.ee/et/avaandmete-roheline-raamat</a></p></p>',
-	  'format' => 'full_html',
-	  'substitute' => TRUE,
-	);
+  $pane->configuration = array();
   $pane->cache = array();
   $pane->style = array(
   		'settings' => NULL,
@@ -745,7 +739,7 @@ function dgu_footer_default_page_manager_pages() {
   $display->title_pane = 'new-4';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
-  $pages['roheline_raamat'] = $page;
+  $pages['greenbook'] = $page;
 
 
   return $pages;
