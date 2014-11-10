@@ -33,7 +33,7 @@ function dgu_forum_menu_default_menu_links() {
     'menu_name' => 'menu-forum-tabs',
     'link_path' => 'forum/categories',
     'router_path' => 'forum/categories',
-    'link_title' => 'Forum categories',
+    'link_title' => 'Foorumite kategooriad',
     'options' => array(
       'attributes' => array(
         'title' => '',

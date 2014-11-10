@@ -178,7 +178,7 @@ function dgu_forum_default_page_manager_pages() {
   $page->api_version = 1;
   $page->name = 'forum_categories';
   $page->task = 'page';
-  $page->admin_title = 'Forum categories';
+  $page->admin_title = 'Foorumite kategooriad';
   $page->admin_description = 'Forum categories - top level forum landing page';
   $page->path = 'forum/categories';
   $page->access = array(
@@ -187,7 +187,7 @@ function dgu_forum_default_page_manager_pages() {
   );
   $page->menu = array(
     'type' => 'none',
-    'title' => 'Forum categories',
+    'title' => 'Foorumite kategooriad',
     'name' => 'main-menu',
     'weight' => '4',
     'parent' => array(
@@ -343,7 +343,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<a class="btn-default btn btn-primary" href="/user/login?destination=/forum">Login to take part in forums &raquo;</a>
+      'body' => '<a class="btn-default btn btn-primary" href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse &raquo;</a>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -542,7 +542,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/forum">Login to take part in forums »</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse »</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -856,7 +856,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">Login to take part in forums &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -1074,7 +1074,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">Login to take part in forums &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
