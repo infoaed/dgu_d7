@@ -278,15 +278,15 @@ function dguk_get_data_menu() {
       ),
 
       'menu-system-dashboard' => array(
-        'title' => 'System Dashboard',
+        'title' => 'Süsteemi töölaud',
         'href' => 'data/system_dashboard',
       ),
       'menu-harvest' => array(
-        'title' => 'Harvest Sources',
+        'title' => 'Andmekorje allikad',
         'href' => 'harvest',
       ),
       'menu-feedback-moderation' => array(
-        'title' => 'Feedback moderation',
+        'title' => 'Tagasiside modereerimine',
         'href' => 'data/feedback/moderation',
       ),
     );
