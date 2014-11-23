@@ -134,8 +134,8 @@ function dgu_site_feature_default_page_manager_pages() {
   $page->api_version = 1;
   $page->name = 'about_us';
   $page->task = 'page';
-  $page->admin_title = 'Mis on opendata.riik.ee?';
-  $page->admin_description = 'Mis on opendata.riik.ee?';
+  $page->admin_title = 'Mis on avaandmete portaal?';
+  $page->admin_description = 'Mis on avaandmete portaal?';
   $page->path = 'about';
   $page->access = array(
     'type' => 'none',
@@ -143,9 +143,9 @@ function dgu_site_feature_default_page_manager_pages() {
   );
   $page->menu = array(
     'type' => 'normal',
-    'title' => 'Mis on opendata.riik.ee?',
+    'title' => 'Mis on avaandmete portaal?',
     'name' => 'menu-footer',
-    'weight' => '100',
+    'weight' => '0',
     'parent' => array(
       'type' => 'none',
       'title' => '',
