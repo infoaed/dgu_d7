@@ -83,7 +83,7 @@ function dgu_footer_default_page_manager_pages() {
 			'title' => '',
 			'body' => '<p><strong>Kasutustingimused</strong></p>
 
-			<p>Kalöaksjdaöslkdj aölskdj aöslkdja öslkdj aölksdj aösd.</p>
+			<p>Kalöaksjdaöslkdj aölskdj aöslkdja öslkdj aölksdj aösd. Aga nyyd?.</p>
 			',
 			'format' => 'filtered_html',
 			'substitute' => TRUE,
