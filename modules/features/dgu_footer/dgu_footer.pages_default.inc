@@ -83,8 +83,16 @@ function dgu_footer_default_page_manager_pages() {
 			'title' => '',
 			'body' => '<p><strong>Kasutustingimused</strong></p>
 
-			<p>Kalöaksjdaöslkdj aölskdj aöslkdja öslkdj aölksdj aösd. Aga nyyd?.</p>
-			',
+<p>Avaandmete põhimõtted näevad ette, et mistahes avaandmete hulgal peab olema litsents, mis võimaldab tema vaba, piiranguteta kasutamist, töötlemist ja levitamist, sealjuures võimaldama levitamist kasutaja valikul nii tasuta kui tasu eest. Näiteks levinud kasutuslitsentsid, mida avaandmete juures kasutatakse, pärinevad mittetulundusühingu <a href="http://et.wikipedia.org/wiki/Creative_Commons">Creative Commons</a> litsentside loetelust.</p>
+
+<p>Antud portaalis avaldatud andmehulgad on üldjuhul kasutatavad litsentsi alusel, mis on andmehulga infos konkreetselt välja toodud. Kui andmehulga kasutuslitsents on mingil põhjusel märkimata, siis antud portaal loeb selleks vaikimisi Creative Commons&#39;i &quot;BY&quot; litsentsi <a href="http://creativecommons.org/licenses/by/4.0/deed.et">versioon 4.0</a>. Sama litsentsi alla käib ka kõigi antud portaalis registreeritud andmehulkade info.</p>
+
+<p><strong>Avaldamise põhiprintsiibid</strong></p>
+
+<p>Antud portaal eeldab, et kõik siin avaldatud andmehulgad ja nende kohta lisatud info on portaali poolt vabalt kasutatav, edasi jagatav ja taaskasutatv, ning teenib andmete avaldamise olulisi eesmärke, mis avalehel on loetletud. Selle eelduse tingib ka vaikimis Creative Commons BY litsent, mis plalpool märgitud. Foorumis avaldatud ideed ja küsimused, ning <a href="/apps">Rakenduste</a> all loetletud rakendused on avaldaja omad, ega kuulu mingi kasutuslitsentsi alla, välja arvatud kui on märgitud teisiti.</p>
+
+<p>&nbsp;</p>
+',
 			'format' => 'filtered_html',
 			'substitute' => TRUE,
 	);
