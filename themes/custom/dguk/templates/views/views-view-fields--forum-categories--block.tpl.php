@@ -35,15 +35,15 @@ $new_topics = dgu_forum_topics_unread($row->tid);
 </div>
 <?php endif; ?>
 <div class="views-field views-field-stats forum-category-stats">
-    <span><span class="counter"><?php print $fields['nid']->raw; ?></span> topics</span>
+    <span><span class="counter"><?php print $fields['nid']->raw; ?></span> teemat</span>
   <?php if ($new_topics): ?>
-    <span class="new"><?php print $new_topics; ?> new</span>
+    <span class="new"><?php print $new_topics; ?> uut</span>
   <?php endif; ?>
   <?php if (isset($fields['id']->raw)): ?>
-      <span><span class="counter"> <?php print $fields['id']->raw; ?></span> replies</span>
+      <span><span class="counter"> <?php print $fields['id']->raw; ?></span> vastust</span>
       <?php $new_replies = dgu_forum_replies_unread($row->tid); ?>
       <?php if ($new_replies): ?>
-        <span class="new"><?php print $new_replies; ?> new</span>
+        <span class="new"><?php print $new_replies; ?> uut</span>
       <?php endif; ?>
   <?php endif; ?>
 </div>
