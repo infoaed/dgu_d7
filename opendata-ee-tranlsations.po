@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-11-06 18:17+0000\n"
-"PO-Revision-Date: 2014-11-06 18:17+0000\n"
+"POT-Creation-Date: 2014-12-03 15:22+0000\n"
+"PO-Revision-Date: 2014-12-03 15:22+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -175,9 +175,6 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-msgid "Comments"
-msgstr ""
-
 msgid "More"
 msgstr ""
 
@@ -232,7 +229,7 @@ msgstr ""
 msgid "Advanced options"
 msgstr ""
 
-#: ; misc/machine-name.js
+#: ; misc/machine-name.js; profiles/dgu/modules/contrib/features/features.js
 msgid "Edit"
 msgstr ""
 
@@ -1795,9 +1792,11 @@ msgstr ""
 msgid "@time ago"
 msgstr ""
 
+#: ; misc/tableselect.js
 msgid "Select all rows in this table"
 msgstr ""
 
+#: ; misc/tableselect.js
 msgid "Deselect all rows in this table"
 msgstr ""
 
@@ -5047,12 +5046,10 @@ msgstr ""
 msgid "Fetcher"
 msgstr ""
 
-msgid "Submitted by !username on !datetime"
-msgstr ""
-
 msgid "Administer forums"
 msgstr ""
 
+#: ; modules/comment/comment-node-form.js
 msgid "@number comments per page"
 msgstr ""
 
@@ -19743,10 +19740,6 @@ msgid "Nimi"
 msgstr ""
 
 #: /index.php
-msgid "Posted by"
-msgstr ""
-
-#: /index.php
 msgid "on "
 msgstr ""
 
@@ -25346,7 +25339,7 @@ msgstr ""
 msgid "Current anonymous / authenticated users"
 msgstr ""
 
-#: /admin/config/administration/admin_menu
+#: /admin/config/administration/admin_menu; modules/toolbar/toolbar.js
 msgid "Show shortcuts"
 msgstr ""
 
@@ -29201,7 +29194,7 @@ msgstr ""
 msgid "Font style"
 msgstr ""
 
-#: /node/add/app
+#: /node/add/app; profiles/dgu/modules/contrib/features/features.js
 msgid "Select all"
 msgstr ""
 
@@ -30351,6 +30344,6494 @@ msgstr ""
 msgid "Foorumid"
 msgstr ""
 
+#: /forum
+msgid "Seotud andmehulgad"
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Rebuilding"
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Conflict"
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Checking..."
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Check"
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Recreate"
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Required by: !dependents"
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Missing"
+msgstr ""
+
+#: /admin/structure/features?render=overlay
+msgid "Unmet dependencies: !dependencies"
+msgstr ""
+
+#: /admin/structure/features
+msgid "Feature"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/features/features.js
+msgid "Deselect all"
+msgstr ""
+
+#: /admin/structure/features/dgu_consultation/status
+msgid "Javascript status call back."
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set/status
+msgid "Content referencing Dataset from field_uses_dataset"
+msgstr ""
+
+#: /admin/structure/features/dgu_app/status
+msgid ""
+"<a class=\"rss-icon\" href=\"/apps/top/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+
+#: /admin/structure/features/dgu_app/status
+msgid "Feed latest apps"
+msgstr ""
+
+#: /admin/structure/features/dgu_app/status
+msgid "Feed top rated apps"
+msgstr ""
+
+#: /admin/structure/features/dgu_blog/status
+msgid "Posted"
+msgstr ""
+
+#: /admin/structure/features/dgu_blog/status
+msgid ""
+"<a class=\"rss-icon\" href=\"/blog/popular/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+
+#: /admin/structure/features/dgu_blog/status
+msgid "Latest blog posts "
+msgstr ""
+
+#: /admin/structure/features/dgu_blog/status
+msgid "Blogs by the same author "
+msgstr ""
+
+#: /admin/structure/features/dgu_blog/status
+msgid "Blog posts by "
+msgstr ""
+
+#: /admin/structure/features/dgu_blog/status
+msgid "Most popular blog posts "
+msgstr ""
+
+#: /admin/structure/features/dgu_blog/status
+msgid "Feed - popular"
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set_request/status
+msgid "Number of request"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "Teema"
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set_request/status
+msgid "CSV"
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set_request/status
+msgid "1"
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set_request/status
+msgid ""
+"<a class=\"rss-icon\" href=\"/odug/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set_request/status
+msgid "In behalf of"
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set_request/status
+msgid "Latest dataset requests"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "taxonomy_forums"
+msgstr ""
+
+#: /admin/structure/features/dgu_data_set_request/status
+msgid "ODUG minutes "
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "[id] replies"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid ""
+"<a class=\"rss-icon\" href=\"/forum/popular/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "Forum categories block"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "Foorum"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "Forum Category"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "Feed latest topics"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "Latest forum topics"
+msgstr ""
+
+#: /admin/structure/features/dgu_forum/status
+msgid "Feed popular topics"
+msgstr ""
+
+#: /admin/structure/features/dgu_glossary/status
+msgid "unlabeled"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer
+msgid "Display components of a feature."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer
+msgid "Review overrides"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer
+msgid "Compare default and current feature."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer
+msgid "Revert components"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer
+msgid "Recreate an existing feature."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer
+msgid "Dependency"
+msgstr ""
+
+#: /admin/structure/features/dgu_organogram/status
+msgid "Go"
+msgstr ""
+
+#: /admin/structure/features/dgu_organogram/status
+msgid "- Choose -"
+msgstr ""
+
+#: /admin/structure/features/dgu_services/status
+msgid "Dataset entity referenced from field_uses_dataset"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/diff/page_manager_pages
+msgid "Line @lineno"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/diff/page_manager_pages
+msgid "Overrides"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "General Information"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Example: Image gallery"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Do not begin name with numbers."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Example: image_gallery"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid ""
+"May only contain lowercase letters, numbers and underscores. "
+"<strong>Try to avoid conflicts with the names of existing Drupal "
+"projects.</strong>"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid ""
+"Provide a short description of what users should expect when they "
+"enable your feature."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Package"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Organize your features in groups."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Examples: 7.x-1.0, 7.x-1.0-beta1"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Advanced Options"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "URL of update XML"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "URL of Feature Server.  For Example: http://mywebsite.com/fserver"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Path to Generate feature module"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Leave blank for <strong>@path</strong>"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid ""
+"File path for feature module.  For Example: sites/all/modules/features "
+"or /tmp.  Leave blank for "
+"<strong>profiles/dgu/modules/features</strong>"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Generate feature"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid ""
+"Expand each component section and select which items should be "
+"included in this feature export."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Filters"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Clear"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Add auto-detected dependencies"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Refresh the list of auto-detected items."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Allow conflicts to be added"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Legend"
+msgstr ""
+
+#: /admin/structure/features/dgu_footer/recreate
+msgid "Preview .info file"
+msgstr ""
+
+#: /admin/structure/block/manage/menu/menu-footer/configure?render=overlay
+msgid ""
+"Override the default title for the block. Use <em>!placeholder</em> to "
+"display no title, or leave blank to use the default block title."
+msgstr ""
+
+#: /admin/structure/block/manage/menu/menu-footer/configure?render=overlay
+msgid ""
+"Specify pages by using their paths. Enter one path per line. The '*' "
+"character is a wildcard. Example paths are %blog for the blog page and "
+"%blog-wildcard for every personal blog. %front is the front page."
+msgstr ""
+
+#: /admin/structure/block/manage/menu/menu-footer/configure?render=overlay
+msgid "Show block for specific content types"
+msgstr ""
+
+#: /admin/structure/block/manage/menu/menu-footer/configure?render=overlay
+msgid ""
+"Show this block only on pages that display content of the given "
+"type(s). If you select no types, there will be no type-specific "
+"limitation."
+msgstr ""
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaandmete_roheline_raamat%3Apage_avaandmete_roheline_raamat_panel_context/middle/custom/custom/form
+msgid "&#x2713;Panel title"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-greenbook?render=overlay
+msgid "Title: %title."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-greenbook?render=overlay
+msgid "Menu block: %title."
+msgstr ""
+
+#: /panels/ajax/editor/edit-pane/panel_context%3Apage-faq%3Apage_faq_panel_context/new-4
+msgid "Configure !subtype_title"
+msgstr ""
+
+#: /admin/content?render=overlay
+msgid "Update URL alias"
+msgstr ""
+
+#: /admin/content?render=overlay
+msgid "No content available."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-greenbook/actions/disable?render=overlay
+msgid ""
+"Disabling this page will immediately make it unavailable in your "
+"system (there is no need to wait for a save.)"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-greenbook/actions/enable?render=overlay
+msgid "Activate this page so that it will be in use in your system."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-greenbook/actions/enable?render=overlay
+msgid ""
+"Enabling this page will immediately make it available in your system "
+"(there is no need to wait for a save.)"
+msgstr ""
+
+#: /admin/structure/features/dgu_taxonomy/status
+msgid "field_tags"
+msgstr ""
+
+#: /admin/structure/features/dgu_taxonomy/status
+msgid "("
+msgstr ""
+
+#: /admin/structure/features/dgu_taxonomy/status
+msgid ")"
+msgstr ""
+
+#: /admin/structure/features/dgu_site_feature/status
+msgid "Basic page"
+msgstr ""
+
+#: /admin/structure/features/dgu_taxonomy/status
+msgid "Popular tags Apps"
+msgstr ""
+
+#: /admin/structure/features/dgu_user/status
+msgid "[type] ([nid])"
+msgstr ""
+
+#: /admin/structure/features/dgu_user/status
+msgid "Last edited"
+msgstr ""
+
+#: /admin/structure/features/dgu_user/status
+msgid "Block 3"
+msgstr ""
+
+#: /index.php
+msgid "Bootstrap to phase !phase."
+msgstr ""
+
+#: /index.php
+msgid "The feature !feature could not be found."
+msgstr ""
+
+#: /index.php
+msgid "Module appears to already exist in !dir"
+msgstr ""
+
+#: /index.php
+msgid "Do you really want to continue?"
+msgstr ""
+
+#: /index.php
+msgid "Error: !message in !file, line !line"
+msgstr ""
+
+#: /index.php
+msgid ""
+"Drush command terminated abnormally due to an unrecoverable "
+"error.!message"
+msgstr ""
+
+#: /index.php
+msgid ""
+"Reanalyzes content for links. Recommended after module has been "
+"upgraded."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Clears all link data and analyze content for links. WARNING: Custom "
+"link check settings are deleted."
+msgstr ""
+
+#: /index.php
+msgid "Check link status."
+msgstr ""
+
+#: /index.php
+msgid ""
+"List all Views Bulk Operations (VBO) views, along with the operations "
+"associated with each."
+msgstr ""
+
+#: /index.php
+msgid "Execute a bulk operation based on a Views Bulk Operations (VBO) view."
+msgstr ""
+
+#: /index.php
+msgid "ID or name of the view to be executed."
+msgstr ""
+
+#: /index.php
+msgid "ID of the operation to be applied on the view results."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Parameters to be passed as view input filters, view arguments or "
+"operation arguments, where type is respectively {input, argument, "
+"operation}."
+msgstr ""
+
+#: /index.php
+msgid "Publish nodes returned by view admin_content."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Change node ownership on nodes returned by view #44, passing argument "
+"owner_uid=3 to the action."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Unpublish nodes returned by view admin_content, filtering results of "
+"type expense and passing value 3 as first view argument."
+msgstr ""
+
+#: /index.php
+msgid ""
+"The drush command '!args' could not be found.  Run `drush cache-clear "
+"drush` to clear the commandfile cache if you have installed new "
+"extensions."
+msgstr ""
+
+#: /index.php
+msgid "Do you really want to revert @module.@component?"
+msgstr ""
+
+#: /index.php
+msgid "Reverted @module.@component."
+msgstr ""
+
+#: /admin/structure/features/dgu_footer?render=overlay&render=overlay
+msgid ""
+"Reverted all <strong>@component</strong> components for "
+"<strong>@module</strong>."
+msgstr ""
+
+#: /admin/structure/features/cleanup/clear?render=overlay
+msgid "Cleanup"
+msgstr ""
+
+#: /admin/structure/features/cleanup/clear?render=overlay
+msgid "Clear cache after enabling/disabling a feature."
+msgstr ""
+
+#: /
+msgid ""
+"<a href=\"@login\">Log in</a> or <a href=\"@register\">register</a> to "
+"post a reply"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_category/widget-type?render=overlay
+msgid ""
+"The type of form element you would like to present to the user when "
+"creating this field in the %type type."
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_category/field-settings?render=overlay
+msgid "The vocabulary which supplies the options for this field."
+msgstr ""
+
+#: /admin/structure/taxonomy?render=overlay
+msgid "edit vocabulary"
+msgstr ""
+
+#: /admin/structure/taxonomy?render=overlay
+msgid "list terms"
+msgstr ""
+
+#: /admin/structure/taxonomy?render=overlay
+msgid "add terms"
+msgstr ""
+
+#: /admin/structure/taxonomy?render=overlay
+msgid ""
+"Taxonomy is for categorizing content. Terms are grouped into "
+"vocabularies. For example, a vocabulary called \"Fruit\" would contain "
+"the terms \"Apple\" and \"Banana\"."
+msgstr ""
+
+#: /admin/structure/taxonomy?render=overlay
+msgid "Vocabulary name"
+msgstr ""
+
+#: /admin/structure/taxonomy?render=overlay
+msgid "No vocabularies available. <a href=\"@link\">Add vocabulary</a>."
+msgstr ""
+
+#: /admin/structure/taxonomy/category?render=overlay
+msgid "No terms available. <a href=\"@link\">Add term</a>."
+msgstr ""
+
+#: /admin/structure/taxonomy/category?render=overlay
+msgid ""
+"You can reorganize the terms in %capital_name using their "
+"drag-and-drop handles, and group terms under a parent term by sliding "
+"them under and to the right of the parent."
+msgstr ""
+
+#: /admin/structure/taxonomy/category/add?render=overlay
+msgid "Relations"
+msgstr ""
+
+#: /admin/structure/taxonomy/category/add?render=overlay
+msgid "Terms are displayed in ascending order by weight."
+msgstr ""
+
+#: /admin/structure/taxonomy/category/add?render=overlay
+msgid ""
+"Optionally specify an alternative URL by which this term can be "
+"accessed. Use a relative path and don't add a trailing slash or the "
+"URL alias won't work."
+msgstr ""
+
+#: /admin/structure/taxonomy/category/add?render=overlay&render=overlay
+msgid "Created new term %term."
+msgstr ""
+
+#: /admin/structure/taxonomy/category?render=overlay
+msgid "Weight for added term"
+msgstr ""
+
+#: /admin/structure/taxonomy/category?render=overlay
+msgid "Reset to alphabetical"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/field-settings?render=overlay
+msgid "The entity type that can be referenced through this field."
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/field-settings?render=overlay
+msgid "Entity selection"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/field-settings?render=overlay
+msgid "Change handler"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/field-settings?render=overlay
+msgid "Don't sort"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/field-settings?render=overlay
+msgid "A property of the base table of the entity"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/field-settings?render=overlay
+msgid "A field attached to this entity"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/field-settings?render=overlay
+msgid "Additional behaviors"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset?render=overlay
+msgid "Autocomplete matching"
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset?render=overlay
+msgid ""
+"Select the method used to collect autocomplete suggestions. Note that "
+"<em>Contains</em> can cause performance issues on sites with thousands "
+"of nodes."
+msgstr ""
+
+#: /admin/structure/ckan_dataset/dependencies?render=overlay
+msgid "Add at least two fields to enable dependencies."
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Add reply"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Rate"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Select rating"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Give it @star/@count"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Average: <span !microdata>!stars</span>"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "<span>@count</span> votes"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "No votes yet"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Revision state"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Current draft"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Edit draft"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "View draft"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Revisions"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Moderate"
+msgstr ""
+
+#: /apps/test-rakendus
+msgid "Show the content moderation history."
+msgstr ""
+
+#: /node/2
+msgid "Unpublish this revision"
+msgstr ""
+
+#: /node/2
+msgid "Unpublish revision"
+msgstr ""
+
+#: /node/2
+msgid "Unpublish the current live revision."
+msgstr ""
+
+#: /node/2
+msgid "New draft"
+msgstr ""
+
+#: /node/2
+msgid "View published"
+msgstr ""
+
+#: /admin/people/permissions?render=overlay
+msgid ""
+"Warning: Give to trusted roles only; this permission has security "
+"implications."
+msgstr ""
+
+#: /admin/people/permissions?render=overlay
+msgid "Save permissions"
+msgstr ""
+
+#: /admin/people/permissions?render=overlay
+msgid ""
+"Permissions let you control what users can do and see on your site. "
+"You can define a specific set of permissions for each role. (See the "
+"<a href=\"@role\">Roles</a> page to create a role). Two important "
+"roles to consider are Authenticated Users and Administrators. Any "
+"permissions granted to the Authenticated Users role will be given to "
+"any user who can log into your site. You can make any role the "
+"Administrator role for the site, meaning this will be granted all new "
+"permissions automatically. You can do this on the <a "
+"href=\"@settings\">User Settings</a> page. You should be careful to "
+"ensure that only trusted users are given this access and level of "
+"control of your site."
+msgstr ""
+
+#: /admin/people/permissions?render=overlay&render=overlay
+msgid "The changes have been saved."
+msgstr ""
+
+#: /system/ajax
+msgid "AHAH callback"
+msgstr ""
+
+#: /system/ajax
+msgid ""
+"No eligible views were found. <a href=\"@create\">Create a view</a> "
+"with an <em>Entity Reference</em> display, or add such a display to an "
+"<a href=\"@existing\">existing view</a>."
+msgstr ""
+
+#: /system/ajax
+msgid "The views entity selection mode requires a view."
+msgstr ""
+
+#: /admin/structure/types/manage/app/fields/field_uses_dataset/delete?render=overlay
+msgid ""
+"If you have any content left in this field, it will be lost. This "
+"action cannot be undone."
+msgstr ""
+
+#: /forum
+msgid ""
+"There are updates available for your version of Drupal. To ensure the "
+"proper functioning of your site, you should update as soon as "
+"possible."
+msgstr ""
+
+#: /forum
+msgid "Out of date"
+msgstr ""
+
+#: /forum
+msgid "(version @version available)"
+msgstr ""
+
+#: /
+msgid "Failed to get available update data."
+msgstr ""
+
+#: /users/admin
+msgid "%time ago"
+msgstr ""
+
+#: /taxonomy/term/2/edit?destination=admin%2Fstructure%2Ftaxonomy%2Fcategory&render=overlay&render=overlay
+msgid "Are you sure you want to delete the term %title?"
+msgstr ""
+
+#: /taxonomy/term/2/edit?destination=admin%2Fstructure%2Ftaxonomy%2Fcategory&render=overlay&render=overlay
+msgid ""
+"Deleting a term will delete all its children if there are any. This "
+"action cannot be undone."
+msgstr ""
+
+#: /taxonomy/term/2/edit?destination=admin%2Fstructure%2Ftaxonomy%2Fcategory&render=overlay&render=overlay&render=overlay
+msgid "Deleted term %name."
+msgstr ""
+
+#: /categories/tervishoid
+msgid "There is currently no content classified with this term."
+msgstr ""
+
+#: /admin/structure/taxonomy/forums?render=overlay
+msgid ""
+"%capital_name contains terms grouped under parent terms. You can "
+"reorganize the terms in %capital_name using their drag-and-drop "
+"handles."
+msgstr ""
+
+#: /index.php
+msgid "Foorumite kategooriad"
+msgstr ""
+
+#: /index.php
+msgid "Equivalent to --format=!default."
+msgstr ""
+
+#: /index.php
+msgid "Loading !engine engine."
+msgstr ""
+
+#: /index.php
+msgid "!label: !value"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "No available releases found"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid ""
+"The installed version of at least one of your modules or themes is no "
+"longer supported. Upgrading or disabling is strongly recommended. See "
+"the project homepage for more details."
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "Unsupported release"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "role"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "@module module"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer blocks"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "add content to books"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer book outlines"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create new books"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access printer-friendly version"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer bootstrap tours"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer CKAN datasets"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view CKAN datasets"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer CKAN publishers"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view CKAN publishers"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer contact forms"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access site-wide contact form"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access user contact forms"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access contextual links"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer facets"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer fieldable panels panes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create fieldable fieldable_panels_pane"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create fieldable tile_text_big"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create fieldable tile_text_small"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create fieldable tile_big"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create fieldable tile_small"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete fieldable fieldable_panels_pane"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete fieldable tile_text_big"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete fieldable tile_text_small"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete fieldable tile_big"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete fieldable tile_small"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit fieldable fieldable_panels_pane"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit fieldable tile_text_big"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit fieldable tile_text_small"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit fieldable tile_big"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit fieldable tile_small"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any audio files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own audio files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download any audio files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download own audio files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any audio files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own audio files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any document files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own document files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download any document files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download own document files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any document files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own document files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any image files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own image files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download any image files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download own image files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any image files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own image files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any video files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own video files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download any video files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "download own video files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any video files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own video files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer file types"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own private files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view private files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "bypass file access"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer filters"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use text format filtered_html"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use text format full_html"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer image styles"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access lexicon"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer lexicon"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer languages"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "translate interface"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer media browser"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "import media"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer menu"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer message types"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create messages"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "advanced migration information"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "migration information"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer module filter"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create app content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any app content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own app content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any app content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own app content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create article content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any article content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own article content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any article content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own article content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create blog content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any blog content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own blog content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any blog content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own blog content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create book content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any book content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own book content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any book content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own book content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create dataset_request content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any dataset_request content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own dataset_request content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any dataset_request content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own dataset_request content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create forum content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any forum content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own forum content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any forum content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own forum content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create idea content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any idea content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own idea content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any idea content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own idea content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create resource content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any resource content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own resource content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any resource content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own resource content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create organogram content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any organogram content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own organogram content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any organogram content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own organogram content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create page content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any page content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own page content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any page content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own page content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create panel content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any panel content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own panel content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any panel content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own panel content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create suggested_definition content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any suggested_definition content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own suggested_definition content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any suggested_definition content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own suggested_definition content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create suggested_term content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any suggested_term content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own suggested_term content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any suggested_term content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own suggested_term content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete revisions"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "revert revisions"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view revisions"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own unpublished content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access content overview"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer nodes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer content types"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "bypass node access"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access overlay"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer panels layouts"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer panels styles"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "change layouts in place editing"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer pane access"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer advanced pane settings"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use panels caching features"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use panels dashboard"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use panels locks"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use panels in place editing"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view pane admin links"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer mini panels"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create mini panels"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer url aliases"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create url aliases"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access in-place editing"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer redirects"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "post comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own field_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete field_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "post field_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own review_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete review_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own review_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit review_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "post review_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view review_comment reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer reply bundles"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer replies"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer search"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use advanced search"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "search content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer services"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "get a system variable"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "get any binary files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "get own binary files"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "perform unlimited index queries"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "save file information"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "set a system variable"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer string overrides"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer actions"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer modules"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer themes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "block IP addresses"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access administration pages"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access site in maintenance mode"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer site configuration"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer software updates"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access site reports"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view the administration theme"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer taxonomy"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 1"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 2"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 7"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 8"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 3"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 4"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 5"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete terms in 6"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 1"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 2"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 7"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 8"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 3"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 4"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 5"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit terms in 6"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access toolbar"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "translate content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "change own username"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access user profiles"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer permissions"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer users"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "cancel account"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "select account cancellation method"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer voting api"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access vote up/down statistics"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer vote up/down"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "reset vote up/down votes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use vote up/down"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access workbench"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer workbench"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use workbench_media add form"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer fieldgroups"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer pathauto"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "notify of path changes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer workbench moderation"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "moderate content from draft to needs_review"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "moderate content from draft to published"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "moderate content from needs_review to draft"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "moderate content from needs_review to published"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "moderate content from published to draft"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "moderate content from published to needs_review"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use workbench_moderation my drafts tab"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use workbench_moderation needs review tab"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view all unpublished content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view moderation history"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view moderation messages"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "bypass workbench moderation"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer views"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access all views"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer panel-nodes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create panel-nodes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete any panel-nodes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "delete own panel-nodes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit any panel-nodes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own panel-nodes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer features"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "generate features"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "manage features"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access rules debug"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer rules"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "bypass rules access"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_assignee"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_data_set_link"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_review_notes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_review_outcome"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_publisher_ref"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_publishers"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_review_comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "create field_review_status"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_assignee"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_data_set_link"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_review_notes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_review_outcome"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_publisher_ref"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_publishers"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_review_comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit field_review_status"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_assignee"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_data_set_link"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_review_notes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_review_outcome"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_publisher_ref"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_publishers"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_review_comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own field_review_status"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_assignee"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_data_set_link"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_review_notes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_review_outcome"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_publisher_ref"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_publishers"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_review_comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view field_review_status"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_assignee"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_data_set_link"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_review_notes"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_review_outcome"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_publisher_ref"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_publishers"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_review_comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "view own field_review_status"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access private fields"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer field permissions"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer page manager"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use page manager"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access administration menu"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "display drupal links"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "flush caches"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer dependencies"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "permission"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "blocked"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "Show only users where"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "Unblock the selected users"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "Block the selected users"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "Cancel the selected user accounts"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "Add a role to the selected users"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "Remove a role from the selected users"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "No people available."
+msgstr ""
+
+#: /admin/people/create?render=overlay
+msgid ""
+"This web page allows administrators to register new users. Users' "
+"e-mail addresses and usernames must be unique."
+msgstr ""
+
+#: /admin/people/create?render=overlay&render=overlay
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail "
+"has been sent."
+msgstr ""
+
+#: /users/lellsaar
+msgid "Administrative toolbar"
+msgstr ""
+
+#: modules/toolbar/toolbar.js
+msgid "Hide shortcuts"
+msgstr ""
+
+#: /
+msgid ""
+"There is a security update available for your version of Drupal. To "
+"ensure the security of your server, you should update immediately!"
+msgstr ""
+
+#: /node/4
+msgid "1 topic"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages?render=overlay
+msgid "Search environment"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages?render=overlay
+msgid "!search_page <em>(Default)</em>"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages?render=overlay
+msgid "<Disabled>"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages?render=overlay
+msgid "No available search pages."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages?render=overlay
+msgid "No available search blocks."
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "(@index_size on disk)"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "@num Items !pending !index_msg"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Indexed"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "@items (@percentage% has been sent to the server)"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Remaining"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Schema"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "@schema_version"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Solr Core Name"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "@core_name"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Delay"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "@autocommit_time before updates are processed."
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Pending Deletions"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "@deletes_total"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "@environment: Search Index Content"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "View more details on the search index contents"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Index queued content (!amount)"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Indexes just as many items as 1 cron run would do."
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Index all queued content"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Could take time and could put an increased load on your server."
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Queue all content for reindexing"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Delete the Search & Solr index"
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Useful with a corrupt index or a new schema.xml."
+msgstr ""
+
+#: /admin/config/search/apachesolr?render=overlay
+msgid "Select the entity types and bundles that should be indexed."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/remaining?render=overlay
+msgid "Are you sure you want index all remaining content?"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/remaining?render=overlay
+msgid "Index all remaining"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/remaining?render=overlay&render=overlay
+msgid "Indexing"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/remaining?render=overlay&render=overlay
+msgid "Preparing to submit content to Solr for indexing..."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/remaining?render=overlay&render=overlay
+msgid "Submitting content to Solr..."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/remaining?render=overlay&render=overlay
+msgid "Solr indexing has encountered an error."
+msgstr ""
+
+#: /batch?render=overlay&id=5&op=do
+msgid ""
+"Inspected @current of @total entities. Submitted @submitted documents "
+"to Solr"
+msgstr ""
+
+#: /batch?render=overlay&id=5&op=finished
+msgid "1 item processed successfully. "
+msgstr ""
+
+#: /batch?render=overlay&id=5&op=finished
+msgid "@count documents successfully sent to Solr."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index?render=overlay
+msgid "Facets"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index?render=overlay
+msgid "Bias"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index?render=overlay
+msgid "Edit Apache Solr search environment."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid ""
+"For performance reasons, you should only enable facets that you intend "
+"to have available to users on the search page."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Configure display"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Configure dependencies"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Do not display active items"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Only show items in the current level of the hierarchy"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Configure filters"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Export configuration"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid ""
+"To enable block caching, visit the <a "
+"href=\"@performance-page\">performance page</a>."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Block cache settings"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Do not cache"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Per role"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Per user"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Show facets on non-search pages."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Non-search paths"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Settings for: @environment (<a href=\"@url\">Overview</a>)"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Facet"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "Reset to defaults"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "Ignore"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "Result biasing"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"Give bias to certain properties when ordering the search results. Any "
+"value except <em>Ignore</em> will increase the score of the given type "
+"in search results. Choose <em>Ignore</em> to ignore any given "
+"property."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"Select additional bias to give to nodes that are set to be 'Sticky at "
+"top of lists'."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "Promoted to home page"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"Select additional bias to give to nodes that are set to be 'Promoted "
+"to home page'."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "More recently created"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"This setting will change the result scoring so that nodes created more "
+"recently may appear before those with higher keyword matching."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "More comments"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"This setting will change the result scoring so that nodes with more "
+"comments may appear before those with higher keyword matching."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "More recent comments"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"This setting will change the result scoring so that nodes with the "
+"most recent comments (or most recent updates to the node itself) may "
+"appear before those with higher keyword matching."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "Type biasing"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"Specify here which node types should get a higher relevancy score in "
+"searches. Any value except <em>Ignore</em> will increase the score of "
+"the given type in search results."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "%type type content bias"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "Omit"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid "Field biases"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/bias?render=overlay
+msgid ""
+"Specify here which fields are more important when searching. Give a "
+"field a greater numeric value to make it more important. If you omit a "
+"field, it will not be searched."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Solr server URL"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Example: http://localhost:8983/solr"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Make this Solr search environment the default"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Environment id"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Unique, machine-readable identifier for this Solr environment."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Index write access"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Read and write (normal)"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Read only"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid ""
+"<em>Read only</em> stops this site from sending updates to this search "
+"environment. Useful for development sites."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Save and edit"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?render=overlay
+msgid "Test connection"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "!environment <em>(Default)</em>"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Advanced configuration"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Extra help messages for administrators"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid ""
+"Adds notices to a page whenever Drupal changed content that needs "
+"reindexing"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Number of items to index per cron run"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid ""
+"Reduce the number of items to prevent timeouts and memory errors while "
+"indexing."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Show error message"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Show @name search results"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Show no results"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "On failure"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Autocomplete widget to use"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid ""
+"The custom widget provides instant search upon selection, whereas the "
+"Drupal widget needs the user to hit Enter or click on the Search "
+"button. If you are having problems, try switching to the default "
+"Drupal autocomplete widget."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Custom autocomplete widget"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Drupal core autocomplete widget"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Enable additional keyword suggestions on the autocomplete widget"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid ""
+"Suggest words to add to the currently typed-in words. E.g.: typing "
+"\"blue\" might suggest \"blue bike\" or \"blue shirt\"."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Enable spellchecker suggestions on the autocomplete widget"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid ""
+"Suggest corrections to the currently typed-in words. E.g.: typing "
+"\"rec\" or \"redd\" might suggest \"red\"."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid "Enable counts in autocomplete widget suggestions"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings?render=overlay
+msgid ""
+"WARNING: Counts shown alongside suggestions might be lower than the "
+"actual result count due to stemming and minimum match (mm) settings in "
+"solrconfig.xml."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "There are @count items left to index."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "%percentage of the site has been indexed."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Indexing status"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Re-index site"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Indexing throttle"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid ""
+"The maximum number of items indexed in each pass of a <a "
+"href=\"@cron\">cron maintenance task</a>. If necessary, reduce the "
+"number of items to prevent timeouts and memory errors while indexing."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Indexing settings"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid ""
+"<p><em>Changing the settings below will cause the site index to be "
+"rebuilt. The search index is not cleared but systematically updated to "
+"reflect the new settings. Searching will continue to work but new "
+"content won't be indexed until all existing content has been "
+"re-indexed.</em></p><p><em>The default settings should be appropriate "
+"for the majority of sites.</em></p>"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Minimum word length to index"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid ""
+"The number of characters a word has to be to be indexed. A lower "
+"setting means better search result ranking, but also a larger "
+"database. Each search query must contain at least one keyword that is "
+"this size (or longer)."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Simple CJK handling"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid ""
+"Whether to apply a simple Chinese/Japanese/Korean tokenizer based on "
+"overlapping sequences. Turn this off if you want to use an external "
+"preprocessor for this instead. Does not affect other languages."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Active search modules"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Active modules"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Choose which search modules are active from the available modules."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Default search module"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Choose which search module is the default."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Content ranking"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid ""
+"Influence is a numeric multiplier used in ordering search results. A "
+"higher number means the corresponding factor has more influence on "
+"search results; zero means the factor is ignored. Changing these "
+"numbers does not require the search index to be rebuilt. Changes take "
+"effect immediately."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Keyword relevance"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Content is sticky at top of lists"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Content is promoted to the front page"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Recently posted"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid ""
+"The search engine maintains an index of words found in your site's "
+"content. To build and maintain this index, a correctly configured <a "
+"href=\"@cron\">cron maintenance task</a> is required. Indexing "
+"behavior can be adjusted using the settings below."
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Factor"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay
+msgid "Influence"
+msgstr ""
+
+#: /admin/config/search/settings/reindex?render=overlay
+msgid "Are you sure you want to re-index the site?"
+msgstr ""
+
+#: /admin/config/search/settings/reindex?render=overlay
+msgid ""
+"The search index is not cleared but systematically updated to reflect "
+"the new settings. Searching will continue to work but new content "
+"won't be indexed until all existing content has been re-indexed. This "
+"action cannot be undone."
+msgstr ""
+
+#: /admin/config/search/settings/reindex?render=overlay&render=overlay
+msgid "The index will be rebuilt."
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "Statistics for !name"
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "Number of documents in index"
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "Not indexed"
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "# of fields in index"
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "Index type"
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "Distinct terms"
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "Configuration files"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/reset?render=overlay
+msgid "Reindex"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/reset?render=overlay
+msgid "Are you sure you want to queue content for reindexing?"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/reset?render=overlay
+msgid ""
+"All content on the site will be queued for indexing. The documents "
+"currently in the Solr index will remain searchable."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/reset?render=overlay
+msgid "Queue all content"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/reset?render=overlay&render=overlay
+msgid ""
+"All the content on your site is queued for indexing. You can wait for "
+"it to be indexed during cron runs, or you can manually reindex it."
+msgstr ""
+
+#: /batch?render=overlay&id=6&op=finished
+msgid "@count items successfully processed. "
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/delete?render=overlay
+msgid "Are you sure you want to clear your index?"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/delete?render=overlay
+msgid ""
+"This will remove all data from your index and all search results will "
+"be incomplete until your site is reindexed."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/delete?render=overlay
+msgid "Delete index"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index/delete?render=overlay&render=overlay
+msgid "The index has been deleted."
+msgstr ""
+
+#: /admin/reports/apachesolr/solr?render=overlay
+msgid "No data on indexed fields."
+msgstr ""
+
+#: /admin/reports/apachesolr/solr/conf?render=overlay
+msgid "Size (bytes): @bytes"
+msgstr ""
+
+#: /admin/reports/apachesolr/solr/conf?render=overlay
+msgid "Modified"
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsettings&render=overlay&render=overlay
+msgid ""
+"To enable or arrange the facet blocks, visit the <a "
+"href=\"@block-page\">blocks administration page</a>."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Edit search page"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "The human-readable name of the search page configuration."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"A unique machine-readable identifier for the search page "
+"configuration. It must only contain lowercase letters, numbers, and "
+"underscores."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Provide description"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Make this Solr Search Page the default"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"Useful for eg. making facets to link to this page when they are shown "
+"on non-search pages"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Search Page Information"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "This page always uses the current default search environment"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Search Type"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"Use this only when filtering on a value from the search path.\n"
+"      For example, select Taxonomy Term to filter on a term ID "
+"(search/taxonomy/%)."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"For example: search/my-search-page. Search keywords will appear at the "
+"end of the path."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Custom Filter"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "E.g. \"bundle:blog, is_uid:(1 OR 2)\""
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Custom filters"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "A comma-separated list of lucene filter queries to apply by default."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Advanced Search Page Options"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Results per page"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "How many items will be displayed on one page of the search result."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Enable spell check"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Display \"Did you mean … ?\" above search results."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Enable the search box on the page"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Display a search box on the page."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Allow user input using the URL"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"Allow users to use the URL for manual facetting via fq[] params (e.g. "
+"http://example.com/search/site/test?fq[]=uid:1&fq[]=tid:99). This will "
+"only work in combination with a keyword search. The recommended value "
+"is unchecked"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"This is what is shown when the user enters an empty search, or removes "
+"all filters from an active search."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"Remember to configure the facets on the <a href=\"!facetslink\">search "
+"environment page</a> and assign blocks to regions on the <a "
+"href=\"!blocklink\">block settings page</a>"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Behavior on empty search"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Show search box"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Show enabled facets' blocks under the search box"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid "Show enabled facets' blocks in their configured regions"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/core_search/edit?render=overlay
+msgid ""
+"Show enabled facets' blocks in their configured regions and first page "
+"of all available results"
+msgstr ""
+
+#: /about
+msgid "Mis on avaandmete portaal?"
+msgstr ""
+
+#: /admin/structure/pages/wizard?render=overlay
+msgid "Landing page"
+msgstr ""
+
+#: /admin/structure/pages/wizard?render=overlay
+msgid "Landing page wizard"
+msgstr ""
+
+#: /admin/structure/pages/wizard?render=overlay
+msgid ""
+"Landing pages are simple pages that have a path, possibly a visible "
+"menu entry, and a panel layout with simple content."
+msgstr ""
+
+#: /admin/structure/pages/import?render=overlay
+msgid "Page name"
+msgstr ""
+
+#: /admin/structure/pages/import?render=overlay
+msgid ""
+"Enter the name to use for this page if it is different from the source "
+"page. Leave blank to use the original name of the page."
+msgstr ""
+
+#: /admin/structure/pages/import?render=overlay
+msgid ""
+"Enter the path to use for this page if it is different from the source "
+"page. Leave blank to use the original path of the page."
+msgstr ""
+
+#: /admin/structure/pages/import?render=overlay
+msgid "Allow overwrite of an existing page"
+msgstr ""
+
+#: /admin/structure/pages/import?render=overlay
+msgid ""
+"If the name you selected already exists in the database, this page "
+"will be allowed to overwrite the existing page."
+msgstr ""
+
+#: /admin/structure/pages/import?render=overlay
+msgid "Paste page code here"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/content?render=overlay&render=overlay
+msgid ""
+"The page has been updated. Changes will not be permanent until you "
+"save."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/preview?render=overlay
+msgid "This setting contains unsaved changes."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/preview?render=overlay
+msgid ""
+"This page has been modified, but these modifications are not yet live. "
+"While modifying this page, it is locked from modification by other "
+"users."
+msgstr ""
+
+#: /admin/structure/pages?render=overlay
+msgid ""
+"This page is currently locked for editing by you. Nobody else may edit "
+"this page until these changes are saved or canceled."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "No criteria selected, this test will pass."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Node: (un)published"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by the nodes published status."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Taxonomy: vocabulary"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by vocabulary."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Current theme"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by checking which theme is in use."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "User: language"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by the language the user or site currently uses."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "String: comparison"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by string match."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Node: language"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by node language."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "User: compare"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Compare two users (logged-in user and user being viewed, for example)"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "First User"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Second User"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Taxonomy: term"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by a specific term."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access through arbitrary PHP code."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "String: length"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by length of string context."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "(Custom) Entity: Field Value"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by entity field value."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Taxonomy: term has parent(s)"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access if a term belongs to a specific parent term."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Context exists"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by whether or not a context exists and contains data."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Node: accessible"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access with built in Drupal node access test."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Taxonomy: parent term"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by existence of a parent term."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Is this the front page."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "@entity @type: @field Field"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "All criteria must pass."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Only one criteria must pass."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Normal menu entry"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Menu tab"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Default menu tab"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "If set to normal or tab, enter the text to use for the menu item."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Insert item into an available menu."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "The lower the weight the higher/further left it will appear."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Parent menu item"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Normal menu item"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid ""
+"When providing a menu item as a default tab, Drupal needs to know what "
+"the parent menu item of that tab will be. Sometimes the parent will "
+"already exist, but other times you will need to have one created. The "
+"path of a parent item will always be the same path with the last part "
+"left off. i.e, if the path to this view is <em>foo/bar/baz</em>, the "
+"parent path would be <em>foo/bar</em>."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Parent item title"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "If creating a parent menu item, enter the title of the item."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Parent item menu"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid "Tab weight"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/menu
+msgid ""
+"If the parent menu item is a tab, enter the weight of the tab. The "
+"lower the number, the more to the left it will be."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/facets?render=overlay
+msgid "Revert configuration"
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/taxonomy_search/edit?render=overlay
+msgid ""
+"The environment that is used by this search page. If no environment is "
+"selected, this page will be disabled."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/taxonomy_search/edit?render=overlay
+msgid "You can use one % to make the search page dynamic."
+msgstr ""
+
+#: /admin/config/search/apachesolr/search-pages/taxonomy_search/edit?render=overlay
+msgid ""
+"E.g. \"bundle:blog, is_uid:(1 OR 2 OR %). % will be replaced by the "
+"value of % in the path\""
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Block name"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "The block name displayed to site users."
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Maximum number of related items to display"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Fields for finding related content"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid ""
+"Choose the fields to be used in calculating similarity. The default "
+"combination of %taxonomy_names and %title will provide relevant "
+"results for typical sites."
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Minimum term frequency"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid ""
+"A word must appear this many times in any given document before the "
+"document is considered relevant for comparison."
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Minimum document frequency"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid ""
+"A word must occur in at least this many documents before it will be "
+"used for similarity comparison."
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Minimum word length"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Maximum word length"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid ""
+"You can use this to eliminate very long words from similarity "
+"comparisons. Words of more than this number of characters will be "
+"ignored."
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Maximum number of query terms"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid ""
+"The maximum number of query terms that will be included in any query. "
+"Lower numbers will result in fewer recommendations but will get "
+"results faster. If a content recommendation is not returning any "
+"recommendations, you can either check more \"Comparison fields\" "
+"checkboxes or increase the maximum number of query terms here."
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Content Types"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid ""
+"Select the content types that similarity suggestions should be "
+"restricted to. Multiple types are joined with an OR query, so "
+"selecting more types results in more recommendations. If none are "
+"selected, no filter will be applied."
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid "Additional Query"
+msgstr ""
+
+#: /admin/structure/block/manage/apachesolr_search/mlt-001/configure?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsearch-pages&render=overlay
+msgid ""
+"A query, in Lucene syntax, which will further filter the similarity "
+"suggestions. For example, 'label:strategy' will filter related content "
+"further to only those with strategy in the title. Here are some more "
+"examples:"
+msgstr ""
+
+#: /admin/config/search/settings?render=overlay&render=overlay
+msgid "The active search modules have been changed."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsettings&render=overlay&render=overlay&render=overlay
+msgid "Your site was unable to contact the Apache Solr server."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/edit?destination=admin%2Fconfig%2Fsearch%2Fapachesolr%2Fsettings&render=overlay&render=overlay&render=overlay&render=overlay&render=overlay&render=overlay
+msgid "The %name search environment has been saved."
+msgstr ""
+
+#: /admin/config/search/apachesolr/settings/solr/index?render=overlay
+msgid "(@pending_docs sent but not yet processed)"
+msgstr ""
+
+#: /search/everything/saulius?f[0]=bundle%3Aforum&solrsort=score
+msgid "Showing items @start through @end of @total."
+msgstr ""
+
+#: /search/everything/saulius?f[0]=bundle%3Aforum&solrsort=score
+msgid "Apply @text filter"
+msgstr ""
+
+#: /search/everything/saulius?f[0]=bundle%3Aforum&solrsort=score
+msgid "Remove @text filter"
+msgstr ""
+
+#: /search/everything/saulius?f[0]=bundle%3Aforum&solrsort=score
+msgid "Configure facet display"
+msgstr ""
+
+#: /search/everything/saulius?f[0]=bundle%3Aforum&solrsort=score
+msgid "Configure facet dependencies"
+msgstr ""
+
+#: /search/everything/saulius?f[0]=bundle%3Aforum&solrsort=score
+msgid "Configure facet filters"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/facetapi/facetapi.js
+msgid "Show more"
+msgstr ""
+
+#: profiles/dgu/modules/contrib/facetapi/facetapi.js
+msgid "Show fewer"
+msgstr ""
+
+#: /admin/reports/status?render=overlay
+msgid "Quick Edit: theme compatibility"
+msgstr ""
+
+#: /admin/reports/status?render=overlay
+msgid "The theme appears compatible"
+msgstr ""
+
+#: /admin/reports/status?render=overlay
+msgid "Info"
+msgstr ""
+
+#: /admin/reports/status?render=overlay
+msgid "Warning"
+msgstr ""
+
+#: /admin/reports/status?render=overlay
+msgid ""
+"Here you can find a short overview of your site's parameters as well "
+"as any problems detected with your installation. It may be useful to "
+"copy and paste this information into support requests filed on "
+"drupal.org's support forums and project issue queues."
+msgstr ""
+
+#: /search/everything/seisma?f[0]=bundle%3Aforum&solrsort=score
+msgid "Solr search"
+msgstr ""
+
+#: /search/everything/seisma?f[0]=bundle%3Aforum&solrsort=score
+msgid ""
+"Search is temporarily unavailable. If the problem persists, please "
+"contact the site administrator."
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid ""
+"To change the current user password, enter the new password in both "
+"fields."
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid "Request new password via e-mail."
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid ""
+"Enter your current password to change the %mail or %pass. "
+"!request_new."
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid "Cancel account"
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid ""
+"Allow other users to contact you via a <a href=\"@url\">personal "
+"contact form</a> which keeps your e-mail address hidden. Note that "
+"some privileged users such as site administrators are still able to "
+"contact you even if you choose to disable this feature."
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid "My Account"
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid "My Profile"
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid "Locale settings"
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid "Time zone"
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid "- None selected -"
+msgstr ""
+
+#: /user/4/edit?destination=admin%2Fpeople&render=overlay
+msgid ""
+"Select the desired local time and time zone. Dates and times "
+"throughout this site will be displayed using this time zone."
+msgstr ""
+
+#: /admin/content
+msgid "Download"
+msgstr ""
+
+#: /user/4/edit
+msgid "Current password"
+msgstr ""
+
+#: /node/16/edit
+msgid "Edited by !user."
+msgstr ""
+
+#: /forum/andmete-kasutamine/risto
+msgid "List revisions"
+msgstr ""
+
+#: /forum/andmete-kasutamine/risto
+msgid "Show latest difference"
+msgstr ""
+
+#: /admin/workbench/needs-review?render=overlay
+msgid "Article"
+msgstr ""
+
+#: /admin/workbench/needs-review?render=overlay
+msgid "- Any -"
+msgstr ""
+
+#: /admin/workbench/needs-review?render=overlay
+msgid "Needs Review"
+msgstr ""
+
+#: /admin/workbench/needs-review?render=overlay
+msgid "Change to %label"
+msgstr ""
+
+#: /node/16/moderation/17/change-state/published?destination=admin/workbench/needs-review&token=XjwPfgXY11jryN6gGMu4_aQPa3anSNzvT739z-IQ97Y
+msgid "Change moderation state"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Automatically updates the search index after a node has been "
+"added/updated."
+msgstr ""
+
+#: /admin/config/system/cron?render=overlay
+msgid ""
+"Cron takes care of running periodic tasks like checking for updates "
+"and indexing content for search."
+msgstr ""
+
+#: /admin/config/system/cron?render=overlay
+msgid "Last run: %cron-last ago."
+msgstr ""
+
+#: /admin/config/system/cron?render=overlay
+msgid "Run cron every"
+msgstr ""
+
+#: /admin/config/system/cron?render=overlay
+msgid ""
+"More information about setting up scheduled tasks can be found by <a "
+"href=\"@url\">reading the cron tutorial on drupal.org</a>."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Access denied for user @user"
+msgstr ""
+
+#: /user
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "Connection Settings"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "CKAN API URL"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid ""
+"URL for CKAN API - starting http:// and ending / <br />\n"
+"    For the api at http://www.ckan.net/api the url is "
+"http://www.ckan.net/api/"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "API key"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "CKAN API key"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "Other Settings"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "CKAN editor role"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid ""
+"Please select which role should be used to synchronise editor users "
+"from CKAN."
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "CKAN admin role"
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid ""
+"Please select which role should be used to synchronise admin users "
+"from CKAN."
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "Last Update Revison "
+msgstr ""
+
+#: /admin/config/system/ckan?render=overlay
+msgid "Number of revisions processed in single update"
+msgstr ""
+
+#: /admin/structure/services?render=overlay
+msgid "Enabled, name"
+msgstr ""
+
+#: /admin/structure/services?render=overlay
+msgid ""
+"Services are collections of methods available to remote applications. "
+"They are defined in modules, and may be accessed in a number of ways "
+"through server modules. Visit the <a href=\"@handbook_url\">Services "
+"Handbook</a> for help and information."
+msgstr ""
+
+#: /admin/structure/services?render=overlay
+msgid ""
+"All enabled services and methods are shown. Click on any method to "
+"view information or test."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/authentication?render=overlay
+msgid "Authentication"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/authentication?render=overlay
+msgid "No authentication modules are enabled, all requests will be anonymous."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/authentication?render=overlay
+msgid "Server"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/resources?render=overlay
+msgid "Retrieve"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/resources?render=overlay
+msgid ""
+"Select the resource(s) or methods you would like to enable, and click "
+"<em>Save</em>."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/resources?render=overlay
+msgid "No description is available"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/resources?render=overlay
+msgid "Resource"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/resources?render=overlay
+msgid "Alias"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/resources?render=overlay
+msgid "Expand"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/resources?render=overlay
+msgid "Collapse"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "The unique ID for this @export."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "Machine-readable name of the endpoint"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid ""
+"The endpoint name can only consist of lowercase letters, underscores, "
+"and numbers."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "-- Select a server"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid ""
+"Select a the server that should be used to handle requests to this "
+"endpoint."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "Path to endpoint"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "Debug mode enabled"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "Useful for developers. Do not enable on production environments"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "Session authentication"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "Uses Drupal's built in sessions to authenticate."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid ""
+"Choose which authentication schemes that should be used with your "
+"endpoint. If no authentication method is selected all requests will be "
+"done by an anonymous user."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/authentication
+msgid "@module has no settings available."
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc/authentication
+msgid "Your authentication options have been saved."
+msgstr ""
+
+#: /admin/modules
+msgid "Provides HTTP basic authentication for the services module"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "HTTP basic authentication"
+msgstr ""
+
+#: /admin/structure/services/list/xmlrpc?render=overlay
+msgid "Username and password are sent in each request"
+msgstr ""
+
+#: /user/2/edit?destination=admin%2Fpeople&render=overlay
+msgid "Use the overlay for administrative pages."
+msgstr ""
+
+#: /user/2/edit?destination=admin%2Fpeople&render=overlay
+msgid "Show administrative pages on top of the page you started from."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Anonymous users"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "The name used to indicate anonymous users."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Administrator role"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"This role will be automatically assigned new permissions whenever a "
+"module is enabled. Changing this setting will not affect existing "
+"permissions."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Registration and cancellation"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Who can register accounts?"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Administrators only"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Visitors"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Visitors, but administrator approval is required"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Require e-mail verification when a visitor creates an account."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"New users will be required to validate their e-mail address prior to "
+"logging into the site, and will be assigned a system-generated "
+"password. With this setting disabled, users will be logged in "
+"immediately upon registering, and may select their own passwords "
+"during registration."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "When cancelling a user account"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Select method for cancelling account"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Users with the %select-cancel-method or %administer-users <a "
+"href=\"@permissions-url\">permissions</a> can override this default "
+"method."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Disable the account and keep its content."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Your account will be blocked and you will no longer be able to log in. "
+"All of your content will remain attributed to your user name."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Disable the account and unpublish its content."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Your account will be blocked and you will no longer be able to log in. "
+"All of your content will be hidden from everyone but administrators."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Delete the account and make its content belong to the %anonymous-name "
+"user."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Your account will be removed and all account information deleted. All "
+"of your content will be assigned to the %anonymous-name user."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Delete the account and its content."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Your account will be removed and all account information deleted. All "
+"of your content will also be deleted."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Personalization"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Enable signatures."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Enable user pictures."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Picture directory"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Subdirectory in the file upload directory where pictures will be "
+"stored."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Default picture"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"URL of picture to display for users with no custom picture selected. "
+"Leave blank for none."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Picture display style"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"The style selected will be used on display, while the original image "
+"is retained. Styles may be configured in the <a href=\"!url\">Image "
+"styles</a> administration area."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Picture upload dimensions"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Pictures larger than this will be scaled down to this size."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Picture upload file size"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "KB"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Maximum allowed file size for uploaded pictures. Upload size is "
+"normally limited only by the PHP maximum post and file upload "
+"settings, and images are automatically scaled down to the dimensions "
+"specified above."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Picture guidelines"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"This text is displayed at the picture upload form in addition to the "
+"default guidelines. It's useful for helping or instructing your users."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "E-mails"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Available variables are: [site:name], [site:url], [user:name], "
+"[user:mail], [site:login-url], [site:url-brief], [user:edit-url], "
+"[user:one-time-login-url], [user:cancel-url]."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Welcome (new user created by administrator)"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Edit the welcome e-mail messages sent to new member accounts created "
+"by an administrator."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Welcome (awaiting approval)"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Edit the welcome e-mail messages sent to new members upon registering, "
+"when administrative approval is required."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Welcome (no approval required)"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Edit the welcome e-mail messages sent to new members upon registering, "
+"when no administrator approval is required."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Password recovery"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Edit the e-mail messages sent to users who request a new password."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Account activation"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Enable and edit e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Notify user when account is activated."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Account blocked"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Enable and edit e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Notify user when account is blocked."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Account cancellation confirmation"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Edit the e-mail messages sent to users when they attempt to cancel "
+"their accounts."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Account canceled"
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"Enable and edit e-mail messages sent to users when their accounts are "
+"canceled."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid "Notify user when account is canceled."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"This setting has been locked by the LoginToboggan module. You can "
+"change this setting by modifying the <strong>Set password</strong> "
+"checkbox at <a href=\"!link\">LoginToboggan settings page</a>."
+msgstr ""
+
+#: /admin/config/people/accounts?render=overlay
+msgid ""
+"The list of available tokens that can be used in e-mails is provided "
+"below."
+msgstr ""
+
+#: /admin/config/people/accounts/fields?render=overlay
+msgid ""
+"This form lets administrators add, edit, and arrange fields for "
+"storing user data."
+msgstr ""
+
+#: /admin/config/people/accounts/fields/field_fullname?destinations[0]=admin/config/people/accounts/fields%3Frender%3Doverlay&render=overlay
+msgid "Display on user registration form."
+msgstr ""
+
+#: /admin/config/people/accounts/fields/field_fullname?destinations[0]=admin/config/people/accounts/fields%3Frender%3Doverlay&render=overlay
+msgid "This is compulsory for 'required' fields."
+msgstr ""
+
+#: /user
+msgid ""
+"The e-mail address %email is already registered. <a "
+"href=\"@password\">Have you forgotten your password?</a>"
+msgstr ""
+
+#: /user
+msgid "Further instructions have been sent to your e-mail address."
+msgstr ""
+
+#: /user
+msgid ""
+"Thank you for applying for an account. Your account is currently "
+"pending approval by the site administrator.<br />Once it has been "
+"approved, you will receive an e-mail containing further instructions."
+msgstr ""
+
+#: /user
+msgid ""
+"Account details for [user:name] at [site:name] (pending admin "
+"approval)"
+msgstr ""
+
+#: /user
+msgid ""
+"[user:name] has applied for an account.\n"
+"\n"
+"[user:edit-url]"
+msgstr ""
+
+#: /user
+msgid ""
+"\n"
+"\n"
+"The user has automatically received the permissions of the "
+"LoginToboggan validating role. To give the user full site permissions, "
+"click the link below:\n"
+"\n"
+"!validation_url/admin\n"
+"\n"
+"Alternatively, you may visit their user account listed above and "
+"remove them from the validating role."
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay
+msgid "When cancelling these accounts"
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay
+msgid "Require e-mail confirmation to cancel account."
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay
+msgid ""
+"When enabled, the user must confirm the account cancellation via "
+"e-mail."
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay
+msgid ""
+"When enabled, the user will receive an e-mail notification after the "
+"account has been cancelled."
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay
+msgid "Are you sure you want to cancel these user accounts?"
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay
+msgid "Cancel accounts"
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay&render=overlay
+msgid "Cancelling account"
+msgstr ""
+
+#: /admin/people?render=overlay&render=overlay&render=overlay
+msgid "Cancelling user account"
+msgstr ""
+
+#: /batch?render=overlay&id=18&op=do
+msgid "%name has been deleted."
+msgstr ""
+
+#: /reply/add/22/82/0
+msgid "%bundle was successfully created."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Remark or note that refers to a node."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comment Reply Form"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "A form to add a new comment reply."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Node form comment settings"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comment settings on the Node form."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comment form"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "A form to add a new comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Node comments"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The comments of the referenced node."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Display the comment with standard comment view."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Display the comment as RSS."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comments are responses to node content."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The comment ID of the field"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"The name of the comment's author. Can be rendered as a link to the "
+"author's homepage."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Author's website"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"The website address of the comment's author. Can be rendered as a "
+"link. Will be empty if the author is a registered user."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Hostname of user that posted the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Email of user that posted the comment. Will be empty if the author is "
+"a registered user."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Date and time of when the comment was created."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The language the comment is in."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Date and time of when the comment was last updated."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Approved"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Whether the comment is approved (or still in the moderation queue)."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Not Approved"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Approved comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "View link"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Provide a simple link to view the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Provide a simple link to edit the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Provide a simple link to delete the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Approve link"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Provide a simple link to approve the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Reply-to link"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Provide a simple link to reply to the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Display the depth of the comment if it is threaded."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Thread"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Sort by the threaded order. This will keep child comments together "
+"with their parents."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The node ID to which the comment is a reply to."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The content to which the comment is a reply to."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"If you need more fields than the uid add the comment: author "
+"relationship"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The User ID of the comment's author."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Parent CID"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The Comment ID of the parent comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Parent comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The parent comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Last comment time"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Date and time of when the last comment was posted."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Last comment author"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The name of the author of the last posted comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The number of comments a node has."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Updated/commented date"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The most recent of last comment posted or node updated time."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Last comment CID"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Display the last comment of a node"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Last Comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The last comment of a node."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Last comment uid"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The User ID of the author of the last comment of a node."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The subject of the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The author of the comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Whether the comment is published or unpublished."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comments allowed"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Whether comments are allowed on this node: 0 = no, 1 = closed (read "
+"only), 2 = open (read/write)."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The number of new comments on the node."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Add comment link"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Display the standard add comment link used on regular nodes, which "
+"will only display if the viewing user has access to add a comment."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comment status"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Whether comments are enabled or disabled on the node."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "User posted or commented"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Display nodes only if a user posted the node or commented on the node."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comments of the node"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Relate all comments on the node. This will create 1 duplicate record "
+"for every comment. Usually if you need this it is better to create a "
+"comment view."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comment Reply page"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "After saving a new comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "created comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "After updating an existing comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "updated comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "unchanged comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Before saving a comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "saved comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "A comment is viewed"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "viewed comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "After deleting a comment"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "deleted comment"
+msgstr ""
+
+#: /index.php
+msgid "Reply to"
+msgstr ""
+
+#: /index.php
+msgid "Recent posts"
+msgstr ""
+
+#: /index.php
+msgid "Last Post"
+msgstr ""
+
+#: /index.php
+msgid " new"
+msgstr ""
+
+#: /index.php
+msgid "Recent posts for %1"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Each <a href='@content-type'>content type</a> can have its own default "
+"comment settings configured as: <em>Open</em> to allow new comments, "
+"<em>Hidden</em> to hide existing comments and prevent new comments, or "
+"<em>Closed</em> to view existing comments, but prevent new comments. "
+"These defaults will apply to all new content created (changes to the "
+"settings on existing content must be done manually). Other comment "
+"settings can also be customized per content type, and can be "
+"overridden for any given item of content. When a comment has no "
+"replies, it remains editable by its author, as long as the author has "
+"a user account and is logged in."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Comments from users who have the <em>Skip comment approval</em> "
+"permission are published immediately. All other comments are placed in "
+"the <a href='@comment-approval'>Unapproved comments</a> queue, until a "
+"user who has permission to <em>Administer comments</em> publishes or "
+"deletes them. Published comments can be bulk managed on the <a "
+"href='@admin-comment'>Published comments</a> administration page."
+msgstr ""
+
+#: /forum
+msgid " reply"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The Forum module lets you create threaded discussion forums with "
+"functionality similar to other message board systems. Forums are "
+"useful because they allow community members to discuss topics with one "
+"another while ensuring those conversations are archived for later "
+"reference. In a forum, users post topics and threads in nested "
+"hierarchies, allowing discussions to be categorized and grouped. The "
+"forum hierarchy consists of:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Optional containers (for example, <em>Support</em>), which can hold:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Forums (for example, <em>Installing Drupal</em>), which can hold:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Forum topics submitted by users (for example, <em>How to start a "
+"Drupal 6 Multisite</em>), which start discussions and are starting "
+"points for:"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Threaded comments submitted by users (for example, <em>You have these "
+"options...</em>)."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Visit the <a href=\"@forums\">Forums page</a> to set up containers and "
+"forums to hold your discussion topics."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"The <a href=\"@create-topic\">Forum topic</a> link on the <a "
+"href=\"@content-add\">Add new content</a> page creates the first post "
+"of a new threaded discussion, or thread."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Enabling the Forum module provides a default <em>Forums</em> menu item "
+"in the navigation menu that links to the <a href=\"@forums\">Forums "
+"page</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"A forum topic (and all of its comments) may be moved between forums by "
+"selecting a different forum while editing a forum topic. When moving a "
+"forum topic between forums, the <em>Leave shadow copy</em> option "
+"creates a link in the original forum pointing to the new location."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"Selecting <em>Closed</em> under <em>Comment settings</em> while "
+"editing a forum topic will lock (prevent new comments on) the thread. "
+"Selecting <em>Hidden</em> under <em>Comment settings</em> while "
+"editing a forum topic will hide all existing comments on the thread, "
+"and prevent new ones."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Return number of comments on a given node."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The node id to count all comments."
+msgstr ""
+
+#: /services/xmlrpc
+msgid ""
+"Returns number of new comments on a given node since a given "
+"timestamp."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "The node id to load comments for."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Timestamp to count from (defaults to time of last user acces to node)."
+msgstr ""
+
+#: /services/xmlrpc
+msgid "Number of comments to load."
+msgstr ""
+
+#: /services/xmlrpc
+msgid ""
+"If count is set to non-zero value, you can pass also non-zero value "
+"for start. For example to get comments from 5 to 15, pass count=10 and "
+"start=5."
+msgstr ""
+
+#: /node/add/forum
+msgid "Tokens for comments posted on the site."
+msgstr ""
+
+#: /admin/structure/types/manage/forum?render=overlay
+msgid "Comment dependencies"
+msgstr ""
+
+#: /admin/config/media/image-toolkit?render=overlay
+msgid "The GD toolkit is installed and working properly."
+msgstr ""
+
+#: /admin/config/media/image-toolkit?render=overlay
+msgid "JPEG quality"
+msgstr ""
+
+#: /admin/config/media/image-toolkit?render=overlay
+msgid ""
+"Define the image quality for JPEG manipulations. Ranges from 0 to 100. "
+"Higher values mean better image quality but bigger files."
+msgstr ""
+
+#: /admin/config/media/image-toolkit?render=overlay
+msgid "%"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "edit own comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "post comments"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "skip comment approval"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access comments"
+msgstr ""
+
+#: /file/ajax/field_avatar/und/0/form-n4ovJ8gOdWMzAz5KTEw2ZCWeIId_z4ZjPLZPfrCaH7c
+msgid "The file in the !name field was unable to be uploaded."
+msgstr ""
+
+#: /sites/default/files/styles/avatar/public/?itok=f37Uhb7t
+msgid "Access Denied"
+msgstr ""
+
+#: /file/ajax/field_avatar/und/0/form-ooM2KhVVT7oNfEQCculkpH_AURm1pyapQDGuaPwnc2A
+msgid ""
+"The automatically generated alias %original_alias conflicted with an "
+"existing alias. Alias changed to %alias."
+msgstr ""
+
+#: /admin/structure/forum?render=overlay
+msgid ""
+"No containers or forums available. <a href=\"@container\">Add "
+"container</a> or <a href=\"@forum\">Add forum</a>."
+msgstr ""
+
+#: /admin/structure/forum/settings?render=overlay
+msgid ""
+"Adjust the display of your forum topics. Organize the forums on the <a "
+"href=\"@forum-structure\">forum structure page</a>."
+msgstr ""
+
+#: /user/1/content?type=forum
+msgid "Show \"Page not found\""
+msgstr ""
+
+#: /admin/workbench/drafts?render=overlay
+msgid "Moderation status"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"There was a problem checking <a href=\"@update-report\">available "
+"updates</a> for Drupal."
+msgstr ""
+
+#: /admin/content/reply?render=overlay
+msgid "Any"
+msgstr ""
+
+#: /admin/content/reply?render=overlay
+msgid "There are no replies created."
+msgstr ""
+
+#: /
+msgid ""
+"The content access permissions need to be rebuilt. <a "
+"href=\"@node_access_rebuild\">Rebuild permissions</a>."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "You must enable the @required modules to install @module."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Some required modules must be enabled"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Would you like to continue with the above?"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "No update data available"
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid ""
+"No update information available. <a href=\"@run_cron\">Run cron</a> or "
+"<a href=\"@check_manually\">check manually</a>."
+msgstr ""
+
+#: /admin/structure/reply?render=overlay
+msgid "clone"
+msgstr ""
+
+#: /admin/structure/reply?render=overlay
+msgid "export"
+msgstr ""
+
+#: /admin/structure/reply?render=overlay
+msgid "None."
+msgstr ""
+
+#: /admin/structure/reply?render=overlay
+msgid "A module provides this configuration."
+msgstr ""
+
+#: /system/ajax
+msgid "Enable replies on this field"
+msgstr ""
+
+#: /system/ajax
+msgid "Please add Reply field to this entity to enable replies on fields."
+msgstr ""
+
+#: /system/ajax
+msgid "Field replies settings"
+msgstr ""
+
+#: /system/ajax
+msgid "Reply bundle to be used on this field"
+msgstr ""
+
+#: /system/ajax
+msgid "Please select Reply bundle from the list."
+msgstr ""
+
+#: /system/ajax
+msgid "Link replies to field revision"
+msgstr ""
+
+#: /system/ajax
+msgid "Otherwise comments linked to all revisions of a field."
+msgstr ""
+
+#: /admin/reports/status/rebuild?render=overlay&render=overlay
+msgid "Rebuilding content access permissions"
+msgstr ""
+
+#: /batch?render=overlay&id=22&op=finished
+msgid "The content access permissions have been rebuilt."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "You must enable the @required module to install @module."
+msgstr ""
+
+#: /admin/config/workbench/moderation?render=overlay
+msgid "Enter a name for the new state."
+msgstr ""
+
+#: /admin/config/workbench/moderation?render=overlay
+msgid "Enter a description of the new state."
+msgstr ""
+
+#: /admin/config/workbench/moderation?render=overlay
+msgid ""
+"These are the states through which a node passes in order to become "
+"published. By default, the Workbench Moderation module provides the "
+"states 'Draft,' 'Needs review,' and 'Published'. On this screen you "
+"may create, delete and re-order states. Additional states might "
+"include 'Legal review,' 'PR review', or any or state your site may "
+"need."
+msgstr ""
+
+#: /admin/config/workbench/moderation/transitions?render=overlay
+msgid "- Choose state -"
+msgstr ""
+
+#: /admin/config/workbench/moderation/transitions?render=overlay
+msgid "New transition"
+msgstr ""
+
+#: /admin/config/workbench/moderation/transitions?render=overlay
+msgid ""
+"The Workbench Moderation module keeps track of when a node moves from "
+"one state to another. By default, nodes begin in the %draft state and "
+"end in the %published state. The transitions on this page control how "
+"nodes move from state to state. <a href=\"@permissions\">Permission to "
+"perform these transitions is controlled on a role-by-role basis</a>."
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Drupal role"
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Select a role to check."
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Moderation task"
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Select a moderation task that the role should be able to perform."
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Author moderated content"
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Edit moderated content"
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Moderate content"
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid "Publish moderated content"
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid ""
+"Select any content types on which the user should have the ability to "
+"perform the moderation task."
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay
+msgid ""
+"In order to participate in the moderation process, Drupal users must "
+"be granted several node- and moderation- related permissions. This "
+"page can help check whether roles have the correct permissions to "
+"author, edit, moderate, and publish moderated content."
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay&render=overlay
+msgid "The @role role should be a qualified @moderation_task."
+msgstr ""
+
+#: /admin/config/workbench/moderation/check-permissions?render=overlay&render=overlay
+msgid ""
+"You must check manually that this role has the appropriate transition "
+"permissions for your workflow. <a "
+"href=\"@moderation_permissions_link\">View moderation permissions for "
+"this role.</a>"
+msgstr ""
+
+#: /admin/structure/reply/manage/comment?render=overlay
+msgid "Edit @label"
+msgstr ""
+
+#: /admin/structure/reply/manage/comment?render=overlay
+msgid "Default access on new content"
+msgstr ""
+
+#: /admin/structure/reply?render=overlay
+msgid "This configuration is provided by a module, but has been changed."
+msgstr ""
+
+#: /admin/structure/reply/manage/comment/revert?destination=admin%2Fstructure%2Freply&render=overlay
+msgid "Revert @label"
+msgstr ""
+
+#: /admin/structure/reply/manage/comment/revert?destination=admin%2Fstructure%2Freply&render=overlay
+msgid "Are you sure you want to revert the %entity %label?"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Clear cache"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Clear all caches"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Cache pages for anonymous users"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Minimum cache lifetime"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid ""
+"Cached pages will not be re-created until at least this much time has "
+"elapsed."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Expiration of cached pages"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "The maximum time an external cache can use an old version of a page."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Bandwidth optimization"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid ""
+"External resources can be optimized automatically, which can reduce "
+"both the size and number of requests made to your website."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Compress cached pages."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Aggregate and compress CSS files."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Aggregate JavaScript files."
+msgstr ""
+
+#: /admin/config/development/maintenance?render=overlay
+msgid "Put site into maintenance mode"
+msgstr ""
+
+#: /admin/config/development/maintenance?render=overlay
+msgid ""
+"When enabled, only users with the \"Use the site in maintenance mode\" "
+"<a href=\"@permissions-url\">permission</a> are able to access your "
+"site to perform maintenance; all other visitors see the maintenance "
+"mode message configured below. Authorized users can log in directly "
+"via the <a href=\"@user-login\">user login</a> page."
+msgstr ""
+
+#: /admin/config/development/maintenance?render=overlay
+msgid "Maintenance mode message"
+msgstr ""
+
+#: /admin/config/development/maintenance?render=overlay
+msgid "Message to show visitors when the site is in maintenance mode."
+msgstr ""
+
+#: /admin/config/development/maintenance?render=overlay
+msgid ""
+"If you are upgrading to a newer version of Drupal or upgrading "
+"contributed modules or themes, you may need to run the <a "
+"href=\"@update-php\">update script</a>."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Various blocks, pages, and functions for developers."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Generate dummy users, nodes, and taxonomy terms."
+msgstr ""
+
+#: /admin/modules?render=overlay
+msgid "Developer blocks and page illustrating relevant node_access records."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Map Session API IDs to the {sessions} sid field."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Administer flags"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Create and edit site-wide flags."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Use flag importer"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Access the flag import functionality."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Nodes are a Drupal site's primary content."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Taxonomy Terms"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Taxonomy terms are used to categorize content."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Flagging"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "@entity-type entity"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "JavaScript toggle"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid ""
+"An AJAX request will be made and degrades to type \"Normal link\" if "
+"JavaScript is not available."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Normal link"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid ""
+"A normal non-JavaScript request will be made and the current page will "
+"be reloaded."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Confirmation form"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid ""
+"The user will be taken to a confirmation form on a separate page to "
+"confirm the flag."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Flag %entity entities as %flag_title"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Unflag %entity entities as %flag_title"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay&render=overlay
+msgid "Flag"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "flag"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "flagging user"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "flagging"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Spam reply"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "A @flag-type has been flagged, under \"@flag-title\""
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "A @flag-type has been unflagged, under \"@flag-title\""
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Spam node"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "@type has flagging count"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "The flag to check for."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"The number against which to test the number of times the object is "
+"flagged. For example, if you type \"3\" here, and choose \"Greater "
+"than\" for the operator, then this condition will return TRUE if the "
+"object is flagged more than three times."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Comparison operator"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "@type is flagged"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "User on whose behalf to check"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"For non-global flags, this is the user on whose behalf the flag is "
+"checked."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "User on whose behalf to flag"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"For non-global flags, this is the user on whose behalf to flag the "
+"object. In addition, if checked below, the access permissions to the "
+"flag are checked against this user."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Skip permission check"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Whether to ignore permissions of the user on whose behalf to flag."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Trim a flag"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "User whose flag to trim"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"For non-global flags, this is the user whose flag to trim. (For global "
+"flags, this argument is ignored.)"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Flag queue size"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"The maximum number of objects to keep in the queue. Newly flagged "
+"objects will be kept; older ones will be removed. Tip: by typing \"1\" "
+"here you implement a singleton."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Trim newest flags"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"Checking this will trim the newest flags.  This will prevent new flags "
+"once a limit is reached."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Fetch overall flag count"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Overall flag count"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Fetch entity flag count"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Entity flag count"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Fetch user flag count"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "User flag count"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Fetch @label flagged by user"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "User who flagged the @label"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"For non-global flags, this is the user who flagged the @label. (For "
+"global flags, this argument is ignored.)"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Content flagged by user"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Flag a @label"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Unflag a @label"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Fetch users who have flagged a @label"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Choose the flag for which to fetch the users."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Users who flagged"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "(Legacy)"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Flag link"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Add a flag link of a certain flag type for entities."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Flaggable node"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Flaggable user"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flag (or unflag) a node"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flag (or unflag) a comment"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flag (or unflag) a user"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Caches cleared."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flagged @entity-type with flag @flag"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Returns a list of entities a user flagged with flag @flag."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flag user session identifier"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid ""
+"Returns the sessions id used to distinguish anonymous users from each "
+"other."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Users who flagged the entity with flag @flag"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Returns a list of users who flagged an entity with flag @flag."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "User uid"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid ""
+"The user that flagged an item. If you need more fields than the uid "
+"add the \"Flags: User\" relationship."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Relate an item to the user that flagged it."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flag user"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flagged time"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Display the time the content was flagged by a user."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "The unique ID of the object that has been flagged."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flagged"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "A boolean field to show whether the flag is set or not."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Filter to ensure content has or has not been flagged."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Sort by whether entities have or have not been flagged."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Display flag/unflag link."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Flag counter"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "The number of times a piece of content is flagged by any user."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Time last flagged"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "The time a piece of content was most recently flagged by any user."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "@entity_label flag"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid ""
+"Limit results to only those entity flagged by a certain flag; Or "
+"display information about the flag set on a entity."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "@entity_label flag counter"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "Include this to gain access to the flag counter field."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "counter"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "User's flaggings"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid ""
+"Relate users to the flaggings they have made on objects, using a "
+"particular flag."
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay&render=overlay
+msgid "user flagged content"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Offensive content"
+msgstr ""
+
+#: /admin/config/development/performance?render=overlay
+msgid "Offensive replies"
+msgstr ""
+
+#: /forum
+msgid "Tokens related to flag data."
+msgstr ""
+
+#: /forum
+msgid "Flag name"
+msgstr ""
+
+#: /forum
+msgid "The flag machine-readable name."
+msgstr ""
+
+#: /forum
+msgid "Flag title"
+msgstr ""
+
+#: /forum
+msgid "The human-readable flag title."
+msgstr ""
+
+#: /forum
+msgid "Flaggings"
+msgstr ""
+
+#: /forum
+msgid "Tokens related to flaggings."
+msgstr ""
+
+#: /forum
+msgid "Flagging date"
+msgstr ""
+
+#: /forum
+msgid "The date an item was flagged."
+msgstr ""
+
+#: /forum
+msgid "Flag actions"
+msgstr ""
+
+#: /forum
+msgid ""
+"Tokens available in response to a flag action being executed by a "
+"user."
+msgstr ""
+
+#: /forum
+msgid "Flag action"
+msgstr ""
+
+#: /forum
+msgid "The flagging action taking place, either \"flag\" or \"unflag\"."
+msgstr ""
+
+#: /forum
+msgid "Flag entity URL"
+msgstr ""
+
+#: /forum
+msgid "The URL of the entity being flagged."
+msgstr ""
+
+#: /forum
+msgid "Flag entity title"
+msgstr ""
+
+#: /forum
+msgid "The title of the entity being flagged."
+msgstr ""
+
+#: /forum
+msgid "Flag entity type"
+msgstr ""
+
+#: /forum
+msgid ""
+"The type of entity being flagged, such as <em>node</em> or "
+"<em>comment</em>."
+msgstr ""
+
+#: /forum
+msgid "Flag entity ID"
+msgstr ""
+
+#: /forum
+msgid "The ID of entity being flagged, such as a nid or cid."
+msgstr ""
+
+#: /forum
+msgid "Flag count"
+msgstr ""
+
+#: /forum
+msgid "The current count total for this flag."
+msgstr ""
+
+#: /forum
+msgid "@flag flag count"
+msgstr ""
+
+#: /forum
+msgid "Total flag count for flag @flag"
+msgstr ""
+
+#: /forum
+msgid "@flag flag link"
+msgstr ""
+
+#: /forum
+msgid "Flag/unflag link for @flag"
+msgstr ""
+
+#: /forum
+msgid "Flag: @title"
+msgstr ""
+
+#: /forum
+msgid "Individual flag link"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "<a href=\"@login\">Log in</a> to post a reply"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Development link"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "View developer output like variable printouts, query log, etc."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Access developer information"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Execute PHP code"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Run arbitrary PHP from a block."
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Switch users"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "Become any user on the site with just a click."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Debug value"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Devel"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Value to debug"
+msgstr ""
+
+#: /index.php
+msgid "Downloads the FirePHP library from http://firephp.org/."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Path to the download folder. This path is relative to the Drupal root. "
+"If omitted Drush will use the default location "
+"(sites/all/libraries/FirePHPCore)."
+msgstr ""
+
+#: /index.php
+msgid "Disable, Uninstall, and Install a list of projects."
+msgstr ""
+
+#: /index.php
+msgid "A space-separated list of project names."
+msgstr ""
+
+#: /index.php
+msgid "List available tokens"
+msgstr ""
+
+#: /index.php
+msgid ""
+"List implementations of a given hook and explore the source of the "
+"selected one."
+msgstr ""
+
+#: /index.php
+msgid "The name of the hook to explore (e.g. \"menu\" for hook_menu())."
+msgstr ""
+
+#: /index.php
+msgid "List implementations of hook_cron()."
+msgstr ""
+
+#: /index.php
+msgid "Show the source of specified function or method."
+msgstr ""
+
+#: /index.php
+msgid "The name of the function or method to view."
+msgstr ""
+
+#: /index.php
+msgid "Output just the filename of the function"
+msgstr ""
+
+#: /index.php
+msgid ""
+"Specify how the filename should be printed. Available placeholders are "
+"!startline, !endline and !file"
+msgstr ""
+
+#: /index.php
+msgid "View the source code for function \"drupal_set_breadcrumb\""
+msgstr ""
+
+#: /index.php
+msgid "Edit the file that contains the function \"user_access\""
+msgstr ""
+
+#: /index.php
+msgid "View the source code for method load in the class NodeController"
+msgstr ""
+
+#: /index.php
+msgid "Create users."
+msgstr ""
+
+#: /index.php
+msgid "Number of users to generate."
+msgstr ""
+
+#: /index.php
+msgid "Delete all users before generating new ones."
+msgstr ""
+
+#: /index.php
+msgid ""
+"A comma delimited list of role IDs which should be granted to the new "
+"users. No need to specify authenticated user role."
+msgstr ""
+
+#: /index.php
+msgid "Specify a password to be set for all generated users."
+msgstr ""
+
+#: /index.php
+msgid "Create terms in specified vocabulary."
+msgstr ""
+
+#: /index.php
+msgid "Vocabulary machine name into which new terms will be inserted."
+msgstr ""
+
+#: /index.php
+msgid "Number of terms to insert. Defaults to 10."
+msgstr ""
+
+#: /index.php
+msgid "Delete all terms in specified vocabulary before generating."
+msgstr ""
+
+#: /index.php
+msgid ""
+"An integer representing interval for insertion rate logging. Defaults "
+"to 1000"
+msgstr ""
+
+#: /index.php
+msgid "Create vocabularies."
+msgstr ""
+
+#: /index.php
+msgid "Number of vocabularies to create. Defaults to 1."
+msgstr ""
+
+#: /index.php
+msgid "Delete all vocabularies before generating."
+msgstr ""
+
+#: /index.php
+msgid "Create content."
+msgstr ""
+
+#: /index.php
+msgid "Number of nodes to generate."
+msgstr ""
+
+#: /index.php
+msgid "Maximum number of comments to generate."
+msgstr ""
+
+#: /index.php
+msgid "Delete all content before generating new content."
+msgstr ""
+
+#: /index.php
+msgid ""
+"A comma delimited list of content types to create. Defaults to "
+"page,article."
+msgstr ""
+
+#: /index.php
+msgid "A comma delimited list of fields to omit when generating random values"
+msgstr ""
+
+#: /index.php
+msgid "A comma-separated list of language codes"
+msgstr ""
+
+#: /index.php
+msgid "Create menus and menu items."
+msgstr ""
+
+#: /index.php
+msgid "Number of menus to generate. Defaults to 2."
+msgstr ""
+
+#: /index.php
+msgid "Number of links to generate. Defaults to 50."
+msgstr ""
+
+#: /index.php
+msgid "Max link depth. Defaults to 3"
+msgstr ""
+
+#: /index.php
+msgid "Max width of first level of links. Defaults to 8."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Delete all previously generated menus and links before generating new "
+"menus and links."
+msgstr ""
+
+#: /index.php
+msgid "Execute PHP"
+msgstr ""
+
+#: /index.php
+msgid "Switch user"
+msgstr ""
+
+#: /
+msgid "This user can switch back."
+msgstr ""
+
+#: /
+msgid "Caution: this user will be unable to switch back."
+msgstr ""
+
+#: /index.php
+msgid "Session API Configuration"
+msgstr ""
+
+#: /index.php
+msgid "Configure Session API behavior."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Load"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Render"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Devel settings"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid ""
+"Helper functions, pages, and blocks to assist Drupal developers. The "
+"devel blocks can be managed via the <a "
+"href=\"/admin/structure/block\">block administration</a> page."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "devel"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid ""
+"Configure flags for marking content with arbitrary information (such "
+"as <em>offensive</em> or <em>bookmarked</em>)."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Add flag"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Manage offensive content"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Manage offensive replies"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Execute PHP Code"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Execute some PHP code"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Function reference"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid ""
+"View a list of currently defined user functions with documentation "
+"links."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Hook_elements()"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "View the active form/render elements for this site."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "PHPinfo()"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "View your server's PHP configuration"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Reinstall modules"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Run hook_uninstall() and then hook_install() for a given module."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Session viewer"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "List the contents of $_SESSION."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Variable editor"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Edit and delete site variables."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid ""
+"Clear the CSS cache and all database cache tables which store page, "
+"node, theme and variable caches."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Entity info"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "View entity information across the whole site."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Field info"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "View fields information across the whole site."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Menu item"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Details about a given menu item."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "Rebuild menus"
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid ""
+"Rebuild menu based on hook_menu() and revert any custom changes. All "
+"menu items return to their default settings."
+msgstr ""
+
+#: /forum/andmete-kasutamine/seeder
+msgid "View a list of available theme functions across the whole site."
+msgstr ""
+
+#: /
+msgid "Kontaktid"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/content?render=overlay
+msgid "Fullname"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/content?render=overlay
+msgid "Flag-action"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/content?render=overlay
+msgid "List<flagging>"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/content?render=overlay
+msgid "Flag for @entity_type"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/content?render=overlay
+msgid "No info available."
+msgstr ""
+
+#: /panels/ajax/editor/style-type/panel_context%3Apage-about_us%3Apage_about_us_panel_context/region/right
+msgid "Panel style for region \"!region\""
+msgstr ""
+
+#: /panels/ajax/editor/style-type/panel_context%3Apage-about_us%3Apage_about_us_panel_context/region/right
+msgid "Use display default style"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/content?destination=about&render=overlay&render=overlay
+msgid "Remove all changes to this page and revert to the version in code."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/layout/move?render=overlay
+msgid "Panes"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-about_us?render=overlay
+msgid "All pending changes have been discarded, and the page is now unlocked."
+msgstr ""
+
+#: /panels/ajax/editor/hide/panel_context%3Apage-about_us%3Apage_about_us_panel_context/5
+msgid "Enable this pane"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/layout?render=overlay&render=overlay
+msgid "You must select a different layout if you wish to change layouts."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-terms_and_conditions?render=overlay
+msgid "Activate this variant so that it will be in use in your system."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-terms_and_conditions?render=overlay
+msgid "Enable and save"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Entity is flagged"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "Control access by whether or not an entity is flagged."
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-kasutustingimused/settings/access
+msgid "@entity_type is flagged"
+msgstr ""
+
+#: /admin/structure/pages/add
+msgid "That name is used by another page: @page"
+msgstr ""
+
+#: /admin/content
+msgid " <i class=\"icon-exclamation-sign\"></i> &nbsp;Unflag this item"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-about_us/handlers/page_about_us_panel_context/criteria?render=overlay
+msgid ""
+"If there is more than one variant on a page, when the page is visited "
+"each variant is given an opportunity to be displayed. Starting from "
+"the first variant and working to the last, each one tests to see if "
+"its selection rules will pass. The first variant that meets its "
+"criteria (as specified below) will be used."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Node edit form"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "A node edit form."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Enter the node ID of a node for this argument:"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Token"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "A context that contains token replacements from token.module."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "A single taxonomy term object."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term name, lowercased and spaces converted to dashes"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term Description"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "A node object."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Enter the node ID of a node for this context."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "User edit form"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "A user edit form."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Enter the user ID of a user for this argument:"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Multiple taxonomy terms, as a group."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term ID of first term"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term ID of all term, separated by + or ,"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term name of first term"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term name of first term, lowercased and spaces converted to dashes"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term name of all terms, separated by + or ,"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"Term name of all terms, separated by + or , and lowercased and spaces "
+"converted to dashes"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Vocabulary ID of first term"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Node add form"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "A node add form."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Enter the node type this context."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "A single taxonomy vocabulary object."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"Loads a view result into a context that can then be displayed across a "
+"panel or turned into other contexts."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Node edit form from node"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Adds node edit form from a node context."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Adds a book parent from a node context."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Creates an entity context from a foreign key on a field."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "User category edit form from user"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Adds user category edit form from a user context."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Creates the author of a node as a user context."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Multiple terms from node"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"Adds a taxonomy terms from a node context; if multiple terms are "
+"selected, they wil be concatenated."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term parent"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Adds a taxonomy term parent from a term context."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term from node"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"Adds a taxonomy term from a node context; if multiple terms are "
+"selected, this will get the \"first\" term only."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "User from view"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Extract a user context from a view context of the base type user."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Node from view"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Extract a node context from a view context of the base type node."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "View From Argument"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Creates a view context from argument input settings."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Term from view"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Extract a term context from a view context of the base type term."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"@to_entity from @from_entity (on @from_entity: @field_label "
+"[@field_name])"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"Creates a @to_entity context from @from_entity using the @field_name "
+"field on @from_entity."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "@to_entity from @from_entity (on @base_table.@relationship)"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"Builds a relationship from a @from_entity to a @to_entity using the "
+"@base_table.@relationship field."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "@from_entity from @to_entity (on @base_table.@relationship)"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid ""
+"Builds a relationship from a @to_entity to a @from_entity using the "
+"@base_table.@relationship field."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "argument"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Add argument"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Add relationship"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Add context"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Required contexts"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "required context"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Add required context"
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-kasutustingimused/handlers/page_kasutustingimused_panel_context/context
+msgid "Summary of contexts"
+msgstr ""
+
+#: /admin/structure/pages/ajax/operation/page-testleht1/handlers/page_testleht1_panel_context/actions/delete
+msgid ""
+"Are you sure you want to delete this variant? This deletion will not "
+"be made permanent until you click Save."
+msgstr ""
+
+#: /admin/structure/pages/edit/page-testleht1
+msgid "No variants"
+msgstr ""
+
+#: /admin/structure/pages/edit/page-testleht1
+msgid "This page has no variants and thus no output of its own."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-testleht1/actions/add
+msgid ""
+"Administrative title of this variant. If you leave blank it will be "
+"automatically assigned."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-testleht1/actions/add
+msgid ""
+"Before this variant can be added, it must be configured. When you are "
+"finished, click \"Create variant\" at the end of this wizard to add "
+"this to your page."
+msgstr ""
+
+#: /admin/structure/pages/nojs/operation/page-testleht1/actions/configure
+msgid ""
+"Configure a newly created variant prior to actually adding it to the "
+"page."
+msgstr ""
+
+#: /kasutustingimused
+msgid "Testpage3"
+msgstr ""
+
 #: ; misc/tabledrag.js
 msgid "Show row weights"
 msgstr "Näita ridade kaalusid"
@@ -30366,6 +36847,9 @@ msgstr "Teema"
 
 msgid "Language"
 msgstr "Keel"
+
+msgid "Comments"
+msgstr "Kommentaarid"
 
 msgid "Password"
 msgstr "Salasõna"
@@ -30418,6 +36902,9 @@ msgstr "Eesti"
 
 msgid "Text format"
 msgstr "Tekstiformaat"
+
+msgid "Submitted by !username on !datetime"
+msgstr "Lisanud !username kuupäeval !datetime"
 
 msgid "Flat list"
 msgstr "Tavaline loetelu"
@@ -30473,6 +36960,10 @@ msgstr "Nimi"
 #: /admin/config/regional/language
 msgid "Add content"
 msgstr "Lisa sisu"
+
+#: /index.php
+msgid "Posted by"
+msgstr "Lisanud"
 
 #: /index.php
 msgid "Disable rich-text"
@@ -30691,4 +37182,24 @@ msgstr "Keela"
 #: /node/add/app
 msgid "The link title is limited to @maxlength characters maximum."
 msgstr "Lingi pealkirja maksimalane pikkus on @maxlength tähemärki."
+
+#: /admin/structure/features/dgu_forum/status
+msgid "[nid] topics"
+msgstr "[nid] teemat"
+
+#: /
+msgid "Login to make a comment"
+msgstr "Kommenteerimiseks logi sisse"
+
+#: /node/5
+msgid "@count topics"
+msgstr "@count teemat"
+
+#: /forum/andmete-kasutamine/traktor
+msgid "<i class=\"icon-exclamation-sign\"></i> &nbsp;Flag as offensive"
+msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
+
+#: /forum/andmete-kasutamine/jaanus-foorum-2
+msgid " <i class=\"icon-exclamation-sign\"></i> &nbsp;Flag as offensive"
+msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
 
