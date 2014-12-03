@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-12-03 15:22+0000\n"
-"PO-Revision-Date: 2014-12-03 15:22+0000\n"
+"POT-Creation-Date: 2014-12-03 16:37+0000\n"
+"PO-Revision-Date: 2014-12-03 16:37+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -110,9 +110,6 @@ msgid "E-mail"
 msgstr ""
 
 msgid "Approve"
-msgstr ""
-
-msgid "Delete"
 msgstr ""
 
 msgid "Operations"
@@ -227,10 +224,6 @@ msgid "File"
 msgstr ""
 
 msgid "Advanced options"
-msgstr ""
-
-#: ; misc/machine-name.js; profiles/dgu/modules/contrib/features/features.js
-msgid "Edit"
 msgstr ""
 
 msgid "Date"
@@ -371,9 +364,6 @@ msgstr ""
 msgid "Tuesday"
 msgstr ""
 
-msgid "Wednesday"
-msgstr ""
-
 msgid "Thursday"
 msgstr ""
 
@@ -450,9 +440,6 @@ msgid "Text"
 msgstr ""
 
 msgid "aggregator"
-msgstr ""
-
-msgid "read more"
 msgstr ""
 
 msgid "Update interval"
@@ -570,16 +557,7 @@ msgstr ""
 msgid "Add block"
 msgstr ""
 
-msgid "1 hour"
-msgstr ""
-
-msgid "@count hours"
-msgstr ""
-
 msgid "1 day"
-msgstr ""
-
-msgid "@count days"
 msgstr ""
 
 msgid "Configuration saved."
@@ -645,9 +623,6 @@ msgid "Custom"
 msgstr ""
 
 msgid "Roles"
-msgstr ""
-
-msgid "Comment"
 msgstr ""
 
 msgid "Comment ID"
@@ -765,9 +740,6 @@ msgid "Updated:"
 msgstr ""
 
 msgid "%age old"
-msgstr ""
-
-msgid "%ago ago"
 msgstr ""
 
 msgid "Authored by"
@@ -905,9 +877,6 @@ msgstr ""
 msgid "Tue"
 msgstr ""
 
-msgid "Wed"
-msgstr ""
-
 msgid "Thu"
 msgstr ""
 
@@ -978,9 +947,6 @@ msgid "Jump to the first comment of this posting."
 msgstr ""
 
 msgid "Jump to the first new comment of this posting."
-msgstr ""
-
-msgid "Add new comment"
 msgstr ""
 
 msgid "Add a new comment to this page."
@@ -1789,9 +1755,6 @@ msgstr ""
 msgid "Undo"
 msgstr ""
 
-msgid "@time ago"
-msgstr ""
-
 #: ; misc/tableselect.js
 msgid "Select all rows in this table"
 msgstr ""
@@ -2519,12 +2482,6 @@ msgid "1 week"
 msgstr ""
 
 msgid "@count weeks"
-msgstr ""
-
-msgid "1 min"
-msgstr ""
-
-msgid "@count min"
 msgstr ""
 
 msgid "1 sec"
@@ -6299,9 +6256,6 @@ msgstr ""
 msgid "Filters content in preparation for display."
 msgstr ""
 
-msgid "By !author @time ago"
-msgstr ""
-
 msgid "The forum %term and all sub-forums have been deleted."
 msgstr ""
 
@@ -6910,9 +6864,6 @@ msgid ""
 msgstr ""
 
 msgid "Author textfield"
-msgstr ""
-
-msgid "Subject textfield"
 msgstr ""
 
 msgid "A contact form with category %category already exists."
@@ -7996,10 +7947,6 @@ msgstr ""
 
 #: /admin/config/regional/language
 msgid "Redirect"
-msgstr ""
-
-#: /admin/config/regional/language
-msgid "Reply"
 msgstr ""
 
 #: /admin/config/regional/language
@@ -22818,10 +22765,6 @@ msgid "Save and add"
 msgstr ""
 
 #: /forum
-msgid "Submit"
-msgstr ""
-
-#: /forum
 msgid "Create"
 msgstr ""
 
@@ -29500,10 +29443,6 @@ msgid "Võtmesõnad"
 msgstr ""
 
 #: /node/add/page
-msgid "Read more<span class=\"element-invisible\"> about @title</span>"
-msgstr ""
-
-#: /node/add/page
 msgid ""
 "The trimmed version of your post shows what your post looks like when "
 "promoted to the main page or when exported for syndication.<span "
@@ -31141,10 +31080,6 @@ msgstr ""
 
 #: /
 msgid "Failed to get available update data."
-msgstr ""
-
-#: /users/admin
-msgid "%time ago"
 msgstr ""
 
 #: /taxonomy/term/2/edit?destination=admin%2Fstructure%2Ftaxonomy%2Fcategory&render=overlay&render=overlay
@@ -36832,12 +36767,97 @@ msgstr ""
 msgid "Testpage3"
 msgstr ""
 
+#: /admin/config?render=overlay
+msgid ""
+"To have the flag module work with translations, you need to install "
+"and enable the <a "
+"href=\"http://drupal.org/project/translation_helpers\">Translation "
+"helpers</a> module."
+msgstr ""
+
+#: /admin/config?render=overlay
+msgid "Translation helpers module not found."
+msgstr ""
+
+#: /admin/config?render=overlay
+msgid "Flag robots.txt problem"
+msgstr ""
+
+#: /admin/config?render=overlay
+msgid ""
+"Flag module may currently be used with anonymous users, however the "
+"robots.txt file does not exclude the \"@flag-path\" path, which may "
+"cause search engines to randomly flag and unflag content when they "
+"index the site. It is highly recommended to add \"@robots-string\" to "
+"your robots.txt file (located in the root of your Drupal "
+"installation)."
+msgstr ""
+
+#: /admin/config?render=overlay
+msgid "Search engines flagging content"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "flag spam_node"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "flag spam_reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "unflag spam_node"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "unflag spam_reply"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "administer flags"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "use flag import"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "access devel information"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "execute php code"
+msgstr ""
+
+#: /admin/people?render=overlay
+msgid "switch users"
+msgstr ""
+
+#: /index.php
+msgid "Vasta"
+msgstr ""
+
+#: /index.php
+msgid "Vasta ID"
+msgstr ""
+
+#: /forum
+msgid " vastus"
+msgstr ""
+
+#: /reply/add/33/82/0
+msgid "Kommentaar"
+msgstr ""
+
 #: ; misc/tabledrag.js
 msgid "Show row weights"
 msgstr "Näita ridade kaalusid"
 
 msgid "Title"
 msgstr "Pealkiri"
+
+msgid "Delete"
+msgstr "Kustuta"
 
 msgid "Username"
 msgstr "Kasutajanimi"
@@ -36850,6 +36870,10 @@ msgstr "Keel"
 
 msgid "Comments"
 msgstr "Kommentaarid"
+
+#: ; misc/machine-name.js; profiles/dgu/modules/contrib/features/features.js
+msgid "Edit"
+msgstr "Muuda"
 
 msgid "Password"
 msgstr "Salasõna"
@@ -36864,14 +36888,38 @@ msgstr "Salvesta"
 msgid "Summary"
 msgstr "Kokkuvõte"
 
+msgid "Wednesday"
+msgstr "kolmapäev"
+
 msgid "Display"
 msgstr "Kuva"
+
+msgid "read more"
+msgstr "loe lisaks"
+
+msgid "1 hour"
+msgstr "1 tund"
+
+msgid "@count hours"
+msgstr "@count tundi"
+
+msgid "@count days"
+msgstr "@count päeva"
+
+msgid "Comment"
+msgstr "Kommentaar"
 
 msgid "E-mail address"
 msgstr "E-maili aadress"
 
+msgid "%ago ago"
+msgstr "%ago tagasi"
+
 msgid "Plain text"
 msgstr "Vabatekst"
+
+msgid "Wed"
+msgstr "kolmapäev"
 
 msgid "Forum"
 msgstr "Foorum"
@@ -36879,11 +36927,17 @@ msgstr "Foorum"
 msgid "Blog"
 msgstr "Blogi"
 
+msgid "Add new comment"
+msgstr "Lisa kommentaar"
+
 msgid "English"
 msgstr "Inglise"
 
 msgid "Language file"
 msgstr "Keelefail"
+
+msgid "@time ago"
+msgstr "@time tagasi"
 
 msgid "Forums"
 msgstr "Foorumid"
@@ -36893,6 +36947,12 @@ msgstr "Lisa veel üks rida"
 
 msgid "Language neutral"
 msgstr "Keeleneutraalne"
+
+msgid "1 min"
+msgstr "1 minut"
+
+msgid "@count min"
+msgstr "@count min"
 
 msgid "Confirm password"
 msgstr "Kinnita salasõna"
@@ -36932,14 +36992,24 @@ msgstr "Lubatud faili tüübid: !extensions. "
 msgid "More information about text formats"
 msgstr "Rohkem infot tekstiformaatide kohta"
 
+msgid "By !author @time ago"
+msgstr "!author poolt @time tagasi"
+
 msgid "Provide a menu link"
 msgstr "Tekita menüü link"
+
+msgid "Subject textfield"
+msgstr "Subjekti tekstiväli"
 
 msgid "- Select a value -"
 msgstr "- Vali väärtus - "
 
 msgid "Choose a file"
 msgstr "Vali fail"
+
+#: /admin/config/regional/language
+msgid "Reply"
+msgstr "Vasta"
 
 #: /admin/config/regional/language
 msgid "Apps"
@@ -36991,6 +37061,10 @@ msgstr ""
 "Lisage täiendavaid pilte, mis illustreerivad rakenduse võimalusi. "
 "Neid kuvatakse antud portaalis rakenduse lehel, ja on klikatavad "
 "suuremaks."
+
+#: /forum
+msgid "Submit"
+msgstr "Saada"
 
 #: /user
 msgid "Log in"
@@ -37183,6 +37257,10 @@ msgstr "Keela"
 msgid "The link title is limited to @maxlength characters maximum."
 msgstr "Lingi pealkirja maksimalane pikkus on @maxlength tähemärki."
 
+#: /node/add/page
+msgid "Read more<span class=\"element-invisible\"> about @title</span>"
+msgstr "Loe lisaks<span class=\"element-invisible\"> @title</span> "
+
 #: /admin/structure/features/dgu_forum/status
 msgid "[nid] topics"
 msgstr "[nid] teemat"
@@ -37190,6 +37268,10 @@ msgstr "[nid] teemat"
 #: /
 msgid "Login to make a comment"
 msgstr "Kommenteerimiseks logi sisse"
+
+#: /users/admin
+msgid "%time ago"
+msgstr "%time tagasi"
 
 #: /node/5
 msgid "@count topics"
