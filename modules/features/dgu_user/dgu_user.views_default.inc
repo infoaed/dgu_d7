@@ -707,7 +707,7 @@ function dgu_user_views_default_views() {
   $handler->display->display_options['filters']['field_reply_subject_value']['operator'] = 'contains';
   $handler->display->display_options['filters']['field_reply_subject_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['operator_id'] = 'field_reply_subject_value_op';
-  $handler->display->display_options['filters']['field_reply_subject_value']['expose']['label'] = 'Subject';
+  $handler->display->display_options['filters']['field_reply_subject_value']['expose']['label'] = 'Pealkiri';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['operator'] = 'field_reply_subject_value_op';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['identifier'] = 'field_reply_subject_value';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['remember_roles'] = array(
@@ -828,7 +828,7 @@ function dgu_user_views_default_views() {
   $handler->display->display_options['filters']['field_reply_subject_value']['operator'] = 'contains';
   $handler->display->display_options['filters']['field_reply_subject_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['operator_id'] = 'field_reply_subject_value_op';
-  $handler->display->display_options['filters']['field_reply_subject_value']['expose']['label'] = 'Subject';
+  $handler->display->display_options['filters']['field_reply_subject_value']['expose']['label'] = 'Pealkiri';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['operator'] = 'field_reply_subject_value_op';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['identifier'] = 'field_reply_subject_value';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['remember_roles'] = array(
@@ -1066,7 +1066,7 @@ function dgu_user_views_default_views() {
   $handler->display->display_options['filters']['field_reply_subject_value']['operator'] = 'contains';
   $handler->display->display_options['filters']['field_reply_subject_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['operator_id'] = 'field_reply_subject_value_op';
-  $handler->display->display_options['filters']['field_reply_subject_value']['expose']['label'] = 'Subject';
+  $handler->display->display_options['filters']['field_reply_subject_value']['expose']['label'] = 'Pealkiri';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['operator'] = 'field_reply_subject_value_op';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['identifier'] = 'field_reply_subject_value';
   $handler->display->display_options['filters']['field_reply_subject_value']['expose']['remember_roles'] = array(
