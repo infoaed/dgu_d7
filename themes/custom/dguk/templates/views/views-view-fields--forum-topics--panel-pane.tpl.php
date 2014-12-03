@@ -61,20 +61,20 @@ if ($user->uid) {
     <div class="reply-counter">
       <a href="<?php print drupal_get_path_alias('node/' . $row->nid) . '#comments'; ?>">
         <span><?php print $fields['id']->raw; ?></span>
-        <?php print format_plural($fields['id']->raw, ' reply', ' replies'); ?>
+        <?php print format_plural($fields['id']->raw, ' vastus', ' vastust'); ?>
         <?php if ($new_replies): ?>
-          <span class="new"><?php print $new_replies; ?> new</span>
+          <span class="new"><?php print $new_replies; ?> uus</span>
         <?php endif; ?>
       </a>
     </div>
     <div class="reply-last grey-text">
       <?php if ($fields['id']->raw > 1): ?>
-        <span>Last</span>
+        <span>Viimane</span>
       <?php endif; ?>
       <?php print $fields['created_1']->content; ?>
     </div>
   <?php else: ?>
-    <p class="no-replies grey-text">No replies so far</p>
+    <p class="no-replies grey-text">Vastuseid pole</p>
   <?php endif; ?>
 </div>
 

@@ -1,4 +1,3 @@
-<?php dpm(ddebug_backtrace());?>
 <div id="reply-<?php print $reply->id; ?>" class="<?php print $classes ?> boxed">
   <div class="inner">
       <span class="note-author"><?php print $author; ?> on <?php print $created; ?></span>
