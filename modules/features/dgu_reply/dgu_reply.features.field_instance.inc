@@ -36,7 +36,7 @@ function dgu_reply_field_default_field_instances() {
     ),
     'entity_type' => 'reply',
     'field_name' => 'field_reply_comment',
-    'label' => 'Comment',
+    'label' => 'Kommentaar',
     'required' => 1,
     'settings' => array(
       'text_processing' => 1,
@@ -122,7 +122,7 @@ function dgu_reply_field_default_field_instances() {
     ),
     'entity_type' => 'reply',
     'field_name' => 'field_reply_comment',
-    'label' => 'Comment',
+    'label' => 'Kommentaar',
     'required' => 1,
     'settings' => array(
       'text_processing' => 1,

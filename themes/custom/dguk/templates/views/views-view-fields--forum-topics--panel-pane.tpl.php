@@ -44,15 +44,15 @@ if ($user->uid) {
     <?php print $fields['title']->content; ?>
   </div>
   <div class="views-field views-field-name">
-    <span class="views-label views-label-name">Created by </span><?php print $fields['name']->content . ' ' . $fields['created']->content; ?>
+    <span class="views-label views-label-name">Lisanud </span><?php print $fields['name']->content . ' ' . $fields['created']->content; ?>
   </div>
   <?php if ($fields['taxonomy_forums']): ?>
     <div class="views-field views-field-taxonomy-forums">
-      Posted in <a href="/forum/<?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print $row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name; ?></a>
+      Kategoorias <a href="/forum/<?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print $row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name; ?></a>
     </div>
   <?php endif; ?>
   <?php if($new): ?>
-    <span class="new">New</span>
+    <span class="new">Uus</span>
   <?php endif; ?>
 
 </div>
