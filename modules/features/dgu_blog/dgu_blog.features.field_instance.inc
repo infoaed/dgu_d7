@@ -60,7 +60,7 @@ function dgu_blog_field_default_field_instances() {
             'field_replies_revision' => '',
           ),
           'more_link' => 0,
-          'more_text' => 'Read more',
+          'more_text' => 'Loe lisaks',
           'quickedit' => array(
             'editor' => 'form',
           ),
