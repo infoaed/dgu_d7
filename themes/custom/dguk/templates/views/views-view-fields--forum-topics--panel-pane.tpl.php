@@ -63,7 +63,7 @@ if ($user->uid) {
         <span><?php print $fields['id']->raw; ?></span>
         <?php print format_plural($fields['id']->raw, ' vastus', ' vastust'); ?>
         <?php if ($new_replies): ?>
-          <span class="new"><?php print $new_replies; ?> uus</span>
+          <span class="new"><?php print $new_replies; ?> uut</span>
         <?php endif; ?>
       </a>
     </div>
