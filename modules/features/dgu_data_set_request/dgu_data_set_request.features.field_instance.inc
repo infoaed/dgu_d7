@@ -1197,7 +1197,7 @@ function dgu_data_set_request_field_default_field_instances() {
             'field_replies_revision' => '',
           ),
           'more_link' => 0,
-          'more_text' => 'Read more',
+          'more_text' => 'Loe lisaks',
           'quickedit' => array(
             'editor' => 'form',
           ),
@@ -1506,7 +1506,7 @@ function dgu_data_set_request_field_default_field_instances() {
     'default_value' => NULL,
     'deleted' => '0',
     'description' => 'If you are able, please tell is in more detail any estimates you are able to make of the benefits this data would bring.
-Consider benefits in terms of economic impact such as employment, revenues or more efficient delivery of services. 
+Consider benefits in terms of economic impact such as employment, revenues or more efficient delivery of services.
 <strong>Answers to this question will be treated confidentially.</strong>',
     'display' => array(
       'default' => array(
@@ -2165,7 +2165,7 @@ Consider benefits in terms of economic impact such as employment, revenues or mo
   t('I request this data');
   t('Identify the most appropriate data themes that relate to your request (please select at least one)');
   t('If you are able, please tell is in more detail any estimates you are able to make of the benefits this data would bring.
-Consider benefits in terms of economic impact such as employment, revenues or more efficient delivery of services. 
+Consider benefits in terms of economic impact such as employment, revenues or more efficient delivery of services.
 <strong>Answers to this question will be treated confidentially.</strong>');
   t('Notes');
   t('Organisation name');

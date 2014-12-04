@@ -155,6 +155,7 @@
 
 <div class="footer">
   <footer role="contentinfo" class="container">
+    <div>
     <?php
       // Print the combined footer menu.
       print dguk_get_footer_menu();
@@ -163,5 +164,10 @@
       // Print anything else in this region.
       print render($page['footer']);
     ?>
+    <div style="float:right;text-align:right;font-size:0.8em">
+	  Avaandmete teabevärav valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
+	                                                                 Euroopa Regionaalarengu Fondi rahastusel.
+	</div>
+    </div>
   </footer>
 </div> <!-- /footer -->

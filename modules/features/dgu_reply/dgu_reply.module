@@ -46,7 +46,7 @@ function dgu_reply_form_submit($form, &$form_state) {
 function dgu_reply_menu_alter(&$items) {
   foreach ($items as $key => &$value) {
     if (substr($key, 0, 9) == 'reply/add') {
-      $value['title'] = 'Comment';
+      $value['title'] = 'Kommentaar';
     }
   }
 }
@@ -97,6 +97,6 @@ function dgu_reply_menu_breadcrumb_alter(&$active_trail, $item) {
       $active_trail[] = array('title' => htmlspecialchars_decode($entity->title), 'href' => $alias, 'localized_options' => array());
     }
 
-    drupal_set_title('Comment');
+    drupal_set_title('Kommentaar');
   }
 }

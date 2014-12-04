@@ -129,162 +129,167 @@ function dgu_site_feature_default_page_manager_handlers() {
  * Implements hook_default_page_manager_pages().
  */
 function dgu_site_feature_default_page_manager_pages() {
-  $page = new stdClass();
-  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
-  $page->api_version = 1;
-  $page->name = 'about_us';
-  $page->task = 'page';
-  $page->admin_title = 'Mis on opendata.riik.ee?';
-  $page->admin_description = 'Mis on opendata.riik.ee?';
-  $page->path = 'about';
-  $page->access = array(
-    'type' => 'none',
-    'settings' => NULL,
-  );
-  $page->menu = array(
-    'type' => 'normal',
-    'title' => 'Mis on opendata.riik.ee?',
-    'name' => 'menu-footer',
-    'weight' => '100',
-    'parent' => array(
-      'type' => 'none',
-      'title' => '',
-      'name' => 'navigation',
-      'weight' => '0',
-    ),
-  );
-  $page->arguments = array();
-  $page->conf = array(
-    'admin_paths' => FALSE,
-  );
-  $page->default_handlers = array();
-  $handler = new stdClass();
-  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
-  $handler->api_version = 1;
-  $handler->name = 'page_about_us_panel_context';
-  $handler->task = 'page';
-  $handler->subtask = 'about_us';
-  $handler->handler = 'panel_context';
-  $handler->weight = 0;
-  $handler->conf = array(
-    'title' => 'Panel',
-    'no_blocks' => 0,
-    'pipeline' => 'standard',
-    'body_classes_to_remove' => '',
-    'body_classes_to_add' => '',
-    'css_id' => 'about-us',
-    'css' => '',
-    'contexts' => array(),
-    'relationships' => array(),
-  );
-  $display = new panels_display();
-  $display->layout = 'dgu_twocol';
-  $display->layout_settings = array();
-  $display->panel_settings = array(
-    'style_settings' => array(
-      'default' => NULL,
-      'left' => NULL,
-      'right' => NULL,
-    ),
-  );
-  $display->cache = array();
-  $display->title = '';
-  $display->content = array();
-  $display->panels = array();
-    $pane = new stdClass();
-    $pane->pid = 'new-1';
-    $pane->panel = 'left';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'admin_title' => '',
-      'title' => '',
-      'body' => '<p><strong>What&#39;s data.gov.uk all about?</strong></p>
 
-<p>The Government is releasing public data to help people understand how government works and how policies are made. Some of this data is already available, but data.gov.uk brings it together in one searchable website. Making this data easily available means it will be easier for people to make decisions and suggestions about government policies based on detailed information. Hear more about the Government&#39;s Transparency agenda from the Prime Minister.</p>
+  /*
+   * The "About" page.
+   */
+	$page = new stdClass();
+	$page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+	$page->api_version = 1;
+	$page->name = 'about_us';
+	$page->task = 'page';
+	$page->admin_title = 'Mis on avaandmete portaal?';
+	$page->admin_description = 'Mis on avaandmete portaal?';
+	$page->path = 'about';
+	$page->access = array(
+			'type' => 'none',
+			'settings' => NULL,
+	);
+	$page->menu = array(
+			'type' => 'normal',
+			'title' => 'Mis on avaandmete portaal?',
+			'name' => 'menu-footer',
+			'weight' => '0',
+			'parent' => array(
+					'type' => 'none',
+					'title' => '',
+					'name' => 'navigation',
+					'weight' => '0',
+			),
+	);
+	$page->arguments = array();
+	$page->conf = array(
+			'admin_paths' => FALSE,
+	);
+	$page->default_handlers = array();
+	$handler = new stdClass();
+	$handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+	$handler->api_version = 1;
+	$handler->name = 'page_about_us_panel_context';
+	$handler->task = 'page';
+	$handler->subtask = 'about_us';
+	$handler->handler = 'panel_context';
+	$handler->weight = 0;
+	$handler->conf = array(
+			'title' => 'Panel',
+			'no_blocks' => 0,
+			'pipeline' => 'standard',
+			'body_classes_to_remove' => '',
+			'body_classes_to_add' => '',
+			'css_id' => 'about-us',
+			'css' => '',
+			'contexts' => array(),
+			'relationships' => array(),
+	);
+	$display = new panels_display();
+	$display->layout = 'dgu_onecol';
+	$display->layout_settings = array();
+	$display->panel_settings = array(
+			'style_settings' => array(
+					'default' => NULL,
+					'left' => NULL,
+					'right' => NULL,
+					'middle' => NULL,
+			),
+			'left' => array(
+					'style' => '-1',
+			),
+	);
+	$display->cache = array();
+	$display->title = '';
+	$display->content = array();
+	$display->panels = array();
+	$pane = new stdClass();
+	$pane->pid = 'new-1';
+	$pane->panel = 'middle';
+	$pane->type = 'custom';
+	$pane->subtype = 'custom';
+	$pane->shown = TRUE;
+	$pane->access = array();
+	$pane->configuration = array(
+			'admin_title' => '',
+			'title' => '',
+			'body' => '<p><strong>Mis on avaandmete portaal?</strong></p>
 
-<p><strong>What&#39;s available?</strong></p>
+			<p><a href="http://opendata.riik.ee">Avaandmete portaal</a> ehk teabevärav on mõeldud riigi ja kohalike omavalitsuste loodud avalike <em>andmehulkade</em> info koondamiseks ja uute andmekogude avalikustamise hõlbustamiseks. Ühelt poolt on see koht, kus andmehulkade omanikud ehk <em>teabevaldajad</em> saavad oma avalikke andmhulki registreerida või üles laadida. Teisalt on see koht, kus huvitatud pooled ja tavakodanikud saavad avalikustatud andmehulki otsida, neid alla laadida ja edasiseks töötluseks või päringuteks kasutada.</p>
 
-<p>There are datasets available from all central government departments and a number of other public sector bodies and local authorities. Is data just public information? Not really. From data.gov.uk, you can access the raw data driving government forward. This can then be used by people to build useful applications that help society, or investigate how effective policy changes have been over time.</p>
+			<p><strong>Miks on andmete avamine vajalik?</strong></p>
 
-<p>General public information - such as how to find out if you are entitled to tax credits, or how to tax your car - can be found at <a href="http://gov.uk/" target="_blank">gov.uk</a>.</p>
+			<p>Andmete avamine ning nende koondamise ja leidmise hõlbustamine teenib mitmeid olulisi eesmärke:</p>
 
-<p><strong>How can I use the data?</strong></p>
+			<ul>
+			<li>majanduse elavdamine;</li>
+			<li>läbipaistvuse suurendamine;</li>
+			<li>teabenõuete arvu vähendamine ja sellega avaliku sektori koormuse vähendamine;</li>
+			<li>avatud teenuste loomise ja haldamise võimaldamine era- ja vabasektorile</li>
+			<li>õhutada üleminekut tuleviku tehnoloogiatele nagu <a href="http://et.wikipedia.org/wiki/Linkandmed">linkandmed</a>, &quot;<a href="http://en.wikipedia.org/wiki/Internet_of_Things">asjade Internet</a>&quot; ja &quot;<a href="http://en.wikipedia.org/wiki/Big_data">big data</a>&quot;.</li>
+			</ul>
 
-<p>You can use the data in all sorts of ways. This may be simply to analyse trends over time from one policy area, or to compare how different parts of government go about their work. Technical users will be able to create useful applications out of the raw data files, which can then be used by everyone.</p>
+			<p><strong>Mis on avaandmed?</strong></p>
 
-<p><strong>How can I add my organisation&#39;s data?</strong></p>
+			<p>Avaandmete all mõistame kõigile avalikult vabalt kasutamiseks antud, veebist kättesaadavaid, masinloetavas formaadis toorandmeid ilma kasutamis-, patentide- ja levitamispiiranguteta. Üldjuhul, kui seaduses ei ole andmete hankimise eest ette nähtud tasu, saab avaandmeid kätte tasuta ja ilma ligipääsupiiranguteta. Lähemalt võib andmete avalikustamise põhimõtetest, protsessidest ja tehnoloogiatest lugeda <a href="http://opendata.riik.ee/juhendid/juhend-avaandmete-avaldamiseks-ning-avaandemete-portaali-kasutamiseks">siit</a>.</p>
 
-<p>There is a simple how-to guide that takes you through the steps needed to include your data in data.gov.uk&#39;s index.How can I find out more?You can find out more about the data.gov.uk project by following these links:<a href="http://data.gov.uk/library/user-guide-editors-and-administrators-v30"> Guidance document</a>.</p>
+			<p><strong>Mis laadi andmeid siit võib leida?</strong></p>
 
-<p><strong>Who is involved in the project?</strong></p>
+			<p>Avalikustamisele ning avaandmete portaalis registreerimisele kuuluvad kõik nii riigiametite kui kohalike omavalitsuste loodud andmehulgad, mille avalik kasutus ei ole otseselt keelatud ning mis sisaldavad ka muid andmeid peale isikuandmete. Andmehulkadest, mis sisaldavad nii isikuandmeid kui muid andmeid, avalikustatakse ainult mitte-isikuandmete osad.</p>
 
-<p>Data.gov.uk is a key part of the Government&#39;s work on Transparency which is being lead by the Transparency Board. Data.gov.uk implementation is being led by the Transparency and Open Data team in the Cabinet Office, working across government departments to ensure that data is released in a timely and accessible way.</p>
+			<p>Konkreetsemalt peaksid avalikustatavates andmehulkades sisalduvad andmed olema üldjuhul riigiameti või kohaliku omavalituse poolt loodavad, kogutavad või hallatavad. Riigiamet või omavalitsus võib kokkuleppel mõne kolmanda osapoolega avalikustada ka selle kolmanda osapoole andmeid, kui peab neid avalikkusele piisavalt huvipakkuvaks.</p>
 
-<p>This work is being supported by Sir Tim-Berners Lee &amp; Professor Nigel Shadbolt. There are a number of technical partners involved in the project to date. These include the Comprehensive Knowledge Archive Network (CKAN): CKAN runs the catalogue at data.gov.uk/data as well as a growing number of open data registries around the world. It is a project created by the Open Knowledge Foundation to make it easy to find, share and reuse open content and data. The CKAN software provides a web interface, programmer&#39;s API, feeds notifying of changes, and a browsable history of all changes. The API is documented here:&nbsp;<a href="http://data.gov.uk/data/api">http://data.gov.uk/data/api</a>.</p>
+			<p>Taolised andmehulgad võivad olla näiteks lepingutekstide kogud, määruste tekstide kogud, kirjavahetuse metainfo kogud, eelarvefailid, statistikafailid, avalikult loetavasse formaati konverteeritud andmebaasid/registrid või siis neist andmeid väljastavad veebiteenused. Üksikuid lepinguid, määrusi jne ei ole mõistlik käsitleda eraldi andmehulgana, samas kui üksikut andmebaasi tüüpiliselt on mõistlik käsitleda eraldi andmehulgana.</p>
 
-<p><strong>How can I get involved?</strong></p>
+			<p>Avalikustatav andmehulk võib tehnilises mõttes olla nii kogumik inimloetavaid tekstifaile (näiteks seaduste või määruste kogu, ametlike teadete kogu, lepingute kogu) kui kogum masinloetavaid andmeid (näiteks CSV või XML formaadis failideks eksporditud andmebaas või veebiteenus, mis võimaldab otsida ja alla laadida kõiki andmehulga andmeid näiteks json või xml formaadis).</p>
 
-<p>There are a number of ways of getting involved in the project, dependent on your background or interest. For example:</p>
+			<p><strong>Kuidas avaandmeid kasutada?</strong></p>
 
-<ul>
-	<li>Applications: have you built something cool with our data?Share it with us through the Apps page. You never know who might get excited!</li>
-	<li>Visualisations: one of the challenges is making data come to life. Have you found a great way of displaying our data? Does it combine with other data to give a new insight? Show us your talent?</li>
-	<li>Architecture: would you like to help us make this site better? Get in touch! You can see some of the visualisations create by the data.gov.uk team and the code used to create them&nbsp;<a href="http://data.gov.uk/data/viz/social-investment-and-foundations">here</a> and <a href="http://data.gov.uk/data/viz/investment-readiness-programme">here</a>.</li>
-	<li>Comments and feedback: You can provide comments on datasets and blogs&nbsp;as well as give feedback on the potential impact of a&nbsp;dataset.</li>
-</ul>
+			<p>Avalikustatud andmehulki on võimalik kasutada mitmetel erinevatel viisidel. Näiteks trendianalüüsid teatud poliitikavaldkonna teatud ajalõikes, erinavte riigiametite ja osakondade andmhulkade võrdlemine seoste ja potentsiaalselt uue informatsiooni tuletamiseks jne. Vastava tehnilise võimekusega huvitatud pooled võivad avalikustatud toorandmete baasil luua kasulikke ja huvipakkuvaid rakendusi ning teenuseid kogu avalikkusele.</p>
 
-<p><strong>Working with data</strong></p>
+			<p><strong>Kust ma leian veel informatsiooni?</strong></p>
 
-<p>If you wish to get involved in working with data you can check<a href="http://data.gov.uk/blog/simple-intro-open-data"> this</a> very brief primer, you can also check out organisations such as the <a href="http://theodi.org/">Open Data Institute</a> and the <a href="https://okfn.org/">Open Knowledge Foundation</a>.</p>
+			<p>Kasutage LISAINFO menüü alt leitavaid täiendavaid materjale või kontakteeruge konkreetsete küsimuste korral <a href="/kontaktid">kontaktide</a> lehel toodud aadressidel.</p>
+			',
+			'format' => 'filtered_html',
+			'substitute' => TRUE,
+	);
+	$pane->cache = array();
+	$pane->style = array(
+			'settings' => NULL,
+	);
+	$pane->css = array();
+	$pane->extras = array();
+	$pane->position = 0;
+	$pane->locks = array();
+	$display->content['new-1'] = $pane;
+	$display->panels['middle'][0] = 'new-1';
+	$pane = new stdClass();
+	$pane->pid = 'new-2';
+	$pane->panel = 'middle';
+	$pane->type = 'panels_mini';
+	$pane->subtype = 'what_s_data_gov_uk_all_about_';
+	$pane->shown = FALSE;
+	$pane->access = array();
+	$pane->configuration = array(
+			'override_title' => 0,
+			'override_title_text' => '',
+	);
+	$pane->cache = array();
+	$pane->style = array(
+			'settings' => NULL,
+	);
+	$pane->css = array();
+	$pane->extras = array();
+	$pane->position = 1;
+	$pane->locks = array();
+	$display->content['new-2'] = $pane;
+	$display->panels['middle'][1] = 'new-2';
+	$display->hide_title = PANELS_TITLE_FIXED;
+	$display->title_pane = 'new-1';
+	$handler->conf['display'] = $display;
+	$page->default_handlers[$handler->name] = $handler;
+	$pages['about_us'] = $page;
 
-<p>&nbsp;</p>
-
-<p><strong>To find out technical details about the setup of data.gov.uk go <a href="/about/technical-details">here</a>.</strong></p>
-
-<p>&nbsp;</p>
-',
-      'format' => 'filtered_html',
-      'substitute' => TRUE,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-1'] = $pane;
-    $display->panels['left'][0] = 'new-1';
-    $pane = new stdClass();
-    $pane->pid = 'new-2';
-    $pane->panel = 'right';
-    $pane->type = 'panels_mini';
-    $pane->subtype = 'what_s_data_gov_uk_all_about_';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-2'] = $pane;
-    $display->panels['right'][0] = 'new-2';
-  $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-1';
-  $handler->conf['display'] = $display;
-  $page->default_handlers[$handler->name] = $handler;
-  $pages['about_us'] = $page;
+  /*
+   * The "Data" page.
+   */
 
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
@@ -419,6 +424,10 @@ function dgu_site_feature_default_page_manager_pages() {
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $pages['data'] = $page;
+
+  /*
+   * The "Help" page.
+   */
 
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */

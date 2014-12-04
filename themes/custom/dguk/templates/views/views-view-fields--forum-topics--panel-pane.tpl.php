@@ -44,15 +44,15 @@ if ($user->uid) {
     <?php print $fields['title']->content; ?>
   </div>
   <div class="views-field views-field-name">
-    <span class="views-label views-label-name">Created by </span><?php print $fields['name']->content . ' ' . $fields['created']->content; ?>
+    <span class="views-label views-label-name">Lisanud </span><?php print $fields['name']->content . ' ' . $fields['created']->content; ?>
   </div>
   <?php if ($fields['taxonomy_forums']): ?>
     <div class="views-field views-field-taxonomy-forums">
-      Posted in <a href="/forum/<?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print $row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name; ?></a>
+      Kategoorias <a href="/forum/<?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print $row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name; ?></a>
     </div>
   <?php endif; ?>
   <?php if($new): ?>
-    <span class="new">New</span>
+    <span class="new">Uus</span>
   <?php endif; ?>
 
 </div>
@@ -61,20 +61,20 @@ if ($user->uid) {
     <div class="reply-counter">
       <a href="<?php print drupal_get_path_alias('node/' . $row->nid) . '#comments'; ?>">
         <span><?php print $fields['id']->raw; ?></span>
-        <?php print format_plural($fields['id']->raw, ' reply', ' replies'); ?>
+        <?php print format_plural($fields['id']->raw, ' vastus', ' vastust'); ?>
         <?php if ($new_replies): ?>
-          <span class="new"><?php print $new_replies; ?> new</span>
+          <span class="new"><?php print $new_replies; ?> uut</span>
         <?php endif; ?>
       </a>
     </div>
     <div class="reply-last grey-text">
       <?php if ($fields['id']->raw > 1): ?>
-        <span>Last</span>
+        <span>Viimane</span>
       <?php endif; ?>
       <?php print $fields['created_1']->content; ?>
     </div>
   <?php else: ?>
-    <p class="no-replies grey-text">No replies so far</p>
+    <p class="no-replies grey-text">Vastuseid pole</p>
   <?php endif; ?>
 </div>
 
