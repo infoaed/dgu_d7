@@ -5,6 +5,14 @@
   }
 ?>
 
+<?php if (!($user->uid)): ?>
+    <div class="ourmenu">
+        <div class="menucontainer">
+            <div class="menulogin"><a href="/user">Logi sisse</a></div>
+        </div>
+    </div>
+<?php endif ?>
+
 <div id="blackbar" class="<?php print ($user->uid == 1 || in_array('data publisher', array_values($user->roles))) ? 'with' : 'without' ?>-publisher">
     <div class="container">
         <a class="brand" href="/" rel="home">
@@ -56,11 +64,11 @@
           </div>
 
           <?php $destination = drupal_get_destination(); ?>
-          <?php print l('<i class="icon-user"></i>', 'user', array('query' => $destination['destination'] == 'home' ? '' : $destination, 'attributes' => array('class' => array('nav-user', 'btn-default', 'btn', 'btn-primary')), 'html' => TRUE)); ?>
+<!--          --><?php //print l('<i class="icon-user"></i>', 'user', array('query' => $destination['destination'] == 'home' ? '' : $destination, 'attributes' => array('class' => array('nav-user', 'btn-default', 'btn', 'btn-primary')), 'html' => TRUE)); ?>
 
           <?php if ($user->uid == 1 || in_array('data publisher', array_values($user->roles))): ?>
             <span class="dropdown">
-              <a class="nav-publisher btn btn-info dropdown-button" data-toggle="dropdown" href="#"><i class="icon-lock"></i></a>
+              <a class="nav-publisher btn btn-info dropdown-button" data-toggle="dropdown" href="#"><i class="icon-wrench"></i></a>
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
                 <li role="presentation" class="dropdown-header">Tööriistad</li>
                 <li><a href="/dataset/new">Lisa andmehulk</a></li>

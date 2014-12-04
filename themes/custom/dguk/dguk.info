@@ -13,6 +13,12 @@ regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
+regions[intro_text]     = 'Intro text'
+regions[project_logo]   = 'Project logo'
+regions[fp_left_list]   = 'FP Left List'
+regions[fp_right_video] = 'FP Right Logo'
+regions[fp_bottom]      = 'FP Bottom'
+regions[import_dataset]      = 'Import dataset'
 
 ; Disables Bootstrap parent theme from using bootstrapcdn
 settings[bootstrap_cdn] = ''
