@@ -159,8 +159,8 @@
                                 <?php print render($page['import_dataset']); ?>
                             <?php else:?>
                                 <div class="row">
-                                    <div class="col-md-6">Registreeri või lisada oma avalikustatud andmehulki.</div>
-                                    <div class="col-md-6"><a href="#"><button class="btn btn-primary">LISA ANDMEHULK</button></a></div>
+                                    <div class="col-md-6">Registreeri või lisa oma avalikustatud andmehulk.</div>
+                                    <div class="col-md-6"><a href="/dataset/new"><button class="btn btn-primary">LISA ANDMEHULK</button></a></div>
                                 </div>
                             <?php endif ?>
                         </div>
