@@ -12,7 +12,7 @@ projects[apachesolr][download][type] = "git"
 projects[apachesolr][download][url] = "http://git.drupal.org/project/apachesolr.git"
 projects[apachesolr][download][tag] = "7.x-1.4"
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][patch][] = "http://raw.github.com/datagovuk/dgu_d7/master/patches/apachesolr-text-field-mapping.patch"
+projects[apachesolr][patch][] = "http://raw.github.com/tripledev/dgu_d7/master/patches/apachesolr-text-field-mapping.patch"
 
 projects[apachesolr_autocomplete][version] = "1.3"
 projects[apachesolr_autocomplete][subdir] = "contrib"
@@ -56,7 +56,7 @@ projects[ctools][patch][] = "http://drupal.org/files/ctools-1925018-61.patch"
 
 projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
-projects[features][patch][] = "http://raw.github.com/datagovuk/dgu_d7/master/patches/features_dont_convert_strings_to_integers.patch"
+projects[features][patch][] = "http://raw.github.com/tripledev/dgu_d7/master/patches/features_dont_convert_strings_to_integers.patch"
 
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
@@ -209,7 +209,7 @@ projects[wysiwyg][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
-projects[redirect][patch][] = "http://raw.github.com/datagovuk/dgu_d7/master/patches/redirect_module_remove_oops_message.patch"
+projects[redirect][patch][] = "http://raw.github.com/tripledev/dgu_d7/master/patches/redirect_module_remove_oops_message.patch"
 
 projects[tagclouds][version] = "1.9"
 projects[tagclouds][subdir] = "contrib"
@@ -247,7 +247,7 @@ projects[imagefield_crop][download][url] = "http://git.drupal.org/project/imagef
 ;commit 366d78ae2cc260739555edeaf6eb00d2f2d8ee8d matches 7.x-1.1 tag
 projects[imagefield_crop][download][revision] = "366d78ae2cc260739555edeaf6eb00d2f2d8ee8d"
 projects[imagefield_crop][subdir] = "contrib"
-projects[imagefield_crop][patch][] = "http://raw.github.com/datagovuk/dgu_d7/master/patches/imagefield_crop_undefined_index.patch"
+projects[imagefield_crop][patch][] = "http://raw.github.com/tripledev/dgu_d7/master/patches/imagefield_crop_undefined_index.patch"
 
 projects[emptyparagraphkiller][version] = "1.0-beta2"
 projects[emptyparagraphkiller][subdir] = "contrib"
