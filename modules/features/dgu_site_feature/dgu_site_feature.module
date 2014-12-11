@@ -7,6 +7,19 @@
 include_once 'dgu_site_feature.features.inc';
 
 /**
+ * Implements hook_menu_alter().
+ */
+function dgu_site_feature_menu_alter(&$items) {
+
+	// The 'user/%user' and 'user/%user/edit' paths are now controlled by "access user profiles" and "administer users"
+	// permissions respectively.
+	$items['user/%user']['access arguments'] = array('access user profiles');
+	$items['user/%user']['access callback'] = 'user_access';
+	$items['user/%user/edit']['access arguments'] = array('administer users');
+	$items['user/%user/edit']['access callback'] = 'user_access';
+}
+
+/**
  * Implements hook_menu_breadcrumb_alter().
  */
 function dgu_site_feature_menu_breadcrumb_alter(&$active_trail, $item) {
