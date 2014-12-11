@@ -129,10 +129,10 @@
         <?php print render($page['content_pre']); ?>
 
           <div class="row">
-              <div class="col-md-8"><div class="introtext">
+              <div class="col-md-6"><div class="introtext">
                       <?php print render($page['intro_text']); ?>
               </div></div>
-              <div class="col-md-4">
+              <div class="col-md-6">
                   <div class="project_logo">
                       <?php print render($page['project_logo']); ?>
                   </div>
