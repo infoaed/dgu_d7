@@ -67,7 +67,7 @@
 <!--          --><?php //print l('<i class="icon-user"></i>', 'user', array('query' => $destination['destination'] == 'home' ? '' : $destination, 'attributes' => array('class' => array('nav-user', 'btn-default', 'btn', 'btn-primary')), 'html' => TRUE)); ?>
 
           <?php if ($user->uid == 1 || in_array('data publisher', array_values($user->roles))): ?>
-            <span class="dropdown">
+            <span class="dropdown toolsmenu">
               <a class="nav-publisher btn btn-info dropdown-button" data-toggle="dropdown" href="#"><i class="icon-wrench"></i></a>
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
                 <li role="presentation" class="dropdown-header">Tööriistad</li>
