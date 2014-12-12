@@ -223,7 +223,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_comment',
-    'label' => 'Comments',
+    'label' => 'Kommentaarid',
     'required' => 0,
     'settings' => array(
       'access' => -1,

@@ -10,3 +10,4 @@ features[features_api][] = api:2
 features[menu_custom][] = menu-footer
 features[page_manager_pages][] = kasutustingimused
 features[page_manager_pages][] = kontaktid
+features[page_manager_pages][] = abi
