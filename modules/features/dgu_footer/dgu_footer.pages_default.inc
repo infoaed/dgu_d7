@@ -221,7 +221,18 @@ $page->admin_title = 'Abi';
 $page->admin_description = '';
 $page->path = 'abi';
 $page->access = array();
-$page->menu = array();
+$page->menu = array(
+  'type' => 'normal',
+  'title' => 'Abi',
+  'name' => 'menu-footer',
+  'weight' => '3',
+  'parent' => array(
+    'type' => 'none',
+    'title' => '',
+    'name' => 'navigation',
+    'weight' => '0',
+  ),
+);
 $page->arguments = array();
 $page->conf = array(
   'admin_paths' => FALSE,
