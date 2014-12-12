@@ -220,5 +220,9 @@ if (in_array('data publisher', array_values($user->roles))) {
         // Print anything else in this region.
         print render($page['footer']);
         ?>
+        <div style="float:right;text-align:right;font-size:0.8em">
+   		Avaandmete teabevärav valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
+                                                                  Euroopa Regionaalarengu Fondi rahastusel.
+		</div>
     </footer>
 </div> <!-- /footer -->
