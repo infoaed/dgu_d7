@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-12-13 11:29+0000\n"
-"PO-Revision-Date: 2014-12-13 11:29+0000\n"
+"POT-Creation-Date: 2014-12-14 18:41+0000\n"
+"PO-Revision-Date: 2014-12-14 18:41+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -15424,10 +15424,6 @@ msgid "Add file"
 msgstr ""
 
 #: /admin/structure/menu/manage/menu-interact/add?render=overlay
-msgid "Upload"
-msgstr ""
-
-#: /admin/structure/menu/manage/menu-interact/add?render=overlay
 msgid "Glossary of Public Sector Information and Open Data Terminology"
 msgstr ""
 
@@ -15554,10 +15550,6 @@ msgstr ""
 
 #: /admin/structure/pages/add?render=overlay
 msgid "Finish"
-msgstr ""
-
-#: /admin/structure/pages/add?render=overlay; profiles/dgu/modules/contrib/media/js/media.format_form.js
-msgid "Cancel"
 msgstr ""
 
 #: /admin/structure/pages/add?render=overlay
@@ -17166,10 +17158,6 @@ msgstr ""
 
 #: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom/form
 msgid "Locking"
-msgstr ""
-
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom/form
-msgid "Remove"
 msgstr ""
 
 #: /admin/structure/pages/nojs/operation/page-avaleht/handlers/page_avaleht_panel_context/content?render=overlay&render=overlay
@@ -20243,10 +20231,6 @@ msgstr ""
 
 #: /reply/1/delete?destination=users%2Fadmin%23overlay%3Dadmin%2Fcontent%2Freply
 msgid "Delete entity but preserve it's children using placeholder"
-msgstr ""
-
-#: /reply/1/delete?destination=users%2Fadmin%23overlay%3Dadmin%2Fcontent%2Freply
-msgid "This action cannot be undone."
 msgstr ""
 
 #: /reply/1/delete?destination=users%2Fadmin%23overlay%3Dadmin%2Fcontent%2Freply
@@ -31251,6 +31235,18 @@ msgstr ""
 msgid "Abi"
 msgstr ""
 
+#: /admin/people/create?render=overlay&render=overlay
+msgid "The username cannot begin with a space."
+msgstr ""
+
+#: /cron.php?cron_key=-qxatvRhGOLylr9lQmEor1A8k3nsMAwSKci9ynBH9Bc
+msgid "No Solr instance available during indexing."
+msgstr ""
+
+#: /node/add/app
+msgid "The value provided for %field is not a valid URL."
+msgstr ""
+
 #: ; misc/tabledrag.js
 msgid "Show row weights"
 msgstr "Näita ridade kaalusid"
@@ -31387,9 +31383,17 @@ msgstr ""
 msgid "Forums"
 msgstr "Foorumid"
 
+#: /admin/structure/menu/manage/menu-interact/add?render=overlay
+msgid "Upload"
+msgstr "Lae üles"
+
 #: /user
 msgid "Request new password"
 msgstr "Telli uus salasõna"
+
+#: /admin/structure/pages/add?render=overlay; profiles/dgu/modules/contrib/media/js/media.format_form.js
+msgid "Cancel"
+msgstr "Loobu"
 
 msgid "More information about text formats"
 msgstr "Rohkem infot tekstiformaatide kohta"
@@ -31428,6 +31432,10 @@ msgid ""
 "from lexicon marking and linking, use the special markup, [no-lexicon] "
 "... [/no-lexicon]."
 msgstr " "
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom/form
+msgid "Remove"
+msgstr "Eemalda"
 
 msgid "Add another item"
 msgstr "Lisa veel üks rida"
@@ -31711,6 +31719,10 @@ msgstr "@count päeva"
 
 msgid "@count hours"
 msgstr "@count tundi"
+
+#: /reply/1/delete?destination=users%2Fadmin%23overlay%3Dadmin%2Fcontent%2Freply
+msgid "This action cannot be undone."
+msgstr "Seda aktsiooni ei ole võimalik hiljem tagasi võtta."
 
 msgid "1 hour"
 msgstr "1 tund"
