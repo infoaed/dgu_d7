@@ -9,7 +9,7 @@ if (in_array('data publisher', array_values($user->roles))) {
 <?php if (!($user->uid)): ?>
     <div class="ourmenu">
         <div class="menucontainer">
-            <div class="menulogin"><a href="/user">Logi sisse</a></div>
+            <div class="menulogin trigger-subnav login-page"><a href="/user">Logi sisse</a></div>
         </div>
     </div>
 <?php endif ?>
@@ -42,10 +42,9 @@ if (in_array('data publisher', array_values($user->roles))) {
             $active = 4;
         }
         if (arg(0) == 'user' || (arg(0) == 'admin' && arg(1) == 'workbench')) {
-            $active = 6;
+            $active = 1;
         }
         ?>
-
         <div class="chevron position<?php print $active;?>"></div>
         <nav id="dgu-nav">
             <?php //print dguk_get_main_menu($main_menu);?>
