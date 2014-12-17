@@ -41,9 +41,10 @@
             $active = 4;
           }
           if (arg(0) == 'user' || (arg(0) == 'admin' && arg(1) == 'workbench')) {
-            $active = 6;
+            $active = 1;
           }
         ?>
+
 
       <div class="chevron position<?php print $active;?>"></div>
         <nav id="dgu-nav">
@@ -147,8 +148,6 @@
         <?php endif; ?>
         <div class="clearfix"></div>
     </div><!--/page-->
-
-
 
 </div><!--/.content-container-->
 
