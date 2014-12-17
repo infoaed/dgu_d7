@@ -72,7 +72,6 @@ if (in_array('data publisher', array_values($user->roles))) {
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
                   <li role="presentation" class="dropdown-header">Tööriistad</li>
                   <li><a href="/dataset/new">Lisa andmehulk</a></li>
-                  <li><a href="/harvest">Andmekorje</a></li>
                   <li role="presentation" class="dropdown-header">Minu teabevaldajad</li>
                   <?php if (!empty($user->field_publishers)) foreach ($user->field_publishers[LANGUAGE_NONE] as $publisher_ref): ?>
 
