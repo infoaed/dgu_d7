@@ -163,7 +163,7 @@
       print render($page['footer']);
     ?>
     <div style="float:right;text-align:right;font-size:0.8em">
-	  Avaandmete teabevärav valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
+	  Avaandmete portaal valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
 	                                                                 Euroopa Regionaalarengu Fondi rahastusel.
 	</div>
     </div>
