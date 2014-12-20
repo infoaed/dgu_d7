@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-12-14 18:41+0000\n"
-"PO-Revision-Date: 2014-12-14 18:41+0000\n"
+"POT-Creation-Date: 2014-12-20 14:36+0000\n"
+"PO-Revision-Date: 2014-12-20 14:36+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -11658,10 +11658,6 @@ msgid "Have you faced challenges in accessing this data?"
 msgstr ""
 
 #: /index.php
-msgid "Submitted by"
-msgstr ""
-
-#: /index.php
 msgid "Yes"
 msgstr ""
 
@@ -16400,10 +16396,6 @@ msgid "Long format"
 msgstr ""
 
 #: /admin/structure/pages/add/page-avaleht/content?render=overlay
-msgid "Thursday"
-msgstr ""
-
-#: /admin/structure/pages/add/page-avaleht/content?render=overlay
 msgctxt "Long month name"
 msgid "November"
 msgstr ""
@@ -19067,10 +19059,6 @@ msgid "Fri"
 msgstr ""
 
 #: /manuals
-msgid "Friday"
-msgstr ""
-
-#: /manuals
 msgid "Resize"
 msgstr ""
 
@@ -19274,10 +19262,6 @@ msgstr ""
 
 #: /admin/structure/taxonomy/category/add?render=overlay&render=overlay
 msgid "Sun"
-msgstr ""
-
-#: /admin/structure/taxonomy/category/add?render=overlay&render=overlay
-msgid "Sunday"
 msgstr ""
 
 #: /admin/structure/taxonomy/category/add?render=overlay&render=overlay
@@ -20187,10 +20171,6 @@ msgstr ""
 
 #: /admin/content?render=overlay
 msgid "Operation"
-msgstr ""
-
-#: /admin/content?render=overlay
-msgid "Updated"
 msgstr ""
 
 #: /admin/content?render=overlay
@@ -24452,10 +24432,6 @@ msgid ""
 msgstr ""
 
 #: /admin/people/create?render=overlay&render=overlay
-msgid "Monday"
-msgstr ""
-
-#: /admin/people/create?render=overlay&render=overlay
 msgid ""
 "Created a new user account for <a href=\"@url\">%name</a>. No e-mail "
 "has been sent."
@@ -28684,10 +28660,6 @@ msgid ""
 "href=\"@url\">reading the cron tutorial on drupal.org</a>."
 msgstr ""
 
-#: /user/27/edit?destination=admin%2Fpeople&render=overlay
-msgid "Saturday"
-msgstr ""
-
 #: /admin/modules?render=overlay
 msgid "Provides HTTP basic authentication for the services module"
 msgstr ""
@@ -28894,10 +28866,6 @@ msgstr ""
 
 #: /node/14/moderation/14/change-state/published?destination=admin/workbench/needs-review&token=E2JweufQQR8cbc2-WaKVSU6inoGEjvIf0zg2s4-0bP0
 msgid "Change moderation state"
-msgstr ""
-
-#: /id_card_login
-msgid "Tuesday"
 msgstr ""
 
 #: /admin/structure/pages/edit/page-about_us?render=overlay
@@ -31247,6 +31215,1270 @@ msgstr ""
 msgid "The value provided for %field is not a valid URL."
 msgstr ""
 
+#: /user/password
+msgid "E-mail new password"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "default"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"Style: @widget, Exposed: @expose, Stars display: @style, Text display: "
+"@text"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid "Original image"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"Content items can be displayed using different view modes: Teaser, "
+"Full content, Print, RSS, etc. <em>Teaser</em> is a short format that "
+"is typically used in lists of multiple content items. <em>Full "
+"content</em> is typically used when the content is displayed on its "
+"own page."
+msgstr ""
+
+#: /admin/structure/types/manage/app/display?render=overlay
+msgid ""
+"Here, you can define which fields are shown and hidden when %type "
+"content is displayed in each view mode, and define how the fields are "
+"displayed in each view mode."
+msgstr ""
+
+#: /system/ajax
+msgid "Enable replies on this field"
+msgstr ""
+
+#: /system/ajax
+msgid "Field replies settings"
+msgstr ""
+
+#: /system/ajax
+msgid "Reply bundle to be used on this field"
+msgstr ""
+
+#: /system/ajax
+msgid "Please select Reply bundle from the list."
+msgstr ""
+
+#: /system/ajax
+msgid "Link replies to field revision"
+msgstr ""
+
+#: /system/ajax
+msgid "Otherwise comments linked to all revisions of a field."
+msgstr ""
+
+#: /system/ajax
+msgid "Format settings:"
+msgstr ""
+
+#: /admin/structure/types/manage/app/display/teaser?render=overlay
+msgid "Trim length"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Andorra"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "United Arab Emirates"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Afghanistan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Anguilla"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Albania"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Armenia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Angola"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Antarctica"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Argentina"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "American Samoa"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Austria"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Australia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Aruba"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Aland Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Azerbaijan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Barbados"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bangladesh"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Belgium"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Burkina Faso"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bulgaria"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bahrain"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Burundi"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Benin"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bermuda"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Brunei"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bolivia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Caribbean Netherlands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Brazil"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bahamas"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bhutan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Bouvet Island"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Botswana"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Belarus"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Belize"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Canada"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Central African Republic"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Switzerland"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Ivory Coast"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cook Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Chile"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cameroon"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "China"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Colombia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Costa Rica"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cuba"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cape Verde"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Curaçao"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Christmas Island"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cyprus"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Czech Republic"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Germany"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Djibouti"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Denmark"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Dominica"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Dominican Republic"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Algeria"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Ecuador"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Estonia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Egypt"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Western Sahara"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Eritrea"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Spain"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Ethiopia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Finland"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Falkland Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Micronesia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Faroe Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "France"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Gabon"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "United Kingdom"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Grenada"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Georgia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "French Guiana"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Guernsey"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Ghana"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Gibraltar"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Greenland"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Gambia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Guinea"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Guadeloupe"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Greece"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Guatemala"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Guam"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Guyana"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Hong Kong S.A.R., China"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Honduras"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Croatia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Haiti"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Hungary"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Indonesia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Ireland"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Israel"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Isle of Man"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "India"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Iraq"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Iran"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Iceland"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Italy"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Jersey"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Jamaica"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Jordan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Japan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Kenya"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cambodia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Kiribati"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Comoros"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "North Korea"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "South Korea"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Kuwait"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Cayman Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Kazakhstan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Laos"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Lebanon"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saint Lucia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Liechtenstein"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Sri Lanka"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Liberia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Lesotho"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Lithuania"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Luxembourg"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Latvia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Libya"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Morocco"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Monaco"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Moldova"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Montenegro"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Madagascar"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Marshall Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Macedonia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Mali"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Myanmar"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Mongolia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Martinique"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Mauritania"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Montserrat"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Malta"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Mauritius"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Maldives"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Malawi"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Mexico"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Malaysia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Mozambique"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Namibia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "New Caledonia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Niger"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Norfolk Island"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Nigeria"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Nicaragua"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Netherlands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Norway"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Nepal"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Niue"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "New Zealand"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Oman"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Panama"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Peru"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "French Polynesia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Papua New Guinea"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Philippines"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Pakistan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Poland"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Pitcairn"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Puerto Rico"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Palestinian Territory"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Portugal"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Palau"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Paraguay"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Qatar"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Reunion"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Romania"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Serbia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Russia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Rwanda"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saudi Arabia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Solomon Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Seychelles"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Sudan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Sweden"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Singapore"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saint Helena"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Slovenia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Slovakia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Sierra Leone"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "San Marino"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Senegal"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Somalia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Suriname"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "South Sudan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "El Salvador"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Sint Maarten"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Syria"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Swaziland"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Chad"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "French Southern Territories"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Togo"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Thailand"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Tajikistan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Tokelau"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Timor-Leste"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Turkmenistan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Tunisia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Turkey"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Tuvalu"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Taiwan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Tanzania"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Ukraine"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Uganda"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "United States"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Uruguay"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Uzbekistan"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Vatican"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Venezuela"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "British Virgin Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Vietnam"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Vanuatu"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Samoa"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Yemen"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Mayotte"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "South Africa"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Zambia"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Zimbabwe"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Locale"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Default country"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "First day of week"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Time zones"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Default time zone"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Users may set their own time zone."
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Remind users at login if their time zone is not set."
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Only applied if users may set their own time zone."
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Time zone for new users"
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Default time zone."
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Empty time zone."
+msgstr ""
+
+#: /admin/config/regional/settings?render=overlay
+msgid "Users may set their own time zone at registration."
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Edit language"
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Language code"
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Language name in English"
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid ""
+"Name of the language in English. Will be available for translation in "
+"all languages."
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Native language name"
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Name of the language in the language being added."
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Path prefix language code"
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid ""
+"Language code or other custom text to use as a path prefix for URL "
+"language detection, if your <em>Detection and selection</em> settings "
+"use URL path prefixes. For the default language, this value may be "
+"left blank. <strong>Modifying this value may break existing URLs. Use "
+"with caution in a production environment.</strong> Example: Specifying "
+"\"deutsch\" as the path prefix code for German results in URLs like "
+"\"example.com/deutsch/contact\"."
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Language domain"
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid ""
+"The domain name to use for this language if URL domains are used for "
+"<em>Detection and selection</em>. Leave blank for the default "
+"language. <strong>Changing this value may break existing "
+"URLs.</strong> Example: Specifying \"de.example.com\" as language "
+"domain for German will result in an URL like "
+"\"http://de.example.com/contact\"."
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Direction that text in this language is presented."
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Right to left"
+msgstr ""
+
+#: /admin/config/regional/language/edit/et?render=overlay
+msgid "Save language"
+msgstr ""
+
+#: /admin/config/regional/language/configure?render=overlay
+msgid "@type language detection"
+msgstr ""
+
+#: /admin/config/regional/language/configure?render=overlay
+msgid "@title language provider"
+msgstr ""
+
+#: /admin/config/regional/language/configure?render=overlay
+msgid ""
+"Define how to decide which language is used to display page elements "
+"(primarily text provided by Drupal and modules, such as field labels "
+"and help text). This decision is made by evaluating a series of "
+"detection methods for languages; the first detection method that gets "
+"a result will determine which language is used for that type of text. "
+"Define the order of evaluation of language detection methods on this "
+"page."
+msgstr ""
+
+#: /admin/config/regional/language/configure?render=overlay
+msgid "Detection method"
+msgstr ""
+
+#: /admin/config/regional/date-time?render=overlay
+msgid "pm"
+msgstr ""
+
+#: /admin/config/regional/date-time?render=overlay
+msgid "Dec"
+msgstr ""
+
+#: /admin/config/regional/date-time?render=overlay
+msgid "No date types available. <a href=\"@link\">Add date type</a>."
+msgstr ""
+
+#: /admin/config/regional/date-time?render=overlay
+msgid "Date type"
+msgstr ""
+
+#: /admin/config/regional/date-time/formats?render=overlay
+msgid ""
+"No custom date formats available. <a href=\"@link\">Add date "
+"format</a>."
+msgstr ""
+
+#: /admin/config/regional/date-time/locale/et/edit?render=overlay
+msgid "Localize date formats"
+msgstr ""
+
+#: /admin/config/regional/date-time/locale/et/edit?render=overlay&render=overlay
+msgid "Configuration saved."
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/add?render=overlay
+msgid "Displayed as"
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/add?render=overlay
+msgid "Format string"
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/add?render=overlay
+msgid ""
+"A user-defined date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options."
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/lookup?format=m
+msgid "Date and time lookup"
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/add?render=overlay&render=overlay
+msgid "Custom date format added."
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/36/edit?render=overlay
+msgid "Edit date format"
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/36/edit?render=overlay
+msgid "Allow users to edit a configured date format."
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/36/edit?render=overlay
+msgid "Displayed as %date"
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/36/edit?render=overlay
+msgid "Save format"
+msgstr ""
+
+#: /admin/config/regional/date-time/formats/36/edit?render=overlay&render=overlay
+msgid "Custom date format updated."
+msgstr ""
+
 #: ; misc/tabledrag.js
 msgid "Show row weights"
 msgstr "Näita ridade kaalusid"
@@ -31334,7 +32566,7 @@ msgid "Add content"
 msgstr "Lisa sisu"
 
 msgid "Submitted by !username on !datetime"
-msgstr "Lisanud kasutaja !username kuupäeval !datetime"
+msgstr "Lisanud !username !datetime"
 
 msgid "English"
 msgstr "Inglise"
@@ -31347,6 +32579,10 @@ msgstr "Foorum"
 
 #: /index.php
 msgid "Posted by"
+msgstr "Lisanud"
+
+#: /index.php
+msgid "Submitted by"
 msgstr "Lisanud"
 
 #: /index.php
@@ -31394,6 +32630,10 @@ msgstr "Telli uus salasõna"
 #: /admin/structure/pages/add?render=overlay; profiles/dgu/modules/contrib/media/js/media.format_form.js
 msgid "Cancel"
 msgstr "Loobu"
+
+#: /admin/structure/pages/add/page-avaleht/content?render=overlay
+msgid "Thursday"
+msgstr "Neljapäev"
 
 msgid "More information about text formats"
 msgstr "Rohkem infot tekstiformaatide kohta"
@@ -31685,6 +32925,14 @@ msgstr ""
 "Jätke tühjaks kui soovite, et teksti kokkuvõtteks oleks kogu tekst "
 "täies mahus."
 
+#: /manuals
+msgid "Friday"
+msgstr "Reede"
+
+#: /admin/structure/taxonomy/category/add?render=overlay&render=overlay
+msgid "Sunday"
+msgstr "Pühapäev"
+
 msgid "Add new comment"
 msgstr "Lisa uus kommentaar"
 
@@ -31720,6 +32968,10 @@ msgstr "@count päeva"
 msgid "@count hours"
 msgstr "@count tundi"
 
+#: /admin/content?render=overlay
+msgid "Updated"
+msgstr "Uuendatud"
+
 #: /reply/1/delete?destination=users%2Fadmin%23overlay%3Dadmin%2Fcontent%2Freply
 msgid "This action cannot be undone."
 msgstr "Seda aktsiooni ei ole võimalik hiljem tagasi võtta."
@@ -31729,6 +32981,10 @@ msgstr "1 tund"
 
 msgid "@time ago"
 msgstr "@time tagasi"
+
+#: /admin/people/create?render=overlay&render=overlay
+msgid "Monday"
+msgstr "Esmaspäev"
 
 #: /admin/structure/features/dgu_forum/status
 msgid "[nid] topics"
@@ -31746,7 +33002,7 @@ msgid "Wed"
 msgstr "kolmapäev"
 
 msgid "Wednesday"
-msgstr "kolmapäev"
+msgstr "Kolmapäev"
 
 #: /id_card_login
 msgid "Logged in with @id_code."
@@ -31763,6 +33019,14 @@ msgstr "Logi sisse Mobiili-ID abil"
 #: /node/5
 msgid "@count topics"
 msgstr "@count teemat"
+
+#: /user/27/edit?destination=admin%2Fpeople&render=overlay
+msgid "Saturday"
+msgstr "Laupäev"
+
+#: /id_card_login
+msgid "Tuesday"
+msgstr "Teisipäev"
 
 msgid "read more"
 msgstr "loe lisaks"
