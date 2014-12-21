@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-12-20 14:36+0000\n"
-"PO-Revision-Date: 2014-12-20 14:36+0000\n"
+"POT-Creation-Date: 2014-12-20 14:59+0000\n"
+"PO-Revision-Date: 2014-12-20 14:59+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -20006,10 +20006,6 @@ msgid "Member for"
 msgstr ""
 
 #: /users/lellsaar
-msgid "@count weeks"
-msgstr ""
-
-#: /users/lellsaar
 msgid "Account"
 msgstr ""
 
@@ -26815,10 +26811,6 @@ msgstr ""
 msgid "Article"
 msgstr ""
 
-#: /users/admin
-msgid "1 week"
-msgstr ""
-
 #: /admin/modules/list/confirm?render=overlay
 msgid "Administer Mobiil ID authentication and sign modules"
 msgstr ""
@@ -32962,6 +32954,10 @@ msgstr "1 minut"
 msgid "@count min"
 msgstr "@count min"
 
+#: /users/lellsaar
+msgid "@count weeks"
+msgstr "@count nädalat"
+
 msgid "@count days"
 msgstr "@count päeva"
 
@@ -33011,6 +33007,10 @@ msgstr "Logitud sisse isikukoodiga @id_code. "
 #: /user
 msgid "Log in with ID-Card"
 msgstr "Logi sisse ID-kaardiga"
+
+#: /users/admin
+msgid "1 week"
+msgstr "1 nädal"
 
 #: /user
 msgid "Log in using Mobiil-ID"
