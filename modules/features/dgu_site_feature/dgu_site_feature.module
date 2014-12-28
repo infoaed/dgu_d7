@@ -9,10 +9,21 @@ include_once 'dgu_site_feature.features.inc';
 function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
 
 	if (in_array($form_id, array('user_login', 'user_login_block'))) {
+
+		$hints_div_id = isset($_GET['real'])) ? 'login_intro' : 'login_hints';
+
 		$form['hints_div'] = array(
-				'#markup' => '<div id="login_hints"><strong>NB!</strong> Sisse logimiseks kasutage oma ID-kaarti, välja arvatud kui Teile on portaali poolt eraldatud kasutajanimi ja salasõna. Lihtsalt sisse logimine annab Teile võimaluse osaleda foorumites ja anda tagasisidet.<br/>Andmehulkade lisamiseks peab Teie kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt vastava portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</div>',
+				'#markup' => '<div id="' . $hints_div_id . '"><strong>NB!</strong> Sisse logimiseks kasutage oma ID-kaarti, välja arvatud kui Teile on portaali poolt eraldatud kasutajanimi ja salasõna. Lihtsalt sisse logimine annab Teile võimaluse osaleda foorumites ja anda tagasisidet.<br/>Andmehulkade lisamiseks peab Teie kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt vastava portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</div>',
 				'#weight' => -1
 		);
+
+		// Don't display the username/password/submit inputs if special HTTP query string parameter set.
+		// The purpose: our users should normally not user username/password, but an ID-card instead.
+		if (isset($_GET['real'])) {
+			unset($form['name']);
+			unset($form['pass']);
+			unset($form['actions']['submit']);
+		}
 	}
 }
 
@@ -27,6 +38,9 @@ function dgu_site_feature_menu_alter(&$items) {
 	$items['user/%user']['access callback'] = 'user_access';
 	$items['user/%user/edit']['access arguments'] = array('administer users');
 	$items['user/%user/edit']['access callback'] = 'user_access';
+
+	// Remove the "forgot password" tab and break its associated path as well.
+	unset($items['user/password']);
 }
 
 /**
