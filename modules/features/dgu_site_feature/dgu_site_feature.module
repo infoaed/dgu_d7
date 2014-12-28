@@ -10,7 +10,7 @@ function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
 
 	if (in_array($form_id, array('user_login', 'user_login_block'))) {
 
-		$hints_div_id = isset($_GET['real'])) ? 'login_intro' : 'login_hints';
+		$hints_div_id = isset($_GET['real']) ? 'login_intro' : 'login_hints';
 
 		$form['hints_div'] = array(
 				'#markup' => '<div id="' . $hints_div_id . '"><strong>NB!</strong> Sisse logimiseks kasutage oma ID-kaarti, välja arvatud kui Teile on portaali poolt eraldatud kasutajanimi ja salasõna. Lihtsalt sisse logimine annab Teile võimaluse osaleda foorumites ja anda tagasisidet.<br/>Andmehulkade lisamiseks peab Teie kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt vastava portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</div>',
