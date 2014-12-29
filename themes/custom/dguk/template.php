@@ -51,10 +51,10 @@ function dguk_preprocess_node(&$variables) {
   $variables['theme_hook_suggestions'][] = 'node__' . $variables['node']->type . '__' . $variables['view_mode'];
 
   if ($variables['node']->type == 'resource'){
-    $variables['submitted'] = 'Submitted on ' . format_date($variables['created']);
+    $variables['submitted'] = 'Lisatud ' . format_date($variables['created']);
   }
 
-  $variables['updated'] = $variables['created'] != $variables['changed'] ? '| Updated on ' . format_date($variables['changed']) : FALSE;
+  $variables['updated'] = $variables['created'] != $variables['changed'] ? '| Uuendatud ' . format_date($variables['changed']) : FALSE;
 
   // We render user picture only on forum and blog nodes.
   if ($variables['node']->type == 'forum' || $variables['node']->type == 'blog') {

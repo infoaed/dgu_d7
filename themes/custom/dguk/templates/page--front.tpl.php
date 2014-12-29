@@ -72,7 +72,6 @@ if (in_array('data publisher', array_values($user->roles))) {
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
                   <li role="presentation" class="dropdown-header">Tööriistad</li>
                   <li><a href="/dataset/new">Lisa andmehulk</a></li>
-                  <li><a href="/harvest">Andmekorje</a></li>
                   <li role="presentation" class="dropdown-header">Minu teabevaldajad</li>
                   <?php if (!empty($user->field_publishers)) foreach ($user->field_publishers[LANGUAGE_NONE] as $publisher_ref): ?>
 
@@ -220,7 +219,7 @@ if (in_array('data publisher', array_values($user->roles))) {
         print render($page['footer']);
         ?>
         <div style="float:right;text-align:right;font-size:0.8em">
-   		Avaandmete teabevärav valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
+   		Avaandmete portaal valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
                                                                   Euroopa Regionaalarengu Fondi rahastusel.
 		</div>
     </footer>
