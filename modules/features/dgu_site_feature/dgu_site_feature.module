@@ -10,27 +10,11 @@ function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
 
     if (in_array($form_id, array('user_login', 'user_login_block'))) {
 
-        $display_inputs = isset($_GET['real']);
-
         $hints_div_markup = '<div style="display:none;"></div>';
-        if ($display_inputs) {
-            $hints_div_markup = '<div id="login_hints"><strong>NB!</strong> Sisse logimiseks kasutage oma ID-kaarti, välja arvatud kui Teile on portaali poolt eraldatud kasutajanimi ja salasõna. Lihtsalt sisse logimine annab Teile võimaluse osaleda foorumites ja anda tagasisidet.<br/>Andmehulkade lisamiseks peab Teie kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt vastava portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</div>';
-        } else {
-            $hints_div_markup = '<div id="login_intro"><p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile kasutajatele, sealhulgas ka anonüümsetele.</p><p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</p><p>Portaal pakub hetkel järgmisi võimalusi sisse logimiseks:</p></div>';
-        }
-
         $form['hints_div'] = array(
                 '#markup' => $hints_div_markup,
                 '#weight' => -1
         );
-
-        // Don't display the username/password/submit inputs if special HTTP query string parameter set.
-        // The purpose: our users should normally not user username/password, but an ID-card instead.
-        if (!($display_inputs)) {
-            unset($form['name']);
-            unset($form['pass']);
-            unset($form['actions']['submit']);
-        }
     }
 }
 
