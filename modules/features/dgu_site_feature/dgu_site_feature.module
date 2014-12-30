@@ -6,6 +6,18 @@
 
 include_once 'dgu_site_feature.features.inc';
 
+function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
+
+    if (in_array($form_id, array('user_login', 'user_login_block'))) {
+
+        $hints_div_markup = '<div style="display:none;"></div>';
+        $form['hints_div'] = array(
+                '#markup' => $hints_div_markup,
+                '#weight' => -1
+        );
+    }
+}
+
 /**
  * Implements hook_menu_alter().
  */
@@ -20,7 +32,6 @@ function dgu_site_feature_menu_alter(&$items) {
 
     // Remove the "forgot password" tab and break its associated path as well.
     unset($items['user/password']);
-
 }
 
 /**
