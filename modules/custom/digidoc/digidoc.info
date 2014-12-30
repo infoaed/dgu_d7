@@ -1,6 +1,0 @@
-core = "7.x"
-description = "DigiDoc specific functionality"
-name = "DigiDoc"
-package = "DigiDoc"
-version = "7.x-1.0"
-configure = admin/config/services/digidoc
