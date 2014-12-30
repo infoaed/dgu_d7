@@ -23,6 +23,14 @@ function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
                 '#markup' => $hints_div_markup,
                 '#weight' => -1
         );
+
+        // Don't display the username/password/submit inputs if special HTTP query string parameter set.
+        // The purpose: our users should normally not user username/password, but an ID-card instead.
+        if (!($display_inputs)) {
+            unset($form['name']);
+            unset($form['pass']);
+            unset($form['actions']['submit']);
+        }
     }
 }
 
