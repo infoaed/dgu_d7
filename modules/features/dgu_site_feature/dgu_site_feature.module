@@ -20,6 +20,7 @@ function dgu_site_feature_menu_alter(&$items) {
 
     // Remove the "forgot password" tab and break its associated path as well.
     unset($items['user/password']);
+
 }
 
 /**
