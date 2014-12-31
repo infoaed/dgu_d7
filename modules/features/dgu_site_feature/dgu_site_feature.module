@@ -10,7 +10,7 @@ function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
 
     if (in_array($form_id, array('user_login', 'user_login_block'))) {
 
-    	$hints_div_markup = '<div id="login_hints"><p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile kasutajatele, sealhulgas ka anonüümsetele.</p><p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</p><p>Sisse logimiseks kasutage käesoleval lehel toodud võimalusi.<br/> Kasutajanime ja salasõnaga sisse logimine on mõeldud portaalid haldajatele, kellele on eraldatud vastav kasutajakonto.</p></div>';
+    	$hints_div_markup = '<div id="login_hints"><p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile kasutajatele, sealhulgas ka anonüümsetele.</p><p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on leitav <a href="/juhendid">Lisainfo-&gt;Juhendid</a> alt.</p><p>Sisse logimiseks kasutage alltoodud ID võimalusi.<br/> Kasutajanimi ja salasõna paremal on mõeldud portaalid haldajatele.</p></div>';
         $form['hints_div'] = array(
                 '#markup' => $hints_div_markup,
                 '#weight' => -1
