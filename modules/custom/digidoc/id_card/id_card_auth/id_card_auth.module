@@ -1,0 +1,265 @@
+<?php
+
+/**
+ * Implements hook_init().
+ *
+ * @return void
+ */
+function id_card_auth_init() {
+    $path = drupal_get_path('module', 'digidoc');
+    drupal_add_css($path . '/id_card/id_card.css');
+}
+
+/**
+ * Implements hook_enable().
+ *
+ * @return void
+ */
+function id_card_auth_enable() {
+    db_update('system')
+        ->fields(array('weight' => 1))
+        ->condition('type', 'module')
+        ->condition('name', 'id_card_auth')
+        ->execute();
+}
+
+/**
+ * Implements hook_menu().
+ *
+ * @return array menu items
+ */
+function id_card_auth_menu() {
+    $items = array();
+
+    $items['admin/config/services/digidoc/id_card'] = array(
+        'title' => 'ID-Card',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('id_card_auth_admin_form'),
+        'description' => 'Configure ID-Card settings',
+        'access arguments' => array('administer id card'),
+        'type' => MENU_LOCAL_TASK,
+        'file' => 'id_card_auth.admin.inc',
+        'file path' => drupal_get_path('module', 'id_card_auth'),
+    );
+
+    $items['id_card_login'] = array(
+        'title' => 'ID-Card login',
+        'page callback' => 'id_card_login',
+        'description' => 'ID-Card login page',
+        'access callback' => 'user_is_anonymous',
+        'type' => MENU_CALLBACK,
+    );
+
+    return $items;
+}
+
+/**
+ * Implements hook_permission().
+ *
+ * @return array
+ */
+function id_card_auth_permission() {
+    return array(
+        'administer id card' => array(
+            'title' => t('Administer ID-card authentication and sign modules'),
+        ),
+    );
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * @param array $form
+ * @param array $form_state
+ * @return void
+ */
+function id_card_auth_form_user_login_block_alter(&$form, &$form_state) {
+    _id_card_user_login_form_alter($form, $form_state);
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * @param array $form
+ * @param array $form_state
+ * @return void
+ */
+function id_card_auth_form_user_login_alter(&$form, &$form_state) {
+    _id_card_user_login_form_alter($form, $form_state);
+}
+
+/**
+ * Alters the use form to add ID-Card login support
+ *
+ * @param array $form
+ * @param array $form_state
+ * @return void
+ */
+function _id_card_user_login_form_alter(&$form, &$form_state) {
+    // Check, if admin has configured to allowed login form alter.
+    $can_alter_form = (bool)variable_get('id_card_alter_user_login_form', 0);
+    if (!$can_alter_form) {
+        return;
+    }
+
+    // Force HTTPS.
+    variable_set('https', true);
+
+    // Create DigiDoc authentication wrapper.
+    // Also used by Mobiil-ID Authenticate module.
+    if (!isset($form['digidoc_auth_service'])) {
+        $form['digidoc_auth_service'] = array(
+            'links' => array(
+                '#theme' => 'item_list',
+                '#items' => array(),
+                '#attributes' => array('id' => 'digidoc-auth-service-wrapper'),
+                '#weight' => 1,
+            ),
+        );
+    }
+    $wrapper = &$form['digidoc_auth_service'];
+
+    // Add ID card service to item list.
+    $wrapper['links']['#items'][] = array(
+        'data' => l(
+            t('Log in with ID-Card'),
+            'id_card_login',
+            array('absolute' => true, 'https' => true)
+        ),
+        'id' => array('id-card-login-link'),
+    );
+}
+
+/**
+ * Outputs the login page with instuctions or error in case ID-Card service failed
+ * (ie. wrong or non-registered ID-Card phone number)
+ *
+ * @return string description
+ */
+function id_card_login() {
+    // var_dump($_SERVER);
+    // hack for ssl offload
+    if (isset($_SERVER['HTTP_IDCARDVERIFY'])) {
+        $_SERVER['REDIRECT_SSL_CLIENT_VERIFY'] = $_SERVER['HTTP_IDCARDVERIFY'];
+        if (isset($_SERVER['HTTP_IDCARDSSLCLIENTSDNCN'])) {
+            $_SERVER['REDIRECT_SSL_CLIENT_S_DN_CN'] = $_SERVER['HTTP_IDCARDSSLCLIENTSDNCN'];
+        }
+        if (isset($_SERVER['HTTP_IDCARDSSLCLIENTSDN'])) {
+            $_SERVER['REDIRECT_SSL_CLIENT_S_DN'] = $_SERVER['HTTP_IDCARDSSLCLIENTSDN'];
+        }
+    }
+    if (isset($_SERVER['REDIRECT_SSL_CLIENT_VERIFY']) && $_SERVER['REDIRECT_SSL_CLIENT_VERIFY'] == 'SUCCESS') {
+        if (isset($_SERVER['REDIRECT_SSL_CLIENT_S_DN_CN']) && $_SERVER['REDIRECT_SSL_CLIENT_S_DN_CN'])  {
+            // Extract the ID Code from SSL_CLIENT_S_DN_CN
+            list($lastname, $firstname, $id_code) = explode(',', $_SERVER['REDIRECT_SSL_CLIENT_S_DN_CN']);
+        }
+        // Special case for older ID-cards with UCS-2 encoding.
+        elseif (isset($_SERVER['REDIRECT_SSL_CLIENT_S_DN']) && $_SERVER['REDIRECT_SSL_CLIENT_S_DN']) {
+            // dismantle SSL_CLIENT_S_DN
+            $SSL_CLIENT_S_DN_CN = explode('/', $_SERVER['REDIRECT_SSL_CLIENT_S_DN']);
+            foreach ($SSL_CLIENT_S_DN_CN as $value) if(strpos($value, 'CN=') === 0) {
+                $SSL_CLIENT_S_DN_CN = '';
+                // convert hex values (\x[0-9A-Fa-f]{1,2}) to characters
+                foreach (explode('\x', substr($value, 3)) as $hex) {
+                    // skip 0 value bytes (\x00)
+                    if($hex && substr($hex, 0, 2) != '00') {
+                        $SSL_CLIENT_S_DN_CN .= chr(hexdec(substr($hex, 0, 2))).substr($hex, 2);
+                    }
+                    // replace 0 bytes (\x00) with empty string ('')
+                    elseif ($hex) {
+                        $SSL_CLIENT_S_DN_CN .= str_replace('00', '', $hex);
+                    }
+                }
+                // SSL_CLIENT_S_DN should be now in ISO-8859-1
+                $SSL_CLIENT_S_DN_CN = mb_convert_encoding($SSL_CLIENT_S_DN_CN, 'UTF-8', 'ISO-8859-1');
+                break;
+            }
+            list($lastname, $firstname, $id_code) = explode(',', $SSL_CLIENT_S_DN_CN);
+        }
+        else {
+            watchdog('id_card_auth', 'ID-Card login failed:' . "\n" . ' %debug', array(
+                '%debug' => print_r($_SERVER, TRUE),
+            ), WATCHDOG_DEBUG);
+            return '<div class="id-card-login-error">' . t('Authentication failed!') . '</div>';
+        }
+
+        if($id_code) {
+            if (variable_get('id_card_create_new_user', '1')) {
+                $account = user_external_load($id_code);
+                user_external_login_register($id_code, 'id_card');
+
+                if (!isset($account) || !$account) {
+                    $account = user_external_load($id_code);
+                    $data['field_first_name']['und'][0] = Array('value' => namilize($firstname));
+                    $data['field_surname']['und'][0] = Array('value' => namilize($lastname));
+                    user_save($account, $data);
+                }
+                // @TODO: Redirect to front page instead.
+                return '<div class="id-card-login-successful">' . t('Logged in with @id_code.', array('@id_code' => $id_code)) . '</div>';
+            } else {
+                $user_info = user_external_load($id_code);
+
+                // Creation of new users is disabled, so check if it exists.
+                if ($user_info and $user_info->status == 1) {
+                    global $user;
+                    $user = $user_info;
+                    user_login_finalize();
+                } else {
+                    drupal_set_message(t('Cannot login. User account not active.'), 'error', FALSE);
+                    drupal_goto('<front>');
+                    return FALSE;
+                }
+            }
+
+            // Invoke "hook_id_card_auth_after_success".
+            $hooks = module_implements('digidoc_id_card_auth_success');
+            if (!empty($hooks)) {
+                foreach ($hooks as $module) {
+                    $data = array(
+                        'firstname' => $firstname,
+                        'lastname' => $lastname,
+                        'id_code' => $id_code,
+                    );
+                    $function = $module . '_digidoc_id_card_auth_success';
+                    $function($data);
+                }
+            }
+            else {
+                drupal_goto('<front>');
+            }
+        }
+        else {
+            watchdog('id_card_auth', 'ID-Card login failed:' . "\n" . ' <pre>%debug</pre>', array(
+                '%debug' => print_r($_SERVER, TRUE),
+            ), WATCHDOG_DEBUG);
+            return '<div class="id-card-login-error">' . t('Authentication failed!') . '</div>';
+        }
+    }
+    else {
+        watchdog('id_card_auth', 'ID-Card login failed:' . "\n" . ' <pre>%debug</pre>', array(
+            '%debug' => print_r($_SERVER, TRUE),
+        ), WATCHDOG_DEBUG);
+        return '<div class="id-card-login-error">' . t('Authentication failed!') . '</div>';
+    }
+    //To be polite, we have to return something, even if it's nothing.
+    return null;
+}
+
+/**
+ * To change person name into normale name from John Doe
+ * @param $name JOHN DOE
+ * @return string John Doe
+ */
+
+function namilize($name) {
+    $name = strtolower($name);
+    $normalized = array();
+    foreach (preg_split('/([^a-z])/', $name, NULL, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY) as $word) {
+        if (preg_match('/^(mc)(.*)$/', $word, $matches)) {
+            $word = $matches[1] . ucfirst($matches[2]);
+        }
+        $normalized[] = ucfirst($word);
+    }
+    return implode('', $normalized);
+}
+
