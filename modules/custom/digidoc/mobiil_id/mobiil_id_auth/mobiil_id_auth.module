@@ -150,7 +150,7 @@ function _mobiil_id_user_login_form_alter(&$form, &$form_state) {
     '#maxlength' => 255,
     '#weight' => -1,
     '#description' => l(
-      t('What is Mobiil-ID?'), 'http://mobiil.id.ee/', array('external' => TRUE)
+      t('What is Mobiil-ID?'), 'http://mobiil.id.ee/', array('external' => TRUE, 'attributes' => array('target' => '_blank'))
     ),
     '#ajax' => array(
       'callback' => '_mobiil_id_auth_handle_request',
