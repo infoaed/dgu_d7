@@ -160,7 +160,7 @@ function _mobiil_id_user_login_form_alter(&$form, &$form_state) {
   );
   $form['mobiil_id_auth'] = array(
     '#markup' => '<div id="mobiil-id-auth-wrapper" class="element-hidden">' .
-      l(t('Sign in'), '', array(
+      l(t('Sign in with Mobiil-ID'), '', array(
       'attributes' => array(
         'id' => 'edit-mobiil-id-auth',
       ),
