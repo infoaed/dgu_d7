@@ -8,28 +8,14 @@ include_once 'dgu_site_feature.features.inc';
 
 function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
 
-	if (in_array($form_id, array('user_login', 'user_login_block'))) {
+    if (in_array($form_id, array('user_login', 'user_login_block'))) {
 
-		$hints_div_markup = '<div style="display:none;"></div>';
-		if (isset($_GET['real'])) {
-			$hints_div_markup = '<div id="login_intro"><p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile kasutajatele, sealhulgas ka anonüümsetele.</p><p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</p><p>Portaal pakub hetkel järgmisi võimalusi sisse logimiseks:</p></div>';
-		} else {
-			$hints_div_markup = '<div id="login_hints"><strong>NB!</strong> Sisse logimiseks kasutage oma ID-kaarti, välja arvatud kui Teile on portaali poolt eraldatud kasutajanimi ja salasõna. Lihtsalt sisse logimine annab Teile võimaluse osaleda foorumites ja anda tagasisidet.<br/>Andmehulkade lisamiseks peab Teie kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt vastava portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on kättesaadav <a href="/juhendid">Lisainfo -&gt; Juhendid</a> alt.</div>';
-		}
-
-		$form['hints_div'] = array(
-				'#markup' => $hints_div_markup,
-				'#weight' => -1
-		);
-
-		// Don't display the username/password/submit inputs if special HTTP query string parameter set.
-		// The purpose: our users should normally not user username/password, but an ID-card instead.
-		if (isset($_GET['real'])) {
-			unset($form['name']);
-			unset($form['pass']);
-			unset($form['actions']['submit']);
-		}
-	}
+    	$hints_div_markup = '<div id="login_hints"><p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile kasutajatele, sealhulgas ka anonüümsetele.</p><p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on leitav <a href="/juhendid">Lisainfo-&gt;Juhendid</a> alt.</p><p>Sisse logimiseks kasutage alltoodud ID võimalusi.<br/> Kasutajanimi ja salasõna paremal on mõeldud portaalid haldajatele.</p></div>';
+        $form['hints_div'] = array(
+                '#markup' => $hints_div_markup,
+                '#weight' => -1
+        );
+    }
 }
 
 /**
@@ -37,15 +23,15 @@ function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
  */
 function dgu_site_feature_menu_alter(&$items) {
 
-	// The 'user/%user' and 'user/%user/edit' paths are now controlled by "access user profiles" and "administer users"
-	// permissions respectively.
-	$items['user/%user']['access arguments'] = array('access user profiles');
-	$items['user/%user']['access callback'] = 'user_access';
-	$items['user/%user/edit']['access arguments'] = array('administer users');
-	$items['user/%user/edit']['access callback'] = 'user_access';
+    // The 'user/%user' and 'user/%user/edit' paths are now controlled by "access user profiles" and "administer users"
+    // permissions respectively.
+    $items['user/%user']['access arguments'] = array('access user profiles');
+    $items['user/%user']['access callback'] = 'user_access';
+    $items['user/%user/edit']['access arguments'] = array('administer users');
+    $items['user/%user/edit']['access callback'] = 'user_access';
 
-	// Remove the "forgot password" tab and break its associated path as well.
-	unset($items['user/password']);
+    // Remove the "forgot password" tab and break its associated path as well.
+    unset($items['user/password']);
 }
 
 /**
