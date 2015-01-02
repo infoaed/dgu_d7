@@ -152,7 +152,12 @@ function dgu_user_menu_local_tasks_alter(&$data, $router_item, $root_path) {
 
     // Remove 'Edit' tab from primary tabs and move it to secondary tabs.
     // Copy 'View' tab from primary to secondary and rename it in primary row.
-    $edit_tab = $data['tabs'][0]['output'][1];
+
+    if (isset($data['tabs'][0]['output'][1])) {
+    //Ugly hack, since sometimes $data['tabs'][0]['output'][1] is not set
+      $edit_tab = $data['tabs'][0]['output'][1];
+    }
+
     if(!empty($edit_tab) && $edit_tab['#link']['path'] == 'user/%/edit') {
       unset($data['tabs'][0]['output'][1]);
 

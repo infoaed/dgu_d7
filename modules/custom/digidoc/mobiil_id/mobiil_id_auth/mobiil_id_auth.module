@@ -239,11 +239,15 @@ function _mobiil_id_auth_handle_request($form, &$form_state) {
       $commands[] = ajax_command_invoke('#mobiil-id-auth-wrapper', 'removeClass', array('element-hidden'));
     }
     else {
+
       //Force reload page
       ctools_include('ajax');
       ctools_add_js('ajax-responder');
       drupal_set_message('User logged in');
-      $commands[] = ctools_ajax_command_reload();
+//      $commands[] = ctools_ajax_command_reload();
+      $commands[]=ctools_ajax_command_redirect('<front>');
+//      $selector='#messages';
+//      $commands[] = ajax_command_replace($selector, theme('status_messages'));
       // Implement "hook_digidoc_id_card_sign_success".
       $hooks = module_implements('digidoc_mobiil_id_auth_success');
       foreach($hooks as $module) {

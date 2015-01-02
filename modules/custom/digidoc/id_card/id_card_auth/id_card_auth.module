@@ -195,7 +195,10 @@ function id_card_login() {
                     user_save($account, $data);
                 }
                 // @TODO: Redirect to front page instead.
-                return '<div class="id-card-login-successful">' . t('Logged in with @id_code.', array('@id_code' => $id_code)) . '</div>';
+                drupal_set_message('User logged in');
+                drupal_goto('<front>');
+                return true;
+//                return '<div class="id-card-login-successful">' . t('Logged in with @id_code.', array('@id_code' => $id_code)) . '</div>';
             } else {
                 $user_info = user_external_load($id_code);
 
