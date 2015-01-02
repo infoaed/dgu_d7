@@ -242,6 +242,7 @@ function _mobiil_id_auth_handle_request($form, &$form_state) {
       //Force reload page
       ctools_include('ajax');
       ctools_add_js('ajax-responder');
+      drupal_set_message('User logged in');
       $commands[] = ctools_ajax_command_reload();
       // Implement "hook_digidoc_id_card_sign_success".
       $hooks = module_implements('digidoc_mobiil_id_auth_success');
