@@ -17,7 +17,6 @@
     },
 
     auth: function(context, settings) {
-      console.log('Mid auth');
       // Click event for the Mobiil-ID login method selection.
       $('#mobiil-id-link', context).unbind('click').bind('click', function(e) {
         e.preventDefault();
@@ -50,7 +49,6 @@
 
       // Attach event for Mobiil-ID authentication process start.
       var t = 'mobiil_id_auth_start';
-      console.log('Mid auth start');
       $('#digidoc-auth-service-mobiil_id').unbind(t).bind(t, function(e) {
         var phone = $('#modal-content input[name="phone"]', context).val();
         _data = $.extend({}, {'state': 'initialize'}, {'phone_num': phone});
@@ -65,7 +63,6 @@
 
       // Attach event for Mobiil-ID sign process finalize.
       var t = 'mobiil_id_auth_finalize';
-      console.log('Mid auth finalize');
       $('#digidoc-auth-service-mobiil_id', context).unbind(t).bind(t, function(e) {
         _data = $.extend({}, {'state': 'finalize'});
 
@@ -109,7 +106,6 @@
 
         // Re-submit form.
         ajax.form.ajaxSubmit(ajax.options);
-        console.log('Finalize comes here');
       });
     }
   };

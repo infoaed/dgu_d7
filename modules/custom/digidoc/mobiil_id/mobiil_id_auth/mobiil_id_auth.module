@@ -17,10 +17,10 @@ function mobiil_id_auth_init() {
  */
 function mobiil_id_auth_enable() {
   db_update('system')
-    ->fields(array('weight' => 2))
-    ->condition('type', 'module')
-    ->condition('name', 'mobiil_id_auth')
-    ->execute();
+      ->fields(array('weight' => 2))
+      ->condition('type', 'module')
+      ->condition('name', 'mobiil_id_auth')
+      ->execute();
 }
 
 /**
@@ -31,13 +31,13 @@ function mobiil_id_auth_enable() {
 function mobiil_id_auth_theme() {
   $path = drupal_get_path('module', 'digidoc');
   return array(
-    'mobiil_id_status' => array(
-      'template' => 'status',
-      'path' => $path . '/mobiil_id/templates',
-      'variables' => array(
-        'verification_code' => '',
+      'mobiil_id_status' => array(
+          'template' => 'status',
+          'path' => $path . '/mobiil_id/templates',
+          'variables' => array(
+              'verification_code' => '',
+          ),
       ),
-    ),
   );
 }
 
@@ -50,14 +50,14 @@ function mobiil_id_auth_menu() {
   $items = array();
 
   $items['admin/config/services/digidoc/mobiil_id'] = array(
-    'title' => 'Mobiil-ID',
-    'page callback' => 'drupal_get_form',
-    'page arguments' => array('mobiil_id_auth_admin_form'),
-    'description' => 'Configure Mobiil-ID settings.',
-    'access arguments' => array('administer mobiil id'),
-    'type' => MENU_LOCAL_TASK,
-    'file' => 'mobiil_id_auth.admin.inc',
-    'file path' => drupal_get_path('module', 'mobiil_id'),
+      'title' => 'Mobiil-ID',
+      'page callback' => 'drupal_get_form',
+      'page arguments' => array('mobiil_id_auth_admin_form'),
+      'description' => 'Configure Mobiil-ID settings.',
+      'access arguments' => array('administer mobiil id'),
+      'type' => MENU_LOCAL_TASK,
+      'file' => 'mobiil_id_auth.admin.inc',
+      'file path' => drupal_get_path('module', 'mobiil_id'),
   );
 
   return $items;
@@ -70,9 +70,9 @@ function mobiil_id_auth_menu() {
  */
 function mobiil_id_auth_permission() {
   return array(
-    'administer mobiil id' => array(
-      'title' => t('Administer Mobiil ID authentication and sign modules'),
-    ),
+      'administer mobiil id' => array(
+          'title' => t('Administer Mobiil ID authentication and sign modules'),
+      ),
   );
 }
 
@@ -111,67 +111,67 @@ function _mobiil_id_user_login_form_alter(&$form, &$form_state) {
   // Also used by Mobiil-ID Authenticate module.
   if (!isset($form['digidoc_auth_service'])) {
     $form['digidoc_auth_service'] = array(
-      'links' => array(
-        '#theme' => 'item_list',
-        '#items' => array(),
-        '#attributes' => array('id' => 'digidoc-auth-service-wrapper'),
-        '#weight' => 1,
-      ),
+        'links' => array(
+            '#theme' => 'item_list',
+            '#items' => array(),
+            '#attributes' => array('id' => 'digidoc-auth-service-wrapper'),
+            '#weight' => 1,
+        ),
     );
   }
   $wrapper = &$form['digidoc_auth_service'];
 
   // Add login link.
   $wrapper['links']['#items'][] = array(
-    'data' => l(t('Log in using Mobiil-ID'), ''),
-    'id' => array('mobiil-id-link'),
+      'data' => l(t('Log in using Mobiil-ID'), ''),
+      'id' => array('mobiil-id-link'),
   );
 
   // Create a container with user's mobile number field, submit button
   // and cancel button.
   $wrapper['mobiil_id'] = array(
-    '#type' => 'container',
-    '#weight' => 3,
-    '#attributes' => array(
-      'id' => 'digidoc-auth-service-mobiil_id',
-      'class' => array('element-hidden'),
-    ),
-    '#attached' => array(
-      'js' => array(array(
-        'data' => drupal_get_path('module', 'digidoc') . '/mobiil_id/mobiil_id.js',
-        'type' => 'file',
-      )),
-    ),
+      '#type' => 'container',
+      '#weight' => 3,
+      '#attributes' => array(
+          'id' => 'digidoc-auth-service-mobiil_id',
+          'class' => array('element-hidden'),
+      ),
+      '#attached' => array(
+          'js' => array(array(
+              'data' => drupal_get_path('module', 'digidoc') . '/mobiil_id/mobiil_id.js',
+              'type' => 'file',
+          )),
+      ),
   );
   $wrapper['mobiil_id']['mobiil_id_phone_number'] = array(
-    '#type' => 'textfield',
-    '#title' => t('Insert your phone number to log in'),
-    '#size' => 20,
-    '#maxlength' => 255,
-    '#weight' => -1,
-    '#description' => l(
-      t('What is Mobiil-ID?'), 'http://mobiil.id.ee/', array('external' => TRUE, 'attributes' => array('target' => '_blank'))
-    ),
-    '#ajax' => array(
-      'callback' => '_mobiil_id_auth_handle_request',
-      'wrapper' => 'digidoc-auth-service-mobiil_id',
-      'event' => 'mobiil_id_auth_start',
-    ),
+      '#type' => 'textfield',
+      '#title' => t('Insert your phone number to log in'),
+      '#size' => 20,
+      '#maxlength' => 255,
+      '#weight' => -1,
+      '#description' => l(
+          t('What is Mobiil-ID?'), 'http://mobiil.id.ee/', array('external' => TRUE, 'attributes' => array('target' => '_blank'))
+      ),
+      '#ajax' => array(
+          'callback' => '_mobiil_id_auth_handle_request',
+          'wrapper' => 'digidoc-auth-service-mobiil_id',
+          'event' => 'mobiil_id_auth_start',
+      ),
   );
   $form['mobiil_id_auth'] = array(
-    '#markup' => '<div id="mobiil-id-auth-wrapper" class="element-hidden">' .
-      l(t('Sign in with Mobiil-ID'), '', array(
-      'attributes' => array(
-        'id' => 'edit-mobiil-id-auth',
-      ),
-    )),
+      '#markup' => '<div id="mobiil-id-auth-wrapper" class="element-hidden">' .
+          l(t('Sign in with Mobiil-ID'), '', array(
+              'attributes' => array(
+                  'id' => 'edit-mobiil-id-auth',
+              ),
+          )),
   );
   $form['cancel_link'] = array(
-    '#markup' => l(t('Cancel Mobiil-ID login'), '', array(
-      'attributes' => array(
-        'id' => 'mobiil-id-cancel',
-      ),
-    )) . '</div>',
+      '#markup' => l(t('Cancel Mobiil-ID login'), '', array(
+              'attributes' => array(
+                  'id' => 'mobiil-id-cancel',
+              ),
+          )) . '</div>',
   );
 }
 
@@ -221,12 +221,12 @@ function _mobiil_id_auth_handle_request($form, &$form_state) {
 
       // Check for authentication status periodically.
       $commands[] = ajax_command_invoke('#digidoc-auth-service-mobiil_id', 'trigger', array(
-        'mobiil_id_auth_finalize',
+          'mobiil_id_auth_finalize',
       ));
 
       // Return status template.
       $content = theme('mobiil_id_status', array(
-        'verification_code' => $mobiil_id['challengeid'],
+          'verification_code' => $mobiil_id['challengeid'],
       ));
       $commands[] = ajax_command_html('#digidoc-auth-service-mobiil_id', $content);
     }
@@ -242,6 +242,7 @@ function _mobiil_id_auth_handle_request($form, &$form_state) {
       //Force reload page
       ctools_include('ajax');
       ctools_add_js('ajax-responder');
+
       $commands[] = ctools_ajax_command_reload();
       // Implement "hook_digidoc_id_card_sign_success".
       $hooks = module_implements('digidoc_mobiil_id_auth_success');
@@ -277,13 +278,13 @@ function _mobiil_id_auth_initialize($phone_nr) {
 
   try {
     $client = new SoapClient(
-      variable_get('digidoc_server_url', 'https://www.openxades.org:8443/?wsdl'),
-      array(
-        'trace' => true,
-        'exceptions' => true,
-        'login' => variable_get('digidoc_server_username', null),
-        'password' => variable_get('digidoc_server_password', null)
-      )
+        variable_get('digidoc_server_url', 'https://www.openxades.org:8443/?wsdl'),
+        array(
+            'trace' => true,
+            'exceptions' => true,
+            'login' => variable_get('digidoc_server_username', null),
+            'password' => variable_get('digidoc_server_password', null)
+        )
     );
 
     // If the locale module is enabled, set the message language based on
@@ -297,7 +298,7 @@ function _mobiil_id_auth_initialize($phone_nr) {
       } elseif ($language->language == 'ru') {
         $mobiil_id_language = 'RUS';
         $mobiil_id_message = variable_get('mobiil_id_message_ru', '');
-      // All other languages will use the english message
+        // All other languages will use the english message
       } else {
         $mobiil_id_language = 'ENG';
         $mobiil_id_message = variable_get('mobiil_id_message_en', '');
@@ -316,14 +317,14 @@ function _mobiil_id_auth_initialize($phone_nr) {
     }
 
     $param = array(
-      'IDCode' => '',
-      'Country' => 'EE',
-      'PhoneNo' => $phone_nr,
-      'Language' => $mobiil_id_language,
-      'ServiceName' => variable_get('digidoc_service_name', 'Testimine'),
-      'MessageToDisplay' => $mobiil_id_message,
-      'SPChallenge' => $spchallenge,
-      'MessagingMode' => "asynchClientServer",
+        'IDCode' => '',
+        'Country' => 'EE',
+        'PhoneNo' => $phone_nr,
+        'Language' => $mobiil_id_language,
+        'ServiceName' => variable_get('digidoc_service_name', 'Testimine'),
+        'MessageToDisplay' => $mobiil_id_message,
+        'SPChallenge' => $spchallenge,
+        'MessagingMode' => "asynchClientServer",
     );
 
     $result = $client->__soapCall("MobileAuthenticate", $param);
@@ -373,18 +374,18 @@ function _mobiil_id_auth_finalize() {
 
   try {
     $client = new SoapClient(
-      variable_get('digidoc_server_url', 'https://www.openxades.org:8443/?wsdl'),
-      array(
-        'trace' => true,
-        'exceptions' => true,
-        'login' => variable_get('digidoc_server_username', null),
-        'password' => variable_get('digidoc_server_password', null)
-      )
+        variable_get('digidoc_server_url', 'https://www.openxades.org:8443/?wsdl'),
+        array(
+            'trace' => true,
+            'exceptions' => true,
+            'login' => variable_get('digidoc_server_username', null),
+            'password' => variable_get('digidoc_server_password', null)
+        )
     );
 
     $status_param = array(
-      'Sesscode' => $mobiil_id['sesscode'],
-      'WaitSignature' => FALSE,
+        'Sesscode' => $mobiil_id['sesscode'],
+        'WaitSignature' => FALSE,
     );
     while($status_result = $client->__soapCall('GetMobileAuthenticateStatus', $status_param)) {
       $status_code = @$status_result['Status'];
@@ -427,8 +428,8 @@ function _mobiil_id_auth_finalize() {
           }
           else {
             return array(
-              'error' => TRUE,
-              'message' => t('Cannot login. User account not active.'),
+                'error' => TRUE,
+                'message' => t('Cannot login. User account not active.'),
             );
           }
         }
@@ -448,9 +449,9 @@ function _mobiil_id_auth_finalize() {
       }
       else {
         $response = array(
-          'error' => TRUE,
-          'message' => _mobiil_id_get_error_message($status_code),
-          'code' => $status_code,
+            'error' => TRUE,
+            'message' => _mobiil_id_get_error_message($status_code),
+            'code' => $status_code,
         );
         break;
       }
@@ -463,8 +464,8 @@ function _mobiil_id_auth_finalize() {
   catch(Exception $e) {
     // @todo: Add watchdog message.
     return array(
-      'error' => TRUE,
-      'message' => _mobiil_id_get_error_message($e->getMessage()),
+        'error' => TRUE,
+        'message' => _mobiil_id_get_error_message($e->getMessage()),
     );
   }
 }
