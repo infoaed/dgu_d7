@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-12-20 14:59+0000\n"
-"PO-Revision-Date: 2014-12-20 14:59+0000\n"
+"POT-Creation-Date: 2014-12-31 14:52+0000\n"
+"PO-Revision-Date: 2014-12-31 14:52+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -26868,19 +26868,7 @@ msgid ""
 msgstr ""
 
 #: /user
-msgid "Insert your phone number to log in"
-msgstr ""
-
-#: /user
-msgid "What is Mobiil-ID?"
-msgstr ""
-
-#: /user
 msgid "Sign in"
-msgstr ""
-
-#: /user
-msgid "Cancel Mobiil-ID login"
 msgstr ""
 
 #: /system/ajax
@@ -26937,46 +26925,6 @@ msgstr ""
 msgid ""
 "Mobiil-ID service has not been activate for your phone number. To "
 "activate the service visit !link."
-msgstr ""
-
-#: /system/ajax
-msgid "Authentication cancelled!"
-msgstr ""
-
-#: /system/ajax
-msgid "Signature is not valid!"
-msgstr ""
-
-#: /system/ajax
-msgid "Authentication has expired!"
-msgstr ""
-
-#: /system/ajax
-msgid "Mobiil-ID service is unavailable at the moment!"
-msgstr ""
-
-#: /system/ajax
-msgid "Phone is not reachable!"
-msgstr ""
-
-#: /system/ajax
-msgid "Could not send the authentication message to the phone!"
-msgstr ""
-
-#: /system/ajax
-msgid "SIM card error!"
-msgstr ""
-
-#: /system/ajax
-msgid "Technical error of Mobiil-ID service!"
-msgstr ""
-
-#: /system/ajax
-msgid ""
-"Follow the instructions on your phone. Before entering your PIN code "
-"make sure the verification code given here matches the one on your "
-"phone screen. After successful login you will be automatically "
-"redirected to the next page."
 msgstr ""
 
 #: /admin/config/people/accounts/fields?render=overlay
@@ -32471,6 +32419,97 @@ msgstr ""
 msgid "Custom date format updated."
 msgstr ""
 
+#: /admin/modules/list/confirm?render=overlay
+msgid "Remove orphaned actions"
+msgstr ""
+
+#: /admin/modules/list/confirm?render=overlay
+msgid "You must enable the @required module to install @module."
+msgstr ""
+
+#: /services/xmlrpc
+msgid ""
+"Sorry, too many failed login attempts from your IP address. This IP "
+"address is temporarily blocked. Try again later or <a "
+"href=\"@url\">request a new password</a>."
+msgstr ""
+
+#: /index.php
+msgid "Including !filename"
+msgstr ""
+
+#: /index.php
+msgid "Extension !extension is fetched from git. Ignoring."
+msgstr ""
+
+#: /index.php
+msgid "Obtaining !project project path."
+msgstr ""
+
+#: /index.php
+msgid "Downloading release history from !url"
+msgstr ""
+
+#: /index.php
+msgid "Downloading project !name to !dir ..."
+msgstr ""
+
+#: /index.php
+msgid "Mime type for !file is !mt"
+msgstr ""
+
+#: /index.php
+msgid "Using destination directory !dir"
+msgstr ""
+
+#: /index.php
+msgid "Verifying signature for !vcs version control engine."
+msgstr ""
+
+#: /index.php
+msgid "Project !project (!version) downloaded to !dest."
+msgstr ""
+
+#: /index.php
+msgid "Project !project contains !count !types: !found."
+msgstr ""
+
+#: /index.php
+msgid "All caches have been cleared with drush_registry_rebuild_cc_all."
+msgstr ""
+
+#: /index.php
+msgid "The registry has been rebuilt via drush_registry_rebuild_cc_all (B)."
+msgstr ""
+
+#: /index.php
+msgid ""
+"There were @parsed_before files in the registry before and "
+"@parsed_after files now."
+msgstr ""
+
+#: /index.php
+msgid "All registry rebuilds have been completed."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Rebuild the registry table (for classes) and the system table (for "
+"module locations) in a Drupal install."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Rebuild the registry only, do not clear caches, unless --fire-bazooka "
+"is also used."
+msgstr ""
+
+#: /index.php
+msgid ""
+"Truncate registry and registry_file tables and build them from "
+"scratch. Forces all caches clear."
+msgstr ""
+
 #: ; misc/tabledrag.js
 msgid "Show row weights"
 msgstr "Näita ridade kaalusid"
@@ -33016,6 +33055,62 @@ msgstr "1 nädal"
 msgid "Log in using Mobiil-ID"
 msgstr "Logi sisse Mobiili-ID abil"
 
+#: /user
+msgid "Insert your phone number to log in"
+msgstr "Sisestage oma mobiiltelefoni number:"
+
+#: /user
+msgid "What is Mobiil-ID?"
+msgstr "Mis on Mobiil-ID?"
+
+#: /user
+msgid "Cancel Mobiil-ID login"
+msgstr "Loobu Mobiil-IDga sisse logimisest"
+
+#: /system/ajax
+msgid "Authentication cancelled!"
+msgstr "Autentimine tühistati!"
+
+#: /system/ajax
+msgid "Signature is not valid!"
+msgstr "Digi-allkiri ei ole valiidne!"
+
+#: /system/ajax
+msgid "Authentication has expired!"
+msgstr "Autentimine aegus!"
+
+#: /system/ajax
+msgid "Mobiil-ID service is unavailable at the moment!"
+msgstr "Mobiil-ID teenus ei ole hetkel kättesaadav!"
+
+#: /system/ajax
+msgid "Phone is not reachable!"
+msgstr "Telefon ei ole kättesaadav!"
+
+#: /system/ajax
+msgid "Could not send the authentication message to the phone!"
+msgstr "Autentimise sõnumi saatmine telefonile ebaõnnestus!"
+
+#: /system/ajax
+msgid "SIM card error!"
+msgstr "SIM kaardi viga!"
+
+#: /system/ajax
+msgid "Technical error of Mobiil-ID service!"
+msgstr "Tehniline viga Mobiil-ID teenuses!"
+
+#: /system/ajax
+msgid ""
+"Follow the instructions on your phone. Before entering your PIN code "
+"make sure the verification code given here matches the one on your "
+"phone screen. After successful login you will be automatically "
+"redirected to the next page."
+msgstr ""
+"Järgige instruktsioone oma telefoni ekraanil. Enne PIN koodi "
+"sisestamist veenduge, et siin kuvatud kontrollnumber kattub sellega, "
+"mis kuvatud telefoni ekraanil. Pärast edukat sisse logimist "
+"suunatakse Teid automaatselt järgmisele lehele."
+
 #: /node/5
 msgid "@count topics"
 msgstr "@count teemat"
@@ -33047,4 +33142,8 @@ msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
 #: /forum/andmete-kasutamine/jaanus-foorum-2
 msgid " <i class=\"icon-exclamation-sign\"></i> &nbsp;Flag as offensive"
 msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
+
+#: /user
+msgid "Sign in with Mobiil-ID"
+msgstr "Logi sisse Mobiil-IDga"
 

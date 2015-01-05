@@ -1,5 +1,5 @@
 <div class="mobiil-id-instructions">
-  <?php print t('Follow the instructions on your phone. Before entering your PIN code make sure the verification code given here matches the one on your phone screen. After successful login you will be automatically redirected to the next page.'); ?>
+  <strong>NB!</strong><?php print t('Follow the instructions on your phone. Before entering your PIN code make sure the verification code given here matches the one on your phone screen. After successful login you will be automatically redirected to the next page.'); ?>
 </div>
 
 <div class="mobiil-id-status-wrapper">
