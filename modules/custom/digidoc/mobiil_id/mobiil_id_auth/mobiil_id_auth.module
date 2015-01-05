@@ -243,7 +243,7 @@ function _mobiil_id_auth_handle_request($form, &$form_state) {
       ctools_include('ajax');
       ctools_add_js('ajax-responder');
 
-      $commands[] = ctools_ajax_command_reload();
+      $commands[]=ctools_ajax_command_redirect('<front>');
       // Implement "hook_digidoc_id_card_sign_success".
       $hooks = module_implements('digidoc_mobiil_id_auth_success');
       foreach($hooks as $module) {
