@@ -188,7 +188,7 @@ $display->panels = array();
   $pane->configuration = array(
     'admin_title' => '',
     'title' => '',
-    'body' => '<p><strong>Kontaktid</strong></p><p>Avaandmete üles laadimise või registreerimisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatasupport@mkm.ee">opendatasupport@mkm.ee</a>.<br>Üles laetud või registreritud avaandmete kasutamisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatahelp@mkm.ee">opendatahelp@mkm.ee</a>.</p>',
+    'body' => '<p><strong>Kontaktid</strong></p><p>Avaandmete üles laadimise või registreerimisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatasupport@mkm.ee">opendatasupport@mkm.ee</a>.<br>Üles laaditud või registreritud avaandmete kasutamisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatahelp@mkm.ee">opendatahelp@mkm.ee</a>.</p>',
     'format' => 'full_html',
     'substitute' => TRUE,
   );
