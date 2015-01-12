@@ -255,14 +255,14 @@ function id_card_login() {
  */
 
 function namilize($name) {
-    $name = strtolower($name);
+    $name = mb_strtolower($name,'UTF-8');
     $normalized = array();
-    foreach (preg_split('/([^a-z])/', $name, NULL, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY) as $word) {
+    foreach (preg_split('/([^\pL])/u', $name, NULL, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY) as $word) {
         if (preg_match('/^(mc)(.*)$/', $word, $matches)) {
             $word = $matches[1] . ucfirst($matches[2]);
         }
         $normalized[] = ucfirst($word);
     }
+
     return implode('', $normalized);
 }
-
