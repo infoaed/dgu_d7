@@ -17,11 +17,6 @@ if (in_array('data publisher', array_values($user->roles))) {
 <div id="blackbar" class="<?php print ($user->uid == 1 || in_array('data publisher', array_values($user->roles))) ? 'with' : 'without' ?>-publisher">
     <div class="container">
         <a class="brand" href="/" rel="home">
-            <!--
-              <div id="dgu-header" class="retina-img">
-                  <img src="/assets/img/dgu-header-cropped.png" alt="DATA.GOV.UK - Opening up Government" />
-              </div>
-              -->
         </a>
 
         <?php
