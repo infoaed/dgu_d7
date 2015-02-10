@@ -268,7 +268,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Lisa oma rakendus (autenditud kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -566,7 +566,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Lisa oma rakendus (autenditud kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
