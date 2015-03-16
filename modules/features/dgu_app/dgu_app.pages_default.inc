@@ -309,7 +309,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Lisa oma rakendus (anonüümsetele kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -606,8 +606,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Lisa oma rakendus (anonüümsetele kasutajatele)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>
-',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
