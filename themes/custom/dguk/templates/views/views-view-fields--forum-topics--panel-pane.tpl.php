@@ -28,6 +28,9 @@ $history = dgu_site_feature_user_last_visit($row->nid);
 $new_replies = dgu_site_feature_num_new_replies($row->nid, $history);
 $colour = $row->users_node_uid % 10;
 
+$avatar_content = $fields['field_avatar']->content;
+$avatar_content = str_replace('<a', '<a disabled="disabled"', $avatar_content);
+
 // Mark new nodes only for authenticated users.
 global $user;
 if ($user->uid) {
@@ -38,7 +41,7 @@ if ($user->uid) {
 ?>
 <div class="forum-topic">
   <div class="views-field field-avatar bg-colour-<?php print $colour; ?>">
-    <?php print $fields['field_avatar']->content; ?>
+    <?php print $avatar_content; ?>
   </div>
   <div class="views-field views-field-title">
     <?php print $fields['title']->content; ?>
