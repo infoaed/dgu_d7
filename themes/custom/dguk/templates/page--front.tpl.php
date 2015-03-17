@@ -154,7 +154,11 @@ if (in_array('data publisher', array_values($user->roles))) {
                                 <?php else:?>
                                     <div class="row">
                                         <div class="col-md-6">Registreeri või lisa oma avalikustatud andmehulk.</div>
-                                        <div class="col-md-6"><a href="/dataset/new"><button class="btn btn-primary">LISA ANDMEHULK</button></a></div>
+                                        <div class="col-md-6">
+                                        	<form action="/dataset/new" method="get">
+                                        		<button type="submit" class="btn btn-primary">LISA ANDMEHULK</button>
+                                        	</form>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                             </div>
@@ -197,11 +201,6 @@ if (in_array('data publisher', array_values($user->roles))) {
     </div>
 <?php endif; ?>
 <div class="clearfix"></div>
-</div><!--/page-->
-
-
-
-</div><!--/.content-container-->
 
 <div class="footer">
     <footer role="contentinfo" class="container">
