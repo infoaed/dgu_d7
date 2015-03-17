@@ -1,3 +1,7 @@
+<?php
+$avatar_content = str_replace('<a', '<a disabled="disabled"', $avatar);
+?>
+
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if (!$page && $title): ?>
@@ -8,7 +12,7 @@
 
   <header class="with-avatar">
 
-    <?php print $avatar; ?>
+    <?php print $avatar_content; ?>
 
     <span class="submitted">
         <?php print $submitted; ?>
