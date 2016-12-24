@@ -13,7 +13,7 @@ if (in_array('data publisher', array_values($user->roles))) {
             <?php $block = module_invoke('locale', 'block_view', 'language'); print $block['content']; ?>
         </div>
         <ul id="toolbar-user">
-            <li class="logout"><a href="<?php print url('user'); ?>"><img src="/assets/img/icon-log-in-avatar.png" /> <?php print t("Log in") ?></a></li>
+            <li class="login"><a href="<?php print url('user'); ?>"><img src="/assets/img/icon-log-in-avatar.png" /> <?php print t("Log in") ?></a></li>
         </ul>
         <ul id="toolbar-home">
             <li class="home first last"><a href="<?php print url(''); ?>" title="<?php print t("Home") ?>" class="active"><span class="home-link"><?php print t("Home") ?></span></a></li>
