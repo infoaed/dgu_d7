@@ -213,6 +213,7 @@ if (in_array('data publisher', array_values($user->roles))) {
 
 <div class="footer">
     <footer role="contentinfo" class="container">
+        <div>
         <?php
         // Print the combined footer menu.
         print dguk_get_footer_menu();
@@ -221,9 +222,6 @@ if (in_array('data publisher', array_values($user->roles))) {
         // Print anything else in this region.
         print render($page['footer']);
         ?>
-        <div style="float:right;text-align:right;font-size:0.8em">
-   		Avaandmete portaal valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
-                                                                  Euroopa Regionaalarengu Fondi rahastusel.
 		</div>
     </footer>
 </div> <!-- /footer -->
