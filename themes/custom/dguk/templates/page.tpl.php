@@ -44,7 +44,7 @@
       <div class="chevron position<?php print $active;?>"></div>
         <nav id="dgu-nav">
           <?php //print dguk_get_main_menu($main_menu);?>
-          <div class="text-links allcapsmenu">
+          <div class="text-links allcapsmenuc">
             <a href="<?php print url(''); ?>" title="" class="trigger-subnav nav-home <?php if($active == 1) print 'active'; ?>"><?php print t("Home") ?></a>
             <a href="<?php print url('data') ?>" class="trigger-subnav nav-data <?php if($active == 2) print 'active'; ?>"><?php print t("Data") ?></a>
             <a href="<?php print url('apps') ?>" class="trigger-subnav nav-apps <?php if($active == 3) print 'active'; ?>"><?php print t("Apps") ?></a>
