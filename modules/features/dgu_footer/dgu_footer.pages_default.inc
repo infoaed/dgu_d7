@@ -24,7 +24,7 @@ function dgu_footer_default_page_manager_pages() {
 	$page->access = array();
 	$page->menu = array(
 			'type' => 'normal',
-			'title' => 'Kasutustingimused',
+			'title' => t('Terms of use'),
 			'name' => 'menu-footer',
 			'weight' => '1',
 			'parent' => array(
@@ -81,18 +81,12 @@ function dgu_footer_default_page_manager_pages() {
 	$pane->configuration = array(
 			'admin_title' => '',
 			'title' => '',
-			'body' => '<p><strong>Kasutustingimused</strong></p>
-
-<p>Avaandmete põhimõtted näevad ette, et mistahes avaandmete hulgal peab olema litsents, mis võimaldab tema vaba, piiranguteta kasutamist, töötlemist ja levitamist, sealjuures võimaldama levitamist kasutaja valikul nii tasuta kui tasu eest. Näiteks levinud kasutuslitsentsid, mida avaandmete juures kasutatakse, pärinevad mittetulundusühingu <a href="http://et.wikipedia.org/wiki/Creative_Commons">Creative Commons</a> litsentside loetelust.</p>
-
-<p>Antud portaalis avaldatud andmehulgad on üldjuhul kasutatavad litsentsi alusel, mis on andmehulga infos konkreetselt välja toodud. Kui andmehulga kasutuslitsents on mingil põhjusel märkimata, siis antud portaal loeb selleks vaikimisi Creative Commons&#39;i &quot;BY&quot; litsentsi <a href="http://creativecommons.org/licenses/by/4.0/deed.et">versioon 4.0</a>. Sama litsentsi alla käib ka kõigi antud portaalis registreeritud andmehulkade info.</p>
-
-<p><strong>Avaldamise põhiprintsiibid</strong></p>
-
-<p>Antud portaal eeldab, et kõik siin avaldatud andmehulgad ja nende kohta lisatud info on portaali poolt vabalt kasutatav, edasi jagatav ja taaskasutatv, ning teenib andmete avaldamise olulisi eesmärke, mis avalehel on loetletud. Selle eelduse tingib ka vaikimis Creative Commons BY litsent, mis plalpool märgitud. Foorumis avaldatud ideed ja küsimused, ning <a href="/apps">Rakenduste</a> all loetletud rakendused on avaldaja omad, ega kuulu mingi kasutuslitsentsi alla, välja arvatud kui on märgitud teisiti.</p>
-
-<p>&nbsp;</p>
-',
+			'body' => t('<p><strong>Terms of use</strong></p>
+<p> By definition, open data must published under a licence which permits its free and unlimited use, processing and distribution. Under the licence, it must be possible to distribute the data at the discretion of the user either without charge or for a fee. For example, <a href="http://et.wikipedia.org/wiki/Creative_Commons" rel="nofollow">Creative Commons</a> licences are regularly used by open data publishers.</p>
+<p>The datasets published on this portal can be, as a rule, re-used under the licence that is named in the records of a particular dataset. Where no particular licence is indicated, the portal\'s default licence is Creative Commons BY <a href="http://creativecommons.org/licenses/by/4.0/deed.et" rel="nofollow">4.0</a>. The records (meta-data) of all datasets registered on the portal are published under the same license.</p>
+<p><strong>Principles of data publication</strong></p>
+<p>This portal works on the premise that all datasets and dataset records published here can be used freely, redistributed and re-used, serving the goals of opening up data, which are listed on the home page. This, by default, is also required by the Creative Commons BY licence named above. The ideas and questions posted on the forum, and the applications accessed on the <a href="/apps" rel="nofollow">Apps</a> page belong to their publishers and are not subject to any licencing, unless indicated otherwise.</p>
+<p>&nbsp;</p>'),
 			'format' => 'filtered_html',
 			'substitute' => TRUE,
 	);
@@ -130,7 +124,7 @@ $page->access = array(
 );
 $page->menu = array(
   'type' => 'normal',
-  'title' => 'Kontaktid',
+  'title' => t('Contact'),
   'name' => 'menu-footer',
   'weight' => '2',
   'parent' => array(
@@ -188,7 +182,8 @@ $display->panels = array();
   $pane->configuration = array(
     'admin_title' => '',
     'title' => '',
-    'body' => '<p><strong>Kontaktid</strong></p><p>Avaandmete üles laadimise või registreerimisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatasupport@mkm.ee">opendatasupport@mkm.ee</a>.<br>Üles laaditud või registreritud avaandmete kasutamisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatahelp@mkm.ee">opendatahelp@mkm.ee</a>.</p>',
+    'body' => t('<p><strong>Contact</strong></p>
+<p>Questions concerning registration or uploading of open data should be sent to: <a href="mailto:opendatasupport@mkm.ee">opendatasupport@mkm.ee</a>.<br />Questions concerning the use of uploaded or registered open data should be sent to: <a href="mailto:opendatahelp@mkm.ee">opendatahelp@mkm.ee</a>.</p>'),
     'format' => 'full_html',
     'substitute' => TRUE,
   );
@@ -223,7 +218,7 @@ $page->path = 'abi';
 $page->access = array();
 $page->menu = array(
   'type' => 'normal',
-  'title' => 'Abi',
+  'title' => t('Help'),
   'name' => 'menu-footer',
   'weight' => '3',
   'parent' => array(
@@ -267,7 +262,7 @@ $display->panel_settings = array(
   ),
 );
 $display->cache = array();
-$display->title = 'Abi';
+$display->title = t('Help');
 $display->content = array();
 $display->panels = array();
   $pane = new stdClass();
@@ -280,7 +275,10 @@ $display->panels = array();
   $pane->configuration = array(
     'admin_title' => 'Abi',
     'title' => '',
-    'body' => '<p><strong>Abiinfo portaali kasutamise kohta</strong></p><p>Informatsiooni andmehulkade lisamise kohta ning avaandmete temaatikast laiemalt leiate LISAINFO menüü valikute alt.</p><p>Kui Te nimetatud lehtedelt oma küsimustele vastust ei leia, siis palume abi saamiseks pöörduda järgmistele e-posti aadressidele:</p><p>Avaandmete üles laadimise või registreerimisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatasupport@mkm.ee">opendatasupport@mkm.ee</a>.<br>Üles laetud või registreritud avaandmete kasutamisega seotud küsimuste korral palume pöörduda aadressile <a href="mailto:opendatahelp@mkm.ee">opendatahelp@mkm.ee</a>.</p>',
+    'body' => t('<p><strong>Help information</strong></p>
+<p>Further information on publishing data on the portal and on the topic of open data in general can be found on the pages accessible from the menu MORE INFO.</p>
+<p>Should you be unable to find answers to your questions from these pages, please send your information request to either of the following e-mail addresses:</p>
+<p>Questions concerning registration or uploading of open data: <a href="mailto:opendatasupport@mkm.ee">opendatasupport@mkm.ee</a>.<br />Questions concerning the use of uploaded or registered open data: <a href="mailto:opendatahelp@mkm.ee">opendatahelp@mkm.ee</a>.</p>'),
     'format' => 'full_html',
     'substitute' => TRUE,
   );

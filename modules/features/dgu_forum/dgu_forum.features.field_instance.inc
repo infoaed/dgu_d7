@@ -59,7 +59,7 @@ function dgu_forum_field_default_field_instances() {
             'field_replies_revision' => '',
           ),
           'more_link' => 0,
-          'more_text' => 'Loe lisaks',
+          'more_text' => t("Read more"),
           'quickedit' => array(
             'editor' => 'form',
           ),
@@ -94,7 +94,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Sisu',
+    'label' => t("Body"),
     'required' => FALSE,
     'settings' => array(
       'display_summary' => TRUE,
@@ -166,7 +166,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_category',
-    'label' => 'Kategooria',
+    'label' => t("Category"),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -223,7 +223,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_comment',
-    'label' => 'Kommentaarid',
+    'label' => t("Comments"),
     'required' => 0,
     'settings' => array(
       'access' => -1,
@@ -275,7 +275,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_sector',
-    'label' => 'Sektor',
+    'label' => t("Sector"),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -345,7 +345,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_uses_dataset',
-    'label' => 'Seotud andmehulgad',
+    'label' => t("Related datasets"),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -407,7 +407,7 @@ function dgu_forum_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'taxonomy_forums',
-    'label' => 'Foorumid',
+    'label' => t("Forums"),
     'required' => TRUE,
     'settings' => array(
       'user_register_form' => FALSE,

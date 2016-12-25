@@ -19,7 +19,7 @@ function dgu_blog_menu_breadcrumb_alter(&$active_trail, $item) {
       array('title' => 'Blog', 'href' => 'blog', 'localized_options' => array())
     );
 
-    drupal_set_title('Uusimad blogid');
+    drupal_set_title(t("Latest Blogs"));
   }
   // Reset breadcrumb to '/blog' only on 'Most popular blog posts'
   elseif ($item['path'] == 'blog/popular') {

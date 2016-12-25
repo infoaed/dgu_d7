@@ -178,7 +178,7 @@ function dgu_forum_default_page_manager_pages() {
   $page->api_version = 1;
   $page->name = 'forum_categories';
   $page->task = 'page';
-  $page->admin_title = 'Foorumite kategooriad';
+  $page->admin_title = t("Forum categories");
   $page->admin_description = 'Forum categories - top level forum landing page';
   $page->path = 'forum/categories';
   $page->access = array(
@@ -187,7 +187,7 @@ function dgu_forum_default_page_manager_pages() {
   );
   $page->menu = array(
     'type' => 'none',
-    'title' => 'Foorumite kategooriad',
+    'title' => t("Forum categories"),
     'name' => 'main-menu',
     'weight' => '4',
     'parent' => array(
@@ -343,7 +343,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<a class="btn-default btn btn-primary" href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse &raquo;</a>
+      'body' => '<a class="btn-default btn btn-primary" href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -380,7 +380,7 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
+      'admin_title' => t("Create new forum topic (for authenticated users)"),
       'title' => '',
       'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Create new forum topic &raquo;</a></p>
 ',
@@ -500,9 +500,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
+      'admin_title' => t("Create new forum topic (for authenticated users)"),
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Loo uus foorumi teema »</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' »</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -542,7 +542,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse »</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/forum">'.t("Login to take part in forums").' »</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -813,10 +813,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
+      'admin_title' => t("Create new forum topic (for authenticated users)"),
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Loo uus foorumi teema &raquo;</a></p>
-',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -856,8 +855,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse &raquo;</a></p>
-',
+      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -1031,10 +1029,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Loo uus foorumi teema (autenditud kasutajatele)',
+      'admin_title' => t("Create new forum topic (for authenticated users)"),
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Loo uus foorumi teema &raquo;</a></p>
-',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -1074,8 +1071,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">Foorumites osalemiseks logi sisse &raquo;</a></p>
-',
+      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );

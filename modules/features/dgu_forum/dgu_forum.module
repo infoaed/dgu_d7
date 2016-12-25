@@ -20,8 +20,8 @@ function dgu_forum_menu_breadcrumb_alter(&$active_trail, $item) {
     $forum = taxonomy_term_load($tid);
     $active_trail = array(
       current($active_trail),
-      array('title' => 'Foorumid', 'href' => 'forum', 'localized_options' => array()),
-      array('title' => 'Kategooriad' , 'href' => 'forum/categories', 'localized_options' => array()),
+      array('title' => t("Forums"), 'href' => 'forum', 'localized_options' => array()),
+      array('title' => t("Categories"), 'href' => 'forum/categories', 'localized_options' => array()),
       array('title' => $forum->name, 'href' => 'forum/' . str_replace(' ', '-', strtolower($forum->name)), 'localized_options' => array()),
     );
 
@@ -31,18 +31,18 @@ function dgu_forum_menu_breadcrumb_alter(&$active_trail, $item) {
   elseif ($item['path'] == 'forum' || $item['path'] == 'forum/categories' || $item['path'] == 'forum/popular') {
     $active_trail = array(
       current($active_trail),
-      array('title' => 'Foorumid', 'href' => 'forum', 'localized_options' => array())
+      array('title' => t("Forums"), 'href' => 'forum', 'localized_options' => array())
     );
     switch ($item['path']) {
       case 'forum':
-        $active_trail[] = array('title' => 'Foorumid', 'href' => 'forum', 'localized_options' => array());
-        drupal_set_title('Uusimad foorumi teemad');
+        $active_trail[] = array('title' => t("Forums"), 'href' => 'forum', 'localized_options' => array());
+        drupal_set_title(t("Newest forum topics"));
         break;
       case 'forum/categories':
-        drupal_set_title('Kategooriad');
+        drupal_set_title(t("Categories"));
         break;
       case 'forum/popular':
-        drupal_set_title('Populaarseimad foorumi teemad');
+        drupal_set_title(t("Most popular topics"));
         break;
     }
   }
@@ -51,8 +51,8 @@ function dgu_forum_menu_breadcrumb_alter(&$active_trail, $item) {
   elseif (isset($item['map'][1]->type) && $item['path'] == 'forum/%') {
     $active_trail = array(
       current($active_trail),
-      array('title' => 'Foorumid', 'href' => 'forum', 'localized_options' => array()),
-      array('title' => 'Kategooriad' , 'href' => 'forum/categories', 'localized_options' => array()),
+      array('title' => t("Forums"), 'href' => 'forum', 'localized_options' => array()),
+      array('title' => t("Categories"), 'href' => 'forum/categories', 'localized_options' => array()),
     );
     drupal_set_title($item['map']['1']->title);
   }
@@ -130,7 +130,7 @@ function dgu_forum_dgu_moderation_moderator_permission(&$node) {
  */
 function dgu_forum_form_forum_node_form_alter(&$form, &$form_state, $form_id) {
 
-  drupal_set_title(t('Loo uus foorumiteema'));
+  drupal_set_title(t("Create forum topic"));
   unset($form['actions']['preview']);
   $form['#attributes']['class'][] = "boxed";
 

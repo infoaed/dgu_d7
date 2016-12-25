@@ -642,7 +642,7 @@ function  dgu_data_set_request_preprocess_replies(&$variables) {
  */
 function dgu_data_set_request_form_reply_add_form_alter(&$form, &$form_state, $form_id) {
   if($form['#bundle'] = 'review_comment') {
-    $form['field_review_comment'][LANGUAGE_NONE][0]['#title'] = 'Lisa kommentaar';
-    $form['submit']['#value'] = 'Saada kommentaar';
+    $form['field_review_comment'][LANGUAGE_NONE][0]['#title'] = t("Add comment");
+    $form['submit']['#value'] = t("Submit comment");
   }
 }

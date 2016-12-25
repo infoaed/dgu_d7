@@ -5,7 +5,7 @@
       <div class="left-inner auto-height form-search">
         <div class="input-group">
         <form action="<?php print $form['#action']?>" method="post" id="<?php print $form['#form_id']?>" >
-            <input class="form-control" type="text" name="<?php print $form['search_block_form']['#name'] ?>" value="<?php if(!empty($form['keyword']['#value']))print $form['keyword']['#value']?>" results="0" placeholder="Otsi ...">
+            <input class="form-control" type="text" name="<?php print $form['search_block_form']['#name'] ?>" value="<?php if(!empty($form['keyword']['#value']))print $form['keyword']['#value']?>" results="0" placeholder="<?php t('Search ...')?>">
             <span class="input-group-btn">
               <button type="submit" class="btn btn-default">
                 <i class="icon-search"></i>
@@ -25,7 +25,7 @@
           </form>
         </div>
         <?php if ($form['show_counter']['#value']): // Show this text only on landing pages (show_counter is set to true on landing pages) ?>
-        <span class="search-all-label">Kogu sisu nägemiseks selles kategoorias vajuta otsinguikoonil</span>
+        <span class="search-all-label"><?php t("Click search icon to see all content in this category")?></span>
         <?php endif; ?>
       </div>
     </div>
@@ -34,7 +34,7 @@
       <div class="right-inner auto-height">
         <div class="chevron"></div>
         <div class="result-count"><?php print $form['count']['#value']?></div>
-        <div class="result-count-footer result-count-type">tulemust
+        <div class="result-count-footer result-count-type"><?php t("results")?>
         <?php if (isset($form['dataset_request_count']['#value'])): ?>
           <div class="result-private-dataset-request">
           <?php if (user_access('edit any dataset_request content')): ?>

@@ -36,7 +36,7 @@ function dgu_reply_field_default_field_instances() {
     ),
     'entity_type' => 'reply',
     'field_name' => 'field_reply_comment',
-    'label' => 'Kommentaar',
+    'label' => t("Comment"),
     'required' => 1,
     'settings' => array(
       'text_processing' => 1,
@@ -79,7 +79,7 @@ function dgu_reply_field_default_field_instances() {
     ),
     'entity_type' => 'reply',
     'field_name' => 'field_reply_subject',
-    'label' => 'Pealkiri',
+    'label' => t("Subject"),
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -122,7 +122,7 @@ function dgu_reply_field_default_field_instances() {
     ),
     'entity_type' => 'reply',
     'field_name' => 'field_reply_comment',
-    'label' => 'Kommentaar',
+    'label' => t("Comment"),
     'required' => 1,
     'settings' => array(
       'text_processing' => 1,
@@ -165,7 +165,7 @@ function dgu_reply_field_default_field_instances() {
     ),
     'entity_type' => 'reply',
     'field_name' => 'field_reply_subject',
-    'label' => 'Pealkiri',
+    'label' => t("Subject"),
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,

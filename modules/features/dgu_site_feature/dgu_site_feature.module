@@ -10,7 +10,11 @@ function dgu_site_feature_form_alter(&$form, &$form_state, $form_id) {
 
     if (in_array($form_id, array('user_login', 'user_login_block'))) {
 
-    	$hints_div_markup = '<div id="login_hints"><p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile kasutajatele, sealhulgas ka anonüümsetele.</p><p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle portsessi kohta võib lugeda vastavast peatükist teabevaldajate kasutusjuhendis, mis on leitav <a href="/juhendid">Lisainfo-&gt;Juhendid</a> alt.</p><p style="padding-bottom:10px">Sisse logimiseks kasutage alltoodud võimalusi:</p></div>';
+    	$hints_div_markup = t('<div id="login_hints"><p>The entire content of the portal and all datasets are available for download by all users, including anonymous ones.</p>
+
+<p>In order to use forums and provide feedback, you must be logged in to the portal. In order to be able to publish and administer datasets, a logged in user must be linked to a particular holder of information and have the requisite rights. For a detailed description of this process, see the relevant chapter in the guidelines for information holders which can be found under <a href="/juhendid">More info-&gt;Guidelines</a></p>
+
+<p style="padding-bottom:10px">To log in, use any of the following options:</p></div>');
         $form['hints_div'] = array(
                 '#markup' => $hints_div_markup,
                 '#weight' => -1

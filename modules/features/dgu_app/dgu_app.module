@@ -15,21 +15,21 @@ function dgu_app_menu_breadcrumb_alter(&$active_trail, $item) {
   if ($item['path'] == 'apps') {
     $active_trail = array(
       current($active_trail),
-      array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array()),
-      array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array()),
+      array('title' => t('Apps'), 'href' => 'apps', 'localized_options' => array()),
+      array('title' => t('Apps'), 'href' => 'apps', 'localized_options' => array()),
     );
-    drupal_set_title('Uusimad rakendused');
+    drupal_set_title(t("Latest apps"));
   }
   elseif ($item['path'] == 'apps/top') {
     $active_trail = array(
       current($active_trail),
-      array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array())
+      array('title' => t('Apps'), 'href' => 'apps', 'localized_options' => array())
     );
-    drupal_set_title('Enim hinnatud rakendused');
+    drupal_set_title(t("Top rated apps"));
   }
   if (isset($item['map'][1]->type) && $item['map'][1]->type == 'app') {
     $active_trail[2] = $active_trail[1];
-    $active_trail[1] = array('title' => 'Rakendused', 'href' => 'apps', 'localized_options' => array());
+    $active_trail[1] = array('title' => t('Apps'), 'href' => 'apps', 'localized_options' => array());
   }
 }
 
@@ -44,7 +44,7 @@ function dgu_app_dgu_moderation_moderator_permission(&$node) {
  */
 function dgu_app_form_app_node_form_alter(&$form, &$form_state, $form_id) {
 
-  drupal_set_title(t('Lisa rakendus'));
+  drupal_set_title(t("Submit an app"));
   unset($form['actions']['preview']);
   $form['#attributes']['class'][] = "boxed";
 
@@ -77,9 +77,9 @@ function dgu_app_preprocess_node(&$variables) {
     if ($variables['view_mode'] == 'search_result'){
       $variables['directory'] = 'profile/dgu/themes/custom/dguk/templates/';
       $variables['classes_array'] = array("node", "node-app-searchresult");
-      $variables['submitted'] = 'Lisatud ' . $variables['date'];
+      $variables['submitted'] = t('Submitted ') . $variables['date'];
       if ($variables['created'] != $variables['changed']) {
-        $variables['updated'] = 'Uuendatud ' . format_date($variables['changed']);
+        $variables['updated'] = t('Updated ') . format_date($variables['changed']);
       }
 
     }

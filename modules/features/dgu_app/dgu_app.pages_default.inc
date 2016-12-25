@@ -266,10 +266,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Lisa oma rakendus (autenditud kasutajatele)',
+      'admin_title' => t("Add your app (for authenticated users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>
-',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">'.t("Add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -307,9 +306,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Lisa oma rakendus (anonüümsetele kasutajatele)',
+      'admin_title' => t("Add your app (for anonymous users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">'.t("Login to add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -564,9 +563,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Lisa oma rakendus (autenditud kasutajatele)',
+      'admin_title' => t("Add your app (for authenticated users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">Lisa oma rakendus &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">'.t("Add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -604,9 +603,9 @@ function dgu_app_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => 'Lisa oma rakendus (anonüümsetele kasutajatele)',
+      'admin_title' => t("Add your app (for anonymous users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">Logi sisse rakenduse lisamiseks &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">'.t("Login to add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );

@@ -51,10 +51,10 @@ function dguk_preprocess_node(&$variables) {
   $variables['theme_hook_suggestions'][] = 'node__' . $variables['node']->type . '__' . $variables['view_mode'];
 
   if ($variables['node']->type == 'resource'){
-    $variables['submitted'] = 'Lisatud ' . format_date($variables['created']);
+    $variables['submitted'] = t('Sumbitted ') . format_date($variables['created']);
   }
 
-  $variables['updated'] = $variables['created'] != $variables['changed'] ? '| Uuendatud ' . format_date($variables['changed']) : FALSE;
+  $variables['updated'] = $variables['created'] != $variables['changed'] ? '| '.t('Updated ') . format_date($variables['changed']) : FALSE;
 
   // We render user picture only on forum and blog nodes.
   if ($variables['node']->type == 'forum' || $variables['node']->type == 'blog') {
@@ -257,15 +257,15 @@ function dguk_get_data_menu() {
 
   $menu = array(
     'menu-datasets' => array(
-      'title' => 'Andmehulgad',
+      'title' => t("Datasets"),
       'href' => 'data/search',
     ),
     'menu-publishers' => array(
-      'title' => 'Teabevaldajad',
+      'title' => t("Publishers"),
       'href' => 'publisher',
     ),
     'menu-site-usage' => array(
-      'title' => 'Portaali kasutus',
+      'title' => t("Site Analytics"),
       'href' => 'data/site-usage',
     ),
   );
@@ -274,19 +274,19 @@ function dguk_get_data_menu() {
   if ($user->uid == 1 || in_array('ckan adminstrator', array_values($user->roles))) {
     $admin_menu = array(
       'divider-section' => array(
-        'title' => 'Sys Admin:',
+        'title' => t('Sys Admin:'),
       ),
 
       'menu-system-dashboard' => array(
-        'title' => 'Süsteemi töölaud',
+        'title' => t("System Dashboard"),
         'href' => 'data/system_dashboard',
       ),
       'menu-harvest' => array(
-        'title' => 'Andmekorje allikad',
+        'title' => t("Harvest Sources"),
         'href' => 'harvest',
       ),
       'menu-feedback-moderation' => array(
-        'title' => 'Tagasiside modereerimine',
+        'title' => t("Feedback moderation"),
         'href' => 'data/feedback/moderation',
       ),
     );

@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php print $head; ?>
-    <title><?php print $head_title; ?></title>
+    <title><?php print drupal_get_title(); ?><?php print t(" | Estonian Open Data Portal"); ?></title>
     <?php print $styles; ?>
     <link rel="stylesheet" href="/assets/css/datagovuk.min.css" />
     <link rel="stylesheet" href="/assets/css/dgu-drupal.min.css" />

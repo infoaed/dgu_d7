@@ -7,7 +7,7 @@ $avatar_content = str_replace('<a', '<a disabled="disabled"', $avatar);
       <?php print $avatar_content; ?>
       <?php hide($content['field_reply_subject']); ?>
       <h3><?php print $reply->field_reply_subject[LANGUAGE_NONE][0]['safe_value']; ?></h3>
-      <span class="submitted">Lisanud <?php print $author; ?> <?php print $created; ?></span>
+      <span class="submitted"><?php t("Posted by ")?>  <?php print $author; ?> <?php t("on")?> <?php print $created; ?></span>
     </div>
     <div class="reply-body"><?php print render($content) ?></div>
     <?php print flag_create_link('spam_reply', $reply->id); ?>

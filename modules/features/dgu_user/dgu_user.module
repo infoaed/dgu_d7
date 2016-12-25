@@ -281,7 +281,7 @@ function dgu_user_menu_breadcrumb_alter(&$active_trail, $item) {
   }
 
   if ($item['path'] == 'user') {
-    drupal_set_title('Kasutajakonto');
+    drupal_set_title(t("User account"));
   }
 
   if ($item['path'] == 'user/login') {

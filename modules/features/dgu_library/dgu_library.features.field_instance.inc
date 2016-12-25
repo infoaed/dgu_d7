@@ -43,7 +43,7 @@ function dgu_library_field_default_field_instances() {
             'field_replies_revision' => '',
           ),
           'more_link' => 0,
-          'more_text' => 'Loe lisaks',
+          'more_text' => t("Read more"),
           'quickedit' => array(
             'editor' => 'form',
           ),

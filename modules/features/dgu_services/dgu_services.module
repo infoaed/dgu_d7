@@ -106,7 +106,7 @@ function dgu_services_get_replies($ckan_id) {
       $rendered_output = '';
       // Display 'Comemnts' heading only if at least one reply exist (testing if CSS class 'push' exist in the markup).
       if (strpos($output['field_comment'][0]['#markup'], 'push') !== FALSE) {
-        $rendered_output = '<div class="replies-header"><h3>Kommentaarid</h3></div>';
+        $rendered_output = '<div class="replies-header"><h3>'.t("Comments").'</h3></div>';
       }
 
       $rendered_output .= $output['field_comment'][0]['#markup'];

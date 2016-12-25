@@ -15,7 +15,7 @@
 
 <div id="blackbar" class="<?php print ($user->uid == 1 || in_array('data publisher', array_values($user->roles))) ? 'with' : 'without' ?>-publisher">
     <div class="container">
-        <a class="brand" href="/" rel="home">
+        <a class="brand" href="<?php print url(''); ?>" rel="home">
         </a>
 
         <?php
@@ -44,15 +44,15 @@
       <div class="chevron position<?php print $active;?>"></div>
         <nav id="dgu-nav">
           <?php //print dguk_get_main_menu($main_menu);?>
-          <div class="text-links">
-            <a href="/" title="" class="trigger-subnav nav-home <?php if($active == 1) print 'active'; ?>">AVALEHT</a>
-            <a href="/data" class="trigger-subnav nav-data <?php if($active == 2) print 'active'; ?>">ANDMED</a>
-            <a href="/apps" class="trigger-subnav nav-apps <?php if($active == 3) print 'active'; ?>">RAKENDUSED</a>
-            <a href="/interact" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>">LISAINFO</a>
+          <div class="text-links allcapsmenuc">
+            <a href="<?php print url(''); ?>" title="" class="trigger-subnav nav-home <?php if($active == 1) print 'active'; ?>"><?php print t("Home") ?></a>
+            <a href="<?php print url('data') ?>" class="trigger-subnav nav-data <?php if($active == 2) print 'active'; ?>"><?php print t("Data") ?></a>
+            <a href="<?php print url('apps') ?>" class="trigger-subnav nav-apps <?php if($active == 3) print 'active'; ?>"><?php print t("Apps") ?></a>
+            <a href="<?php print url('interact') ?>" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>"><?php print t("More info") ?></a>
           </div>
           <div class="nav-search" style="width: 200px;">
             <form class="input-group input-group-sm" action="/data/search">
-              <input type="text" class="form-control" name="q" placeholder="Otsi andmehulki...">
+              <input type="text" class="form-control" name="q" placeholder="<?php print t('Search for data...') ?>">
               <span class="input-group-btn">
                 <button type="submit" class="btn btn-primary"><i class="icon-search"></i></button>
               </span>
@@ -73,7 +73,7 @@
 
                   <?php $publisher = entity_load_single('ckan_publisher', $publisher_ref['target_id']); ?>
 
-                  <li><a href="/publisher/<?php print $publisher->name?>"><?php print $publisher->title?></a></li>
+                  <li><a href="<?php print url('publisher/') ?><?php print $publisher->name?>"><?php print $publisher->title?></a></li>
                 <?php endforeach; ?>
               </ul>
             </span>

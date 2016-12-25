@@ -15,7 +15,7 @@ function dgu_forum_menu_default_menu_links() {
     'menu_name' => 'menu-forum-tabs',
     'link_path' => 'forum',
     'router_path' => 'forum',
-    'link_title' => 'Uusimad foorumi teemad',
+    'link_title' => t("Latest forum topics"),
     'options' => array(
       'attributes' => array(
         'title' => '',
@@ -33,7 +33,7 @@ function dgu_forum_menu_default_menu_links() {
     'menu_name' => 'menu-forum-tabs',
     'link_path' => 'forum/categories',
     'router_path' => 'forum/categories',
-    'link_title' => 'Foorumite kategooriad',
+    'link_title' => t("Forum categories"),
     'options' => array(
       'attributes' => array(
         'title' => '',
@@ -51,7 +51,7 @@ function dgu_forum_menu_default_menu_links() {
     'menu_name' => 'menu-forum-tabs',
     'link_path' => 'forum/popular',
     'router_path' => 'forum/popular',
-    'link_title' => 'Most popular topics',
+    'link_title' => t('Most popular topics'),
     'options' => array(
       'attributes' => array(
         'title' => '',

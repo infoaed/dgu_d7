@@ -43,15 +43,15 @@ if (in_array('data publisher', array_values($user->roles))) {
         <div class="chevron position<?php print $active;?>"></div>
         <nav id="dgu-nav">
             <?php //print dguk_get_main_menu($main_menu);?>
-            <div class="text-links">
-                <a href="/" title="" class="trigger-subnav nav-home <?php if($active == 1) print 'active'; ?>">AVALEHT</a>
-                <a href="/data" class="trigger-subnav nav-data <?php if($active == 2) print 'active'; ?>">ANDMED</a>
-                <a href="/apps" class="trigger-subnav nav-apps <?php if($active == 3) print 'active'; ?>">RAKENDUSED</a>
-                <a href="/interact" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>">LISAINFO</a>
+            <div class="text-links allcapsmenu">
+                <a href="<?php print url('') ?>" title="" class="trigger-subnav nav-home <?php if($active == 1) print 'active'; ?>"><?php print t("Home") ?></a>
+                <a href="<?php print url('data') ?>" class="trigger-subnav nav-data <?php if($active == 2) print 'active'; ?>"><?php print t("Data") ?></a>
+                <a href="<?php print url('apps') ?>" class="trigger-subnav nav-apps <?php if($active == 3) print 'active'; ?>"><?php print t("Apps") ?></a>
+                <a href="<?php print url('interact') ?>" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>"><?php print t("More info") ?></a>
             </div>
             <div class="nav-search" style="width: 200px;">
                 <form class="input-group input-group-sm" action="/data/search">
-                    <input type="text" class="form-control" name="q" placeholder="Otsi andmehulki...">
+                    <input type="text" class="form-control" name="q" placeholder="<?php print t('Search for data...'); ?>">
               <span class="input-group-btn">
                 <button type="submit" class="btn btn-primary"><i class="icon-search"></i></button>
               </span>
@@ -65,14 +65,14 @@ if (in_array('data publisher', array_values($user->roles))) {
                 <span class="dropdown toolsmenu">
               <a class="nav-publisher btn btn-info dropdown-button" data-toggle="dropdown" href="#"><i class="icon-wrench"></i></a>
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
-                  <li role="presentation" class="dropdown-header">Tööriistad</li>
-                  <li><a href="/dataset/new">Lisa andmehulk</a></li>
-                  <li role="presentation" class="dropdown-header">Minu teabevaldajad</li>
+                  <li role="presentation" class="dropdown-header"><?php t("Tools")?></li>
+                  <li><a href="<?php print url('dataset/new') ?>"><?php t("Add a Dataset")?></a></li>
+                  <li role="presentation" class="dropdown-header"><?php t("My publishers")?></li>
                   <?php if (!empty($user->field_publishers)) foreach ($user->field_publishers[LANGUAGE_NONE] as $publisher_ref): ?>
 
                       <?php $publisher = entity_load_single('ckan_publisher', $publisher_ref['target_id']); ?>
 
-                      <li><a href="/publisher/<?php print $publisher->name?>"><?php print $publisher->title?></a></li>
+                      <li><a href="<?php print url('publisher/') ?><?php print $publisher->name?>"><?php print $publisher->title?></a></li>
                   <?php endforeach; ?>
               </ul>
             </span>
@@ -136,11 +136,11 @@ if (in_array('data publisher', array_values($user->roles))) {
                     <div class="col-md-6">
                         <div class="middle_top md_left">
                             <div class="nav-search-inp">
-                                <form class="input-group input-group-sm" action="/data/search">
+                                <form class="input-group input-group-sm" action="<?php print url('/data/search'); ?>">
 
-                              <input type="text" class="form-control" name="q" placeholder="Otsi andmehulki...">
+                              <input type="text" class="form-control" name="q" placeholder="<?php print t("Search for data..."); ?>">
                                 <span class="input-group-btn">
-                                    <button type="submit" class="btn btn-primary">OTSI</button>
+                                    <button type="submit" class="btn btn-primary allcapsbutton"><?php print t("Search"); ?></button>
                                 </span>
                                 </form>
                             </div>
@@ -153,10 +153,10 @@ if (in_array('data publisher', array_values($user->roles))) {
                                     <?php print render($page['import_dataset']); ?>
                                 <?php else:?>
                                     <div class="row">
-                                        <div class="col-md-6">Registreeri või lisa oma avalikustatud andmehulk.</div>
+                                        <div class="col-md-6"><?php print t("Register and publish datasets by your organization."); ?></div>
                                         <div class="col-md-6">
                                         	<form action="/dataset/new" method="get">
-                                        		<button type="submit" class="btn btn-primary">LISA ANDMEHULK</button>
+                                        		<button type="submit" class="btn btn-primary allcapsbutton"><?php print t("Create a dataset"); ?></button>
                                         	</form>
                                         </div>
                                     </div>
