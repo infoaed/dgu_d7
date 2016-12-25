@@ -65,9 +65,10 @@ if (in_array('data publisher', array_values($user->roles))) {
                 <span class="dropdown toolsmenu">
               <a class="nav-publisher btn btn-info dropdown-button" data-toggle="dropdown" href="#"><i class="icon-wrench"></i></a>
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
-                  <li role="presentation" class="dropdown-header"><?php t("Tools")?></li>
-                  <li><a href="<?php print url('dataset/new') ?>"><?php t("Add a Dataset")?></a></li>
-                  <li role="presentation" class="dropdown-header"><?php t("My publishers")?></li>
+                  <li role="presentation" class="dropdown-header"><?php print t("Tools")?></li>
+                  <li><a href="<?php print url('dataset/new') ?>"><?php print t("Add a Dataset")?></a></li>
+                  <li role="presentation" class="dropdown-header"><?php print t("My publishers")?></li>
+                  <li role="presentation" class="dropdown-header"><?php print t("My publishers")?></li>
                   <?php if (!empty($user->field_publishers)) foreach ($user->field_publishers[LANGUAGE_NONE] as $publisher_ref): ?>
 
                       <?php $publisher = entity_load_single('ckan_publisher', $publisher_ref['target_id']); ?>

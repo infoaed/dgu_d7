@@ -47,15 +47,15 @@ if ($user->uid) {
     <?php print $fields['title']->content; ?>
   </div>
   <div class="views-field views-field-name">
-    <span class="views-label views-label-name"><?php t("Created by")?> </span><?php print $fields['name']->content . ' ' . $fields['created']->content; ?>
+    <span class="views-label views-label-name"><?php print t("Created by")?> </span><?php print $fields['name']->content . ' ' . $fields['created']->content; ?>
   </div>
   <?php if ($fields['taxonomy_forums']): ?>
     <div class="views-field views-field-taxonomy-forums">
-      <?php t("Posted in")?> <a href="/forum/<?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print $row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name; ?></a>
+      <?php print t("Posted in")?> <a href="/forum/<?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print $row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name; ?></a>
     </div>
   <?php endif; ?>
   <?php if($new): ?>
-    <span class="new"><?php t("New")?></span>
+    <span class="new"><?php print t("New")?></span>
   <?php endif; ?>
 
 </div>
@@ -66,18 +66,18 @@ if ($user->uid) {
         <span><?php print $fields['id']->raw; ?></span>
         <?php print format_plural($fields['id']->raw, t(' reply'), t(' replies')); ?>
         <?php if ($new_replies): ?>
-          <span class="new"><?php print $new_replies; ?> <?php t("new")?></span>
+          <span class="new"><?php print $new_replies; ?> <?php print t("new")?></span>
         <?php endif; ?>
       </a>
     </div>
     <div class="reply-last grey-text">
       <?php if ($fields['id']->raw > 1): ?>
-        <span><?php t("Last")?></span>
+        <span><?php print t("Last")?></span>
       <?php endif; ?>
       <?php print $fields['created_1']->content; ?>
     </div>
   <?php else: ?>
-    <p class="no-replies grey-text"><?php t("No replies so far")?></p>
+    <p class="no-replies grey-text"><?php print t("No replies so far")?></p>
   <?php endif; ?>
 </div>
 
