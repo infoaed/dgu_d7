@@ -625,7 +625,7 @@ function dgu_app_field_default_field_instances() {
   $field_instances['node-app-field_screen_shots'] = array(
     'bundle' => 'app',
     'deleted' => '0',
-    'description' => 't("Please supply additional images of your application so that users can see what it does by clicking on thumbnails."),
+    'description' => t("Please supply additional images of your application so that users can see what it does by clicking on thumbnails."),
     'display' => array(
       'default' => array(
         'label' => 'hidden',
