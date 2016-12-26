@@ -265,7 +265,7 @@ function dguk_get_data_menu() {
       'href' => 'publisher',
     ),
     'menu-site-usage' => array(
-      'title' => t("Site Analytics"),
+      'title' => t("Site Usage"),
       'href' => 'data/site-usage',
     ),
   );
