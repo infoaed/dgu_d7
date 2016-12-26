@@ -48,6 +48,18 @@ if (in_array('data publisher', array_values($user->roles))) {
         if (arg(0) == 'user' || (arg(0) == 'admin' && arg(1) == 'workbench')) {
             $active = 1;
         }
+
+        global $language; // override default "et" positions from dgu-shared.css
+        if ($language->language == "en") {?>
+          <style>
+            #blackbar .chevron.position1 { right:510px !important; }     
+            #blackbar .chevron.position2 { right:440px !important; }     
+            #blackbar .chevron.position3 { right:370px !important; }     
+            #blackbar .chevron.position4 { right:280px !important; }     
+            #blackbar .chevron.position5 { right:100px !important; }     
+            #blackbar .chevron.position6 { right:-23px !important; } 
+          </style><?php
+        }
         ?>
         <div class="chevron position<?php print $active;?>"></div>
         <nav id="dgu-nav">
