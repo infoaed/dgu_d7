@@ -66,7 +66,7 @@
 ?>
 <li class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <a class="search-result-header" href="<?php print $url; ?>">
-    <div class="content-type"><?php print $result['type']; ?></div>
+    <div class="content-type"><?php print t($result['type']); ?></div>
     <h3 class="title"<?php print $title_attributes; ?>>
       <?php print $title; ?>
     </h3>

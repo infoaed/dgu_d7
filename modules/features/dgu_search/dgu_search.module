@@ -382,7 +382,7 @@ function dgu_search_theme() {
 }
 
 function theme_dgu_search_select($options) {
-  $output = '<form class="form-inline pull-right" id="search-sort-by"><label>Sort by:</label>';
+  $output = '<form class="form-inline pull-right" id="search-sort-by"><label>'. t('Sort by:') . '</label>';
   $output .= '<select name="search-results-sort" class="form-control">';
   $select_options = $options['select_options'];
   foreach ($select_options as $key => $values) {

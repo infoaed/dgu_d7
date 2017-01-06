@@ -51,7 +51,7 @@ if ($user->uid) {
   </div>
   <?php if ($fields['taxonomy_forums']): ?>
     <div class="views-field views-field-taxonomy-forums">
-      Kategoorias <a href="/forum/<?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print $row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name; ?></a>
+      <?php print t("Posted in")?> <a href="<?php print url('forum/')?><?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print_r($row->taxonomy_term_data_field_data_taxonomy_forums_name_i18n); ?></a>
     </div>
   <?php endif; ?>
   <?php if($new): ?>
@@ -64,9 +64,9 @@ if ($user->uid) {
     <div class="reply-counter">
       <a href="/<?php print drupal_get_path_alias('node/' . $row->nid) . '#comments'; ?>">
         <span><?php print $fields['id']->raw; ?></span>
-        <?php print format_plural($fields['id']->raw, ' vastus', ' vastust'); ?>
+        <?php print format_plural($fields['id']->raw, '1 reply', '@count replies'); ?>
         <?php if ($new_replies): ?>
-          <span class="new"><?php print $new_replies; ?> uut</span>
+          <span class="new"><?php print format_plural($new_replies, '1 new', '@count new'); ?></span>
         <?php endif; ?>
       </a>
     </div>
