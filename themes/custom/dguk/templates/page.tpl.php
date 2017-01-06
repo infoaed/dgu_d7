@@ -71,7 +71,7 @@
             <a href="<?php print url('interact') ?>" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>"><?php print t("More info") ?></a>
           </div>
           <div class="nav-search" style="width: 200px;">
-            <form class="input-group input-group-sm" action="/data/search">
+            <form class="input-group input-group-sm" action="<?php print url('data/search'); ?>">
               <input type="text" class="form-control" name="q" placeholder="<?php print t('Search for data...') ?>">
               <span class="input-group-btn">
                 <button type="submit" class="btn btn-primary"><i class="icon-search"></i></button>

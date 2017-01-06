@@ -71,7 +71,7 @@ if (in_array('data publisher', array_values($user->roles))) {
                 <a href="<?php print url('interact') ?>" class="trigger-subnav nav-interact <?php if($active == 4) print 'active'; ?>"><?php print t("More info") ?></a>
             </div>
             <div class="nav-search" style="width: 200px;">
-                <form class="input-group input-group-sm" action="/data/search">
+                <form class="input-group input-group-sm" action="<?php print url('data/search'); ?>">
                     <input type="text" class="form-control" name="q" placeholder="<?php print t('Search for data...'); ?>">
               <span class="input-group-btn">
                 <button type="submit" class="btn btn-primary"><i class="icon-search"></i></button>
@@ -177,7 +177,7 @@ if (in_array('data publisher', array_values($user->roles))) {
                                     <div class="row">
                                         <div class="col-md-6"><?php print t("Register and publish datasets by your organization."); ?></div>
                                         <div class="col-md-6">
-                                        	<form action="/dataset/new" method="get">
+                                        	<form action="<?php print url('dataset/new'); ?>" method="get">
                                         		<button type="submit" class="btn btn-primary allcapsbutton"><?php print t("Create a dataset"); ?></button>
                                         	</form>
                                         </div>
