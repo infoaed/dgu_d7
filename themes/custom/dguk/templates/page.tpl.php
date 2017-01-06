@@ -87,13 +87,13 @@
               <a class="nav-publisher btn btn-info dropdown-button" data-toggle="dropdown" href="#"><i class="icon-wrench"></i></a>
               <ul class="dropdown-menu dgu-user-dropdown" role="menu" aria-labelledby="dLabel">
                 <li role="presentation" class="dropdown-header">Tööriistad</li>
-                <li><a href="/dataset/new">Lisa andmehulk</a></li>
+                <li><a href="<?php print url('/dataset/new'); ?>">Lisa andmehulk</a></li>
                 <li role="presentation" class="dropdown-header">Minu teabevaldajad</li>
                 <?php if (!empty($user->field_publishers)) foreach ($user->field_publishers[LANGUAGE_NONE] as $publisher_ref): ?>
 
                   <?php $publisher = entity_load_single('ckan_publisher', $publisher_ref['target_id']); ?>
 
-                  <li><a href="<?php print url('publisher/') ?><?php print $publisher->name?>"><?php print $publisher->title?></a></li>
+                  <li><a href="<?php print url('publisher') ?><?php print $publisher->name?>"><?php print $publisher->title?></a></li>
                 <?php endforeach; ?>
               </ul>
             </span>

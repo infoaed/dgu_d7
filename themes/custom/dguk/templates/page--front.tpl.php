@@ -25,7 +25,7 @@ if (in_array('data publisher', array_values($user->roles))) {
 
 <div id="blackbar" class="<?php print ($user->uid == 1 || in_array('data publisher', array_values($user->roles))) ? 'with' : 'without' ?>-publisher">
     <div class="container">
-        <a class="brand" href="/" rel="home">
+        <a class="brand" href="<?php print url(''); ?>" rel="home">
         </a>
 
         <?php
@@ -94,7 +94,7 @@ if (in_array('data publisher', array_values($user->roles))) {
 
                       <?php $publisher = entity_load_single('ckan_publisher', $publisher_ref['target_id']); ?>
 
-                      <li><a href="<?php print url('publisher/') ?><?php print $publisher->name?>"><?php print $publisher->title?></a></li>
+                      <li><a href="<?php print url('publisher') ?><?php print $publisher->name?>"><?php print $publisher->title?></a></li>
                   <?php endforeach; ?>
               </ul>
             </span>
