@@ -18,11 +18,13 @@
       </span>
     <?php endif; ?>
     <div class="taxonomy">
+      <?php $content['field_category'][0]["#title"] = i18n_taxonomy_localize_terms($content['field_category'][0]["#options"]["entity"])->name; // to translate relevant taxonomy term ?>
       <?php print render($content['field_category']); ?>
       <?php print render($content['field_tags']); ?>
     </div>
     <?php print render($content['field_developed_by']); ?>
     <?php print render($content['field_app_link']); ?>
+    <?php $content['field_app_charge'][0]["#markup"] = t($content['field_app_charge'][0]["#markup"]); // another quick fix ?>
     <?php print render($content['field_app_charge']); ?>
 
 

@@ -6,11 +6,20 @@
 ?>
 
 <?php if (!($user->uid)): ?>
-    <div class="ourmenu">
-        <div class="menucontainer">
-            <div class="menulogin"><a href="/user">Logi sisse</a></div>
+<div id="toolbar" class="toolbar overlay-displace-top clearfix">
+    <div class="toolbar-menu clearfix">
+        <div class="menulanguage">
+            <?php $block = module_invoke('locale', 'block_view', 'language'); print $block['content']; ?>
         </div>
+        <ul id="toolbar-user">
+            <li class="login"><a href="<?php print url('user'); ?>"><img src="/assets/img/icon-log-in-avatar.png" /> <?php print t("Log in") ?></a></li>
+        </ul>
+        <ul id="toolbar-home">
+            <li class="home first last"><a href="<?php print url(''); ?>" title="<?php print t("Home") ?>"><span class="home-link"><?php print t("Home") ?></span></a></li>
+        </ul>
     </div>
+    <div class="toolbar-drawer clearfix"></div>
+</div>
 <?php endif ?>
 
 <div id="blackbar" class="<?php print ($user->uid == 1 || in_array('data publisher', array_values($user->roles))) ? 'with' : 'without' ?>-publisher">
@@ -38,8 +47,19 @@
           if (arg(0) == 'user' || (arg(0) == 'admin' && arg(1) == 'workbench')) {
             $active = 1;
           }
-        ?>
 
+        global $language; // override default "et" positions from dgu-shared.css
+        if ($language->language == "en") {?>
+          <style>
+            #blackbar .chevron.position1 { right:510px !important; }     
+            #blackbar .chevron.position2 { right:440px !important; }     
+            #blackbar .chevron.position3 { right:370px !important; }     
+            #blackbar .chevron.position4 { right:280px !important; }     
+            #blackbar .chevron.position5 { right:100px !important; }     
+            #blackbar .chevron.position6 { right:-23px !important; } 
+          </style><?php
+        }
+        ?>
 
       <div class="chevron position<?php print $active;?>"></div>
         <nav id="dgu-nav">
@@ -147,20 +167,16 @@
 </div><!--/.content-container-->
 
 <div class="footer">
-  <footer role="contentinfo" class="container">
-    <div>
-    <?php
-      // Print the combined footer menu.
-      print dguk_get_footer_menu();
-    ?>
-    <?php
-      // Print anything else in this region.
-      print render($page['footer']);
-    ?>
-    <div style="float:right;text-align:right;font-size:0.8em">
-	  Avaandmete portaal valmib EL struktuurifondide programmist "Infoühiskonna teadlikkuse tõstmine"<br/>
-	                                                                 Euroopa Regionaalarengu Fondi rahastusel.
-	</div>
-    </div>
-  </footer>
+    <footer role="contentinfo" class="container">
+        <div>
+        <?php
+        // Print the combined footer menu.
+        print dguk_get_footer_menu();
+        ?>
+        <?php
+        // Print anything else in this region.
+        print render($page['footer']);
+        ?>
+		</div>
+    </footer>
 </div> <!-- /footer -->

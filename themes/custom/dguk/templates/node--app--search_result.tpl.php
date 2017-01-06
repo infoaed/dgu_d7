@@ -7,7 +7,7 @@
         // fitler_xss changes & to &amp;
         // We change it back to & only if it's surrounded by spaces.
         ?>
-        <div>Developed by</div><?php print l(str_replace(' &amp; ', ' & ', filter_xss($field_developed_by[0]['value'])), 'search/everything/' . $field_developed_by[0]['safe_value'], array('query' => array('f[0]' => 'bundle:app'))) ; ?>
+        <div><?php print t('Developed by'); ?></div><?php print l(str_replace(' &amp; ', ' & ', filter_xss($field_developed_by[0]['value'])), 'search/everything/' . $field_developed_by[0]['safe_value'], array('query' => array('f[0]' => 'bundle:app'))) ; ?>
       </div>
     <?php endif; ?>
 
