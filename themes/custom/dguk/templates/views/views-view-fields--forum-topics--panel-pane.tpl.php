@@ -64,7 +64,7 @@ if ($user->uid) {
     <div class="reply-counter">
       <a href="<?php print url('').drupal_get_path_alias('node/' . $row->nid) . '#comments'; ?>">
         <span><?php print $fields['id']->raw; ?></span>
-        <?php print format_plural($fields['id']->raw, '1 reply', '@count replies'); ?>
+        <?php print format_plural($fields['id']->raw, ' reply', ' replies'); ?>
         <?php if ($new_replies): ?>
           <span class="new"><?php print format_plural($new_replies, '1 new', '@count new'); ?></span>
         <?php endif; ?>
