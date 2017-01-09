@@ -436,15 +436,50 @@ function dguk_js_alter(&$js){
  * @return a string containing the breadcrumb output.
  */
 function dguk_breadcrumb($variables) {
-  if (count($variables['breadcrumb']) > 0) {
+
+    $node = menu_get_object();
+
+    if ($node->type == 'forum') {
+      // fix breadcrumbs for forum messages
+      
+      $breadcrumb = array();
+      $breadcrumb[] = l(t('Home'), '<front>');
+      $breadcrumb[] = l(t('Forums'), 'forum');
+
+      $tid = $node->taxonomy_forums["und"][0]["tid"];
+
+      if ($term = i18n_taxonomy_localize_terms(taxonomy_term_load($tid))) {
+        $uri = entity_uri('taxonomy_term', $term);
+        $forum_url = str_replace("forums", "forum", url($uri['path']));
+        $breadcrumb[] = l($term->name, $forum_url, array('external' => TRUE));
+      }
+
+      $variables['breadcrumb']=$breadcrumb;
+
+    } else if (arg(0) == 'forum' &&  arg(1) == 'categories') {
+      
+    } else if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+      // fix breadcrumbs for forum categories
+      
+      $breadcrumb = array();
+      $breadcrumb[] = l(t('Home'), '<front>');
+      $breadcrumb[] = l(t('Forums'), 'forum');
+
+      $variables['breadcrumb']=$breadcrumb;
+    }
+
+    if (count($variables['breadcrumb']) > 0) {
     $crumbs = '<ul id="breadcrumbs">';
     $title = drupal_get_title();
-    $node = menu_get_object();
+
     if ($node){
       $title = $node->title;
     }
+
+    
     $a = 0;
     foreach($variables['breadcrumb'] as $value) {
+      if (strpos($value, '/forum/categories') > 0) continue;
       if ($a==0){
         $crumbs .= '<li>' . l('<i class="icon-home"></i>', '<front>', array('html' => TRUE)) . '</li>';
       }
@@ -455,6 +490,26 @@ function dguk_breadcrumb($variables) {
       }
       $a++;
     }
+    if (arg(0) == 'forum' &&  arg(1) != 'categories') {
+
+      $argument = urldecode(arg(1));
+      $vocabulary = taxonomy_vocabulary_machine_name_load('forums');
+      $terms = entity_load('taxonomy_term', FALSE, array('vid' => $vocabulary->vid));
+
+      foreach ($terms as $term) {
+        $uri = entity_uri('taxonomy_term', $term);
+        $path = url($uri['path']);
+        $machine = urldecode(substr($path, strrpos($path, "/")+1));
+        $t2 = i18n_taxonomy_localize_terms($term)->name;
+        
+        if ($argument == $machine) {
+          $title = $t2;
+          drupal_set_title($t2);
+          break;
+        }
+      }
+    }
+      
     $crumbs .= '<li>' . $title . '</li>';
     return $crumbs;
    }

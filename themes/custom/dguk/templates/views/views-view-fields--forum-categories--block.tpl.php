@@ -27,7 +27,9 @@ $new_topics = dgu_forum_topics_unread($row->tid);
 
 ?>
 <div class="views-field views-field-name">
-  <?php print $fields['name']->content; ?>
+  <a href="<?php $uri=entity_uri('taxonomy_term', taxonomy_term_load($row->tid)); print str_replace("forums", "forum", url($uri['path'])); ?>">
+  <?php print_r($row->taxonomy_term_data_name_i18n); ?>
+  </a>
 </div>
 <?php if ($fields['description']->content): ?>
 <div class="views-field views-field-description">

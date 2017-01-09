@@ -51,7 +51,7 @@ if ($user->uid) {
   </div>
   <?php if ($fields['taxonomy_forums']): ?>
     <div class="views-field views-field-taxonomy-forums">
-      <?php print t("Posted in")?> <a href="<?php print url('forum/')?><?php print str_replace(' ', '-', strtolower($row->field_taxonomy_forums[0]['raw']['taxonomy_term']->name)); ?>"><?php print_r($row->taxonomy_term_data_field_data_taxonomy_forums_name_i18n); ?></a>
+      <?php print t("Posted in")?> <a href="<?php $uri=entity_uri('taxonomy_term', $row->field_taxonomy_forums[0]['raw']['taxonomy_term']); print str_replace("forums", "forum", url($uri['path'])); ?>"><?php print $row->taxonomy_term_data_field_data_taxonomy_forums_name_i18n; ?></a>
     </div>
   <?php endif; ?>
   <?php if($new): ?>
@@ -62,7 +62,7 @@ if ($user->uid) {
 <div class="forum-topic-replies">
   <?php if ($fields['created_1']->raw): ?>
     <div class="reply-counter">
-      <a href="<?php print url('').drupal_get_path_alias('node/' . $row->nid) . '#comments'; ?>">
+      <a href="<?php print url(drupal_get_path_alias('node/' . $row->nid)) . '#comments'; ?>">
         <span><?php print $fields['id']->raw; ?></span>
         <?php print format_plural($fields['id']->raw, ' reply', ' replies'); ?>
         <?php if ($new_replies): ?>
