@@ -475,7 +475,6 @@ function dguk_breadcrumb($variables) {
     if ($node){
       $title = $node->title;
     }
-
     
     $a = 0;
     foreach($variables['breadcrumb'] as $value) {
@@ -490,6 +489,7 @@ function dguk_breadcrumb($variables) {
       }
       $a++;
     }
+
     if (arg(0) == 'forum' &&  arg(1) != 'categories') {
 
       $argument = urldecode(arg(1));
@@ -497,14 +497,13 @@ function dguk_breadcrumb($variables) {
       $terms = entity_load('taxonomy_term', FALSE, array('vid' => $vocabulary->vid));
 
       foreach ($terms as $term) {
-        $uri = entity_uri('taxonomy_term', $term);
-        $path = url($uri['path']);
-        $machine = urldecode(substr($path, strrpos($path, "/")+1));
-        $t2 = i18n_taxonomy_localize_terms($term)->name;
+        $machine = $term->field_machine_name['und'][0]['value'];
+        $title = i18n_taxonomy_localize_terms($term)->name;
+        $name = $term->name;
+        $tid = $term->tid;
         
         if ($argument == $machine) {
-          $title = $t2;
-          drupal_set_title($t2);
+          drupal_set_title($title);
           break;
         }
       }
