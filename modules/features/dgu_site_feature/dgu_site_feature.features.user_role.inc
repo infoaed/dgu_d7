@@ -13,7 +13,7 @@ function dgu_site_feature_user_default_roles() {
   // Exported role: editor.
   $roles['editor'] = array(
     'name' => 'editor',
-    'weight' => '11',
+    'weight' => 11,
   );
 
   return $roles;

@@ -15,12 +15,16 @@ function dgu_site_feature_menu_default_menu_custom() {
     'menu_name' => 'menu-apps',
     'title' => 'Apps',
     'description' => 'Sub navigation for \'Apps\' main navigation link',
+    'language' => 'und',
+    'i18n_mode' => 5,
   );
   // Exported menu: menu-interact.
   $menus['menu-interact'] = array(
     'menu_name' => 'menu-interact',
     'title' => 'Interact',
     'description' => 'Sub navigation for \'Interact\' main navigation link',
+    'language' => 'und',
+    'i18n_mode' => 5,
   );
   // Translatables
   // Included for use with string extractors like potx.
