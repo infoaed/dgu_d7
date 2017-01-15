@@ -42,7 +42,7 @@ function dgu_reply_default_reply_bundle() {
   }');
   $items['review_comment'] = entity_import('reply_bundle', '{
     "bundle" : "review_comment",
-    "name" : t("Review comment"),
+    "name" : "Review comment",
     "access" : "2",
     "display" : "1",
     "description" : "Private comments on data requests used in dataset review workflow.",
