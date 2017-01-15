@@ -149,6 +149,7 @@ features[variable][] = pathauto_node_page_pattern
 features[variable][] = pathauto_node_pattern
 features[variable][] = pathauto_punctuation_hyphen
 features[variable][] = site_frontpage
+features[variable][] = site_name
 features[wysiwyg][] = filtered_html
 features[wysiwyg][] = full_html
 features_exclude[dependencies][dgu_promo_items] = dgu_promo_items
