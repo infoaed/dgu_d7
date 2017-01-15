@@ -148,7 +148,7 @@ function dgu_site_feature_default_page_manager_pages() {
   );
   $page->menu = array(
     'type' => 'normal',
-    'title' => 'What is open data portal?',
+    'title' => 'About',
     'name' => 'menu-footer',
     'weight' => '0',
     'parent' => array(
@@ -210,7 +210,7 @@ function dgu_site_feature_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<p><strong>What is the open data portal?</strong></p>
+      'body' => t('<p><strong>What is the open data portal?</strong></p>
 <p><a href="http://opendata.riik.ee" rel="nofollow">The open data portal</a> is intended to serve as a platform where to gather the records of the public<em>datasets</em> created by public bodies and local authorities and where new datasets can be made public. On one hand, it is a place where the owners of the dataset or <em>holders of information</em> can register or upload their datasets. On the other hand, it is a place where the stakeholders and regular citizens can search and download the published data and use it for further processing or information requests.</p>
 <p><strong>Goals of opening up data:</strong></p>
 <p>Opening up data, their collection and making available on a single platforms serve several important purposes:</p>
@@ -230,7 +230,7 @@ function dgu_site_feature_default_page_manager_pages() {
 <p>Published datasets can be used in many different ways and for different purposes, e.g., trend analyses in particular policy areas over certain periods of time, comparison of datasets of different government agencies and ministries in order to detect dependencies and derive potential new information, etc. Stakeholders who possess sufficient technical capabilities may, using published raw data, create useful and interesting applications and services for the public.</p>
 <p><strong>Where can I find more information?</strong></p>
 <p>Read the materials found on the pages accessible from the menu MORE INFO or, should you have a specific question, send it to one of the e-mail addresses listed on the <a href="/kontaktid" rel="nofollow">Contacts</a> page.</p>
-',
+'),
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -557,8 +557,8 @@ function dgu_site_feature_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => '',
-      'title' => 'Frequently asked questions',
-      'body' => '<p><strong>1. What is the government open data portal?</strong></p>
+      'title' => t('Frequently asked questions'),
+      'body' => t('<p><strong>1. What is the government open data portal?</strong></p>
 
 <p>The open data portal is intended to serve as a platform for the dissemination of data by public bodies and for searching and retrieving such datasets by open data users.</p>
 
@@ -653,7 +653,7 @@ All public data is made available. Public data is data that is not subject to va
 
 <p><strong>14. Will more public data become available in the future?</strong></p>
 
-<p>Certainly! As the work on the project progresses, new open data will be added to the portal and the portal will also be linked to the open data portals of other countries.</p>',
+<p>Certainly! As the work on the project progresses, new open data will be added to the portal and the portal will also be linked to the open data portals of other countries.</p>'),
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -859,8 +859,8 @@ All public data is made available. Public data is data that is not subject to va
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => '',
-      'title' => 'Guidelines',
-      'body' => '<p>Here you can find guidelines pertaining to the use of the portal, publication of datasets and their use.</p>
+      'title' => t('Guidelines'),
+      'body' => t('<p>Here you can find guidelines pertaining to the use of the portal, publication of datasets and their use.</p>
 
 <ul>
 <li><a href="sites/default/files/manuals/portaali-kasutusjuhend-teabevaldajatele-v06.odt" rel="nofollow">Portal guidelines for holders of information (in Estonian)</a></li>
@@ -872,7 +872,7 @@ All public data is made available. Public data is data that is not subject to va
 
 <ul>
 <li><a href="https://www.ria.ee/public/Arhitektuur/Avaandmete_loomise_juhend.pdf" rel="nofollow">Guidelines for creating and publishing open data (in Estonian)</a></li>
-</ul>',
+</ul>'),
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -951,14 +951,14 @@ All public data is made available. Public data is data that is not subject to va
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => 'Login',
-      'title' => 'Log in',
-      'body' => '<p>The entire content of the portal and all datasets are available for download by all users, including anonymous ones.</p>
+      'title' => t('Log in'),
+      'body' => t('<p>The entire content of the portal and all datasets are available for download by all users, including anonymous ones.</p>
 
 <p>In order to use forums and provide feedback, you must be logged in to the portal. In order to be able to publish and administer datasets, a logged in user must be linked to a particular holder of information and have the requisite rights. For a detailed description of this process, see the relevant chapter in the guidelines for information holders which can be found under <a href="/juhendid">More info-&gt;Guidelines</a></p>
 
 <p style="padding-bottom:10px">To log in, use any of the following options:</p>
 
-<p>&nbsp;</p><ul style="list-style:none;padding-left:0px;"><li id="id-card-login-link"><a href="/id_card_login">Log in with ID-card</a></li></ul>',
+<p>&nbsp;</p><ul style="list-style:none;padding-left:0px;"><li id="id-card-login-link"><a href="/id_card_login">Log in with ID-card</a></li></ul>'),
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -1046,14 +1046,14 @@ All public data is made available. Public data is data that is not subject to va
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => '',
-      'title' => 'Green Paper on Open Data',
-      'body' => '<p>The Green Paper on Open Data is the first systematic government report on the open data policy in Estonia, setting out its guiding principles, interoperability architecture, central policy choices and an activity plan. It is a must read for anyone who plans to explore the concept of open data and related terminology. The holders of information can find here answers to many questions they encounter in relation to opening up data.</p>
+      'title' => t('Green Paper on Open Data'),
+      'body' => t('<p>The Green Paper on Open Data is the first systematic government report on the open data policy in Estonia, setting out its guiding principles, interoperability architecture, central policy choices and an activity plan. It is a must read for anyone who plans to explore the concept of open data and related terminology. The holders of information can find here answers to many questions they encounter in relation to opening up data.</p>
 
 <p>The Green Paper was prepared by the Department of State Information Systems of the Estonian Ministry of Economic Affairs and Communications in cooperation with the Estonian Data Protection Inspectorate and the Strategy Unit of the Government Office. The preliminary version of the Green Paper was made available for consultations in November 2013 on the portal osale.ee. Four rounds of discussions were held, recommendations for amendments were asked from all ministries, constitutional institutions, Estonian Association of Information Technology, Association of Estonian Cities and the Association of Estonian Municipalities, and more than 50 experts were consulted with via e-mail.</p>
 
 <p>The Green Paper on Open Data (in Estonian) can be downloaded from the following link:</p>
 
-<p><a href="/sites/default/files/manuals/avaliku-teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt" rel="nofollow">avaliku-teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt</a></p>',
+<p><a href="/sites/default/files/manuals/avaliku-teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt" rel="nofollow">avaliku-teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt</a></p>'),
       'format' => 'full_html',
       'substitute' => TRUE,
     );
