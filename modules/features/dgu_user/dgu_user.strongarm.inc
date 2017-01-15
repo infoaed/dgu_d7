@@ -21,7 +21,7 @@ function dgu_user_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ckan_publisher_role';
-  $strongarm->value = '6';
+  $strongarm->value = '9';
   $export['ckan_publisher_role'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -65,6 +65,9 @@ function dgu_user_strongarm() {
         ),
         'mollom' => array(
           'weight' => '99',
+        ),
+        'locale' => array(
+          'weight' => '5',
         ),
       ),
       'display' => array(
@@ -137,7 +140,7 @@ function dgu_user_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'logintoboggan_pre_auth_role';
-  $strongarm->value = '8';
+  $strongarm->value = '2';
   $export['logintoboggan_pre_auth_role'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -165,7 +168,7 @@ function dgu_user_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'logintoboggan_unified_login';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['logintoboggan_unified_login'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -467,7 +470,7 @@ Your account on [site:name] has been canceled.
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_register';
-  $strongarm->value = '1';
+  $strongarm->value = '0';
   $export['user_register'] = $strongarm;
 
   $strongarm = new stdClass();
