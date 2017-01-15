@@ -151,7 +151,6 @@ features[variable][] = site_name
 features[wysiwyg][] = filtered_html
 features[wysiwyg][] = full_html
 features_exclude[dependencies][dgu_promo_items] = dgu_promo_items
-features_exclude[menu_custom][main-menu] = main-menu
 features_exclude[variable][comment_anonymous_page] = comment_anonymous_page
 features_exclude[variable][comment_default_mode_page] = comment_default_mode_page
 features_exclude[variable][comment_default_per_page_page] = comment_default_per_page_page
