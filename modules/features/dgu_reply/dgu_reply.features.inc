@@ -20,7 +20,7 @@ function dgu_reply_default_reply_bundle() {
   $items = array();
   $items['comment'] = entity_import('reply_bundle', '{
     "bundle" : "comment",
-    "name" : "Comment",
+    "name" : t('Comment'),
     "access" : "2",
     "display" : "2",
     "description" : "",
@@ -31,10 +31,10 @@ function dgu_reply_default_reply_bundle() {
   }');
   $items['field_comment'] = entity_import('reply_bundle', '{
     "bundle" : "field_comment",
-    "name" : "Field comment",
+    "name" : t('Field comment'),
     "access" : "2",
     "display" : "2",
-    "description" : "Comments on fields used in consultation.",
+    "description" : t('Comments on fields used in consultation.'),
     "form" : "1",
     "allow_reply" : "1",
     "locked" : "0",
@@ -42,10 +42,10 @@ function dgu_reply_default_reply_bundle() {
   }');
   $items['review_comment'] = entity_import('reply_bundle', '{
     "bundle" : "review_comment",
-    "name" : "Review comment",
+    "name" : t('Review comment'),
     "access" : "2",
     "display" : "1",
-    "description" : "Private comments on data requests used in dataset review workflow.",
+    "description" : t('Private comments on data requests used in dataset review workflow.'),
     "form" : "1",
     "allow_reply" : "0",
     "locked" : "0",
