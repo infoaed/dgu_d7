@@ -133,7 +133,6 @@ function dgu_site_feature_default_page_manager_pages() {
   /*
    * The "About" page.
    */
-
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;

@@ -10,6 +10,44 @@
 function dgu_site_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_data:data.
+  $menu_links['main-menu_data:data'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'data',
+    'router_path' => 'data',
+    'link_title' => 'Data',
+    'options' => array(
+      'identifier' => 'main-menu_data:data',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 1,
+    'customized' => 0,
+    'language' => 'und',
+    'menu_links_customized' => 0,
+  );
+  // Exported menu link: menu-apps_apps:apps.
+  $menu_links['menu-apps_apps:apps'] = array(
+    'menu_name' => 'menu-apps',
+    'link_path' => 'apps',
+    'router_path' => 'apps',
+    'link_title' => 'Apps',
+    'options' => array(
+      'identifier' => 'menu-apps_apps:apps',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 3,
+    'customized' => 0,
+    'language' => 'und',
+    'menu_links_customized' => 0,
+  );
   // Exported menu link: menu-interact_faq:kkk.
   $menu_links['menu-interact_faq:kkk'] = array(
     'menu_name' => 'menu-interact',
@@ -105,6 +143,8 @@ function dgu_site_feature_menu_default_menu_links() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Apps');
+  t('Data');
   t('FAQ');
   t('Forums');
   t('Green Paper on Open Data');
