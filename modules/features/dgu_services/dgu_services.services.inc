@@ -79,7 +79,9 @@ function dgu_services_default_services_endpoint() {
   $endpoint->name = 'xmlrpc';
   $endpoint->server = 'xmlrpc_server';
   $endpoint->path = 'services/xmlrpc';
-  $endpoint->authentication = array();
+  $endpoint->authentication = array(
+    'services_basic_auth' => 'services_basic_auth',
+  );
   $endpoint->server_settings = array();
   $endpoint->resources = array(
     'session' => array(

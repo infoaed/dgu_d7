@@ -2,6 +2,7 @@ name = DGU Services
 description = Drupal web services configuration
 core = 7.x
 package = DGU Features
+version = 7.x-1.1-alpha1
 dependencies[] = ckan
 dependencies[] = ckan_dataset
 dependencies[] = ctools
