@@ -19,7 +19,7 @@ function dgu_app_default_page_manager_handlers() {
   $handler->handler = 'panel_context';
   $handler->weight = 5;
   $handler->conf = array(
-    'title' => 'App',
+    'title' => t('App'),
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
@@ -55,7 +55,7 @@ function dgu_app_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Apps';
+  $display->title = t('Apps');
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -132,8 +132,8 @@ function dgu_app_default_page_manager_pages() {
     'settings' => NULL,
   );
   $page->menu = array(
-    'type' => 'none',
-    'title' => 'Apps',
+    'type' => 'normal',
+    'title' => t('Apps'),
     'name' => 'menu-apps',
     'weight' => '3',
     'parent' => array(
@@ -430,7 +430,7 @@ function dgu_app_default_page_manager_pages() {
   );
   $page->menu = array(
     'type' => 'none',
-    'title' => 'Apps',
+    'title' => t('Apps'),
     'name' => 'menu-apps',
     'weight' => '3',
     'parent' => array(
