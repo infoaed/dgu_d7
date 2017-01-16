@@ -72,13 +72,14 @@ function dgu_search_strongarm() {
   $strongarm->name = 'apachesolr_search_mlt_blocks';
   $strongarm->value = array(
     'mlt-001' => array(
-      'name' => 'More like this',
+      'name' => t('More like this'),
+      'mlt_env_id' => 'solr',
       'num_results' => '5',
       'mlt_fl' => array(
         'label' => 'label',
         'taxonomy_names' => 'taxonomy_names',
+        'tos_name' => 'tos_name',
       ),
-      'mlt_env_id' => 'solr',
       'mlt_mintf' => '1',
       'mlt_mindf' => '1',
       'mlt_minwl' => '3',
@@ -87,6 +88,10 @@ function dgu_search_strongarm() {
       'mlt_type_filters' => array(),
       'mlt_custom_filters' => '',
       'delta' => 'mlt-001',
+      'apachesolr_multilingual_query_settings' => array(
+        'apachesolr_multilingual_auto_language_filter' => 0,
+        'apachesolr_multilingual_show_language_undefined_results' => 0,
+      ),
     ),
   );
   $export['apachesolr_search_mlt_blocks'] = $strongarm;
