@@ -268,6 +268,8 @@ function dgu_forum_field_default_field_instances() {
   t('Body');
   t('Comments');
   t('Forums');
+  t('This is a machine name to be used for forum categories in URLs.');
+  t('machine_name');
 
   return $field_instances;
 }
