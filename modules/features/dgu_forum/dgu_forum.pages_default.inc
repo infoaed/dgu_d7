@@ -422,22 +422,10 @@ function dgu_forum_default_page_manager_pages() {
   $page->arguments = array(
     'term' => array(
       'id' => 1,
-      'identifier' => 'Taxonomy term: ID',
-      'name' => 'term',
+      'identifier' => 'Forum taxonomy term field_machine_name',
+      'name' => 'string',
       'settings' => array(
-        'input_form' => 'term',
-        'vids' => array(
-          7 => '7',
-          1 => 0,
-          2 => 0,
-          8 => 0,
-          3 => 0,
-          4 => 0,
-          5 => 0,
-          6 => 0,
-        ),
-        'breadcrumb' => 0,
-        'transform' => 1,
+        'use_tail' => 0,
       ),
     ),
   );
