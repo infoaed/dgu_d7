@@ -24,7 +24,7 @@
     </div>
     <?php print render($content['field_developed_by']); ?>
     <?php print render($content['field_app_link']); ?>
-    <?php $content['field_app_charge'][0]["#markup"] = t($content['field_app_charge'][0]["#markup"]); // another quick fix ?>
+    <?php if ($content['field_app_charge'][0]["#markup"]) $content['field_app_charge'][0]["#markup"] = t($content['field_app_charge'][0]["#markup"]); // another quick fix ?>
     <?php print render($content['field_app_charge']); ?>
 
 
