@@ -15,12 +15,13 @@ function dgu_footer_menu_default_menu_custom() {
     'menu_name' => 'menu-footer',
     'title' => 'Footer',
     'description' => 'Footer menu',
+    'language' => 'und',
+    'i18n_mode' => 5,
   );
   // Translatables
   // Included for use with string extractors like potx.
   t('Footer');
   t('Footer menu');
-
 
   return $menus;
 }

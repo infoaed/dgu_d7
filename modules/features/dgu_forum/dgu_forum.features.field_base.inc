@@ -10,27 +10,43 @@
 function dgu_forum_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'taxonomy_forums'
-  $field_bases['taxonomy_forums'] = array(
-    'active' => '1',
-    'cardinality' => '1',
-    'deleted' => '0',
+  // Exported field_base: 'field_machine_name'.
+  $field_bases['field_machine_name'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'taxonomy_forums',
-    'foreign keys' => array(
-      'tid' => array(
-        'columns' => array(
-          'tid' => 'tid',
-        ),
-        'table' => 'taxonomy_term_data',
+    'field_name' => 'field_machine_name',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
       ),
     ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
+  // Exported field_base: 'taxonomy_forums'.
+  $field_bases['taxonomy_forums'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'taxonomy_forums',
     'indexes' => array(
       'tid' => array(
         0 => 'tid',
       ),
     ),
-    'locked' => '0',
+    'locked' => 0,
     'module' => 'taxonomy',
     'settings' => array(
       'allowed_values' => array(
@@ -39,8 +55,9 @@ function dgu_forum_field_default_field_bases() {
           'parent' => 0,
         ),
       ),
+      'options_list_callback' => 'i18n_taxonomy_allowed_values',
     ),
-    'translatable' => '0',
+    'translatable' => 0,
     'type' => 'taxonomy_term_reference',
   );
 

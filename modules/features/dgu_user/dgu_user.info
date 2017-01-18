@@ -2,6 +2,7 @@ name = DGU User
 description = User account and login settings
 core = 7.x
 package = DGU Features
+version = 7.x-1.1-alpha1
 dependencies[] = admin_menu
 dependencies[] = book
 dependencies[] = contact

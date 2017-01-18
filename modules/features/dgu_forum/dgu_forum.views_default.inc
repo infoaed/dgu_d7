@@ -15,14 +15,14 @@ function dgu_forum_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'taxonomy_term_data';
-  $view->human_name = t("Forum categories");
+  $view->human_name = "Forum categories";
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = t("Forum categories");
+  $handler->display->display_options['title'] = "Forum categories";
   $handler->display->display_options['css_class'] = 'row';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
@@ -82,14 +82,36 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['relationships']['nid']['field'] = 'nid';
   $handler->display->display_options['relationships']['nid']['relationship'] = 'reverse_taxonomy_forums_node';
   $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Taxonomy term: machine_name */
+  $handler->display->display_options['fields']['field_machine_name']['id'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['table'] = 'field_data_field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['field'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['label'] = '';
+  $handler->display->display_options['fields']['field_machine_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_machine_name']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_machine_name']['settings'] = array(
+    'field_replies' => '',
+    'field_replies_settings' => array(
+      'field_replies_reply_field_name' => '',
+      'field_replies_revision' => '',
+    ),
+  );
+  /* Field: Taxonomy term: Name (translated) */
+  $handler->display->display_options['fields']['name_i18n']['id'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['fields']['name_i18n']['field'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['label'] = '';
+  $handler->display->display_options['fields']['name_i18n']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['name_i18n']['element_label_colon'] = FALSE;
   /* Field: Taxonomy term: Name */
   $handler->display->display_options['fields']['name']['id'] = 'name';
   $handler->display->display_options['fields']['name']['table'] = 'taxonomy_term_data';
   $handler->display->display_options['fields']['name']['field'] = 'name';
   $handler->display->display_options['fields']['name']['label'] = '';
-  $handler->display->display_options['fields']['name']['alter']['path'] = 'forum/[name]';
-  $handler->display->display_options['fields']['name']['alter']['replace_spaces'] = TRUE;
-  $handler->display->display_options['fields']['name']['alter']['path_case'] = 'lower';
+  $handler->display->display_options['fields']['name']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['name']['alter']['text'] = '[name_i18n]';
+  $handler->display->display_options['fields']['name']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['name']['alter']['path'] = 'forum/[field_machine_name]';
   $handler->display->display_options['fields']['name']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['name']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['name']['element_label_colon'] = FALSE;
@@ -109,6 +131,9 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['nid']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['nid']['alter']['text'] = '[nid] topics';
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['nid']['format_plural'] = TRUE;
+  $handler->display->display_options['fields']['nid']['format_plural_singular'] = '<span class="counter">@count</span> topic';
+  $handler->display->display_options['fields']['nid']['format_plural_plural'] = '<span class="counter">@count</span> topics';
   /* Field: Reply: Reply ID */
   $handler->display->display_options['fields']['id']['id'] = 'id';
   $handler->display->display_options['fields']['id']['table'] = 'reply';
@@ -119,6 +144,9 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['id']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['id']['alter']['text'] = '[id] replies';
   $handler->display->display_options['fields']['id']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['id']['format_plural'] = TRUE;
+  $handler->display->display_options['fields']['id']['format_plural_singular'] = '<span class="counter">@count</span> reply';
+  $handler->display->display_options['fields']['id']['format_plural_plural'] = '<span class="counter">@count</span> replies';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Reply: Reply ID */
   $handler->display->display_options['sorts']['id']['id'] = 'id';
@@ -188,15 +216,36 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['relationships']['reverse_taxonomy_forums_node']['field'] = 'reverse_taxonomy_forums_node';
   $handler->display->display_options['relationships']['reverse_taxonomy_forums_node']['required'] = TRUE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Taxonomy term: machine_name */
+  $handler->display->display_options['fields']['field_machine_name']['id'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['table'] = 'field_data_field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['field'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['label'] = '';
+  $handler->display->display_options['fields']['field_machine_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_machine_name']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_machine_name']['settings'] = array(
+    'field_replies' => '',
+    'field_replies_settings' => array(
+      'field_replies_reply_field_name' => '',
+      'field_replies_revision' => '',
+    ),
+  );
+  /* Field: Taxonomy term: Name (translated) */
+  $handler->display->display_options['fields']['name_i18n']['id'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['fields']['name_i18n']['field'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['label'] = '';
+  $handler->display->display_options['fields']['name_i18n']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['name_i18n']['element_label_colon'] = FALSE;
   /* Field: Taxonomy term: Name */
   $handler->display->display_options['fields']['name']['id'] = 'name';
   $handler->display->display_options['fields']['name']['table'] = 'taxonomy_term_data';
   $handler->display->display_options['fields']['name']['field'] = 'name';
   $handler->display->display_options['fields']['name']['label'] = '';
+  $handler->display->display_options['fields']['name']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['name']['alter']['text'] = '[name_i18n]';
   $handler->display->display_options['fields']['name']['alter']['make_link'] = TRUE;
-  $handler->display->display_options['fields']['name']['alter']['path'] = 'forum/[name]';
-  $handler->display->display_options['fields']['name']['alter']['replace_spaces'] = TRUE;
-  $handler->display->display_options['fields']['name']['alter']['path_case'] = 'lower';
+  $handler->display->display_options['fields']['name']['alter']['path'] = 'forum/[field_machine_name]';
   $handler->display->display_options['fields']['name']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['name']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['name']['element_type'] = 'h4';
@@ -210,7 +259,7 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['nid']['label'] = '';
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['nid']['format_plural'] = TRUE;
-  $handler->display->display_options['fields']['nid']['format_plural_singular'] = '1 topic';
+  $handler->display->display_options['fields']['nid']['format_plural_singular'] = '@count topic';
   $handler->display->display_options['fields']['nid']['format_plural_plural'] = '@count topics';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Content: Nid */
@@ -263,6 +312,18 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['relationships']['nid']['id'] = 'nid';
   $handler->display->display_options['relationships']['nid']['table'] = 'node';
   $handler->display->display_options['relationships']['nid']['field'] = 'nid';
+  /* Relationship: Content: Forums (taxonomy_forums) */
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['id'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['table'] = 'field_data_taxonomy_forums';
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['field'] = 'taxonomy_forums_tid';
+  /* Field: Taxonomy term: Name (translated) */
+  $handler->display->display_options['fields']['name_i18n']['id'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['fields']['name_i18n']['field'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['fields']['name_i18n']['label'] = '';
+  $handler->display->display_options['fields']['name_i18n']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['name_i18n']['element_label_colon'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -279,17 +340,34 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['id'] = 'taxonomy_forums_tid';
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['table'] = 'field_data_taxonomy_forums';
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['field'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['arguments']['taxonomy_forums_tid']['title_enable'] = TRUE;
+  $handler->display->display_options['arguments']['taxonomy_forums_tid']['title'] = '%1';
+  $handler->display->display_options['arguments']['taxonomy_forums_tid']['breadcrumb_enable'] = TRUE;
+  $handler->display->display_options['arguments']['taxonomy_forums_tid']['breadcrumb'] = '%1';
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['default_argument_type'] = 'taxonomy_tid';
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['arguments']['taxonomy_forums_tid']['specify_validation'] = TRUE;
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate']['type'] = 'taxonomy_term';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate_options']['vocabularies'] = array(
-    'forums' => 'forums',
-  );
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate_options']['type'] = 'convert';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate_options']['transform'] = TRUE;
+  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate']['type'] = 'php';
+  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate_options']['code'] = '$argument = urldecode($argument);
+$vocabulary = taxonomy_vocabulary_machine_name_load(\'forums\');
+$terms = entity_load(\'taxonomy_term\', FALSE, array(\'vid\' => $vocabulary->vid));
+
+foreach ($terms as $term) {
+	$machine = $term->field_machine_name[\'und\'][0][\'value\'];
+	$title = i18n_taxonomy_localize_terms($term)->name;
+	$name = $term->name;
+	$tid = $term->tid;
+	
+	if ($argument == $machine) {
+		$handler->argument = $tid;
+		$handler->validated_title = $title;
+		
+		return TRUE;
+	}
+}
+';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
@@ -393,24 +471,6 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['created_1']['label'] = 'Last reply';
   $handler->display->display_options['fields']['created_1']['empty'] = 'N/A';
   $handler->display->display_options['fields']['created_1']['date_format'] = 'time ago';
-  $handler->display->display_options['defaults']['arguments'] = FALSE;
-  /* Contextual filter: Content: Forums (taxonomy_forums) */
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['id'] = 'taxonomy_forums_tid';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['table'] = 'field_data_taxonomy_forums';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['field'] = 'taxonomy_forums_tid';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['title_enable'] = TRUE;
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['title'] = '%1';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['default_argument_type'] = 'taxonomy_tid';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['summary']['number_of_records'] = '0';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['summary']['format'] = 'default_summary';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['summary_options']['items_per_page'] = '25';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['specify_validation'] = TRUE;
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate']['type'] = 'taxonomy_term';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate_options']['vocabularies'] = array(
-    'forums' => 'forums',
-  );
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate_options']['type'] = 'convert';
-  $handler->display->display_options['arguments']['taxonomy_forums_tid']['validate_options']['transform'] = TRUE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['filter_groups']['groups'] = array(
     1 => 'AND',
@@ -479,6 +539,10 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['row_plugin'] = 'node_rss';
   $handler->display->display_options['row_options']['item_length'] = 'rss';
   $handler->display->display_options['defaults']['relationships'] = FALSE;
+  /* Relationship: Content: Taxonomy terms on node */
+  $handler->display->display_options['relationships']['term_node_tid']['id'] = 'term_node_tid';
+  $handler->display->display_options['relationships']['term_node_tid']['table'] = 'node';
+  $handler->display->display_options['relationships']['term_node_tid']['field'] = 'term_node_tid';
   $handler->display->display_options['path'] = 'forum/rss.xml';
   $handler->display->display_options['sitename_title'] = 0;
 
@@ -519,7 +583,34 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['relationships']['uid']['id'] = 'uid';
   $handler->display->display_options['relationships']['uid']['table'] = 'node';
   $handler->display->display_options['relationships']['uid']['field'] = 'uid';
+  /* Relationship: Content: Forums (taxonomy_forums) */
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['id'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['table'] = 'field_data_taxonomy_forums';
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['field'] = 'taxonomy_forums_tid';
   $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Taxonomy term: machine_name */
+  $handler->display->display_options['fields']['field_machine_name']['id'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['table'] = 'field_data_field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['field'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['relationship'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['fields']['field_machine_name']['label'] = '';
+  $handler->display->display_options['fields']['field_machine_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_machine_name']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_machine_name']['settings'] = array(
+    'field_replies' => '',
+    'field_replies_settings' => array(
+      'field_replies_reply_field_name' => '',
+      'field_replies_revision' => '',
+    ),
+  );
+  /* Field: Taxonomy term: Name (translated) */
+  $handler->display->display_options['fields']['name_i18n']['id'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['fields']['name_i18n']['field'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['relationship'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['fields']['name_i18n']['label'] = '';
+  $handler->display->display_options['fields']['name_i18n']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['name_i18n']['element_label_colon'] = FALSE;
   /* Field: User: Avatar */
   $handler->display->display_options['fields']['field_avatar']['id'] = 'field_avatar';
   $handler->display->display_options['fields']['field_avatar']['table'] = 'field_data_field_avatar';
@@ -585,8 +676,13 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['taxonomy_forums']['table'] = 'field_data_taxonomy_forums';
   $handler->display->display_options['fields']['taxonomy_forums']['field'] = 'taxonomy_forums';
   $handler->display->display_options['fields']['taxonomy_forums']['label'] = 'Category';
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['text'] = '[name_i18n]';
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['path'] = 'forum/[field_machine_name]';
   $handler->display->display_options['fields']['taxonomy_forums']['element_type'] = 'span';
   $handler->display->display_options['fields']['taxonomy_forums']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['taxonomy_forums']['type'] = 'taxonomy_term_reference_link';
   $handler->display->display_options['fields']['taxonomy_forums']['settings'] = array(
     'field_replies' => '',
     'field_replies_settings' => array(
@@ -695,7 +791,24 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['relationships']['uid']['id'] = 'uid';
   $handler->display->display_options['relationships']['uid']['table'] = 'node';
   $handler->display->display_options['relationships']['uid']['field'] = 'uid';
+  /* Relationship: Content: Forums (taxonomy_forums) */
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['id'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['table'] = 'field_data_taxonomy_forums';
+  $handler->display->display_options['relationships']['taxonomy_forums_tid']['field'] = 'taxonomy_forums_tid';
   $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Taxonomy term: machine_name */
+  $handler->display->display_options['fields']['field_machine_name']['id'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['table'] = 'field_data_field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['field'] = 'field_machine_name';
+  $handler->display->display_options['fields']['field_machine_name']['relationship'] = 'taxonomy_forums_tid';
+  /* Field: Taxonomy term: Name (translated) */
+  $handler->display->display_options['fields']['name_i18n']['id'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['fields']['name_i18n']['field'] = 'name_i18n';
+  $handler->display->display_options['fields']['name_i18n']['relationship'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['fields']['name_i18n']['label'] = '';
+  $handler->display->display_options['fields']['name_i18n']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['name_i18n']['element_label_colon'] = FALSE;
   /* Field: User: Avatar */
   $handler->display->display_options['fields']['field_avatar']['id'] = 'field_avatar';
   $handler->display->display_options['fields']['field_avatar']['table'] = 'field_data_field_avatar';
@@ -763,6 +876,11 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['taxonomy_forums']['table'] = 'field_data_taxonomy_forums';
   $handler->display->display_options['fields']['taxonomy_forums']['field'] = 'taxonomy_forums';
   $handler->display->display_options['fields']['taxonomy_forums']['label'] = 'Category';
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['text'] = '[name_i18n]';
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['taxonomy_forums']['alter']['path'] = 'forum/[field_machine_name]';
+  $handler->display->display_options['fields']['taxonomy_forums']['type'] = 'taxonomy_term_reference_link';
   $handler->display->display_options['fields']['taxonomy_forums']['settings'] = array(
     'field_replies' => '',
     'field_replies_settings' => array(
@@ -860,6 +978,10 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['relationships']['nid']['id'] = 'nid';
   $handler->display->display_options['relationships']['nid']['table'] = 'node';
   $handler->display->display_options['relationships']['nid']['field'] = 'nid';
+  /* Relationship: Content: Taxonomy terms on node */
+  $handler->display->display_options['relationships']['term_node_tid']['id'] = 'term_node_tid';
+  $handler->display->display_options['relationships']['term_node_tid']['table'] = 'node';
+  $handler->display->display_options['relationships']['term_node_tid']['field'] = 'term_node_tid';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Reply: Reply ID */
   $handler->display->display_options['sorts']['id']['id'] = 'id';

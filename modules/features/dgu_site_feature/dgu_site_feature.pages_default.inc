@@ -133,83 +133,83 @@ function dgu_site_feature_default_page_manager_pages() {
   /*
    * The "About" page.
    */
-	$page = new stdClass();
-	$page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
-	$page->api_version = 1;
-	$page->name = 'about_us';
-	$page->task = 'page';
-	$page->admin_title = 'Mis on avaandmete portaal?';
-	$page->admin_description = 'Mis on avaandmete portaal?';
-	$page->path = 'about';
-	$page->access = array(
-			'type' => 'none',
-			'settings' => NULL,
-	);
-	$page->menu = array(
-			'type' => 'normal',
-			'title' => t('What is open data portal?'),
-			'name' => 'menu-footer',
-			'weight' => '0',
-			'parent' => array(
-					'type' => 'none',
-					'title' => '',
-					'name' => 'navigation',
-					'weight' => '0',
-			),
-	);
-	$page->arguments = array();
-	$page->conf = array(
-			'admin_paths' => FALSE,
-	);
-	$page->default_handlers = array();
-	$handler = new stdClass();
-	$handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
-	$handler->api_version = 1;
-	$handler->name = 'page_about_us_panel_context';
-	$handler->task = 'page';
-	$handler->subtask = 'about_us';
-	$handler->handler = 'panel_context';
-	$handler->weight = 0;
-	$handler->conf = array(
-			'title' => 'Panel',
-			'no_blocks' => 0,
-			'pipeline' => 'standard',
-			'body_classes_to_remove' => '',
-			'body_classes_to_add' => '',
-			'css_id' => 'about-us',
-			'css' => '',
-			'contexts' => array(),
-			'relationships' => array(),
-	);
-	$display = new panels_display();
-	$display->layout = 'dgu_onecol';
-	$display->layout_settings = array();
-	$display->panel_settings = array(
-			'style_settings' => array(
-					'default' => NULL,
-					'left' => NULL,
-					'right' => NULL,
-					'middle' => NULL,
-			),
-			'left' => array(
-					'style' => '-1',
-			),
-	);
-	$display->cache = array();
-	$display->title = '';
-	$display->content = array();
-	$display->panels = array();
-	$pane = new stdClass();
-	$pane->pid = 'new-1';
-	$pane->panel = 'middle';
-	$pane->type = 'custom';
-	$pane->subtype = 'custom';
-	$pane->shown = TRUE;
-	$pane->access = array();
-	$pane->configuration = array(
-			'admin_title' => '',
-			'title' => '',
-			'body' => t('<p><strong>What is the open data portal?</strong></p>
+  $page = new stdClass();
+  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+  $page->api_version = 1;
+  $page->name = 'about_us';
+  $page->task = 'page';
+  $page->admin_title = 'Mis on avaandmete portaal?';
+  $page->admin_description = 'Mis on avaandmete portaal?';
+  $page->path = 'about';
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
+  $page->menu = array(
+    'type' => 'normal',
+    'title' => 'About',
+    'name' => 'menu-footer',
+    'weight' => '0',
+    'parent' => array(
+      'type' => 'none',
+      'title' => '',
+      'name' => 'navigation',
+      'weight' => '0',
+    ),
+  );
+  $page->arguments = array();
+  $page->conf = array(
+    'admin_paths' => FALSE,
+  );
+  $page->default_handlers = array();
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'page_about_us_panel_context';
+  $handler->task = 'page';
+  $handler->subtask = 'about_us';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Panel',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => '',
+    'css_id' => 'about-us',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+  );
+  $display = new panels_display();
+  $display->layout = 'dgu_onecol';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'left' => NULL,
+      'right' => NULL,
+      'middle' => NULL,
+    ),
+    'left' => array(
+      'style' => '-1',
+    ),
+  );
+  $display->cache = array();
+  $display->title = '';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-1';
+    $pane->panel = 'middle';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => '',
+      'body' => t('<p><strong>What is the open data portal?</strong></p>
 <p><a href="http://opendata.riik.ee" rel="nofollow">The open data portal</a> is intended to serve as a platform where to gather the records of the public<em>datasets</em> created by public bodies and local authorities and where new datasets can be made public. On one hand, it is a place where the owners of the dataset or <em>holders of information</em> can register or upload their datasets. On the other hand, it is a place where the stakeholders and regular citizens can search and download the published data and use it for further processing or information requests.</p>
 <p><strong>Goals of opening up data:</strong></p>
 <p>Opening up data, their collection and making available on a single platforms serve several important purposes:</p>
@@ -230,50 +230,130 @@ function dgu_site_feature_default_page_manager_pages() {
 <p><strong>Where can I find more information?</strong></p>
 <p>Read the materials found on the pages accessible from the menu MORE INFO or, should you have a specific question, send it to one of the e-mail addresses listed on the <a href="/kontaktid" rel="nofollow">Contacts</a> page.</p>
 '),
-			'format' => 'filtered_html',
-			'substitute' => TRUE,
-	);
-	$pane->cache = array();
-	$pane->style = array(
-			'settings' => NULL,
-	);
-	$pane->css = array();
-	$pane->extras = array();
-	$pane->position = 0;
-	$pane->locks = array();
-	$display->content['new-1'] = $pane;
-	$display->panels['middle'][0] = 'new-1';
-	$pane = new stdClass();
-	$pane->pid = 'new-2';
-	$pane->panel = 'middle';
-	$pane->type = 'panels_mini';
-	$pane->subtype = 'what_s_data_gov_uk_all_about_';
-	$pane->shown = FALSE;
-	$pane->access = array();
-	$pane->configuration = array(
-			'override_title' => 0,
-			'override_title_text' => '',
-	);
-	$pane->cache = array();
-	$pane->style = array(
-			'settings' => NULL,
-	);
-	$pane->css = array();
-	$pane->extras = array();
-	$pane->position = 1;
-	$pane->locks = array();
-	$display->content['new-2'] = $pane;
-	$display->panels['middle'][1] = 'new-2';
-	$display->hide_title = PANELS_TITLE_FIXED;
-	$display->title_pane = 'new-1';
-	$handler->conf['display'] = $display;
-	$page->default_handlers[$handler->name] = $handler;
-	$pages['about_us'] = $page;
+      'format' => 'filtered_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-1'] = $pane;
+    $display->panels['middle'][0] = 'new-1';
+    $pane = new stdClass();
+    $pane->pid = 'new-2';
+    $pane->panel = 'middle';
+    $pane->type = 'panels_mini';
+    $pane->subtype = 'what_s_data_gov_uk_all_about_';
+    $pane->shown = FALSE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $display->content['new-2'] = $pane;
+    $display->panels['middle'][1] = 'new-2';
+  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->title_pane = 'new-1';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['about_us'] = $page;
+
+  /*
+   * The "Home" page.
+   */
+  $page = new stdClass();
+  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+  $page->api_version = 1;
+  $page->name = 'avaleht';
+  $page->task = 'page';
+  $page->admin_title = 'Avaleht';
+  $page->admin_description = '';
+  $page->path = 'home';
+  $page->access = array();
+  $page->menu = array();
+  $page->arguments = array();
+  $page->conf = array(
+    'admin_paths' => FALSE,
+  );
+  $page->default_handlers = array();
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'page_avaleht_panel_context';
+  $handler->task = 'page';
+  $handler->subtask = 'avaleht';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Panel',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => '',
+    'css_id' => '',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+  );
+  $display = new panels_display();
+  $display->layout = 'dgu_onecol';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'middle' => NULL,
+    ),
+  );
+  $display->cache = array();
+  $display->title = '';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-3';
+    $pane->panel = 'middle';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'Avaleht',
+      'title' => 'AVALEHT',
+      'body' => '<p>Test avaleht</p>
+',
+      'format' => 'filtered_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-3'] = $pane;
+    $display->panels['middle'][0] = 'new-3';
+  $display->hide_title = PANELS_TITLE_NONE;
+  $display->title_pane = 'new-3';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['avaleht'] = $page;
 
   /*
    * The "Data" page.
    */
-
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
@@ -337,7 +417,7 @@ function dgu_site_feature_default_page_manager_pages() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-3';
+    $pane->pid = 'new-4';
     $pane->panel = 'left';
     $pane->type = 'views';
     $pane->subtype = 'ckan_datasets';
@@ -367,10 +447,10 @@ function dgu_site_feature_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['left'][0] = 'new-3';
+    $display->content['new-4'] = $pane;
+    $display->panels['left'][0] = 'new-4';
     $pane = new stdClass();
-    $pane->pid = 'new-4';
+    $pane->pid = 'new-5';
     $pane->panel = 'left';
     $pane->type = 'views';
     $pane->subtype = 'ckan_publishers';
@@ -400,42 +480,31 @@ function dgu_site_feature_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['left'][1] = 'new-4';
+    $display->content['new-5'] = $pane;
+    $display->panels['left'][1] = 'new-5';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-3';
+  $display->title_pane = 'new-4';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $pages['data'] = $page;
 
   /*
-   * The "Help" page.
+   * The "Frequently asked questions" page.
    */
 
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
-  $page->name = 'help';
+  $page->name = 'faq';
   $page->task = 'page';
-  $page->admin_title = 'Help';
-  $page->admin_description = 'Help page with interactive site tours. ';
-  $page->path = 'help';
+  $page->admin_title = 'Frequently asked questions';
+  $page->admin_description = 'Frequently asked questions';
+  $page->path = 'kkk';
   $page->access = array(
     'type' => 'none',
     'settings' => NULL,
   );
-  $page->menu = array(
-    'type' => 'normal',
-    'title' => 'Help',
-    'name' => 'management',
-    'weight' => '1000',
-    'parent' => array(
-      'type' => 'none',
-      'title' => '',
-      'name' => 'navigation',
-      'weight' => '0',
-    ),
-  );
+  $page->menu = array();
   $page->arguments = array();
   $page->conf = array(
     'admin_paths' => FALSE,
@@ -444,9 +513,9 @@ function dgu_site_feature_default_page_manager_pages() {
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
-  $handler->name = 'page_help_panel_context';
+  $handler->name = 'page_about_us_panel_context';
   $handler->task = 'page';
-  $handler->subtask = 'help';
+  $handler->subtask = 'faq';
   $handler->handler = 'panel_context';
   $handler->weight = 0;
   $handler->conf = array(
@@ -455,235 +524,40 @@ function dgu_site_feature_default_page_manager_pages() {
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
-    'css_id' => 'help-page',
+    'css_id' => 'faq',
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
   );
   $display = new panels_display();
-  $display->layout = 'dgu_twocol_stacked_50_50';
+  $display->layout = 'dgu_onecol';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(
       'default' => NULL,
-      'top' => NULL,
       'left' => NULL,
       'right' => NULL,
-      'bottom' => NULL,
+      'middle' => NULL,
+    ),
+    'left' => array(
+      'style' => '-1',
     ),
   );
   $display->cache = array();
-  $display->title = 'Help';
+  $display->title = '';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-5';
-    $pane->panel = 'left';
+    $pane->pid = 'new-6';
+    $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => '',
-      'title' => '',
-      'body' => '<p>Follow the links on the right hand side to start a guided tutorial for our site.</p>
-',
-      'format' => 'filtered_html',
-      'substitute' => TRUE,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-5'] = $pane;
-    $display->panels['left'][0] = 'new-5';
-    $pane = new stdClass();
-    $pane->pid = 'new-6';
-    $pane->panel = 'right';
-    $pane->type = 'block';
-    $pane->subtype = 'dgu_user-dgu_user_help';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-6'] = $pane;
-    $display->panels['right'][0] = 'new-6';
-  $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-6';
-  $handler->conf['display'] = $display;
-  $page->default_handlers[$handler->name] = $handler;
-  $pages['help'] = $page;
-
-  /**
-   * The "Login" page.
-   */
-
-  $page = new stdClass();
-  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
-  $page->api_version = 1;
-  $page->name = 'login';
-  $page->task = 'page';
-  $page->admin_title = 'Login';
-  $page->admin_description = 'The default login page that the users of this site should be directed to. The Drupal\'s default "/user" should not be advertised. It should be known to administrators only.';
-  $page->path = 'login';
-  $page->access = array();
-  $page->menu = array();
-  $page->arguments = array();
-  $page->conf = array(
-  		'admin_paths' => FALSE,
-  );
-  $page->default_handlers = array();
-  $handler = new stdClass();
-  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
-  $handler->api_version = 1;
-  $handler->name = 'page_login_panel_context';
-  $handler->task = 'page';
-  $handler->subtask = 'login';
-  $handler->handler = 'panel_context';
-  $handler->weight = 0;
-  $handler->conf = array(
-  		'title' => 'Panel',
-  		'no_blocks' => 0,
-  		'pipeline' => 'standard',
-  		'body_classes_to_remove' => '',
-  		'body_classes_to_add' => '',
-  		'css_id' => 'login-page',
-  		'css' => '',
-  		'contexts' => array(),
-  		'relationships' => array(),
-  );
-  $display = new panels_display();
-  $display->layout = 'dgu_onecol';
-  $display->layout_settings = array();
-  $display->panel_settings = array(
-  		'style_settings' => array(
-  				'default' => NULL,
-  				'middle' => NULL,
-  		),
-  );
-  $display->cache = array();
-  $display->title = t('Log in');
-  $display->content = array();
-  $display->panels = array();
-  $pane = new stdClass();
-  $pane->pid = 'new-1';
-  $pane->panel = 'middle';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-  		'admin_title' => 'Login',
-  		'title' => t('Log in'),
-  		'body' => t('<p>The entire content of the portal and all datasets are available for download by all users, including anonymous ones.</p>
-
-<p>In order to use forums and provide feedback, you must be logged in to the portal. In order to be able to publish and administer datasets, a logged in user must be linked to a particular holder of information and have the requisite rights. For a detailed description of this process, see the relevant chapter in the guidelines for information holders which can be found under <a href="/juhendid">More info-&gt;Guidelines</a></p>
-
-<p style="padding-bottom:10px">To log in, use any of the following options:</p>
-
-<p>&nbsp;</p><ul style="list-style:none;padding-left:0px;"><li id="id-card-login-link"><a href="/id_card_login">Log in with ID-card</a></li></ul>'),
-  		'format' => 'full_html',
-  		'substitute' => TRUE,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-  		'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $display->content['new-1'] = $pane;
-  $display->panels['middle'][0] = 'new-1';
-  $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-1';
-  $handler->conf['display'] = $display;
-  $page->default_handlers[$handler->name] = $handler;
-  $pages['login'] = $page;
-
-  /*
-   * The "FAQ" page.
-   */
-	$page = new stdClass();
-	$page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
-	$page->api_version = 1;
-	$page->name = 'faq';
-	$page->task = 'page';
-	$page->admin_title = 'Frequently asked questions';
-	$page->admin_description = 'Frequently asked questions';
-	$page->path = 'kkk';
-	$page->access = array(
-			'type' => 'none',
-			'settings' => NULL,
-	);
-	$page->menu = array();
-	$page->arguments = array();
-	$page->conf = array(
-			'admin_paths' => FALSE,
-	);
-	$page->default_handlers = array();
-	$handler = new stdClass();
-	$handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
-	$handler->api_version = 1;
-	$handler->name = 'page_about_us_panel_context';
-	$handler->task = 'page';
-	$handler->subtask = 'faq';
-	$handler->handler = 'panel_context';
-	$handler->weight = 0;
-	$handler->conf = array(
-			'title' => 'Panel',
-			'no_blocks' => 0,
-			'pipeline' => 'standard',
-			'body_classes_to_remove' => '',
-			'body_classes_to_add' => '',
-			'css_id' => 'faq',
-			'css' => '',
-			'contexts' => array(),
-			'relationships' => array(),
-	);
-	$display = new panels_display();
-	$display->layout = 'dgu_onecol';
-	$display->layout_settings = array();
-	$display->panel_settings = array(
-			'style_settings' => array(
-					'default' => NULL,
-					'left' => NULL,
-					'right' => NULL,
-					'middle' => NULL,
-			),
-			'left' => array(
-					'style' => '-1',
-			),
-	);
-	$display->cache = array();
-	$display->title = '';
-	$display->content = array();
-	$display->panels = array();
-	$pane = new stdClass();
-	$pane->pid = 'new-1';
-	$pane->panel = 'middle';
-	$pane->type = 'custom';
-	$pane->subtype = 'custom';
-	$pane->shown = TRUE;
-	$pane->access = array();
-	$pane->configuration = array(
-			'admin_title' => '',
-			'title' => t('Frequently asked questions'),
-			'body' => t('<p><strong>1. What is the government open data portal?</strong></p>
+      'title' => t('Frequently asked questions'),
+      'body' => t('<p><strong>1. What is the government open data portal?</strong></p>
 
 <p>The open data portal is intended to serve as a platform for the dissemination of data by public bodies and for searching and retrieving such datasets by open data users.</p>
 
@@ -779,92 +653,213 @@ All public data is made available. Public data is data that is not subject to va
 <p><strong>14. Will more public data become available in the future?</strong></p>
 
 <p>Certainly! As the work on the project progresses, new open data will be added to the portal and the portal will also be linked to the open data portals of other countries.</p>'),
-			'format' => 'full_html',
-			'substitute' => TRUE,
-	);
-	$pane->cache = array();
-	$pane->style = array(
-			'settings' => NULL,
-	);
-	$pane->css = array();
-	$pane->extras = array();
-	$pane->position = 0;
-	$pane->locks = array();
-	$display->content['new-1'] = $pane;
-	$display->panels['middle'][0] = 'new-1';
-	$handler->conf['display'] = $display;
-	$page->default_handlers[$handler->name] = $handler;
-	$pages['faq'] = $page;
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-6'] = $pane;
+    $display->panels['middle'][0] = 'new-6';
+  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->title_pane = '0';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['faq'] = $page;
+
+  /*
+   * The "Help" page.
+   */
+  $page = new stdClass();
+  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+  $page->api_version = 1;
+  $page->name = 'help';
+  $page->task = 'page';
+  $page->admin_title = 'Help';
+  $page->admin_description = 'Help page with interactive site tours. ';
+  $page->path = 'help';
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
+  $page->menu = array(
+    'type' => 'normal',
+    'title' => 'Help',
+    'name' => 'management',
+    'weight' => '1000',
+    'parent' => array(
+      'type' => 'none',
+      'title' => '',
+      'name' => 'navigation',
+      'weight' => '0',
+    ),
+  );
+  $page->arguments = array();
+  $page->conf = array(
+    'admin_paths' => FALSE,
+  );
+  $page->default_handlers = array();
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'page_help_panel_context';
+  $handler->task = 'page';
+  $handler->subtask = 'help';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Panel',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => '',
+    'css_id' => 'help-page',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+  );
+  $display = new panels_display();
+  $display->layout = 'dgu_twocol_stacked_50_50';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'top' => NULL,
+      'left' => NULL,
+      'right' => NULL,
+      'bottom' => NULL,
+    ),
+  );
+  $display->cache = array();
+  $display->title = 'Help';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-7';
+    $pane->panel = 'left';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => '',
+      'body' => '<p>Follow the links on the right hand side to start a guided tutorial for our site.</p>
+',
+      'format' => 'filtered_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-7'] = $pane;
+    $display->panels['left'][0] = 'new-7';
+    $pane = new stdClass();
+    $pane->pid = 'new-8';
+    $pane->panel = 'right';
+    $pane->type = 'block';
+    $pane->subtype = 'dgu_user-dgu_user_help';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-8'] = $pane;
+    $display->panels['right'][0] = 'new-8';
+  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->title_pane = 'new-8';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['help'] = $page;
 
   /*
    * The "Guidelines" page.
    */
-	$page = new stdClass();
-	$page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
-	$page->api_version = 1;
-	$page->name = 'juhendid';
-	$page->task = 'page';
-	$page->admin_title = 'Juhendid';
-	$page->admin_description = 'Juhendid';
-	$page->path = 'juhendid';
-	$page->access = array(
-			'type' => 'none',
-			'settings' => NULL,
-	);
-	$page->menu = array();
-	$page->arguments = array();
-	$page->conf = array(
-			'admin_paths' => FALSE,
-	);
-	$page->default_handlers = array();
-	$handler = new stdClass();
-	$handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
-	$handler->api_version = 1;
-	$handler->name = 'page_about_us_panel_context';
-	$handler->task = 'page';
-	$handler->subtask = 'faq';
-	$handler->handler = 'panel_context';
-	$handler->weight = 0;
-	$handler->conf = array(
-			'title' => 'Panel',
-			'no_blocks' => 0,
-			'pipeline' => 'standard',
-			'body_classes_to_remove' => '',
-			'body_classes_to_add' => '',
-			'css_id' => 'juhendid',
-			'css' => '',
-			'contexts' => array(),
-			'relationships' => array(),
-	);
-	$display = new panels_display();
-	$display->layout = 'dgu_onecol';
-	$display->layout_settings = array();
-	$display->panel_settings = array(
-			'style_settings' => array(
-					'default' => NULL,
-					'left' => NULL,
-					'right' => NULL,
-					'middle' => NULL,
-			),
-			'left' => array(
-					'style' => '-1',
-			),
-	);
-	$display->cache = array();
-	$display->title = '';
-	$display->content = array();
-	$display->panels = array();
-	$pane = new stdClass();
-	$pane->pid = 'new-1';
-	$pane->panel = 'middle';
-	$pane->type = 'custom';
-	$pane->subtype = 'custom';
-	$pane->shown = TRUE;
-	$pane->access = array();
-	$pane->configuration = array(
-			'admin_title' => '',
-			'title' => t('Guidelines'),
-			'body' => t('<p>Here you can find guidelines pertaining to the use of the portal, publication of datasets and their use.</p>
+  $page = new stdClass();
+  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+  $page->api_version = 1;
+  $page->name = 'juhendid';
+  $page->task = 'page';
+  $page->admin_title = 'Juhendid';
+  $page->admin_description = 'Juhendid';
+  $page->path = 'juhendid';
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
+  $page->menu = array();
+  $page->arguments = array();
+  $page->conf = array(
+    'admin_paths' => FALSE,
+  );
+  $page->default_handlers = array();
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'page_about_us_panel_context';
+  $handler->task = 'page';
+  $handler->subtask = 'juhendid';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Panel',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => '',
+    'css_id' => 'juhendid',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+  );
+  $display = new panels_display();
+  $display->layout = 'dgu_onecol';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'left' => NULL,
+      'right' => NULL,
+      'middle' => NULL,
+    ),
+    'left' => array(
+      'style' => '-1',
+    ),
+  );
+  $display->cache = array();
+  $display->title = '';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-9';
+    $pane->panel = 'middle';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => t('Guidelines'),
+      'body' => t('<p>Here you can find guidelines pertaining to the use of the portal, publication of datasets and their use.</p>
 
 <ul>
 <li><a href="sites/default/files/manuals/portaali-kasutusjuhend-teabevaldajatele-v06.odt" rel="nofollow">Portal guidelines for holders of information (in Estonian)</a></li>
@@ -877,114 +872,205 @@ All public data is made available. Public data is data that is not subject to va
 <ul>
 <li><a href="https://www.ria.ee/public/Arhitektuur/Avaandmete_loomise_juhend.pdf" rel="nofollow">Guidelines for creating and publishing open data (in Estonian)</a></li>
 </ul>'),
-			'format' => 'full_html',
-			'substitute' => TRUE,
-	);
-	$pane->cache = array();
-	$pane->style = array(
-			'settings' => NULL,
-	);
-	$pane->css = array();
-	$pane->extras = array();
-	$pane->position = 0;
-	$pane->locks = array();
-	$display->content['new-1'] = $pane;
-	$display->panels['middle'][0] = 'new-1';
-	$handler->conf['display'] = $display;
-	$page->default_handlers[$handler->name] = $handler;
-	$pages['juhendid'] = $page;
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-9'] = $pane;
+    $display->panels['middle'][0] = 'new-9';
+  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->title_pane = '0';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['juhendid'] = $page;
+
+  /*
+   * The "Login" page.
+   */
+  $page = new stdClass();
+  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+  $page->api_version = 1;
+  $page->name = 'login';
+  $page->task = 'page';
+  $page->admin_title = 'Login';
+  $page->admin_description = 'The default login page that the users of this site should be directed to. The Drupal\'s default "/user" should not be advertised. It should be known to administrators only.';
+  $page->path = 'login';
+  $page->access = array();
+  $page->menu = array();
+  $page->arguments = array();
+  $page->conf = array(
+    'admin_paths' => FALSE,
+  );
+  $page->default_handlers = array();
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'page_login_panel_context';
+  $handler->task = 'page';
+  $handler->subtask = 'login';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Panel',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => '',
+    'css_id' => 'login-page',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+  );
+  $display = new panels_display();
+  $display->layout = 'dgu_onecol';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'middle' => NULL,
+    ),
+  );
+  $display->cache = array();
+  $display->title = 'Log in';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-10';
+    $pane->panel = 'middle';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'Login',
+      'title' => t('Log in'),
+      'body' => t('<p>The entire content of the portal and all datasets are available for download by all users, including anonymous ones.</p>
+
+<p>In order to use forums and provide feedback, you must be logged in to the portal. In order to be able to publish and administer datasets, a logged in user must be linked to a particular holder of information and have the requisite rights. For a detailed description of this process, see the relevant chapter in the guidelines for information holders which can be found under <a href="/juhendid">More info-&gt;Guidelines</a></p>
+
+<p style="padding-bottom:10px">To log in, use any of the following options:</p>
+
+<p>&nbsp;</p><ul style="list-style:none;padding-left:0px;"><li id="id-card-login-link"><a href="/id_card_login">Log in with ID-card</a></li></ul>'),
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-10'] = $pane;
+    $display->panels['middle'][0] = 'new-10';
+  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->title_pane = '0';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['login'] = $page;
+
 
   /*
    * The "Green paper" page.
    */
-	$page = new stdClass();
-	$page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
-	$page->api_version = 1;
-	$page->name = 'roheline-raamat';
-	$page->task = 'page';
-	$page->admin_title = 'Roheline raamat';
-	$page->admin_description = 'Roheline raamat';
-	$page->path = 'roheline-raamat';
-	$page->access = array(
-			'type' => 'none',
-			'settings' => NULL,
-	);
-	$page->menu = array();
-	$page->arguments = array();
-	$page->conf = array(
-			'admin_paths' => FALSE,
-	);
-	$page->default_handlers = array();
-	$handler = new stdClass();
-	$handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
-	$handler->api_version = 1;
-	$handler->name = 'page_about_us_panel_context';
-	$handler->task = 'page';
-	$handler->subtask = 'faq';
-	$handler->handler = 'panel_context';
-	$handler->weight = 0;
-	$handler->conf = array(
-			'title' => 'Panel',
-			'no_blocks' => 0,
-			'pipeline' => 'standard',
-			'body_classes_to_remove' => '',
-			'body_classes_to_add' => '',
-			'css_id' => 'roheline-raamat',
-			'css' => '',
-			'contexts' => array(),
-			'relationships' => array(),
-	);
-	$display = new panels_display();
-	$display->layout = 'dgu_onecol';
-	$display->layout_settings = array();
-	$display->panel_settings = array(
-			'style_settings' => array(
-					'default' => NULL,
-					'left' => NULL,
-					'right' => NULL,
-					'middle' => NULL,
-			),
-			'left' => array(
-					'style' => '-1',
-			),
-	);
-	$display->cache = array();
-	$display->title = '';
-	$display->content = array();
-	$display->panels = array();
-	$pane = new stdClass();
-	$pane->pid = 'new-1';
-	$pane->panel = 'middle';
-	$pane->type = 'custom';
-	$pane->subtype = 'custom';
-	$pane->shown = TRUE;
-	$pane->access = array();
-	$pane->configuration = array(
-			'admin_title' => '',
-			'title' => t('Green Paper on Open Data'),
-			'body' => t('<p>The Green Paper on Open Data is the first systematic government report on the open data policy in Estonia, setting out its guiding principles, interoperability architecture, central policy choices and an activity plan. It is a must read for anyone who plans to explore the concept of open data and related terminology. The holders of information can find here answers to many questions they encounter in relation to opening up data.</p>
+  $page = new stdClass();
+  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+  $page->api_version = 1;
+  $page->name = 'roheline-raamat';
+  $page->task = 'page';
+  $page->admin_title = 'Roheline raamat';
+  $page->admin_description = 'Roheline raamat';
+  $page->path = 'roheline-raamat';
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
+  $page->menu = array();
+  $page->arguments = array();
+  $page->conf = array(
+    'admin_paths' => FALSE,
+  );
+  $page->default_handlers = array();
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'page_about_us_panel_context';
+  $handler->task = 'page';
+  $handler->subtask = 'roheline-raamat';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Panel',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => '',
+    'css_id' => 'roheline-raamat',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+  );
+  $display = new panels_display();
+  $display->layout = 'dgu_onecol';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'left' => NULL,
+      'right' => NULL,
+      'middle' => NULL,
+    ),
+    'left' => array(
+      'style' => '-1',
+    ),
+  );
+  $display->cache = array();
+  $display->title = '';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-11';
+    $pane->panel = 'middle';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => t('Green Paper on Open Data'),
+      'body' => t('<p>The Green Paper on Open Data is the first systematic government report on the open data policy in Estonia, setting out its guiding principles, interoperability architecture, central policy choices and an activity plan. It is a must read for anyone who plans to explore the concept of open data and related terminology. The holders of information can find here answers to many questions they encounter in relation to opening up data.</p>
 
 <p>The Green Paper was prepared by the Department of State Information Systems of the Estonian Ministry of Economic Affairs and Communications in cooperation with the Estonian Data Protection Inspectorate and the Strategy Unit of the Government Office. The preliminary version of the Green Paper was made available for consultations in November 2013 on the portal osale.ee. Four rounds of discussions were held, recommendations for amendments were asked from all ministries, constitutional institutions, Estonian Association of Information Technology, Association of Estonian Cities and the Association of Estonian Municipalities, and more than 50 experts were consulted with via e-mail.</p>
 
 <p>The Green Paper on Open Data (in Estonian) can be downloaded from the following link:</p>
 
 <p><a href="/sites/default/files/manuals/avaliku-teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt" rel="nofollow">avaliku-teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt</a></p>'),
-			'format' => 'full_html',
-			'substitute' => TRUE,
-	);
-	$pane->cache = array();
-	$pane->style = array(
-			'settings' => NULL,
-	);
-	$pane->css = array();
-	$pane->extras = array();
-	$pane->position = 0;
-	$pane->locks = array();
-	$display->content['new-1'] = $pane;
-	$display->panels['middle'][0] = 'new-1';
-	$handler->conf['display'] = $display;
-	$page->default_handlers[$handler->name] = $handler;
-	$pages['roheline-raamat'] = $page;
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-11'] = $pane;
+    $display->panels['middle'][0] = 'new-11';
+  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->title_pane = '0';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['roheline-raamat'] = $page;
 
   return $pages;
 

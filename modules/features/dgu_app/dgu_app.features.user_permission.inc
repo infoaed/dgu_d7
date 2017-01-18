@@ -25,7 +25,6 @@ function dgu_app_user_default_permissions() {
     'name' => 'delete any app content',
     'roles' => array(
       'editor' => 'editor',
-      'moderator' => 'moderator',
     ),
     'module' => 'node',
   );
@@ -45,7 +44,6 @@ function dgu_app_user_default_permissions() {
     'name' => 'edit any app content',
     'roles' => array(
       'editor' => 'editor',
-      'moderator' => 'moderator',
     ),
     'module' => 'node',
   );

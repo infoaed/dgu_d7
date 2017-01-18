@@ -127,9 +127,6 @@ function dgu_user_user_default_permissions() {
     'name' => 'access user profiles',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-      'unverified user' => 'unverified user',
     ),
     'module' => 'user',
   );

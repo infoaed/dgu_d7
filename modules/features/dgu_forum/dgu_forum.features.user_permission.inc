@@ -43,7 +43,6 @@ function dgu_forum_user_default_permissions() {
     'name' => 'edit any forum content',
     'roles' => array(
       'editor' => 'editor',
-      'moderator' => 'moderator',
     ),
     'module' => 'node',
   );

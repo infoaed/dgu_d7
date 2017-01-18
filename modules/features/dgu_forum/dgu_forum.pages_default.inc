@@ -19,7 +19,7 @@ function dgu_forum_default_page_manager_handlers() {
   $handler->handler = 'panel_context';
   $handler->weight = 3;
   $handler->conf = array(
-    'title' => 'Forum topic',
+    'title' => t('Forum topic'),
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
@@ -55,7 +55,7 @@ function dgu_forum_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Forum';
+  $display->title = t('Forum');
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -178,7 +178,7 @@ function dgu_forum_default_page_manager_pages() {
   $page->api_version = 1;
   $page->name = 'forum_categories';
   $page->task = 'page';
-  $page->admin_title = t("Forum categories");
+  $page->admin_title = 'Forum categories';
   $page->admin_description = 'Forum categories - top level forum landing page';
   $page->path = 'forum/categories';
   $page->access = array(
@@ -192,7 +192,7 @@ function dgu_forum_default_page_manager_pages() {
     'weight' => '4',
     'parent' => array(
       'type' => 'normal',
-      'title' => 'Forum',
+      'title' => t('Forum'),
       'name' => 'main-menu',
       'weight' => '0',
     ),
@@ -235,7 +235,7 @@ function dgu_forum_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Forum';
+  $display->title = t('Forum');
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -380,9 +380,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => t("Create new forum topic (for authenticated users)"),
+      'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">Create new forum topic &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">' . t("Create new forum topic"). ' &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -422,22 +422,10 @@ function dgu_forum_default_page_manager_pages() {
   $page->arguments = array(
     'term' => array(
       'id' => 1,
-      'identifier' => 'Taxonomy term: ID',
-      'name' => 'term',
+      'identifier' => 'Forum taxonomy term field_machine_name',
+      'name' => 'string',
       'settings' => array(
-        'input_form' => 'term',
-        'vids' => array(
-          7 => '7',
-          1 => 0,
-          2 => 0,
-          8 => 0,
-          3 => 0,
-          4 => 0,
-          5 => 0,
-          6 => 0,
-        ),
-        'breadcrumb' => 0,
-        'transform' => 1,
+        'use_tail' => 0,
       ),
     ),
   );
@@ -478,7 +466,7 @@ function dgu_forum_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Forum';
+  $display->title = t('Forum');
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -500,9 +488,9 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => t("Create new forum topic (for authenticated users)"),
+      'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' »</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -542,7 +530,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/forum">'.t("Login to take part in forums").' »</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -676,12 +664,12 @@ function dgu_forum_default_page_manager_pages() {
   );
   $page->menu = array(
     'type' => 'none',
-    'title' => 'Forum',
+    'title' => t('Forum'),
     'name' => 'main-menu',
     'weight' => '4',
     'parent' => array(
       'type' => 'normal',
-      'title' => 'Forum',
+      'title' => t('Forum'),
       'name' => 'main-menu',
       'weight' => '0',
     ),
@@ -724,7 +712,7 @@ function dgu_forum_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Forum';
+  $display->title = t('Forum');
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -813,7 +801,7 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => t("Create new forum topic (for authenticated users)"),
+      'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
       'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'filtered_html',
@@ -892,12 +880,12 @@ function dgu_forum_default_page_manager_pages() {
   );
   $page->menu = array(
     'type' => 'none',
-    'title' => 'Latest forum topics',
+    'title' => t('Latest forum topics'),
     'name' => 'main-menu',
     'weight' => '4',
     'parent' => array(
       'type' => 'normal',
-      'title' => 'Forum',
+      'title' => t('Forum'),
       'name' => 'main-menu',
       'weight' => '0',
     ),
@@ -940,7 +928,7 @@ function dgu_forum_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Forum';
+  $display->title = t('Forum');
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -1029,7 +1017,7 @@ function dgu_forum_default_page_manager_pages() {
       ),
     );
     $pane->configuration = array(
-      'admin_title' => t("Create new forum topic (for authenticated users)"),
+      'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
       'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'filtered_html',
