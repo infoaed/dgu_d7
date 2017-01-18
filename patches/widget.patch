@@ -1,0 +1,18 @@
+--- /var/www/drupal/dgu/profiles/dgu/modules/contrib/facetapi/plugins/facetapi/widget.inc
++++ /var/www/drupal/dgu/profiles/dgu/modules/contrib/facetapi/plugins/facetapi/widget.inc
+@@ -128,8 +128,8 @@ abstract class FacetapiWidget {
+ 
+     // Initialize the render array.
+     $this->build = array(
+-      '#title' => $this->facet['label'],
+-      '#description' => $this->facet['description'],
++      '#title' => t($this->facet['label']),
++      '#description' => t($this->facet['description']),
+       '#weight' => $this->facet['weight'],
+       '#adapter' => $this->facet->getAdapter(),
+       '#realm_name' => $this->realm['name'],
+@@ -380,3 +380,4 @@ function facetapi_sort_display(array $a, array $b) {
+   $b_count = (isset($b['#markup'])) ? $b['#markup'] : '';
+   return strcasecmp($a['#markup'], $b['#markup']);
+ }
++

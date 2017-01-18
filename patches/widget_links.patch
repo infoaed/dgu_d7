@@ -1,0 +1,45 @@
+--- /var/www/drupal/dgu/profiles/dgu/modules/contrib/facetapi/plugins/facetapi/widget_links.inc
++++ /var/www/drupal/dgu/profiles/dgu/modules/contrib/facetapi/plugins/facetapi/widget_links.inc
+@@ -38,12 +38,14 @@ class FacetapiWidgetLinks extends FacetapiWidget {
+    */
+   public function execute() {
+     $element = &$this->build[$this->facet['field alias']];
++    // The taxonomy terms we are sure we have translations for.
++    $translatables = array("bundle", "im_field_sector", "im_field_category");
+ 
+     // Sets each item's theme hook, builds item list.
+     $this->setThemeHooks($element);
+     $element = array(
+       '#theme' => 'item_list',
+-      '#items' => $this->buildListItems($element),
++      '#items' => $this->buildListItems($element, in_array($this->key, $translatables)),
+       '#attributes' => $this->build['#attributes'],
+     );
+   }
+@@ -85,7 +87,7 @@ class FacetapiWidgetLinks extends FacetapiWidget {
+    * @return array
+    *   The "items" parameter for theme_item_list().
+    */
+-  function buildListItems($build) {
++  function buildListItems($build, $translate=false) {
+     $settings = $this->settings->settings;
+ 
+     // Initializes links attributes, adds rel="nofollow" if configured.
+@@ -99,7 +101,7 @@ class FacetapiWidgetLinks extends FacetapiWidget {
+ 
+       // Initializes variables passed to theme hook.
+       $variables = array(
+-        'text' => $item['#markup'],
++        'text' => $translate ? t($item['#markup']) : $item['#markup'],
+         'path' => $item['#path'],
+         'count' => $item['#count'],
+         'options' => array(
+@@ -126,7 +128,7 @@ class FacetapiWidgetLinks extends FacetapiWidget {
+         // show this item as expanded so we see its children.
+         if ($item['#active'] || !empty($settings['show_expanded'])) {
+           $row['class'][] = 'expanded';
+-          $row['children'] = $this->buildListItems($item['#item_children']);
++          $row['children'] = $this->buildListItems($item['#item_children'], $translate);
+         }
+         else {
+           $row['class'][] = 'collapsed';

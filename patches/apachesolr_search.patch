@@ -1,0 +1,11 @@
+--- /var/www/drupal/dgu/profiles/dgu/modules/contrib/apachesolr/apachesolr_search.module
++++ /var/www/drupal/dgu/profiles/dgu/modules/contrib/apachesolr/apachesolr_search.module
+@@ -543,7 +543,7 @@ function apachesolr_search_block_view($delta = '') {
+         $context['block_id'] = $delta;
+         $docs = apachesolr_search_mlt_suggestions($block, apachesolr_document_id($node->nid), $solr, $context);
+         if (!empty($docs)) {
+-          $suggestions['subject'] = check_plain($block['name']);
++          $suggestions['subject'] = check_plain(t($block['name']));
+           $suggestions['content'] = array(
+             '#theme' => 'apachesolr_search_mlt_recommendation_block',
+             '#docs' => $docs,
