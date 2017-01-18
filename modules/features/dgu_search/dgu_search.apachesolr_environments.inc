@@ -20,7 +20,7 @@ function dgu_search_apachesolr_environments() {
     'apachesolr_direct_commit' => 0,
     'apachesolr_multilingual_index_settings' => array(
       'apachesolr_multilingual_index' => 1,
-      'apachesolr_multilingual_map_language_neutral' => 'et',
+      'apachesolr_multilingual_map_language_neutral' => 'mul',
       'apachesolr_multilingual_clir' => array(
         'apachesolr_multilingual_index_translations' => 1,
         'apachesolr_multilingual_index_unpublished_translations' => 1,

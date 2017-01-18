@@ -358,13 +358,13 @@ function dgu_site_feature_strongarm() {
     'name' => 'Estonian',
     'native' => 'Eesti',
     'direction' => '0',
-    'enabled' => 1,
+    'enabled' => '1',
     'plurals' => '2',
     'formula' => '($n!=1)',
     'domain' => '',
     'prefix' => 'et',
     'weight' => '-10',
-    'javascript' => 'SL293MYv-gcyBoYecd9AXNaD9y_u9bDnRioWoxDs9nA',
+    'javascript' => 'knoWHDFjh2g7FM0_VDY41n3AdhpUQXX5JpGAjlvi_0I',
   );
   $export['language_default'] = $strongarm;
 
