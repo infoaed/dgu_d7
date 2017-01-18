@@ -15,14 +15,14 @@ function dgu_forum_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'taxonomy_term_data';
-  $view->human_name = t("Forum categories");
+  $view->human_name = "Forum categories";
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = t("Forum categories");
+  $handler->display->display_options['title'] = "Forum categories";
   $handler->display->display_options['css_class'] = 'row';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
@@ -291,7 +291,7 @@ function dgu_forum_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = t('Forum topics');
+  $view->human_name = 'Forum topics';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -966,7 +966,7 @@ foreach ($terms as $term) {
   /* Display: Feed popular topics */
   $handler = $view->new_display('feed', 'Feed popular topics', 'feed_2');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = t('Most popular forum topics');
+  $handler->display->display_options['title'] = 'Most popular forum topics';
   $handler->display->display_options['defaults']['group_by'] = FALSE;
   $handler->display->display_options['group_by'] = TRUE;
   $handler->display->display_options['pager']['type'] = 'some';
