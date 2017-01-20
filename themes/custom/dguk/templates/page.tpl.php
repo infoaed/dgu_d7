@@ -175,7 +175,7 @@
         ?>
         <?php
         // Print anything else in this region.
-        print render($page['footer']);
+        print "<div style=\"float:right;text-align:right;font-size:0.8em\"><p>" . t("The Open Data Portal is created as part of the EU structural funds' programme 'Raising Awareness of<br>Information Society' which is financed through the EU Regional Development Fund.") . "</p></div>";
         ?>
 		</div>
     </footer>
