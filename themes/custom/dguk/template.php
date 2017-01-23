@@ -449,14 +449,12 @@ function dguk_breadcrumb($variables) {
       $tid = $node->taxonomy_forums["und"][0]["tid"];
 
       if ($term = i18n_taxonomy_localize_terms(taxonomy_term_load($tid))) {
-        $uri = entity_uri('taxonomy_term', $term);
-        $forum_url = str_replace("forums", "forum", url($uri['path']));
-        $breadcrumb[] = l($term->name, $forum_url, array('external' => TRUE));
+        $breadcrumb[] = l($term->name, "forum/" . $term->field_machine_name['und'][0]['value']);
       }
 
       $variables['breadcrumb']=$breadcrumb;
 
-    } else if (arg(0) == 'forum' &&  arg(1) == 'categories') {
+    // } else if (arg(0) == 'forum' &&  arg(1) == 'categories') {
       
     } else if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
       // fix breadcrumbs for forum categories
@@ -498,12 +496,13 @@ function dguk_breadcrumb($variables) {
 
       foreach ($terms as $term) {
         $machine = $term->field_machine_name['und'][0]['value'];
-        $title = i18n_taxonomy_localize_terms($term)->name;
+        $term_title = i18n_taxonomy_localize_terms($term)->name;
         $name = $term->name;
         $tid = $term->tid;
         
         if ($argument == $machine) {
-          drupal_set_title($title);
+          drupal_set_title($term_title);
+          $title = $term_title;
           break;
         }
       }
