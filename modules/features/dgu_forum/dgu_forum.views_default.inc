@@ -128,7 +128,6 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['nid']['relationship'] = 'reverse_taxonomy_forums_node';
   $handler->display->display_options['fields']['nid']['group_type'] = 'count_distinct';
   $handler->display->display_options['fields']['nid']['label'] = '';
-  $handler->display->display_options['fields']['nid']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['nid']['alter']['text'] = '[nid] topics';
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['nid']['format_plural'] = TRUE;
@@ -141,7 +140,6 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['id']['relationship'] = 'nid';
   $handler->display->display_options['fields']['id']['group_type'] = 'count';
   $handler->display->display_options['fields']['id']['label'] = '';
-  $handler->display->display_options['fields']['id']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['id']['alter']['text'] = '[id] replies';
   $handler->display->display_options['fields']['id']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['id']['format_plural'] = TRUE;
@@ -801,6 +799,16 @@ foreach ($terms as $term) {
   $handler->display->display_options['fields']['field_machine_name']['table'] = 'field_data_field_machine_name';
   $handler->display->display_options['fields']['field_machine_name']['field'] = 'field_machine_name';
   $handler->display->display_options['fields']['field_machine_name']['relationship'] = 'taxonomy_forums_tid';
+  $handler->display->display_options['fields']['field_machine_name']['label'] = '';
+  $handler->display->display_options['fields']['field_machine_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_machine_name']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_machine_name']['settings'] = array(
+    'field_replies' => '',
+    'field_replies_settings' => array(
+      'field_replies_reply_field_name' => '',
+      'field_replies_revision' => '',
+    ),
+  );
   /* Field: Taxonomy term: Name (translated) */
   $handler->display->display_options['fields']['name_i18n']['id'] = 'name_i18n';
   $handler->display->display_options['fields']['name_i18n']['table'] = 'taxonomy_term_data';
