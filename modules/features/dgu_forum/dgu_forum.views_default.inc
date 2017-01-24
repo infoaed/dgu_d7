@@ -130,6 +130,8 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['nid']['label'] = '';
   $handler->display->display_options['fields']['nid']['alter']['text'] = '[nid] topics';
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['nid']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['nid']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['nid']['format_plural'] = TRUE;
   $handler->display->display_options['fields']['nid']['format_plural_singular'] = '<span class="counter">@count</span> topic';
   $handler->display->display_options['fields']['nid']['format_plural_plural'] = '<span class="counter">@count</span> topics';
@@ -142,6 +144,8 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['id']['label'] = '';
   $handler->display->display_options['fields']['id']['alter']['text'] = '[id] replies';
   $handler->display->display_options['fields']['id']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['id']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['id']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['id']['format_plural'] = TRUE;
   $handler->display->display_options['fields']['id']['format_plural_singular'] = '<span class="counter">@count</span> reply';
   $handler->display->display_options['fields']['id']['format_plural_plural'] = '<span class="counter">@count</span> replies';
@@ -256,6 +260,8 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['fields']['nid']['group_type'] = 'count_distinct';
   $handler->display->display_options['fields']['nid']['label'] = '';
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['nid']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['nid']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['nid']['format_plural'] = TRUE;
   $handler->display->display_options['fields']['nid']['format_plural_singular'] = '@count topic';
   $handler->display->display_options['fields']['nid']['format_plural_plural'] = '@count topics';
@@ -310,18 +316,6 @@ function dgu_forum_views_default_views() {
   $handler->display->display_options['relationships']['nid']['id'] = 'nid';
   $handler->display->display_options['relationships']['nid']['table'] = 'node';
   $handler->display->display_options['relationships']['nid']['field'] = 'nid';
-  /* Relationship: Content: Forums (taxonomy_forums) */
-  $handler->display->display_options['relationships']['taxonomy_forums_tid']['id'] = 'taxonomy_forums_tid';
-  $handler->display->display_options['relationships']['taxonomy_forums_tid']['table'] = 'field_data_taxonomy_forums';
-  $handler->display->display_options['relationships']['taxonomy_forums_tid']['field'] = 'taxonomy_forums_tid';
-  /* Field: Taxonomy term: Name (translated) */
-  $handler->display->display_options['fields']['name_i18n']['id'] = 'name_i18n';
-  $handler->display->display_options['fields']['name_i18n']['table'] = 'taxonomy_term_data';
-  $handler->display->display_options['fields']['name_i18n']['field'] = 'name_i18n';
-  $handler->display->display_options['fields']['name_i18n']['relationship'] = 'term_node_tid';
-  $handler->display->display_options['fields']['name_i18n']['label'] = '';
-  $handler->display->display_options['fields']['name_i18n']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['name_i18n']['element_label_colon'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';

@@ -51,7 +51,7 @@ if ($user->uid) {
   </div>
   <?php if ($fields['taxonomy_forums']): ?>
     <div class="views-field views-field-taxonomy-forums">
-      <?php print t("Posted in")?> <a href="<?php $uri=entity_uri('taxonomy_term', $row->field_taxonomy_forums[0]['raw']['taxonomy_term']); print str_replace("forums", "forum", url($uri['path'])); ?>"><?php print $row->taxonomy_term_data_field_data_taxonomy_forums_name_i18n; ?></a>
+      <?php print t("Posted in")?> <a href="<?php print url("forum/" . $row->field_field_machine_name[0]['raw']['value']); ?>"><?php print $row->taxonomy_term_data_field_data_taxonomy_forums_name_i18n; ?></a>
     </div>
   <?php endif; ?>
   <?php if($new): ?>
