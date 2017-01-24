@@ -210,16 +210,16 @@ function dgu_site_feature_default_page_manager_pages() {
       'admin_title' => '',
       'title' => '',
       'body' => t('<p><strong>What is the open data portal?</strong></p>
-<p><a href="http://opendata.riik.ee" rel="nofollow">The open data portal</a> is intended to serve as a platform where to gather the records of the public<em>datasets</em> created by public bodies and local authorities and where new datasets can be made public. On one hand, it is a place where the owners of the dataset or <em>holders of information</em> can register or upload their datasets. On the other hand, it is a place where the stakeholders and regular citizens can search and download the published data and use it for further processing or information requests.</p>
+<p><a href="https://opendata.riik.ee/en" rel="nofollow">The open data portal</a> is intended to serve as a platform where to gather the records of the public<em>datasets</em> created by public bodies and local authorities and where new datasets can be made public. On one hand, it is a place where the owners of the dataset or <em>holders of information</em> can register or upload their datasets. On the other hand, it is a place where the stakeholders and regular citizens can search and download the published data and use it for further processing or information requests.</p>
 <p><strong>Goals of opening up data:</strong></p>
 <p>Opening up data, their collection and making available on a single platforms serve several important purposes:</p>
 <ul><li>to stimulate economy;</li>
 <li>to increase transparency;</li>
 <li>to decrease the number of information requests and, consequently, also reduce the workload of public sector workers;</li>
 <li>to facilitate creation and management of open services for private and community sectors</li>
-<li>to encourage migration to future technologies such as <a href="http://et.wikipedia.org/wiki/Linkandmed" rel="nofollow">Linked Data</a>, "<a href="http://en.wikipedia.org/wiki/Internet_of_Things" rel="nofollow">Internet of Things</a>" ja "<a href="http://en.wikipedia.org/wiki/Big_data" rel="nofollow">Big Data</a>".</li>
+<li>to encourage migration to future technologies such as <a href="https://en.wikipedia.org/wiki/Linked_data" rel="nofollow">Linked Data</a>, "<a href="http://en.wikipedia.org/wiki/Internet_of_Things" rel="nofollow">Internet of Things</a>" ja "<a href="http://en.wikipedia.org/wiki/Big_data" rel="nofollow">Big Data</a>".</li>
 </ul><p><strong>What are open data?</strong></p>
-<p>Open data is taken to mean raw data that is freely made available online for use by everybody in a machine readable format without any restrictions on use and distribution. In general, if no charge is stipulated in legislation for the retrieval of data, the open data can be retrieved free of charge and without any restrictions on access. More information (in Estonian) on the principles, technologies and processes of opening up data is available <a href="http://opendata.riik.ee/juhendid/juhend-avaandmete-avaldamiseks-ning-avaandemete-portaali-kasutamiseks" rel="nofollow">here</a>.</p>
+<p>Open data is taken to mean raw data that is freely made available online for use by everybody in a machine readable format without any restrictions on use and distribution. In general, if no charge is stipulated in legislation for the retrieval of data, the open data can be retrieved free of charge and without any restrictions on access. More information (in Estonian) on the principles, technologies and processes of opening up data is available <a href="/sites/default/files/manuals/juhised-andmete-avalikustamiseks.odt" rel="nofollow">here</a>.</p>
 <p><strong>What kind of data can be found here?</strong></p>
 <p>All datasets which are created by government agencies and local authorities, whose public use is not directly forbidden and which contain other data than personal data are to be made public and registered on the open data portal. If the datasets contain both personal and non-personal data, only the non-personal parts of the data will be made public.</p>
 <p>In particular, the data in the datasets to be published should in general be created, collected or administered by a government agency or local authority. A government agency or a local authority may, with the consent of a third party, also publish the data of that third party if it considers it to be of sufficient interest to the public.</p>
@@ -228,7 +228,7 @@ function dgu_site_feature_default_page_manager_pages() {
 <p><strong>How can open data be used?</strong></p>
 <p>Published datasets can be used in many different ways and for different purposes, e.g., trend analyses in particular policy areas over certain periods of time, comparison of datasets of different government agencies and ministries in order to detect dependencies and derive potential new information, etc. Stakeholders who possess sufficient technical capabilities may, using published raw data, create useful and interesting applications and services for the public.</p>
 <p><strong>Where can I find more information?</strong></p>
-<p>Read the materials found on the pages accessible from the menu MORE INFO or, should you have a specific question, send it to one of the e-mail addresses listed on the <a href="/kontaktid" rel="nofollow">Contacts</a> page.</p>
+<p>Read the materials found on the pages accessible from the menu MORE INFO or, should you have a specific question, send it to one of the e-mail addresses listed on the <a href="/en/kontaktid" rel="nofollow">Contacts</a> page.</p>
 '),
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -581,7 +581,7 @@ function dgu_site_feature_default_page_manager_pages() {
 <li>to increase the transparency of the public sector;</li>
 <li>to decrease the number of information requests and, consequently, also reduce the workload of public sector workers;</li>
 <li>to facilitate creation and management of open services for private and community sectors;</li>
-<li>to encourage migration to future technologies such as <a href="http://et.wikipedia.org/wiki/Linkandmed">Linked Data</a>, "<a href="http://en.wikipedia.org/wiki/Internet_of_Things">Internet of Things</a>" and "<a href="http://en.wikipedia.org/wiki/Big_data">Big Data</a>".</li>
+<li>to encourage migration to future technologies such as <a href="https://en.wikipedia.org/wiki/Linked_data">Linked Data</a>, "<a href="http://en.wikipedia.org/wiki/Internet_of_Things">Internet of Things</a>" and "<a href="http://en.wikipedia.org/wiki/Big_data">Big Data</a>".</li>
 </ul>
 
 <p><strong>3. What to publish?</strong></p>
@@ -601,7 +601,7 @@ function dgu_site_feature_default_page_manager_pages() {
 <li>the data publisher should be able to publish data with ease and minimal effort.</li>
 </ul>
 
-<p>Public sector data shall be considered open if it is made public in a way that complies with the principles below: (retrieved from: <a href="http://www.opengovdata.org/home/8principles" title="http://www.opengovdata.org/home/8principles">http://www.opengovdata.org/home/8principles</a> ):</p>
+<p>Public sector data shall be considered open if it is made public in a way that complies with the principles below: (retrieved from: <a href="https://opengovdata.org/" title="The Annotated 8 Principles of Open Government Data">https://opengovdata.org/</a> ):</p>
 
 <p style="margin-left:40px">1. Complete<br />
 All public data is made available. Public data is data that is not subject to valid privacy, security or privilege limitations.<br />2. Primary<br />Data is as collected at the source, with the highest possible level of granularity, not in aggregate or modified forms.<br />3. Timely<br />Data is made available as quickly as necessary to preserve the value of the data.<br />4. Accessible<br />Data is available to the widest range of users for the widest range of purposes.<br />5. Machine processable<br />Data is reasonably structured to allow automated processing.<br />6. Non-discriminatory<br />Data is available to anyone, with no requirement of registration.<br />7. Non-proprietary<br />Data is available in a format over which no entity has exclusive control.<br />8. Licence-free<br />Data is not subject to any copyright, patent, trademark or trade secret regulation. Reasonable privacy, security and privilege restrictions may be allowed.</p>
@@ -618,7 +618,7 @@ All public data is made available. Public data is data that is not subject to va
 
 <p>The open data must published under a licence which permits its free and unlimited use, processing and distribution. Under the licence, it must be possible to distribute the data at the discretion of the user either without charge or for a fee.</p>
 
-<p>We recommend that you pick a CreativeCommons licence, see <a href="http://creativecommons.org/" title="http://creativecommons.org/">http://creativecommons.org/</a>From among the licences listed on the site, we recommend the CC by 3.0 licence: <a href="http://creativecommons.org/licenses/by/3.0/" title="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>We recommend that you pick a CreativeCommons licence, see <a href="http://creativecommons.org/" title="When we share, everyone wins &mdash; Creative Commons">https://creativecommons.org/</a>. From among the licences listed on the site, we recommend the CC by 3.0 licence: <a href="https://creativecommons.org/licenses/by/3.0/" title="Creative Commons &mdash; Attribution 3.0 Unported &mdash; CC BY 3.0">https://creativecommons.org/licenses/by/3.0/</a></p>
 
 <p><strong>8. Can the published data be used for commercial purposes (such as for the creation of paid services)?</strong></p>
 
@@ -628,7 +628,7 @@ All public data is made available. Public data is data that is not subject to va
 
 <p>As a principle, it is better to publish the data in an inconvenient format than to leave it unpublished at first and wait for a planned improvement in its encoding in the future. A published dataset can always be republished in a new and better encoding. We recommend that you publish your open data <strong>at least in a 3-star format</strong>.</p>
 
-<p>The system of the Five Stars of Openness was developed in the UK by Tim Berners-Lee and we follow exactly the same scoring and goals: more stars means better format/encoding for the user. For examples and further information: <a href="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/" title="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/">http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/</a></p>
+<p>The system of the Five Stars of Openness was developed in the UK by Tim Berners-Lee and we follow exactly the same scoring and goals: more stars means better format/encoding for the user. For examples and further information: <a href="http://5stardata.info/en/" title="5-star Open Data">http://5stardata.info/en/</a></p>
 
 <p><strong>10. How can people use opendata.riik.ee?</strong></p>
 
@@ -645,7 +645,7 @@ All public data is made available. Public data is data that is not subject to va
 <p><strong>13. Where can I find further information on open data?</strong></p>
 
 <ul>
-<li><a href="http://riso.ee/et/avaandmete-roheline-raamat">The Estonian Green Paper on the Publication of Machine Readable Public Data (in Estonian)</a>.</li>
+<li><a href="/sites/default/files/manuals/avaliku-teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt">The Estonian Green Paper on the Publication of Machine Readable Public Data (in Estonian)</a>.</li>
 <li><a href="https://riigikantselei.ee/sites/default/files/content-editors/TOF/TOF_uuringud/lingitud_eesti_lopparuanne_2.0.pdf">Study \'Linked Estonia\' (in Estonian)</a>.</li>
 <li><a href="https://www.riigiteataja.ee/en/eli/518012016001/consolide">Public Information Act (English translation)</a>.</li>
 </ul>
@@ -862,9 +862,9 @@ All public data is made available. Public data is data that is not subject to va
       'body' => t('<p>Here you can find guidelines pertaining to the use of the portal, publication of datasets and their use.</p>
 
 <ul>
-<li><a href="sites/default/files/manuals/portaali-kasutusjuhend-teabevaldajatele-v06.odt" rel="nofollow">Portal guidelines for holders of information (in Estonian)</a></li>
+<li><a href="/sites/default/files/manuals/portaali-kasutusjuhend-teabevaldajatele-v06.odt" rel="nofollow">Portal guidelines for holders of information (in Estonian)</a></li>
 <li><a href="/sites/default/files/manuals/juhised-andmete-avalikustamiseks.odt" rel="nofollow">Open data guidelines for holders of information (in Estonian) </a> </li>
-<li><a href="sites/default/files/manuals/data-exchange-with-Estonian-open-data-portal.odt" rel="nofollow">Data exchange with Estonian open data portal</a></li>
+<li><a href="/sites/default/files/manuals/data-exchange-with-Estonian-open-data-portal.odt" rel="nofollow">Data exchange with Estonian open data portal</a></li>
 </ul>
 
 <p>The following guidelines provide instruction on which data should be published as open data and which principles should be observed when publishing open data.</p>
@@ -953,7 +953,7 @@ All public data is made available. Public data is data that is not subject to va
       'title' => t('Log in'),
       'body' => t('<p>The entire content of the portal and all datasets are available for download by all users, including anonymous ones.</p>
 
-<p>In order to use forums and provide feedback, you must be logged in to the portal. In order to be able to publish and administer datasets, a logged in user must be linked to a particular holder of information and have the requisite rights. For a detailed description of this process, see the relevant chapter in the guidelines for information holders which can be found under <a href="/juhendid">More info-&gt;Guidelines</a></p>
+<p>In order to use forums and provide feedback, you must be logged in to the portal. In order to be able to publish and administer datasets, a logged in user must be linked to a particular holder of information and have the requisite rights. For a detailed description of this process, see the relevant chapter in the guidelines for information holders which can be found under <a href="/en/juhendid">More info-&gt;Guidelines</a></p>
 
 <p style="padding-bottom:10px">To log in, use any of the following options:</p>
 
