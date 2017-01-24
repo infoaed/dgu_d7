@@ -608,7 +608,7 @@ All public data is made available. Public data is data that is not subject to va
 
 <p><strong>5. How can my organisation publish data on this portal?</strong></p>
 
-<p>A Guidance for data publishers is found here…</p>
+<p>A Guidance for data publishers is found at the <a href="/en/juhendid">Guidelines</a> section of the portal.</p>
 
 <p><strong>6. Will personal information be at risk?</strong></p>
 
@@ -618,7 +618,7 @@ All public data is made available. Public data is data that is not subject to va
 
 <p>The open data must published under a licence which permits its free and unlimited use, processing and distribution. Under the licence, it must be possible to distribute the data at the discretion of the user either without charge or for a fee.</p>
 
-<p>We recommend that you pick a CreativeCommons licence, see <a href="http://creativecommons.org/" title="When we share, everyone wins &mdash; Creative Commons">https://creativecommons.org/</a>. From among the licences listed on the site, we recommend the CC by 3.0 licence: <a href="https://creativecommons.org/licenses/by/3.0/" title="Creative Commons &mdash; Attribution 3.0 Unported &mdash; CC BY 3.0">https://creativecommons.org/licenses/by/3.0/</a></p>
+<p>We recommend that you pick a Creative Commons licence, see <a href="http://creativecommons.org/" title="When we share, everyone wins &mdash; Creative Commons">https://creativecommons.org/</a>. From among the licences listed on the site, we recommend the CC by 3.0 licence: <a href="https://creativecommons.org/licenses/by/3.0/" title="Creative Commons &mdash; Attribution 3.0 Unported &mdash; CC BY 3.0">https://creativecommons.org/licenses/by/3.0/</a></p>
 
 <p><strong>8. Can the published data be used for commercial purposes (such as for the creation of paid services)?</strong></p>
 
@@ -632,7 +632,7 @@ All public data is made available. Public data is data that is not subject to va
 
 <p><strong>10. How can people use opendata.riik.ee?</strong></p>
 
-<p>TBA</p>
+<p>You can find instructions how to use the site at the <a href="/en/juhendid">Guidelines</a> section of the portal. If you need inspiration how to use the data, you may take look at suggestions from <a href="http://www.hri.fi/en/open-data/use-data/">Helsinki Region Infoshare</a>.</p>
 
 <p><strong>11. How can people submit applications created on the basis of open data?</strong></p>
 
