@@ -1,0 +1,22 @@
+# Estonian translations for Open Data Portal http://opendata.riik.ee/.
+# Copyright (C) 2015-2017 Ministry of Economic Affairs and Communications.
+# This file is distributed under the same license as the Datagov project.
+#
+# Jaanus Heinlaid <jaanus.heinlaid@gmail.com>, 2015.
+# Ain Rada <kuraaka@gmail.com>, 2016.
+# Märt Põder <tramm@infoaed.ee>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: opendata_riik_ee\n"
+"POT-Creation-Date: 2017-01-18 00:53+0200\n"
+"PO-Revision-Date: 2017-01-24 23:23+0200\n"
+"Last-Translator: Märt Põder <tramm@infoaed.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Language: et\n"
+
+msgid "About"
+msgstr "Mis on avaandmete portaal?"
+
