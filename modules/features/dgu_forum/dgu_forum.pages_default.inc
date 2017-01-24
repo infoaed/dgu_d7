@@ -343,8 +343,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<a class="btn-default btn btn-primary" href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a>
-',
+      'body' => '<a class="btn-default btn btn-primary" href="'.url("user/login", array('query'=>array("destination"=>"forum"))).'">'.t("Login to take part in forums").' &raquo;</a>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -382,7 +381,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">' . t("Create new forum topic"). ' &raquo;</a></p>
+      'body' => '<p><a class="btn-default btn btn-primary" href="'.url("node/add/forum").'">' . t("Create new forum topic"). ' &raquo;</a></p>
 ',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -490,7 +489,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="'.url("node/add/forum").'">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -530,7 +529,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="'.url("user/login", array('query'=>array("destination"=>"forum"))).'">'.t("Login to take part in forums").' &raquo;</a></p>',
       'format' => 'full_html',
       'substitute' => 1,
     );
@@ -803,7 +802,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="'.url("node/add/forum").'">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -843,7 +842,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary"  href="'.url("user/login", array('query'=>array("destination"=>"forum"))).'">'.t("Login to take part in forums").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -1019,7 +1018,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Create new forum topic (for authenticated users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary" href="/node/add/forum">'.t("Create new forum topic").' &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary" href="'.url("node/add/forum").'">'.t("Create new forum topic").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -1059,7 +1058,7 @@ function dgu_forum_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Login to take part in forums (for anonymous users)',
       'title' => '',
-      'body' => '<p><a class="btn-default btn btn-primary"  href="/user/login?destination=/forum">'.t("Login to take part in forums").' &raquo;</a></p>',
+      'body' => '<p><a class="btn-default btn btn-primary"  href="'.url("user/login", array('query'=>array("destination"=>"forum"))).'">'.t("Login to take part in forums").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );

@@ -564,7 +564,7 @@ foreach ($terms as $term) {
   $handler->display->display_options['header']['area']['id'] = 'area';
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="/forum/rss.xml"><i class="icon-rss-sign"></i></a>';
+  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="' . url("forum/rss.xml") . '"><i class="icon-rss-sign"></i></a>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   $handler->display->display_options['defaults']['relationships'] = FALSE;
   /* Relationship: Content: Reply */
@@ -772,7 +772,7 @@ foreach ($terms as $term) {
   $handler->display->display_options['header']['area']['id'] = 'area';
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="/forum/popular/rss.xml"><i class="icon-rss-sign"></i></a>';
+  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="' . url("forum/popular/rss.xml") . '"><i class="icon-rss-sign"></i></a>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   $handler->display->display_options['defaults']['relationships'] = FALSE;
   /* Relationship: Content: Reply */
