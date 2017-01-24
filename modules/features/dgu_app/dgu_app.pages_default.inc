@@ -268,7 +268,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => t("Add your app (for authenticated users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">'.t("Add your app").' &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="' . url("node/add/app") . '">'.t("Add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -308,7 +308,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => t("Add your app (for anonymous users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">'.t("Login to add your app").' &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="' . url("user/login", array('query'=>array("destination"=>"apps"))) .'">'.t("Login to add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -565,7 +565,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => t("Add your app (for authenticated users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/node/add/app">'.t("Add your app").' &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="' . url("node/add/app") . '">'.t("Add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
@@ -605,7 +605,7 @@ function dgu_app_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => t("Add your app (for anonymous users)"),
       'title' => '',
-      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="/user/login?destination=/apps">'.t("Login to add your app").' &raquo;</a></p>',
+      'body' => '<p class="addapp"><a class="btn-default btn btn-primary" href="' . url("user/login", array('query'=>array("destination"=>"apps"))) .'">'.t("Login to add your app").' &raquo;</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );

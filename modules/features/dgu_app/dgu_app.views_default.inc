@@ -113,7 +113,7 @@ function dgu_app_views_default_views() {
   $handler->display->display_options['header']['area']['id'] = 'area';
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="/apps/latest/rss.xml"><i class="icon-rss-sign"></i></a>';
+  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="' . url("apps/latest/rss.xml") . '"><i class="icon-rss-sign"></i></a>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
 
   /* Display: Top rated apps */
@@ -126,7 +126,7 @@ function dgu_app_views_default_views() {
   $handler->display->display_options['header']['area']['id'] = 'area';
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="/apps/top/rss.xml"><i class="icon-rss-sign"></i></a>';
+  $handler->display->display_options['header']['area']['content'] = '<a class="rss-icon" href="' . url("apps/top/rss.xml") . '"><i class="icon-rss-sign"></i></a>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   $handler->display->display_options['defaults']['relationships'] = FALSE;
   /* Relationship: Votes average */
