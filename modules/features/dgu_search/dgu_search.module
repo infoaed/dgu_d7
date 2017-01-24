@@ -125,7 +125,7 @@ function dgu_search_form_search_block_form_submit($form, &$form_state) {
 
     // Override redirect with a new bundle specific search.
     global $base_url;
-    $form_state['redirect'] =  $base_url."/search/everything/" . $raw_keys . $facets . $solrsort;
+    $form_state['redirect'] =  $base_url. "/". i18n_langcode() . "/search/everything/" . $raw_keys . $facets . $solrsort;
   }
 }
 
