@@ -11696,7 +11696,7 @@ msgid "Hello World"
 msgstr "Hello World"
 
 msgid "Login"
-msgstr "Sisselogimisel"
+msgstr "Sisselogimine"
 
 msgid "Lizard"
 msgstr "Sisalik"

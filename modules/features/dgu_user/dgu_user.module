@@ -285,7 +285,7 @@ function dgu_user_menu_breadcrumb_alter(&$active_trail, $item) {
   }
 
   if ($item['path'] == 'user/login') {
-    drupal_set_title('Login');
+    drupal_set_title(t('Log in'));
   }
 
   if ($item['path'] == 'user/register') {
