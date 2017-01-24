@@ -210,7 +210,7 @@ function dgu_site_feature_default_page_manager_pages() {
       'admin_title' => '',
       'title' => '',
       'body' => t('<p><strong>What is the open data portal?</strong></p>
-<p><a href="https://opendata.riik.ee/en" rel="nofollow">The open data portal</a> is intended to serve as a platform where to gather the records of the public<em>datasets</em> created by public bodies and local authorities and where new datasets can be made public. On one hand, it is a place where the owners of the dataset or <em>holders of information</em> can register or upload their datasets. On the other hand, it is a place where the stakeholders and regular citizens can search and download the published data and use it for further processing or information requests.</p>
+<p><a href="https://opendata.riik.ee/en" rel="nofollow">The open data portal</a> is intended to serve as a platform where to gather the records of the public <em>datasets</em> created by public bodies and local authorities and where new datasets can be made public. On one hand, it is a place where the owners of the dataset or <em>holders of information</em> can register or upload their datasets. On the other hand, it is a place where the stakeholders and regular citizens can search and download the published data and use it for further processing or information requests.</p>
 <p><strong>Goals of opening up data:</strong></p>
 <p>Opening up data, their collection and making available on a single platforms serve several important purposes:</p>
 <ul><li>to stimulate economy;</li>
