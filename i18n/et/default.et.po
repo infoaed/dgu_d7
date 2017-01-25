@@ -477,7 +477,7 @@ msgid "Plain text"
 msgstr "Ainult tekst"
 
 msgid "RSS category"
-msgstr "RSS-kategooria"
+msgstr "RSSi kategooria"
 
 msgid "Trimmed"
 msgstr "Lühendatud"
@@ -10278,10 +10278,24 @@ msgstr ""
 "class=\"icon-rss-sign\"></i></a>"
 
 msgid ""
+"<a class=\"rss-icon\" href=\"/en/apps/top/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+"<a class=\"rss-icon\" href=\"/et/apps/top/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+
+msgid ""
 "<a class=\"rss-icon\" href=\"/en/forum/rss.xml\"><i "
 "class=\"icon-rss-sign\"></i></a>"
 msgstr ""
 "<a class=\"rss-icon\" href=\"/et/forum/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+
+msgid ""
+"<a class=\"rss-icon\" href=\"/en/forum/popular/rss.xml\"><i "
+"class=\"icon-rss-sign\"></i></a>"
+msgstr ""
+"<a class=\"rss-icon\" href=\"/et/forum/popular/rss.xml\"><i "
 "class=\"icon-rss-sign\"></i></a>"
 
 msgid "Green paper on open data"
